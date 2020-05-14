@@ -2,7 +2,7 @@
 The knowledge graph analysis for Covid-19 related data
 
 
-* Summary of today's (2020.05.13) meeting:
+# Summary of today's (2020.05.13) meeting:
 
 Networks we have:
 Two in-house systems of the knowledge graph.
