@@ -80,15 +80,6 @@ The datasets are released in the science paper published in Cell Discovery 2020.
 * [describtion](https://www.nature.com/articles/s41421-020-0153-3.pdf)
 * pros: proved data for potential drug discovery.
 * cons: result only; domain knowledge needed to integrate the data.
-
-#### problems
-* how to evaluate the drugs discovered:
-  * single drug: numeric indicators (z-score, p value),  bioinformatics validation (drug-induced gene signatures and HCoV induced transcriptomics), literature-derived antiviral evidence
-  * drug combinations: numeric indicators (z-score, p value)
-* data to be released:
-  * HCoV–host protein interactions
-  * drug–target network
-  * human protein–protein interactome
   
 #### examples
 
