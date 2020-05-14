@@ -79,7 +79,7 @@ The datasets are released in the science paper published in Cell Discovery 2020.
 * [url](https://github.com/ChengF-Lab/2019-nCoV)
 * [describtion](https://www.nature.com/articles/s41421-020-0153-3.pdf)
 * pros: proved data for potential drug discovery.
-* cons: result onbly; domain knowledge needed to integrate the data.
+* cons: result only; domain knowledge needed to integrate the data.
 
 #### problems
 * how to evaluate the drugs discovered:
