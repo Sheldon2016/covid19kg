@@ -4,7 +4,7 @@ The knowledge graph analysis for Covid-19 related data
 
 # Summary of today's (2020.05.13) meeting:
 
-Networks we have:
+#### Networks we have:
 Two in-house systems of the knowledge graph.
 The human protein-protein interactome provided in Github (https://github.com/ChengF-Lab/GPSnet)
 
@@ -19,7 +19,7 @@ Confirmation of existing relationship (Based on the nature paper or other litera
 Drug efficiency and side effects (relates to gender, age, etc.)
 Add more information to the existing graphs (Candidate nodes: symptoms, treatments, protein domains, virus proteins, and virus protein-related drugs)
 
-To-do:
+#### To-do:
 Vincent:
 Provide a list of drugs (Drugbank ID) that is related to the COVID-19.
 (Not discussed in the meeting. It just comes to my mind): do a literature review on COVID-19 drug efficiency and side effects (relates to gender, age, etc.) and see if there is any database available.
@@ -29,3 +29,12 @@ Based on the available networks and the list of drugs provided by Vincent: gathe
 Ou Min:
 Investigate the databases that can provide the candidate node information.
 Design new motifs based on the available nodes. Figure out what kinds of questions we can answer based on the motifs.
+
+#### problems
+* how to evaluate the drugs discovered:
+  * single drug: numeric indicators (z-score, p value),  bioinformatics validation (drug-induced gene signatures and HCoV induced transcriptomics), literature-derived antiviral evidence
+  * drug combinations: numeric indicators (z-score, p value)
+* data to be released:
+  * HCoV–host protein interactions
+  * drug–target network
+  * human protein–protein interactome
