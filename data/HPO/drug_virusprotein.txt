@@ -1,0 +1,20 @@
+﻿lopinavir,Mpro
+lopinavir,Nsp3
+praziquantel,Mpro
+monoclonal antibody,Spike
+antibody m396,Spike
+Prulifloxacin,Mpro
+perampanel,Mpro
+lopinavir/ritonavir,Mpro
+SARS-CoV antibody,Spike
+CR3022,Spike
+B-M27-VME,Nsp3
+eszopiclone,Mpro
+nelfinavir,Mpro
+MERS-CoV-specific human monoclonal antibody m336,Spike
+pitavastatin,Mpro
+colistin,Mpro
+Bictegravir,Mpro
+zopiclone,Mpro
+ritonavir,Nsp3
+ritonavir,Mpro
