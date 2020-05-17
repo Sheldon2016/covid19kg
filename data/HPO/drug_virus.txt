@@ -1,5 +1,4 @@
-﻿d.label,vp.label
-Sofosbuvir/Velpatasvir,MERS-CoV
+﻿Sofosbuvir/Velpatasvir,MERS-CoV
 Sofosbuvir/Velpatasvir,Coronaviruses
 nelfinavir,Coronaviruses
 monoclonal antibody,SARS-CoV
