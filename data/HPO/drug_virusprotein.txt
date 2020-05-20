@@ -1,20 +1,21 @@
-﻿lopinavir,Mpro
-lopinavir,Nsp3
-praziquantel,Mpro
-monoclonal antibody,Spike
-antibody m396,Spike
-Prulifloxacin,Mpro
-perampanel,Mpro
-lopinavir/ritonavir,Mpro
-SARS-CoV antibody,Spike
-CR3022,Spike
-B-M27-VME,Nsp3
-eszopiclone,Mpro
-nelfinavir,Mpro
-MERS-CoV-specific human monoclonal antibody m336,Spike
-pitavastatin,Mpro
-colistin,Mpro
-Bictegravir,Mpro
-zopiclone,Mpro
-ritonavir,Nsp3
-ritonavir,Mpro
+﻿#DrugBank-ID,Drug-name,Virus-protein
+-1,monoclonal antibody,Spike
+-1,antibody m396,Spike
+-1,lopinavir/ritonavir,Mpro
+-1,SARS-CoV antibody,Spike
+-1,CR3022,Spike
+-1,B-M27-VME,Nsp3
+-1,MERS-CoV-specific human monoclonal antibody m336,Spike
+1601,lopinavir,Mpro
+1601,lopinavir,Nsp3
+1058,praziquantel,Mpro
+11892,Prulifloxacin,Mpro
+8883,perampanel,Mpro
+402,eszopiclone,Mpro
+220,nelfinavir,Mpro
+8860,pitavastatin,Mpro
+803,colistin,Mpro
+11799,Bictegravir,Mpro
+1198,zopiclone,Mpro
+503,ritonavir,Nsp3
+503,ritonavir,Mpro
