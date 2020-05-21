@@ -1,4 +1,4 @@
-#virus-gene-ID,NCBI-virus-gene-ID,virus-protein,host-protein-ID,host-protein
+#virus-gene-ID(0-152),NCBI-virus-gene-ID,virus-protein,host-protein-ID,host-protein
 0,112284684,VP1|VP1_SV40,17898,CLM9|CLM9_HUMAN
 1,3678371,PA|PA_I33A0,9969,RBMX|RBMX_HUMAN
 2,116957718,POLN|POLN_SINDV,9969,RBMX|RBMX_HUMAN
