@@ -1,4 +1,4 @@
-﻿#DrugBank-ID,Drug-name,virus-protein-ID,Virus-protein
+#DrugBank-ID,Drug-name,NCBI-virus-protein-ID,Virus-protein
 -1,monoclonal antibody,4336986,Spike
 -1,antibody m396,4336986,Spike
 -1,lopinavir/ritonavir,-1,Mpro
