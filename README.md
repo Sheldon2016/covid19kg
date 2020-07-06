@@ -30,3 +30,7 @@ Design new motifs based on the available nodes.
   * HCoV–host protein interactions
   * drug–target network
   * human protein–protein interactome
+
+<p align="center">
+  <img width="800" src="schema.png">
+</p>
