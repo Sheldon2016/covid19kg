@@ -1,3 +1,4 @@
+package algo;
 import java.io.BufferedReader;
 import java.io.FileReader;
 import java.io.IOException;
@@ -41,6 +42,78 @@ public class covid19kg {
 		edge = new ArrayList[nodes.length][nodes.length][];//
 		loadEdges(mainDir, nodes, node, nodeNID, edges, edge, column1, column2, label1, label2);
 		
+		//int[]Snid = {694009};//{694009mat};//HCoV, HCoV-2
+		//int[]path = {4, 5, 1};//virus - virusprotein - drug
+		//int[]path = {4, 2, 1};//virus - hostprotein - drug
+		//int[]path = {4, 5, 2, 1};//virus - virusprotein - hostprotein - drug
+		//int[]path = {4, 2, 5, 1};//virus - hostprotein - virusprotein - drug
+		//int[]path = {4, 3, 2, 1};//virus - symptom - hostprotein - drug
+		//int[]path = {4, 0, 2, 1};//virus - disease - hostprotein - drug
+		//ArrayList<Integer>T = new ArrayList();
+		//ArrayList<Integer>Thit = new ArrayList();
+		
+		//Katz(Snid, path, T, Thit, node, edge, nodeNID, nodeName);	
+		
+	}
+
+	private void Katz(int[] Snid, int[] path, ArrayList<Integer> T, ArrayList<Integer> Thit,
+			Hashtable<Integer, Integer>[] node, ArrayList<Integer>[][][] edge, ArrayList<Integer>[] nodeNID,
+			ArrayList<String>[] nodeName) {
+		ArrayList<Integer> S = getNodes(Snid, node, path[0]);
+		ArrayList<Integer> Shit = new ArrayList();//The hitting numbers of S are 0 initially
+		for(int i=0;i<S.size();i++) {
+			Shit.add(1);
+		}
+		
+		for(int i=0;i<path.length-1;i++) {
+			int labels = path[i];
+			int labelt = path[i+1];
+			ArrayList<Integer>[]bgraphST = edge[labels][labelt];
+			
+			
+			for(int j=0;j<S.size();j++) {
+				int s = S.get(j);
+				if(bgraphST[s]!=null) {
+					for(int k=0;k<bgraphST[s].size();k++) {
+						int t = bgraphST[s].get(k);
+						if(!T.contains(t)) {
+							T.add(t);
+							Thit.add(Shit.get(j));
+							}else {
+								int tid = T.indexOf(t);
+								Thit.set(tid, Thit.get(tid)+Shit.get(j));
+							}
+					}
+				}
+				
+			}
+			
+			if(i!=path.length-2) {
+				S = T;
+				Shit = Thit;
+				T = new ArrayList();
+				Thit = new ArrayList();
+			}
+		}
+		
+		for(int i=0;i<T.size();i++) {
+			for(int j=i+1;j<T.size();j++) {
+				if(Thit.get(i)<Thit.get(j)) {
+					int tem = Thit.get(i);
+					Thit.set(i, Thit.get(j));
+					Thit.set(j, tem);
+					tem = T.get(i);
+					T.set(i, T.get(j));
+					T.set(j, tem);
+				}
+			}
+		}
+
+		System.out.println();
+		for(int ii=0;ii<T.size();ii++){
+			if(ii>9) break;
+			System.out.println(DBDeal(nodeNID[path[path.length-1]].get(T.get(ii)))+"\t"+Thit.get(ii));// +"\t"+nodeName[path[path.length-1]].get(T.get(ii)));
+		}
 	}
 
 	private String DBDeal(Integer dbid) {
