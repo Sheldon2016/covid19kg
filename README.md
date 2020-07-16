@@ -21,6 +21,7 @@ Add more information to the existing graphs (Candidate nodes: symptoms, treatmen
 A list of drugs (Drugbank ID) that is related to the COVID-19, as well as side effects (e.g., relates to gender, age, etc.) and see if there is any database available.
 Investigate the human protein-protein interactome provided in Github (https://github.com/ChengF-Lab/GPSnet).
 Design new motifs based on the available nodes. 
+Get data from https://reactome.org/community/publications
 
 #### problems:
 * how to evaluate the drugs discovered:
