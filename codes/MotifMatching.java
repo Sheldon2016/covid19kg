@@ -9,7 +9,7 @@ public class MotifMatching {
 		// TODO Auto-generated method stub
 		covid19kg kg = new covid19kg("C:\\Users\\Sheldon\\Documents\\GitHub\\covid19kg\\data\\HPO\\");
 		Motif mf = new Motif();
-		mf.getM1();
+		mf.getM7();
 		
 		ArrayList<ArrayList<Integer>>motifIns = match(kg,mf);
 		motifIns2String(motifIns, mf, kg);
@@ -292,6 +292,16 @@ public class MotifMatching {
 	private static ArrayList<Integer> reorder(ArrayList<Integer> ins, int seedID, int seedNei1, int seedNei2) {
 		ArrayList<Integer>order = new ArrayList();
 		order.add(seedID);order.add(seedNei1);order.add(seedNei2);
+		ins = sort(ins, order);
+		return ins;
+	}
+	private static ArrayList<Integer> reorder(ArrayList<Integer> ins, int seedID, int seedNei1, int seedNei2, int seedNei3) {
+		ArrayList<Integer>order = new ArrayList();
+		order.add(seedID);order.add(seedNei1);order.add(seedNei2);order.add(seedNei3);
+		ins = sort(ins, order);
+		return ins;
+	}
+	private static ArrayList<Integer> sort(ArrayList<Integer> ins, ArrayList<Integer> order) {
 		for(int i=0;i<order.size();i++) {
 			for(int j=i+1;j<order.size();j++) {
 				if(order.get(i)>order.get(j)) {
@@ -309,7 +319,98 @@ public class MotifMatching {
 
 	private static ArrayList<ArrayList<Integer>> match4nodes(covid19kg kg, Motif mf) {
 		// match 4-node pattern graphs
-		return null;
+		ArrayList<ArrayList<Integer>>res = new ArrayList();
+		if(mf.edgeNum==4) {
+			//a tailed rectangle or a rectangle: check the degree vector
+			if(mf.degreeVec.get(0)==2) {
+				//it is a rectangle
+				if(mf.motifLabelKinds.size()==2) {
+					//three pattern graphs with 2 kinds of labels
+					if(mf.motifLabelNodes.get(0).size()==2) {
+						//for AABB and ABAB
+						int label0 = mf.motifLabels.get(0), id0 = 0;
+						int label1 = mf.motifLabels.get(mf.motif[0].get(0)), id1 = mf.motif[0].get(0);
+						int label2 = mf.motifLabels.get(mf.motif[0].get(1)), id2 = mf.motif[0].get(1);
+						
+						if(label1!=label2) {
+							//for AABB
+							if(label2==label0) {
+								//switch label1 and label2 if label2=label0
+								label2 = label1;
+								label1 = label0;
+								int tem = id2;
+								id2 = id1;
+								id1 = tem;
+							}
+							int id3 = mf.motif[id1].get(0);
+							if(id3==0)
+								id3 = mf.motif[id1].get(1);
+							//here label3 = label2
+								
+							ArrayList<Integer>subgraphAA[] = kg.edge[label0][label1];
+							ArrayList<Integer>subgraphAB[] = kg.edge[label0][label2];
+							ArrayList<Integer>subgraphBB[] = kg.edge[label2][label2];
+							for(int i=0;i<subgraphAA.length;i++) {
+								if(kg.nodeNID[label0].get(i)==483)
+									System.out.println();
+								if(subgraphAA[i]==null)continue;
+								for(int j=0;j<subgraphAA[i].size();j++) {
+									int nei1 = subgraphAA[i].get(j);
+									if(nei1<i)
+										continue;//avoid duplicates, please consider why we need this constraint here
+									if(subgraphAB[i]==null)continue;
+									for(int k=0;k<subgraphAB[i].size();k++) {
+										int nei2 = subgraphAB[i].get(k);
+										if(subgraphAB[nei1]!=null&&subgraphAB[nei1].contains(nei2))
+											continue;//no edge between nei1 and nei2
+										if(subgraphAB[nei1]==null)continue;
+										for(int p=0;p<subgraphAB[nei1].size();p++) {
+											int nei3 = subgraphAB[nei1].get(p);
+											if(subgraphAB[i]!=null&&subgraphAB[i].contains(nei3))
+												continue;//no edge between i and nei3
+											if(subgraphBB[nei3]!=null&&subgraphBB[nei3].contains(nei2)) {
+												ArrayList<Integer>ins = new ArrayList();
+												ins.add(i);
+												ins.add(nei1);
+												ins.add(nei2);
+												ins.add(nei3);
+												//the order of the instance should follow the pattern graph: mf.motifLabels
+												ins = reorder(ins, 0, id1, id2, id3);
+												res.add(ins);
+											}
+										}
+									}
+								}
+							}
+						}else {
+							//for ABAB
+							//write code here
+						}
+						
+					}else {
+						//for AAAB
+						//write code here
+					}
+					
+				}
+				if(mf.motifLabelKinds.size()==1) {
+					//write code here
+				}
+				if(mf.motifLabelKinds.size()==3) {
+					//write code here
+				}
+				if(mf.motifLabelKinds.size()==4) {
+					//write code here
+				}
+				
+			}else {
+				//it is a tailed triangle
+				//write code here
+			}
+			
+		}
+		
+		return res;
 	}
 	
 	private static ArrayList<ArrayList<Integer>> match5nodes(covid19kg kg, Motif mf) {

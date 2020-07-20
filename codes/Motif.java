@@ -5,6 +5,7 @@ import java.util.ArrayList;
 public class Motif {
 	
 	public ArrayList<Integer> motif[] = null;
+	public ArrayList<Integer> degreeVec = null;
 	public ArrayList<Integer> motifLabels = null;
 	public ArrayList<Integer> motifLabelKinds = null;
 	public ArrayList<ArrayList<Integer>> motifLabelNodes = null;
@@ -15,7 +16,6 @@ public class Motif {
 		motif[0] = new ArrayList();//to store neighbors of 0
 		motifLabels = new ArrayList();
 		motifLabels.add(6);
-		
 		run();
 	}
 	
@@ -180,8 +180,46 @@ public class Motif {
 		motifLabels.add(0); 
 		run();
 	}
+	void getM7() {
+		//rectangle: strain-strain-location-location
+		motif = new ArrayList[4];
+		motif[0] = new ArrayList();
+		motif[0].add(1);
+		motif[0].add(2);
+		motif[1] = new ArrayList();
+		motif[1].add(0);
+		motif[1].add(3);
+		motif[2] = new ArrayList();
+		motif[2].add(0);
+		motif[2].add(3);
+		motif[3] = new ArrayList();
+		motif[3].add(1);
+		motif[3].add(2);
+		
+		motifLabels = new ArrayList();
+		motifLabels.add(6);
+		motifLabels.add(6);
+		motifLabels.add(7);
+		motifLabels.add(7); 
+		run();
+	}
 	
 	public boolean run() {
+		degreeVec = new ArrayList();
+		for(int i=0;i<motif.length;i++){
+			degreeVec.add(motif[i].size());
+		}
+		
+		for(int i=0;i<degreeVec.size();i++) {
+			for(int j=i+1;j<degreeVec.size();j++) {
+				if(degreeVec.get(i)>degreeVec.get(j)) {
+					int tem = degreeVec.get(i);
+					degreeVec.set(i, degreeVec.get(j));
+					degreeVec.set(j, tem);
+				}
+			}
+		}
+		
 		//to check if the motif can be over-counted.
 		motifLabelKinds = new ArrayList();
 		motifLabelNodes = new ArrayList();
@@ -218,5 +256,6 @@ public class Motif {
 		
 		return false;
 	}
+	
 
 }
