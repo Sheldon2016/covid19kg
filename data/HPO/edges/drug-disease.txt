@@ -1,0 +1,2336 @@
+#DrugBank-ID,Drug-name,Disease-ID,Disease
+1,lepirudin,3325,heparin-induced thrombocytopenia
+3,dornase alfa,219700,cystic fibrosis
+3,dornase alfa,586,cystic fibrosis
+5,etanercept,180300,rheumatoid arthritis
+6,bivalirudin,3325,heparin-induced thrombocytopenia
+7,leuprolide,176807,prostate cancer
+8,peginterferon alfa-2a,114550,hepatocellular carcinoma
+8,peginterferon alfa-2a,88673,hepatocellular carcinoma
+17,salmon calcitonin,166710,osteoporosis
+22,peginterferon alfa-2b,114550,hepatocellular carcinoma
+22,peginterferon alfa-2b,88673,hepatocellular carcinoma
+25,"antihemophilic factor, human recombinant",306700,hemophilia a
+25,"antihemophilic factor, human recombinant",903,von willebrand disease
+25,"antihemophilic factor, human recombinant",98878,hemophilia a
+26,anakinra,180300,rheumatoid arthritis
+28,immune globulin human,180300,rheumatoid arthritis
+28,immune globulin human,168569,h syndrome
+28,immune globulin human,2331,kawasaki disease
+28,immune globulin human,2932,chronic inflammatory demyelinating polyneuropathy
+33,interferon gamma-1b,379,chronic granulomatous disease
+35,desmopressin,306700,hemophilia a
+35,desmopressin,98878,hemophilia a
+36,coagulation factor viia recombinant human,306700,hemophilia a
+36,coagulation factor viia recombinant human,98878,hemophilia a
+45,lyme disease vaccine (recombinant ospa),91546,lyme disease
+51,adalimumab,180300,rheumatoid arthritis
+52,somatotropin,963,acromegaly
+65,infliximab,180300,rheumatoid arthritis
+72,trastuzumab,114480,breast cancer
+73,rituximab,180300,rheumatoid arthritis
+82,pegvisomant,963,acromegaly
+85,pancrelipase,219700,cystic fibrosis
+85,pancrelipase,586,cystic fibrosis
+89,capromab pendetide,176807,prostate cancer
+91,cyclosporine,180300,rheumatoid arthritis
+100,coagulation factor ix (recombinant),306900,hemophilia b
+100,coagulation factor ix (recombinant),98879,hemophilia b
+104,octreotide,963,acromegaly
+106,abarelix,176807,prostate cancer
+108,natalizumab,217260,progressive multifocal leukoencephalopathy
+111,daclizumab,2137,autoimmune hepatitis
+112,bevacizumab,114480,breast cancer
+112,bevacizumab,114500,colorectal cancer
+115,cyanocobalamin,170900,pernicious anemia
+117,histidine,180300,rheumatoid arthritis
+118,ademetionine,165720,osteoarthritis
+120,l-phenylalanine,272620,tardive dyskinesia
+136,calcitriol,166710,osteoporosis
+138,cystine,165720,osteoarthritis
+138,cystine,180300,rheumatoid arthritis
+141,n-acetylglucosamine,165720,osteoarthritis
+142,glutamic acid,181500,schizophrenia
+146,calcidiol,166710,osteoporosis
+153,ergocalciferol,166710,osteoporosis
+159,icosapent,219700,cystic fibrosis
+159,icosapent,586,cystic fibrosis
+161,l-valine,261600,phenylketonuria
+161,l-valine,716,phenylketonuria
+163,vitamin e,180300,rheumatoid arthritis
+167,l-isoleucine,272620,tardive dyskinesia
+169,cholecalciferol,166710,osteoporosis
+178,ramipril,552,mody
+182,amphetamine,601665,obesity
+188,bortezomib,29073,multiple myeloma
+188,bortezomib,52416,mantle cell lymphoma
+191,phentermine,601665,obesity
+193,tramadol,165720,osteoarthritis
+200,hydroxocobalamin,170900,pernicious anemia
+200,hydroxocobalamin,260350,pancreatic cancer
+203,sildenafil,182090,pulmonary arterial hypertension
+205,pyrimethamine,673,malaria
+213,pantoprazole,109350,gastroesophageal reflux
+233,aminosalicylic acid,3389,tuberculosis
+246,ziprasidone,181500,schizophrenia
+247,methysergide,100093,carcinoid syndrome
+248,cabergoline,310465,n syndrome
+248,cabergoline,2608,n syndrome
+248,cabergoline,2965,prolactinoma
+250,dapsone,1656,dermatitis herpetiformis
+250,dapsone,673,malaria
+254,doxycycline,3299,tetanus
+254,doxycycline,673,malaria
+254,doxycycline,707,plague
+255,diethylstilbestrol,176807,prostate cancer
+256,lymecycline,673,malaria
+256,lymecycline,91546,lyme disease
+260,cycloserine,3389,tuberculosis
+261,anagrelide,3318,essential thrombocythemia
+261,anagrelide,521,chronic myeloid leukemia
+262,carmustine,29073,multiple myeloma
+263,sulfisoxazole,31204,nocardiosis
+263,sulfisoxazole,33475,meningococcal meningitis
+263,sulfisoxazole,673,malaria
+269,chlorotrianisene,176807,prostate cancer
+273,topiramate,601665,obesity
+273,topiramate,2382,lennox-gastaut syndrome
+285,venlafaxine,114480,breast cancer
+286,conjugated estrogens,114480,breast cancer
+286,conjugated estrogens,166710,osteoporosis
+291,chlorambucil,211750,c syndrome
+291,chlorambucil,613024,follicular lymphoma
+291,chlorambucil,1308,c syndrome
+291,chlorambucil,545,follicular lymphoma
+307,bexarotene,114480,breast cancer
+307,bexarotene,211980,lung cancer
+313,valproic acid,2382,lennox-gastaut syndrome
+314,capreomycin,3389,tuberculosis
+317,gefitinib,211980,lung cancer
+323,tolcapone,310465,n syndrome
+323,tolcapone,2608,n syndrome
+328,indomethacin,165720,osteoarthritis
+328,indomethacin,180300,rheumatoid arthritis
+330,ethambutol,3389,tuberculosis
+333,methadone,211980,lung cancer
+334,olanzapine,181500,schizophrenia
+338,omeprazole,109350,gastroesophageal reflux
+338,omeprazole,310465,n syndrome
+338,omeprazole,2467,systemic mastocytosis
+338,omeprazole,2608,n syndrome
+338,omeprazole,913,zollinger-ellison syndrome
+338,omeprazole,98292,mastocytosis
+339,pyrazinamide,3389,tuberculosis
+342,terfenadine,115000,cardiac arrhythmia
+348,nitisinone,882,tyrosinemia type 1
+349,clobazam,2382,lennox-gastaut syndrome
+351,megestrol acetate,114480,breast cancer
+351,megestrol acetate,176807,prostate cancer
+351,megestrol acetate,608089,endometrial cancer
+354,buclizine,158280,motion sickness
+357,aminoglutethimide,176807,prostate cancer
+358,mefloquine,673,malaria
+359,sulfadiazine,3099,rheumatic fever
+359,sulfadiazine,33475,meningococcal meningitis
+361,vinorelbine,114480,breast cancer
+361,vinorelbine,167000,ovarian cancer
+361,vinorelbine,211980,lung cancer
+361,vinorelbine,873,desmoid tumor
+361,vinorelbine,98293,hodgkin lymphoma
+363,clozapine,181500,schizophrenia
+372,thiethylperazine,158280,motion sickness
+374,treprostinil,182090,pulmonary arterial hypertension
+380,dexrazoxane,114480,breast cancer
+384,triamterene,211750,c syndrome
+384,triamterene,1308,c syndrome
+385,valrubicin,109800,bladder cancer
+391,sulpiride,181500,schizophrenia
+394,beclomethasone dipropionate,39812,graft versus host disease
+397,phenylpropanolamine,601665,obesity
+398,sorafenib,114550,hepatocellular carcinoma
+398,sorafenib,88673,hepatocellular carcinoma
+399,zoledronic acid,166710,osteoporosis
+399,zoledronic acid,176807,prostate cancer
+399,zoledronic acid,29073,multiple myeloma
+408,loxapine,181500,schizophrenia
+409,remoxipride,181500,schizophrenia
+417,phenoxymethylpenicillin,3099,rheumatic fever
+419,miglustat,355,gaucher disease
+419,miglustat,646,niemann-pick disease type c
+421,spironolactone,211750,c syndrome
+421,spironolactone,1308,c syndrome
+440,trimethoprim,673,malaria
+441,gemcitabine,109800,bladder cancer
+441,gemcitabine,114480,breast cancer
+441,gemcitabine,133239,esophageal cancer
+441,gemcitabine,167000,ovarian cancer
+441,gemcitabine,211980,lung cancer
+441,gemcitabine,260350,pancreatic cancer
+443,betamethasone,418,congenital adrenal hyperplasia
+445,epirubicin,114480,breast cancer
+451,levothyroxine,255900,myxedema
+457,prazosin,171300,pheochromocytoma
+458,imipramine,181500,schizophrenia
+461,nabumetone,165720,osteoarthritis
+461,nabumetone,180300,rheumatoid arthritis
+462,methylscopolamine bromide,158280,motion sickness
+464,sodium tetradecyl sulfate,192200,varicose veins
+468,quinine,108,babesiosis
+468,quinine,673,malaria
+469,tenoxicam,165720,osteoarthritis
+469,tenoxicam,180300,rheumatoid arthritis
+477,chlorpromazine,181500,schizophrenia
+477,chlorpromazine,3299,tetanus
+477,chlorpromazine,738,porphyria
+477,chlorpromazine,79276,acute intermittent porphyria
+479,amikacin,3389,tuberculosis
+480,lenalidomide,211750,c syndrome
+480,lenalidomide,1308,c syndrome
+480,lenalidomide,29073,multiple myeloma
+481,raloxifene,114480,breast cancer
+481,raloxifene,166710,osteoporosis
+482,celecoxib,165720,osteoarthritis
+482,celecoxib,180300,rheumatoid arthritis
+482,celecoxib,733,familial adenomatous polyposis
+488,altretamine,167000,ovarian cancer
+500,tolmetin,165720,osteoarthritis
+500,tolmetin,180300,rheumatoid arthritis
+502,haloperidol,181500,schizophrenia
+515,cisplatin,109800,bladder cancer
+515,cisplatin,167000,ovarian cancer
+515,cisplatin,211980,lung cancer
+519,trandolapril,552,mody
+526,oxaliplatin,114500,colorectal cancer
+530,erlotinib,211980,lung cancer
+530,erlotinib,260350,pancreatic cancer
+530,erlotinib,3318,essential thrombocythemia
+530,erlotinib,729,polycythemia vera
+531,cyclophosphamide,211750,c syndrome
+531,cyclophosphamide,254400,mycosis fungoides
+531,cyclophosphamide,1308,c syndrome
+531,cyclophosphamide,29073,multiple myeloma
+531,cyclophosphamide,635,neuroblastoma
+531,cyclophosphamide,790,retinoblastoma
+533,rofecoxib,165720,osteoarthritis
+533,rofecoxib,180300,rheumatoid arthritis
+536,guanidine,211750,c syndrome
+536,guanidine,1308,c syndrome
+536,guanidine,589,myasthenia gravis
+537,ciprofloxacin,247257,inhalational anthrax
+537,ciprofloxacin,99745,typhoid
+539,toremifene,114480,breast cancer
+539,toremifene,176807,prostate cancer
+541,vincristine,635,neuroblastoma
+541,vincristine,98293,hodgkin lymphoma
+545,pyridostigmine,589,myasthenia gravis
+554,piroxicam,165720,osteoarthritis
+554,piroxicam,180300,rheumatoid arthritis
+555,lamotrigine,2382,lennox-gastaut syndrome
+559,bosentan,182090,pulmonary arterial hypertension
+563,methotrexate,114480,breast cancer
+563,methotrexate,180300,rheumatoid arthritis
+563,methotrexate,211980,lung cancer
+563,methotrexate,254400,mycosis fungoides
+563,methotrexate,99926,gestational choriocarcinoma
+563,methotrexate,99927,hydatidiform mole
+564,carbamazepine,221091,trigeminal neuralgia
+568,cinnarizine,158280,motion sickness
+570,vinblastine,114480,breast cancer
+570,vinblastine,254400,mycosis fungoides
+570,vinblastine,635,neuroblastoma
+571,propranolol,171300,pheochromocytoma
+573,fenoprofen,165720,osteoarthritis
+573,fenoprofen,180300,rheumatoid arthritis
+574,fenfluramine,601665,obesity
+575,clonidine,171300,pheochromocytoma
+579,mazindol,601665,obesity
+579,mazindol,98896,duchenne muscular dystrophy
+580,valdecoxib,165720,osteoarthritis
+583,l-carnitine,606054,propionic acidemia
+583,l-carnitine,35,propionic acidemia
+586,diclofenac,165720,osteoarthritis
+586,diclofenac,180300,rheumatoid arthritis
+598,labetalol,171300,pheochromocytoma
+598,labetalol,275555,preeclampsia
+598,labetalol,3299,tetanus
+604,cisapride,109350,gastroesophageal reflux
+605,sulindac,165720,osteoarthritis
+605,sulindac,180300,rheumatoid arthritis
+608,chloroquine,180300,rheumatoid arthritis
+608,chloroquine,673,malaria
+609,ethionamide,3389,tuberculosis
+613,amodiaquine,673,malaria
+617,paramethadione,1913,fetal trimethadione syndrome
+618,demeclocycline,673,malaria
+618,demeclocycline,91546,lyme disease
+619,imatinib,211750,c syndrome
+619,imatinib,1308,c syndrome
+619,imatinib,2467,systemic mastocytosis
+619,imatinib,31112,dermatofibrosarcoma protuberans
+619,imatinib,44890,gastrointestinal stromal tumor
+619,imatinib,521,chronic myeloid leukemia
+619,imatinib,98292,mastocytosis
+619,imatinib,98850,aggressive systemic mastocytosis
+630,alendronic acid,166710,osteoporosis
+635,prednisone,160750,myositis
+635,prednisone,211750,c syndrome
+635,prednisone,254400,mycosis fungoides
+635,prednisone,310465,n syndrome
+635,prednisone,1308,c syndrome
+635,prednisone,1656,dermatitis herpetiformis
+635,prednisone,221,dermatomyositis
+635,prednisone,2608,n syndrome
+635,prednisone,3389,tuberculosis
+635,prednisone,36426,stevens-johnson syndrome
+635,prednisone,397,giant cell arteritis
+635,prednisone,418,congenital adrenal hyperplasia
+635,prednisone,589,myasthenia gravis
+635,prednisone,797,sarcoidosis
+636,clofibrate,412,dysbetalipoproteinemia
+642,pemetrexed,211980,lung cancer
+642,pemetrexed,50251,pleural mesothelioma
+650,leucovorin,114500,colorectal cancer
+650,leucovorin,668,osteosarcoma
+656,trazodone,181500,schizophrenia
+659,acamprosate,103780,alcohol dependence
+660,metaxalone,310465,n syndrome
+660,metaxalone,2608,n syndrome
+663,flumethasone,603165,"dermatitis, atopic"
+664,sulfametopyrazine,673,malaria
+665,nilutamide,176807,prostate cancer
+666,nafarelin,759,central precocious puberty
+675,tamoxifen,114480,breast cancer
+679,thioridazine,181500,schizophrenia
+682,warfarin,166710,osteoporosis
+686,pentosan polysulfate,37202,interstitial cystitis
+692,phentolamine,171300,pheochromocytoma
+692,phentolamine,179600,raynaud disease
+695,furosemide,211750,c syndrome
+695,furosemide,1308,c syndrome
+704,naltrexone,103780,alcohol dependence
+707,porfimer sodium,133239,esophageal cancer
+710,ibandronate,166710,osteoporosis
+712,flurbiprofen,165720,osteoarthritis
+712,flurbiprofen,180300,rheumatoid arthritis
+722,lisinopril,552,mody
+725,homatropine methylbromide,158280,motion sickness
+733,pralidoxime,589,myasthenia gravis
+734,risperidone,181500,schizophrenia
+736,esomeprazole,310465,n syndrome
+736,esomeprazole,2608,n syndrome
+736,esomeprazole,913,zollinger-ellison syndrome
+737,meclizine,158280,motion sickness
+738,pentamidine,507,leishmaniasis
+740,riluzole,803,amyotrophic lateral sclerosis
+747,scopolamine,158280,motion sickness
+749,etodolac,165720,osteoarthritis
+749,etodolac,180300,rheumatoid arthritis
+755,tretinoin,113800,epidermolytic hyperkeratosis
+755,tretinoin,520,acute promyelocytic leukemia
+759,tetracycline,91546,lyme disease
+762,irinotecan,114500,colorectal cancer
+762,irinotecan,211980,lung cancer
+762,irinotecan,260350,pancreatic cancer
+765,metyrosine,171300,pheochromocytoma
+773,etoposide,211980,lung cancer
+773,etoposide,360,glioblastoma
+777,propiomazine,181500,schizophrenia
+777,propiomazine,209850,autism
+783,estradiol,114480,breast cancer
+783,estradiol,165720,osteoarthritis
+783,estradiol,176807,prostate cancer
+784,mefenamic acid,165720,osteoarthritis
+784,mefenamic acid,180300,rheumatoid arthritis
+788,naproxen,165720,osteoarthritis
+788,naproxen,180300,rheumatoid arthritis
+795,sulfasalazine,180300,rheumatoid arthritis
+810,biperiden,97349,postencephalitic parkinsonism
+811,ribavirin,341,viral hemorrhagic fever
+811,ribavirin,99827,crimean-congo hemorrhagic fever
+812,phenylbutazone,180300,rheumatoid arthritis
+814,meloxicam,165720,osteoarthritis
+820,tadalafil,182090,pulmonary arterial hypertension
+830,phenmetrazine,601665,obesity
+834,mifepristone,553,cushing syndrome
+837,progabide,181500,schizophrenia
+843,donepezil,181500,schizophrenia
+843,donepezil,310465,n syndrome
+843,donepezil,2608,n syndrome
+843,donepezil,870,down syndrome
+847,cysteamine,213,cystinosis
+848,levamisole,180300,rheumatoid arthritis
+853,temozolomide,360,glioblastoma
+856,chlorphenesin,221091,trigeminal neuralgia
+858,drostanolone,114480,breast cancer
+859,penicillamine,180300,rheumatoid arthritis
+859,penicillamine,214,cystinuria
+860,prednisolone,180300,rheumatoid arthritis
+860,prednisolone,418,congenital adrenal hyperplasia
+860,prednisolone,98375,autoimmune hemolytic anemia
+861,diflunisal,165720,osteoarthritis
+861,diflunisal,180300,rheumatoid arthritis
+862,vardenafil,552,mody
+863,ranitidine,109350,gastroesophageal reflux
+865,benzphetamine,601665,obesity
+875,flupentixol,181500,schizophrenia
+884,risedronate,166710,osteoporosis
+887,bumetanide,211750,c syndrome
+887,bumetanide,1308,c syndrome
+888,mechlorethamine,254400,mycosis fungoides
+888,mechlorethamine,729,polycythemia vera
+891,sulfapyridine,1656,dermatitis herpetiformis
+891,sulfapyridine,46486,mucous membrane pemphigoid
+891,sulfapyridine,48104,pyoderma gangrenosum
+894,testolactone,114480,breast cancer
+898,ethanol,221091,trigeminal neuralgia
+917,dinoprostone,99927,hydatidiform mole
+927,famotidine,109350,gastroesophageal reflux
+928,azacitidine,211750,c syndrome
+928,azacitidine,1308,c syndrome
+928,azacitidine,86839,refractory anemia with excess blasts
+928,azacitidine,98826,refractory anemia
+933,mesoridazine,181500,schizophrenia
+937,diethylpropion,601665,obesity
+939,meclofenamic acid,165720,osteoarthritis
+939,meclofenamic acid,180300,rheumatoid arthritis
+945,acetylsalicylic acid,165720,osteoarthritis
+945,acetylsalicylic acid,180300,rheumatoid arthritis
+947,fulvestrant,114480,breast cancer
+949,felbamate,2382,lennox-gastaut syndrome
+951,isoniazid,3389,tuberculosis
+959,methylprednisolone,180300,rheumatoid arthritis
+973,ezetimibe,210250,sitosterolemia
+973,ezetimibe,391665,homozygous familial hypercholesterolemia
+977,ethinyl estradiol,114480,breast cancer
+984,nandrolone phenpropionate,91378,hereditary angioedema
+985,dimenhydrinate,158280,motion sickness
+988,dopamine,251383,ck syndrome
+988,dopamine,552,mody
+989,rivastigmine,177400,butyrylcholinesterase
+990,exemestane,114480,breast cancer
+991,oxaprozin,165720,osteoarthritis
+991,oxaprozin,180300,rheumatoid arthritis
+993,azathioprine,180300,rheumatoid arthritis
+995,auranofin,180300,rheumatoid arthritis
+997,doxorubicin,114480,breast cancer
+997,doxorubicin,635,neuroblastoma
+1003,cromoglicic acid,70476,vernal keratoconjunctivitis
+1006,letrozole,114480,breast cancer
+1006,letrozole,166710,osteoporosis
+1008,busulfan,521,chronic myeloid leukemia
+1009,ketoprofen,165720,osteoarthritis
+1009,ketoprofen,180300,rheumatoid arthritis
+1010,edrophonium,115000,cardiac arrhythmia
+1010,edrophonium,589,myasthenia gravis
+1011,metyrapone,553,cushing syndrome
+1012,cinacalcet,143,parathyroid carcinoma
+1026,ketoconazole,1334,chronic mucocutaneous candidiasis
+1030,topotecan,167000,ovarian cancer
+1030,topotecan,211980,lung cancer
+1042,melphalan,114480,breast cancer
+1042,melphalan,29073,multiple myeloma
+1042,melphalan,69,amyloidosis
+1045,rifampicin,3389,tuberculosis
+1050,ibuprofen,165720,osteoarthritis
+1050,ibuprofen,180300,rheumatoid arthritis
+1065,melatonin,176807,prostate cancer
+1065,melatonin,209850,autism
+1065,melatonin,272620,tardive dyskinesia
+1068,clonazepam,2382,lennox-gastaut syndrome
+1069,promethazine,158280,motion sickness
+1070,dihydrotachysterol,166710,osteoporosis
+1075,diphenhydramine,158280,motion sickness
+1076,atorvastatin,391665,homozygous familial hypercholesterolemia
+1076,atorvastatin,412,dysbetalipoproteinemia
+1080,vigabatrin,3451,west syndrome
+1082,streptomycin,3389,tuberculosis
+1082,streptomycin,707,plague
+1083,orlistat,601665,obesity
+1087,primaquine,673,malaria
+1088,iloprost,182090,pulmonary arterial hypertension
+1093,dimethyl sulfoxide,37202,interstitial cystitis
+1097,leflunomide,180300,rheumatoid arthritis
+1098,rosuvastatin,391665,homozygous familial hypercholesterolemia
+1101,capecitabine,114480,breast cancer
+1101,capecitabine,114500,colorectal cancer
+1103,quinacrine,507,leishmaniasis
+1103,quinacrine,673,malaria
+1105,sibutramine,601665,obesity
+1109,heparin,166710,osteoporosis
+1117,atovaquone,673,malaria
+1118,amiodarone,552,mody
+1119,diazoxide,97279,insulinoma
+1122,ambenonium,589,myasthenia gravis
+1128,bicalutamide,176807,prostate cancer
+1131,proguanil,673,malaria
+1134,desoxycorticosterone pivalate,180300,rheumatoid arthritis
+1134,desoxycorticosterone pivalate,767,polyarteritis nodosa
+1143,amifostine,167000,ovarian cancer
+1145,sulfoxone,1656,dermatitis herpetiformis
+1169,arsenic trioxide,520,acute promyelocytic leukemia
+1176,cyclizine,158280,motion sickness
+1177,idarubicin,114480,breast cancer
+1181,ifosfamide,109800,bladder cancer
+1181,ifosfamide,167000,ovarian cancer
+1181,ifosfamide,211980,lung cancer
+1181,ifosfamide,668,osteosarcoma
+1186,pergolide,310465,n syndrome
+1186,pergolide,2608,n syndrome
+1191,dexfenfluramine,601665,obesity
+1199,tubocurarine,589,myasthenia gravis
+1200,bromocriptine,230300,galactorrhea
+1200,bromocriptine,310465,n syndrome
+1200,bromocriptine,2608,n syndrome
+1200,bromocriptine,94093,neuroleptic malignant syndrome
+1200,bromocriptine,963,acromegaly
+1201,rifapentine,3389,tuberculosis
+1211,clarithromycin,1549,cryptosporidiosis
+1211,clarithromycin,91546,lyme disease
+1217,anastrozole,114480,breast cancer
+1217,anastrozole,562,mccune-albright syndrome
+1218,halofantrine,673,malaria
+1224,quetiapine,181500,schizophrenia
+1229,paclitaxel,114480,breast cancer
+1229,paclitaxel,211980,lung cancer
+1233,metoclopramide,109350,gastroesophageal reflux
+1235,levodopa,97349,postencephalitic parkinsonism
+1238,aripiprazole,181500,schizophrenia
+1239,chlorprothixene,181500,schizophrenia
+1240,epoprostenol,801,scleroderma
+1242,clomipramine,181500,schizophrenia
+1248,docetaxel,114480,breast cancer
+1248,docetaxel,176807,prostate cancer
+1248,docetaxel,211980,lung cancer
+1254,dasatinib,521,chronic myeloid leukemia
+1257,eculizumab,447,paroxysmal nocturnal hemoglobinuria
+1259,lapatinib,114480,breast cancer
+1259,lapatinib,211980,lung cancer
+1262,decitabine,211750,c syndrome
+1262,decitabine,1308,c syndrome
+1262,decitabine,86839,refractory anemia with excess blasts
+1262,decitabine,98826,refractory anemia
+1267,paliperidone,181500,schizophrenia
+1268,sunitinib,44890,gastrointestinal stromal tumor
+1281,abatacept,180300,rheumatoid arthritis
+1281,abatacept,92,juvenile idiopathic arthritis
+1283,lumiracoxib,165720,osteoarthritis
+1296,glucosamine,165720,osteoarthritis
+1297,practolol,115000,cardiac arrhythmia
+1299,sulfadoxine,673,malaria
+1373,calcium,166710,osteoporosis
+1394,colchicine,342,familial mediterranean fever
+1399,salsalate,165720,osteoarthritis
+1399,salsalate,180300,rheumatoid arthritis
+1400,neostigmine,589,myasthenia gravis
+1403,methotrimeprazine,181500,schizophrenia
+1406,danazol,91378,hereditary angioedema
+1550,fenproporex,601665,obesity
+1553,cloxazolam,181500,schizophrenia
+1564,calusterone,114480,breast cancer
+1577,methamphetamine,601665,obesity
+1579,phendimetrazine,601665,obesity
+1590,everolimus,114480,breast cancer
+1590,everolimus,805,tuberous sclerosis complex
+1605,pivmecillinam,99745,typhoid
+1609,deferasirox,613985,beta-thalassemia
+1609,deferasirox,848,beta-thalassemia
+1611,hydroxychloroquine,180300,rheumatoid arthritis
+1611,hydroxychloroquine,673,malaria
+1616,alverine,114480,breast cancer
+1618,molindone,181500,schizophrenia
+1622,thioproperazine,181500,schizophrenia
+1622,thioproperazine,211750,c syndrome
+1622,thioproperazine,1308,c syndrome
+1623,thiothixene,181500,schizophrenia
+1624,zuclopenthixol,181500,schizophrenia
+1628,etoricoxib,165720,osteoarthritis
+1628,etoricoxib,180300,rheumatoid arthritis
+1645,genistein,176807,prostate cancer
+1708,prasterone,166710,osteoporosis
+1708,prasterone,181500,schizophrenia
+1783,pantothenic acid,187400,testicular torsion
+1783,pantothenic acid,601665,obesity
+1791,piclamilast,70589,bronchopulmonary dysplasia
+1873,epothilone d,114480,breast cancer
+1873,epothilone d,114500,colorectal cancer
+1873,epothilone d,176807,prostate cancer
+1873,epothilone d,211980,lung cancer
+2010,staurosporine,635,neuroblastoma
+2187,equilin,114480,breast cancer
+2187,equilin,166710,osteoporosis
+2292,irosustat,114480,breast cancer
+2342,2-methoxyestradiol,114480,breast cancer
+2342,2-methoxyestradiol,180300,rheumatoid arthritis
+2546,vorinostat,360,glioblastoma
+2659,cholic acid,912,zellweger syndrome
+3010,patupilone,114480,breast cancer
+3010,patupilone,167000,ovarian cancer
+3010,patupilone,211980,lung cancer
+3106,scyllo-inositol,104300,alzheimer disease
+3107,beta-alanine,237400,hyper-beta-alaninemia
+3404,hemin,738,porphyria
+3404,hemin,79276,acute intermittent porphyria
+3424,ubenimex,211980,lung cancer
+3496,alvocidib,133239,esophageal cancer
+3496,alvocidib,211980,lung cancer
+3604,tiratricol,300523,allan-herndon-dudley syndrome
+3604,tiratricol,601665,obesity
+3604,tiratricol,59,allan-herndon-dudley syndrome
+3604,tiratricol,79088,localized lipodystrophy
+3695,piritrexim,109800,bladder cancer
+3793,benzoic acid,181500,schizophrenia
+4209,dequalinium,520,acute promyelocytic leukemia
+4209,dequalinium,673,malaria
+4250,butyrylthiocholine,177400,butyrylcholinesterase
+4253,tretazicar,114550,hepatocellular carcinoma
+4253,tretazicar,88673,hepatocellular carcinoma
+4455,"n,n,n-trimethylglycinium",214,cystinuria
+4552,niflumic acid,180300,rheumatoid arthritis
+4572,thiotepa,109800,bladder cancer
+4572,thiotepa,114480,breast cancer
+4572,thiotepa,167000,ovarian cancer
+4574,estrone sulfate,114480,breast cancer
+4574,estrone sulfate,166710,osteoporosis
+4574,estrone sulfate,176807,prostate cancer
+4575,quinestrol,176807,prostate cancer
+4725,licofelone,165720,osteoarthritis
+4743,nimesulide,165720,osteoarthritis
+4780,sulfatide,250100,metachromatic leukodystrophy
+4780,sulfatide,512,metachromatic leukodystrophy
+4796,inecalcitol,176807,prostate cancer
+4818,iproniazid,3389,tuberculosis
+4825,prenylamine,115000,cardiac arrhythmia
+4842,fluspirilene,181500,schizophrenia
+4844,tetrabenazine,272620,tardive dyskinesia
+4845,ixabepilone,114480,breast cancer
+4845,ixabepilone,176807,prostate cancer
+4845,ixabepilone,211980,lung cancer
+4849,cediranib,114500,colorectal cancer
+4849,cediranib,211980,lung cancer
+4856,dexloxiglumide,109350,gastroesophageal reflux
+4865,omacetaxine mepesuccinate,521,chronic myeloid leukemia
+4866,halofuginone,801,scleroderma
+4867,lintitript,260350,pancreatic cancer
+4868,nilotinib,521,chronic myeloid leukemia
+4870,oleoyl-estrone,601665,obesity
+4871,lorcaserin,601665,obesity
+4872,osanetant,181500,schizophrenia
+4875,pralnacasan,180300,rheumatoid arthritis
+4877,voacamine,673,malaria
+4879,vatalanib,114500,colorectal cancer
+4879,vatalanib,211980,lung cancer
+4882,edotecarin,114500,colorectal cancer
+4882,edotecarin,133239,esophageal cancer
+4888,bifeprunox,181500,schizophrenia
+4901,galiximab,176807,prostate cancer
+4901,galiximab,180300,rheumatoid arthritis
+4901,galiximab,29073,multiple myeloma
+4905,tesmilifene,114480,breast cancer
+4909,sitamaquine,507,leishmaniasis
+4914,g17dt,114500,colorectal cancer
+4914,g17dt,260350,pancreatic cancer
+4931,afamelanotide,738,porphyria
+4936,tagatose,601665,obesity
+4946,iloperidone,181500,schizophrenia
+4951,pirfenidone,2032,idiopathic pulmonary fibrosis
+4960,tipifarnib,114500,colorectal cancer
+4960,tipifarnib,260350,pancreatic cancer
+4964,oregovomab,167000,ovarian cancer
+4972,canfosfamide,167000,ovarian cancer
+4974,ap1903,39812,graft versus host disease
+4977,plitidepsin,176807,prostate cancer
+4981,cg7870,176807,prostate cancer
+4983,denufosol,219700,cystic fibrosis
+4983,denufosol,586,cystic fibrosis
+4985,tigapotide,176807,prostate cancer
+4987,p113d,219700,cystic fibrosis
+4987,p113d,586,cystic fibrosis
+4989,ty800,99745,typhoid
+4996,satraplatin,176807,prostate cancer
+4996,satraplatin,211980,lung cancer
+4998,agro100,260350,pancreatic cancer
+5003,imexon,167000,ovarian cancer
+5003,imexon,260350,pancreatic cancer
+5003,imexon,29073,multiple myeloma
+5004,ac162352,601665,obesity
+5006,adecatumumab,114480,breast cancer
+5006,adecatumumab,176807,prostate cancer
+5006,adecatumumab,211980,lung cancer
+5010,sgs-742,181500,schizophrenia
+5014,xl999,211980,lung cancer
+5016,ataluren,98896,duchenne muscular dystrophy
+5017,ysil6,180300,rheumatoid arthritis
+5018,migalastat,301500,fabry disease
+5018,migalastat,324,fabry disease
+5022,amonafide,114480,breast cancer
+5022,amonafide,167000,ovarian cancer
+5022,amonafide,176807,prostate cancer
+5025,arimoclomol,803,amyotrophic lateral sclerosis
+5029,lancovutide,219700,cystic fibrosis
+5029,lancovutide,586,cystic fibrosis
+5031,xp19986,109350,gastroesophageal reflux
+5033,incb7839,114480,breast cancer
+5035,eprotirome,601665,obesity
+5036,grn163l,114480,breast cancer
+5037,at7519,211750,c syndrome
+5037,at7519,1308,c syndrome
+5041,rp101,260350,pancreatic cancer
+5042,sgs518,181500,schizophrenia
+5045,obinepitide,601665,obesity
+5049,ddp733,109350,gastroesophageal reflux
+5051,bzl101,114480,breast cancer
+5070,adx10059,109350,gastroesophageal reflux
+5073,srt501,601665,obesity
+5076,fenretinide,114480,breast cancer
+5076,fenretinide,176807,prostate cancer
+5077,slv319,601665,obesity
+5080,obe101,601665,obesity
+5084,abaloparatide,166710,osteoporosis
+5085,tm30339,181500,schizophrenia
+5085,tm30339,601665,obesity
+5089,vpm4001,176807,prostate cancer
+5090,fp0011,803,amyotrophic lateral sclerosis
+5095,cimicoxib,181500,schizophrenia
+5096,ly2140023,181500,schizophrenia
+5098,leptin,601665,obesity
+5100,prinomastat,176807,prostate cancer
+5100,prinomastat,211980,lung cancer
+5101,matuzumab,114500,colorectal cancer
+5101,matuzumab,211980,lung cancer
+5103,an-9,211980,lung cancer
+5107,16-bromoepiandrosterone,219700,cystic fibrosis
+5107,16-bromoepiandrosterone,586,cystic fibrosis
+5107,16-bromoepiandrosterone,673,malaria
+5109,trabectedin,167000,ovarian cancer
+5113,105ad7,114500,colorectal cancer
+5113,105ad7,668,osteosarcoma
+5114,ehc18,114550,hepatocellular carcinoma
+5114,ehc18,88673,hepatocellular carcinoma
+5116,thymectacin,114500,colorectal cancer
+5117,ign301,167000,ovarian cancer
+5122,r1295,109100,autoimmune disease
+5122,r1295,180300,rheumatoid arthritis
+5125,sc12267,109100,autoimmune disease
+5125,sc12267,180300,rheumatoid arthritis
+5126,pym50018,803,amyotrophic lateral sclerosis
+5133,vp025,803,amyotrophic lateral sclerosis
+5136,bavituximab,114480,breast cancer
+5144,pev3a,673,malaria
+5148,cg0070,109800,bladder cancer
+5152,ngx267,181500,schizophrenia
+5154,pretomanid,3389,tuberculosis
+5157,kc706,180300,rheumatoid arthritis
+5160,topsalysin,176807,prostate cancer
+5164,cmlvax100,521,chronic myeloid leukemia
+5180,lx6171,181500,schizophrenia
+5186,sq-109,3389,tuberculosis
+5188,kd3010,601665,obesity
+5194,kb002,109100,autoimmune disease
+5194,kb002,180300,rheumatoid arthritis
+5201,v24343,601665,obesity
+5212,he3286,180300,rheumatoid arthritis
+5218,pn0621,180300,rheumatoid arthritis
+5222,kb001,219700,cystic fibrosis
+5222,kb001,586,cystic fibrosis
+5234,lgd2941,166710,osteoporosis
+5244,g4544,166710,osteoporosis
+5255,ronacaleret,166710,osteoporosis
+5273,samarium (153sm) lexidronam,176807,prostate cancer
+5273,samarium (153sm) lexidronam,180300,rheumatoid arthritis
+5273,samarium (153sm) lexidronam,29073,multiple myeloma
+5276,hepatitis b immune globulin,114550,hepatocellular carcinoma
+5276,hepatitis b immune globulin,88673,hepatocellular carcinoma
+5281,s-8184,167000,ovarian cancer
+5281,s-8184,168829,primary peritoneal carcinoma
+5282,mcc,109800,bladder cancer
+5285,sb-249553,211980,lung cancer
+5289,tarenflurbil,176807,prostate cancer
+5292,idm-1,167000,ovarian cancer
+5293,idm-2,109800,bladder cancer
+5295,eldecalcitol,166710,osteoporosis
+5296,motexafin lutetium,114480,breast cancer
+5296,motexafin lutetium,176807,prostate cancer
+5297,paclitaxel docosahexaenoic acid,114480,breast cancer
+5297,paclitaxel docosahexaenoic acid,114500,colorectal cancer
+5297,paclitaxel docosahexaenoic acid,176807,prostate cancer
+5297,paclitaxel docosahexaenoic acid,211980,lung cancer
+5297,paclitaxel docosahexaenoic acid,260350,pancreatic cancer
+5299,keyhole limpet hemocyanin,109800,bladder cancer
+5300,pti-801,165720,osteoarthritis
+5304,wx-g250,109800,bladder cancer
+5305,cintredekin besudotox,360,glioblastoma
+5308,anx-510,109800,bladder cancer
+5308,anx-510,114480,breast cancer
+5308,anx-510,114500,colorectal cancer
+5308,anx-510,260350,pancreatic cancer
+5311,ecallantide,91378,hereditary angioedema
+5312,nvs antibody,109100,autoimmune disease
+5312,nvs antibody,180300,rheumatoid arthritis
+5316,pimavanserin,181500,schizophrenia
+5319,oportuzumab monatox,109800,bladder cancer
+5322,ingn 201,109800,bladder cancer
+5322,ingn 201,114480,breast cancer
+5322,ingn 201,133239,esophageal cancer
+5322,ingn 201,167000,ovarian cancer
+5322,ingn 201,176807,prostate cancer
+5322,ingn 201,211980,lung cancer
+5325,ingn 225,114480,breast cancer
+5325,ingn 225,211980,lung cancer
+5330,altu-135,219700,cystic fibrosis
+5330,altu-135,586,cystic fibrosis
+5332,romiplostim,3002,immune thrombocytopenic purpura
+5336,obiltoxaximab,39812,graft versus host disease
+5341,c1-inh,91378,hereditary angioedema
+5343,arundic acid,803,amyotrophic lateral sclerosis
+5344,ciliary neurotrophic factor,268000,retinitis pigmentosa
+5344,ciliary neurotrophic factor,791,retinitis pigmentosa
+5346,wl-1002,165720,osteoarthritis
+5351,dexlansoprazole,109350,gastroesophageal reflux
+5352,fx-1006a,69,amyloidosis
+5363,lic-477,221091,trigeminal neuralgia
+5370,nova-22007,70476,vernal keratoconjunctivitis
+5371,acr-16,181500,schizophrenia
+5372,cp-945598,601665,obesity
+5374,rindopepimut,360,glioblastoma
+5380,dotmp ho-166,29073,multiple myeloma
+5387,ae-941,176807,prostate cancer
+5387,ae-941,211980,lung cancer
+5387,ae-941,29073,multiple myeloma
+5389,tetrachlorodecaoxide,260350,pancreatic cancer
+5390,ins 316,211980,lung cancer
+5393,nov-002,114480,breast cancer
+5393,nov-002,167000,ovarian cancer
+5393,nov-002,211980,lung cancer
+5395,amibegron,601665,obesity
+5400,qs-21,673,malaria
+5404,azd 3355,109350,gastroesophageal reflux
+5406,gti-2501,176807,prostate cancer
+5412,talmapimod,180300,rheumatoid arthritis
+5414,pipendoxifene,114480,breast cancer
+5415,osi-461,176807,prostate cancer
+5416,gw-501516,601665,obesity
+5420,gallium maltolate,109800,bladder cancer
+5420,gallium maltolate,176807,prostate cancer
+5420,gallium maltolate,29073,multiple myeloma
+5424,canertinib,114480,breast cancer
+5424,canertinib,211980,lung cancer
+5426,talactoferrin alpha,211980,lung cancer
+5428,motexafin gadolinium,211980,lung cancer
+5432,das-431 iv,181500,schizophrenia
+5437,rigscan cr49,114500,colorectal cancer
+5439,idd-1,176807,prostate cancer
+5443,adl 10-0101,180300,rheumatoid arthritis
+5446,ljp 1082,109100,autoimmune disease
+5448,px-12,211980,lung cancer
+5448,px-12,260350,pancreatic cancer
+5451,p54,165720,osteoarthritis
+5458,pozanicline,181500,schizophrenia
+5459,briakinumab,109100,autoimmune disease
+5459,briakinumab,180300,rheumatoid arthritis
+5460,ezatiostat,211750,c syndrome
+5460,ezatiostat,1308,c syndrome
+5462,chlorotoxin i-131,360,glioblastoma
+5463,iss-1018,114500,colorectal cancer
+5470,vx-702,180300,rheumatoid arthritis
+5471,sgn-30,109100,autoimmune disease
+5471,sgn-30,98293,hodgkin lymphoma
+5473,qr-334,803,amyotrophic lateral sclerosis
+5474,t487,180300,rheumatoid arthritis
+5475,golotimod,3389,tuberculosis
+5477,muc1 dendritic cell vaccine,167000,ovarian cancer
+5482,7-ethyl-10-hydroxycamptothecin,114480,breast cancer
+5482,7-ethyl-10-hydroxycamptothecin,114500,colorectal cancer
+5482,7-ethyl-10-hydroxycamptothecin,211980,lung cancer
+5484,mdx-018,109100,autoimmune disease
+5484,mdx-018,360,glioblastoma
+5485,adh-1,114480,breast cancer
+5485,adh-1,167000,ovarian cancer
+5487,custirsen,114480,breast cancer
+5487,custirsen,360,glioblastoma
+5488,technetium tc-99m ciprofloxacin,3389,tuberculosis
+5489,aca 125,167000,ovarian cancer
+5494,elacytarabine,167000,ovarian cancer
+5494,elacytarabine,211980,lung cancer
+5495,pg-530742,165720,osteoarthritis
+5496,otelixizumab,109100,autoimmune disease
+5496,otelixizumab,180300,rheumatoid arthritis
+5500,avn-944,260350,pancreatic cancer
+5500,avn-944,29073,multiple myeloma
+5511,piclidenoson,180300,rheumatoid arthritis
+5512,mm-093,109100,autoimmune disease
+5512,mm-093,180300,rheumatoid arthritis
+5513,atiprimod,180300,rheumatoid arthritis
+5513,atiprimod,29073,multiple myeloma
+5514,cobiprostone,219700,cystic fibrosis
+5514,cobiprostone,586,cystic fibrosis
+5516,pi-0824,109100,autoimmune disease
+5516,pi-0824,704,pemphigus vulgaris
+5521,telaprevir,114550,hepatocellular carcinoma
+5521,telaprevir,88673,hepatocellular carcinoma
+5524,pelitinib,114500,colorectal cancer
+5524,pelitinib,211980,lung cancer
+5528,mipomersen,391665,homozygous familial hypercholesterolemia
+5542,naronapride,109350,gastroesophageal reflux
+5580,tru-015,180300,rheumatoid arthritis
+5585,verubulin,211980,lung cancer
+5586,facinicline,181500,schizophrenia
+5595,farletuzumab,167000,ovarian cancer
+5608,mkc-1,114480,breast cancer
+5608,mkc-1,211980,lung cancer
+5624,teverelix,176807,prostate cancer
+5625,ctce-9908,211980,lung cancer
+5626,retaspimycin,211980,lung cancer
+5626,retaspimycin,29073,multiple myeloma
+5630,sodium stibogluconate,507,leishmaniasis
+5645,larazotide,109100,autoimmune disease
+5687,bl-1020,181500,schizophrenia
+5688,crx-119,180300,rheumatoid arthritis
+5695,nps-2143,166710,osteoporosis
+5705,als-08,803,amyotrophic lateral sclerosis
+5706,13-deoxydoxorubicin,114480,breast cancer
+5708,gts-21,181500,schizophrenia
+5722,cgc-11047,176807,prostate cancer
+5723,alks 29,103780,alcohol dependence
+5730,pmi-001,109100,autoimmune disease
+5730,pmi-001,180300,rheumatoid arthritis
+5732,strontium malonate,166710,osteoporosis
+5736,miv-701,166710,osteoporosis
+5740,rpi-78m,589,myasthenia gravis
+5740,rpi-78m,803,amyotrophic lateral sclerosis
+5744,crx-139,180300,rheumatoid arthritis
+5750,ave-1625,104300,alzheimer disease
+5750,ave-1625,181500,schizophrenia
+5750,ave-1625,601665,obesity
+5766,acp-104,181500,schizophrenia
+5772,rabeximod,180300,rheumatoid arthritis
+5773,trastuzumab emtansine,114480,breast cancer
+5786,irofulven,114480,breast cancer
+5786,irofulven,167000,ovarian cancer
+5786,irofulven,176807,prostate cancer
+5786,irofulven,211980,lung cancer
+5786,irofulven,260350,pancreatic cancer
+5786,irofulven,608089,endometrial cancer
+5787,lm-609,114500,colorectal cancer
+5787,lm-609,176807,prostate cancer
+5787,lm-609,180300,rheumatoid arthritis
+5792,arylacenamide,176807,prostate cancer
+5794,serelaxin,801,scleroderma
+5800,alethine,29073,multiple myeloma
+5801,gti 2040,114480,breast cancer
+5801,gti 2040,114500,colorectal cancer
+5801,gti 2040,176807,prostate cancer
+5801,gti 2040,211750,c syndrome
+5801,gti 2040,1308,c syndrome
+5806,cositecan,211980,lung cancer
+5808,pi-88,114550,hepatocellular carcinoma
+5808,pi-88,29073,multiple myeloma
+5808,pi-88,88673,hepatocellular carcinoma
+5812,abiraterone,176807,prostate cancer
+5815,gnrh pharmaccine,176807,prostate cancer
+5817,laromustine,114500,colorectal cancer
+5817,laromustine,211750,c syndrome
+5817,laromustine,211980,lung cancer
+5817,laromustine,1308,c syndrome
+5818,sgn-15,114480,breast cancer
+5818,sgn-15,114500,colorectal cancer
+5818,sgn-15,211980,lung cancer
+5828,lu-31130,181500,schizophrenia
+5829,parathyroid hormone,166710,osteoporosis
+5833,lymphotoxin beta receptor,109100,autoimmune disease
+5842,ai-850,114480,breast cancer
+5848,humanized smart anti-il-12 antibody,109100,autoimmune disease
+5861,tasquinimod,176807,prostate cancer
+5863,trx1,109100,autoimmune disease
+5864,ppi-2458,180300,rheumatoid arthritis
+5867,99mtc-14 f7 mab,114480,breast cancer
+5870,anti-alpha5beta1-integrin antibody,114500,colorectal cancer
+5870,anti-alpha5beta1-integrin antibody,260350,pancreatic cancer
+5874,aeol 10150,803,amyotrophic lateral sclerosis
+5876,pde4,180300,rheumatoid arthritis
+5877,pyy3-36,601665,obesity
+5879,ame-527,180300,rheumatoid arthritis
+5882,chf 4227,166710,osteoporosis
+5886,nv-18,615619,cholangiocarcinoma
+5886,nv-18,70567,cholangiocarcinoma
+5894,gt 389-255,601665,obesity
+5913,osi-930,211980,lung cancer
+5913,osi-930,360,glioblastoma
+5928,dovitinib,29073,multiple myeloma
+5929,gpi-0100,114480,breast cancer
+5929,gpi-0100,167000,ovarian cancer
+5929,gpi-0100,176807,prostate cancer
+5929,gpi-0100,635,neuroblastoma
+5966,tas-108,114480,breast cancer
+5969,sns-032,29073,multiple myeloma
+5983,bardoxolone methyl,29073,multiple myeloma
+5990,obeticholic acid,186,primary biliary cholangitis
+5993,prx-07034,181500,schizophrenia
+5993,prx-07034,601665,obesity
+5996,glembatumumab vedotin,114480,breast cancer
+6014,eteplirsen,98896,duchenne muscular dystrophy
+6016,cariprazine,181500,schizophrenia
+6049,iph 2101,29073,multiple myeloma
+6061,azd-8330,114480,breast cancer
+6063,cam-2029,100093,carcinoid syndrome
+6063,cam-2029,963,acromegaly
+6071,dts-201,114500,colorectal cancer
+6071,dts-201,176807,prostate cancer
+6071,dts-201,260350,pancreatic cancer
+6077,lumateperone,181500,schizophrenia
+6080,abt-869,211750,c syndrome
+6080,abt-869,1308,c syndrome
+6082,px-478,211980,lung cancer
+6094,apatorsen,29073,multiple myeloma
+6103,vx-148,109100,autoimmune disease
+6116,eldelumab,180300,rheumatoid arthritis
+6129,svv-001,211980,lung cancer
+6137,kx-01,114480,breast cancer
+6140,suvn-502,181500,schizophrenia
+6144,sertindole,181500,schizophrenia
+6151,acetylcysteine,181500,schizophrenia
+6151,acetylcysteine,209850,autism
+6155,rimonabant,601665,obesity
+6156,tesofensine,601665,obesity
+6159,rubitecan,167000,ovarian cancer
+6159,rubitecan,260350,pancreatic cancer
+6163,plevitrexed,114500,colorectal cancer
+6163,plevitrexed,211980,lung cancer
+6163,plevitrexed,260350,pancreatic cancer
+6168,canakinumab,211750,c syndrome
+6168,canakinumab,1308,c syndrome
+6168,canakinumab,575,muckle-wells syndrome
+6168,canakinumab,901,wells syndrome
+6168,canakinumab,92,juvenile idiopathic arthritis
+6174,noscapine,29073,multiple myeloma
+6177,glufosfamide,114480,breast cancer
+6177,glufosfamide,114500,colorectal cancer
+6177,glufosfamide,167000,ovarian cancer
+6177,glufosfamide,211980,lung cancer
+6177,glufosfamide,260350,pancreatic cancer
+6178,talotrexin,211980,lung cancer
+6179,darinaparsin,29073,multiple myeloma
+6182,talabostat,211980,lung cancer
+6182,talabostat,260350,pancreatic cancer
+6188,ispinesib,114480,breast cancer
+6188,ispinesib,167000,ovarian cancer
+6188,ispinesib,211980,lung cancer
+6191,zosuquidar,211750,c syndrome
+6191,zosuquidar,1308,c syndrome
+6192,nimotuzumab,114500,colorectal cancer
+6192,nimotuzumab,211980,lung cancer
+6192,nimotuzumab,260350,pancreatic cancer
+6193,pixantrone,114480,breast cancer
+6193,pixantrone,613024,follicular lymphoma
+6193,pixantrone,545,follicular lymphoma
+6195,seliciclib,114480,breast cancer
+6195,seliciclib,211980,lung cancer
+6195,seliciclib,29073,multiple myeloma
+6196,icatibant,91378,hereditary angioedema
+6199,atrasentan,176807,prostate cancer
+6201,rufinamide,2382,lennox-gastaut syndrome
+6202,lasofoxifene,114480,breast cancer
+6202,lasofoxifene,166710,osteoporosis
+6216,asenapine,181500,schizophrenia
+6226,nelipepimut-s,114480,breast cancer
+6226,nelipepimut-s,176807,prostate cancer
+6229,ocaperidone,181500,schizophrenia
+6230,nalmefene,103780,alcohol dependence
+6233,ridaforolimus,176807,prostate cancer
+6233,ridaforolimus,608089,endometrial cancer
+6235,vadimezan,167000,ovarian cancer
+6235,vadimezan,176807,prostate cancer
+6235,vadimezan,211980,lung cancer
+6240,tariquidar,114480,breast cancer
+6240,tariquidar,167000,ovarian cancer
+6240,tariquidar,211980,lung cancer
+6241,clenoliximab,180300,rheumatoid arthritis
+6246,exisulind,176807,prostate cancer
+6246,exisulind,211980,lung cancer
+6247,cx516,181500,schizophrenia
+6247,cx516,209850,autism
+6248,amelubant,180300,rheumatoid arthritis
+6248,amelubant,219700,cystic fibrosis
+6248,amelubant,586,cystic fibrosis
+6249,arzoxifene,114480,breast cancer
+6249,arzoxifene,166710,osteoporosis
+6249,arzoxifene,608089,endometrial cancer
+6250,fluasterone,601665,obesity
+6255,incadronic acid,114480,breast cancer
+6255,incadronic acid,166710,osteoporosis
+6255,incadronic acid,29073,multiple myeloma
+6262,droxidopa,102,multiple system atrophy
+6262,droxidopa,441,pure autonomic failure
+6263,amrubicin,211980,lung cancer
+6268,sitaxentan,182090,pulmonary arterial hypertension
+6273,tocilizumab,180300,rheumatoid arthritis
+6273,tocilizumab,397,giant cell arteritis
+6273,tocilizumab,92,juvenile idiopathic arthritis
+6276,tanomastat,165720,osteoarthritis
+6276,tanomastat,167000,ovarian cancer
+6276,tanomastat,211980,lung cancer
+6276,tanomastat,260350,pancreatic cancer
+6285,teriparatide,166710,osteoporosis
+6287,temsirolimus,114480,breast cancer
+6287,temsirolimus,180300,rheumatoid arthritis
+6287,temsirolimus,29073,multiple myeloma
+6288,amisulpride,181500,schizophrenia
+6290,simeprevir,114550,hepatocellular carcinoma
+6290,simeprevir,88673,hepatocellular carcinoma
+6297,lx-2931,109100,autoimmune disease
+6297,lx-2931,180300,rheumatoid arthritis
+6317,elotuzumab,29073,multiple myeloma
+6326,latiglutenase,109100,autoimmune disease
+6333,trodusquemine,601665,obesity
+6358,iclaprim,601665,obesity
+6360,lucatumumab,29073,multiple myeloma
+6361,rspsma vaccine,176807,prostate cancer
+6365,sapacitabine,211750,c syndrome
+6365,sapacitabine,1308,c syndrome
+6366,pertuzumab,114480,breast cancer
+6367,relacatib,166710,osteoporosis
+6370,indisulam,211980,lung cancer
+6371,siplizumab,39812,graft versus host disease
+6372,rilonacept,211750,c syndrome
+6372,rilonacept,1308,c syndrome
+6372,rilonacept,575,muckle-wells syndrome
+6372,rilonacept,901,wells syndrome
+6393,xaliproden,803,amyotrophic lateral sclerosis
+6399,atacicept,109100,autoimmune disease
+6399,atacicept,180300,rheumatoid arthritis
+6399,atacicept,29073,multiple myeloma
+6400,vitespen,114500,colorectal cancer
+6401,bazedoxifene,166710,osteoporosis
+6403,ambrisentan,182090,pulmonary arterial hypertension
+6404,human c1-esterase inhibitor,91378,hereditary angioedema
+6412,oxymetholone,166710,osteoporosis
+6413,armodafinil,181500,schizophrenia
+6414,etravirine,160750,myositis
+6414,etravirine,310465,n syndrome
+6414,etravirine,2608,n syndrome
+6414,etravirine,36426,stevens-johnson syndrome
+6414,etravirine,537,toxic epidermal necrolysis
+6414,etravirine,732,polymyositis
+6419,cethromycin,247257,inhalational anthrax
+6420,annamycin,114480,breast cancer
+6421,declopramide,114500,colorectal cancer
+6422,ticalopride,109350,gastroesophageal reflux
+6429,talnetant,181500,schizophrenia
+6433,tezacitabine,114500,colorectal cancer
+6433,tezacitabine,211980,lung cancer
+6436,semaxanib,114500,colorectal cancer
+6436,semaxanib,211980,lung cancer
+6439,tyloxapol,219700,cystic fibrosis
+6439,tyloxapol,586,cystic fibrosis
+6445,diethylnorspermine,211980,lung cancer
+6445,diethylnorspermine,260350,pancreatic cancer
+6448,lonafarnib,211980,lung cancer
+6449,ilodecakin,180300,rheumatoid arthritis
+6451,aprinocarsen,211980,lung cancer
+6453,mirostipen,114480,breast cancer
+6453,mirostipen,167000,ovarian cancer
+6453,mirostipen,211980,lung cancer
+6454,sarizotan,181500,schizophrenia
+6455,meclinertant,114500,colorectal cancer
+6455,meclinertant,176807,prostate cancer
+6455,meclinertant,181500,schizophrenia
+6455,meclinertant,211980,lung cancer
+6461,squalamine,167000,ovarian cancer
+6461,squalamine,211980,lung cancer
+6469,lestaurtinib,176807,prostate cancer
+6469,lestaurtinib,260350,pancreatic cancer
+6486,enzastaurin,211980,lung cancer
+6486,enzastaurin,360,glioblastoma
+6492,mirococept,180300,rheumatoid arthritis
+6515,resiniferatoxin,37202,interstitial cystitis
+6532,pafuramidine,673,malaria
+6545,gavilimomab,39812,graft versus host disease
+6548,minodronic acid,114480,breast cancer
+6548,minodronic acid,166710,osteoporosis
+6548,minodronic acid,211980,lung cancer
+6548,minodronic acid,29073,multiple myeloma
+6573,rebimastat,176807,prostate cancer
+6573,rebimastat,211980,lung cancer
+6576,baminercept,180300,rheumatoid arthritis
+6586,cetilistat,601665,obesity
+6595,midostaurin,2467,systemic mastocytosis
+6595,midostaurin,98292,mastocytosis
+6603,panobinostat,29073,multiple myeloma
+6608,tafenoquine,673,malaria
+6611,pegsunercept,180300,rheumatoid arthritis
+6624,taranabant,601665,obesity
+6629,zibotentan,176807,prostate cancer
+6641,perifosine,211980,lung cancer
+6641,perifosine,29073,multiple myeloma
+6643,denosumab,114480,breast cancer
+6643,denosumab,166710,osteoporosis
+6643,denosumab,176807,prostate cancer
+6647,volociximab,167000,ovarian cancer
+6647,volociximab,211980,lung cancer
+6647,volociximab,260350,pancreatic cancer
+6670,odanacatib,166710,osteoporosis
+6674,golimumab,180300,rheumatoid arthritis
+6681,belatacept,180300,rheumatoid arthritis
+6682,naproxcinod,165720,osteoarthritis
+6688,sipuleucel-t,176807,prostate cancer
+6697,artemether,673,malaria
+6699,degarelix,176807,prostate cancer
+6704,iobenguane,171300,pheochromocytoma
+6704,iobenguane,635,neuroblastoma
+6708,lumefantrine,673,malaria
+6710,methyltestosterone,114480,breast cancer
+6713,norelgestromin,114480,breast cancer
+6718,stanozolol,91378,hereditary angioedema
+6719,buserelin,114480,breast cancer
+6719,buserelin,176807,prostate cancer
+6720,velaglucerase alfa,355,gaucher disease
+6736,aceclofenac,165720,osteoarthritis
+6736,aceclofenac,180300,rheumatoid arthritis
+6740,bw-a 58c,673,malaria
+6754,danaparoid,3325,heparin-induced thrombocytopenia
+6755,beta carotene,738,porphyria
+6756,glycine betaine,214,cystinuria
+6768,ammonium lactate,146700,ichthyosis vulgaris
+6769,bendamustine,98293,hodgkin lymphoma
+6772,cabazitaxel,176807,prostate cancer
+6775,carglumic acid,237310,n-acetylglutamate synthase deficiency
+6782,dimercaprol,330021,mercury poisoning
+6788,histrelin,176807,prostate cancer
+6788,histrelin,759,central precocious puberty
+6791,lanreotide,100093,carcinoid syndrome
+6791,lanreotide,963,acromegaly
+6794,lodoxamide,70476,vernal keratoconjunctivitis
+6796,mangafodipir,114550,hepatocellular carcinoma
+6796,mangafodipir,88673,hepatocellular carcinoma
+6809,plerixafor,29073,multiple myeloma
+6809,plerixafor,98293,hodgkin lymphoma
+6811,polidocanol,192200,varicose veins
+6823,tiopronin,214,cystinuria
+6825,triptorelin,176807,prostate cancer
+6827,viomycin,3389,tuberculosis
+7941,ph-797804,165720,osteoarthritis
+8079,amg-208,176807,prostate cancer
+8804,nandrolone decanoate,91378,hereditary angioedema
+8810,cinitapride,109350,gastroesophageal reflux
+8815,lurasidone,181500,schizophrenia
+8818,hyaluronic acid,165720,osteoarthritis
+8818,hyaluronic acid,37202,interstitial cystitis
+8820,ivacaftor,219700,cystic fibrosis
+8820,ivacaftor,586,cystic fibrosis
+8824,ioflupane i-123,310465,n syndrome
+8824,ioflupane i-123,2608,n syndrome
+8827,lomitapide,391665,homozygous familial hypercholesterolemia
+8834,tauroursodeoxycholic acid,219700,cystic fibrosis
+8834,tauroursodeoxycholic acid,586,cystic fibrosis
+8834,tauroursodeoxycholic acid,69,amyloidosis
+8834,tauroursodeoxycholic acid,803,amyotrophic lateral sclerosis
+8838,agmatine,181500,schizophrenia
+8842,acetylcarnitine,683,progressive supranuclear palsy
+8845,oxogluric acid,606054,propionic acidemia
+8845,oxogluric acid,35,propionic acidemia
+8846,ellagic acid,150900,lentigines
+8846,ellagic acid,613024,follicular lymphoma
+8846,ellagic acid,545,follicular lymphoma
+8865,crizotinib,211980,lung cancer
+8870,brentuximab vedotin,217260,progressive multifocal leukoencephalopathy
+8870,brentuximab vedotin,98293,hodgkin lymphoma
+8871,eribulin,114480,breast cancer
+8873,boceprevir,114550,hepatocellular carcinoma
+8873,boceprevir,88673,hepatocellular carcinoma
+8876,taliglucerase alfa,355,gaucher disease
+8877,ruxolitinib,3318,essential thrombocythemia
+8877,ruxolitinib,729,polycythemia vera
+8877,ruxolitinib,824,primary myelofibrosis
+8878,aminopterin,310465,n syndrome
+8878,aminopterin,2608,n syndrome
+8881,vemurafenib,35687,erdheim-chester disease
+8885,aflibercept,114500,colorectal cancer
+8889,carfilzomib,29073,multiple myeloma
+8891,arbaclofen,109350,gastroesophageal reflux
+8891,arbaclofen,209850,autism
+8891,arbaclofen,908,fragile x syndrome
+8895,tofacitinib,180300,rheumatoid arthritis
+8896,regorafenib,114500,colorectal cancer
+8896,regorafenib,114550,hepatocellular carcinoma
+8896,regorafenib,44890,gastrointestinal stromal tumor
+8896,regorafenib,88673,hepatocellular carcinoma
+8899,enzalutamide,176807,prostate cancer
+8901,ponatinib,521,chronic myeloid leukemia
+8902,raxibacumab,247257,inhalational anthrax
+8903,bedaquiline,3389,tuberculosis
+8904,certolizumab pegol,180300,rheumatoid arthritis
+8905,formestane,114480,breast cancer
+8910,pomalidomide,29073,multiple myeloma
+8913,radium ra 223 dichloride,176807,prostate cancer
+8916,afatinib,211980,lung cancer
+8922,perospirone,181500,schizophrenia
+8926,acediasulfone,673,malaria
+8927,amperozide,181500,schizophrenia
+8931,riociguat,182090,pulmonary arterial hypertension
+8931,riociguat,70591,chronic thromboembolic pulmonary hypertension
+8932,macitentan,182090,pulmonary arterial hypertension
+8934,sofosbuvir,114550,hepatocellular carcinoma
+8934,sofosbuvir,88673,hepatocellular carcinoma
+8935,obinutuzumab,217260,progressive multifocal leukoencephalopathy
+8937,tas-102,114500,colorectal cancer
+8938,magaldrate,109350,gastroesophageal reflux
+8981,fenbufen,165720,osteoarthritis
+9000,cyamemazine,181500,schizophrenia
+9003,clocapramine,181500,schizophrenia
+9004,clobutinol,115000,cardiac arrhythmia
+9010,carmofur,114500,colorectal cancer
+9011,beclamide,211750,c syndrome
+9011,beclamide,272620,tardive dyskinesia
+9011,beclamide,1308,c syndrome
+9018,bromopride,109350,gastroesophageal reflux
+9027,ledipasvir,114550,hepatocellular carcinoma
+9027,ledipasvir,88673,hepatocellular carcinoma
+9029,secukinumab,180300,rheumatoid arthritis
+9031,miltefosine,507,leishmaniasis
+9037,pembrolizumab,114500,colorectal cancer
+9037,pembrolizumab,211980,lung cancer
+9037,pembrolizumab,98293,hodgkin lymphoma
+9039,eliglustat,355,gaucher disease
+9045,dulaglutide,1332,medullary thyroid carcinoma
+9046,metreleptin,79086,acquired generalized lipodystrophy
+9053,ibrutinib,39812,graft versus host disease
+9053,ibrutinib,52416,mantle cell lymphoma
+9053,ibrutinib,98293,hodgkin lymphoma
+9053,ibrutinib,99921,chronic graft versus host disease
+9054,idelalisib,98293,hodgkin lymphoma
+9057,anthrax immune globulin human,247257,inhalational anthrax
+9061,cannabidiol,2382,lennox-gastaut syndrome
+9061,cannabidiol,33069,dravet syndrome
+9063,ceritinib,211980,lung cancer
+9067,corticorelin ovine triflutate,168569,h syndrome
+9070,tibolone,166710,osteoporosis
+9073,palbociclib,114480,breast cancer
+9073,palbociclib,790,retinoblastoma
+9074,olaparib,114480,breast cancer
+9074,olaparib,167000,ovarian cancer
+9077,dinutuximab,635,neuroblastoma
+9079,nintedanib,2032,idiopathic pulmonary fibrosis
+9097,quinagolide,166710,osteoporosis
+9098,somatrem,881,turner syndrome
+9099,somatostatin,114480,breast cancer
+9099,somatostatin,211980,lung cancer
+9099,somatostatin,963,acromegaly
+9100,"thyroid, porcine",601665,obesity
+9102,daclatasvir,114550,hepatocellular carcinoma
+9102,daclatasvir,88673,hepatocellular carcinoma
+9105,asfotase alfa,436,hypophosphatasia
+9108,simoctocog alfa,134500,factor viii deficiency
+9109,turoctocog alfa,306700,hemophilia a
+9109,turoctocog alfa,98878,hemophilia a
+9118,stiripentol,33069,dravet syndrome
+9120,zucapsaicin,165720,osteoarthritis
+9121,aurothioglucose,180300,rheumatoid arthritis
+9128,brexpiprazole,181500,schizophrenia
+9136,isosulfan blue,1160,chylous ascites
+9138,technetium tc-99m medronate,166710,osteoporosis
+9139,technetium tc-99m oxidronate,166710,osteoporosis
+9144,uridine triacetate,258900,orotic aciduria
+9144,uridine triacetate,30,hereditary orotic aciduria
+9165,technetium tc-99m pyrophosphate,69,amyloidosis
+9183,dasabuvir,114550,hepatocellular carcinoma
+9183,dasabuvir,88673,hepatocellular carcinoma
+9186,nisoxetine,601665,obesity
+9201,ciglitazone,310465,n syndrome
+9201,ciglitazone,608115,ovarian hyperstimulation syndrome
+9201,ciglitazone,2608,n syndrome
+9201,ciglitazone,64739,ovarian hyperstimulation syndrome
+9210,piracetam,603903,sickle cell anemia
+9210,piracetam,232,sickle cell anemia
+9211,limaprost,115430,carpal tunnel syndrome
+9213,dexibuprofen,165720,osteoarthritis
+9213,dexibuprofen,180300,rheumatoid arthritis
+9215,droxicam,165720,osteoarthritis
+9215,droxicam,180300,rheumatoid arthritis
+9222,fibrinogen human,335,congenital fibrinogen deficiency
+9223,blonanserin,181500,schizophrenia
+9224,melperone,181500,schizophrenia
+9225,zotepine,181500,schizophrenia
+9226,rp5063,181500,schizophrenia
+9226,rp5063,209850,autism
+9228,conestat alfa,91378,hereditary angioedema
+9241,methylene blue,673,malaria
+9244,pirlindole,310465,n syndrome
+9244,pirlindole,2608,n syndrome
+9250,pheniprazine,181500,schizophrenia
+9256,tegafur,114500,colorectal cancer
+9266,technetium tc-99m tilmanocept,114480,breast cancer
+9267,strontium ranelate,165720,osteoarthritis
+9267,strontium ranelate,166710,osteoporosis
+9274,artesunate,673,malaria
+9276,sodium aurothiomalate,180300,rheumatoid arthritis
+9277,choline c 11,176807,prostate cancer
+9280,lumacaftor,219700,cystic fibrosis
+9280,lumacaftor,586,cystic fibrosis
+9286,pipamperone,181500,schizophrenia
+9295,talniflumate,165720,osteoarthritis
+9295,talniflumate,180300,rheumatoid arthritis
+9295,talniflumate,219700,cystic fibrosis
+9295,talniflumate,586,cystic fibrosis
+9296,ombitasvir,114550,hepatocellular carcinoma
+9296,ombitasvir,88673,hepatocellular carcinoma
+9297,paritaprevir,114550,hepatocellular carcinoma
+9297,paritaprevir,88673,hepatocellular carcinoma
+9301,chondroitin sulfate,165720,osteoarthritis
+9303,evolocumab,391665,homozygous familial hypercholesterolemia
+9323,benzathine benzylpenicillin,3099,rheumatic fever
+9323,benzathine benzylpenicillin,3299,tetanus
+9323,benzathine benzylpenicillin,509,leptospirosis
+9327,tegafur-uracil,114500,colorectal cancer
+9329,"antihemophilic factor (recombinant), pegylated",134500,factor viii deficiency
+9329,"antihemophilic factor (recombinant), pegylated",306700,hemophilia a
+9329,"antihemophilic factor (recombinant), pegylated",903,von willebrand disease
+9329,"antihemophilic factor (recombinant), pegylated",98878,hemophilia a
+9330,osimertinib,211980,lung cancer
+9331,daratumumab,29073,multiple myeloma
+9332,kappadione,219700,cystic fibrosis
+9332,kappadione,586,cystic fibrosis
+9336,technetium tc-99m nofetumomab merpentan,211980,lung cancer
+9343,tipiracil,114500,colorectal cancer
+9363,rauwolfia serpentina root,181500,schizophrenia
+9381,"estrogens, esterified",114480,breast cancer
+9381,"estrogens, esterified",166710,osteoporosis
+9381,"estrogens, esterified",176807,prostate cancer
+9397,technetium tc-99m sulfur colloid,109350,gastroesophageal reflux
+9397,technetium tc-99m sulfur colloid,114480,breast cancer
+9418,potassium perchlorate,211750,c syndrome
+9418,potassium perchlorate,1308,c syndrome
+9421,protirelin,963,acromegaly
+9498,strontium chloride sr-89,114480,breast cancer
+9498,strontium chloride sr-89,176807,prostate cancer
+9511,talc,608089,endometrial cancer
+9516,mequinol,150900,lentigines
+9526,hydroquinone,550,melas
+9546,iobenguane sulfate i-123,171300,pheochromocytoma
+9546,iobenguane sulfate i-123,635,neuroblastoma
+9559,necitumumab,211980,lung cancer
+9563,choline c-11,176807,prostate cancer
+9568,omega-3-carboxylic acids,211750,c syndrome
+9568,omega-3-carboxylic acids,601665,obesity
+9568,omega-3-carboxylic acids,1308,c syndrome
+9570,ixazomib,29073,multiple myeloma
+10076,haemophilus influenzae type b strain 1482 capsular polysaccharide tetanus toxoid conjugate antigen,3299,tetanus
+10283,"rabies virus inactivated antigen, a",770,rabies
+10343,bacillus calmette-guerin substrain tice live antigen,3389,tuberculosis
+10583,clostridium tetani toxoid antigen (formaldehyde inactivated),3299,tetanus
+10795,poliovirus type 1 antigen (formaldehyde inactivated),2912,poliomyelitis
+10796,poliovirus type 2 antigen (formaldehyde inactivated),2912,poliomyelitis
+10797,poliovirus type 3 antigen (formaldehyde inactivated),2912,poliomyelitis
+10803,salmonella typhi ty2 vi polysaccharide antigen,99745,typhoid
+10805,yellow fever vaccine,99829,yellow fever
+10990,haemophilus influenzae type b strain 20752 capsular polysaccharide tetanus toxoid conjugate antigen,3299,tetanus
+10997,autologous cultured chondrocytes,165720,osteoarthritis
+11050,salmonella typhi ty21a live antigen,99745,typhoid
+11054,human cord blood hematopoietic progenitor cell,227650,fanconi anemia
+11054,human cord blood hematopoietic progenitor cell,39812,graft versus host disease
+11054,human cord blood hematopoietic progenitor cell,84,fanconi anemia
+11126,calcium gluconate,166710,osteoporosis
+11168,calcium threonate,166710,osteoporosis
+11182,rose bengal,114480,breast cancer
+11198,peppermint oil,109350,gastroesophageal reflux
+11217,arbutin,150900,lentigines
+11217,arbutin,550,melas
+11242,gelatin,165720,osteoarthritis
+11242,gelatin,166710,osteoporosis
+11242,gelatin,180300,rheumatoid arthritis
+11248,zinc gluconate,301700,anosmia
+11251,tocopherol,200100,abetalipoproteinemia
+11251,tocopherol,14,abetalipoproteinemia
+11263,polydatin,114500,colorectal cancer
+11268,protocatechualdehyde,114480,breast cancer
+11268,protocatechualdehyde,114500,colorectal cancer
+11282,diethyltoluamide,673,malaria
+11282,diethyltoluamide,91546,lyme disease
+11321,cod liver oil,166710,osteoporosis
+11328,tetradecyl hydrogen sulfate (ester),192200,varicose veins
+11330,factor ix complex (human),306900,hemophilia b
+11330,factor ix complex (human),98879,hemophilia b
+11359,guaiacol,171300,pheochromocytoma
+11359,guaiacol,635,neuroblastoma
+11362,selexipag,182090,pulmonary arterial hypertension
+11363,alectinib,211980,lung cancer
+11366,roquinimex,109100,autoimmune disease
+11563,sebelipase alfa,278000,lysosomal acid lipase deficiency
+11563,sebelipase alfa,275761,lysosomal acid lipase deficiency
+11569,ixekizumab,109100,autoimmune disease
+11569,ixekizumab,180300,rheumatoid arthritis
+11574,elbasvir,114550,hepatocellular carcinoma
+11574,elbasvir,88673,hepatocellular carcinoma
+11575,grazoprevir,114550,hepatocellular carcinoma
+11575,grazoprevir,88673,hepatocellular carcinoma
+11584,pipradrol,601665,obesity
+11588,carbon monoxide,211980,lung cancer
+11588,carbon monoxide,219700,cystic fibrosis
+11588,carbon monoxide,586,cystic fibrosis
+11595,atezolizumab,109100,autoimmune disease
+11596,levoleucovorin,114500,colorectal cancer
+11596,levoleucovorin,668,osteosarcoma
+11597,human rho(d) immune globulin,3002,immune thrombocytopenic purpura
+11601,tuberculin purified protein derivative,3389,tuberculosis
+11603,human rabies virus immune globulin,770,rabies
+11604,tetanus immune globulin,3299,tetanus
+11606,susoctocog alfa,306700,hemophilia a
+11606,susoctocog alfa,73274,acquired hemophilia
+11606,susoctocog alfa,98878,hemophilia a
+11607,efmoroctocog alfa,134500,factor viii deficiency
+11608,eftrenonacog alfa,306900,hemophilia b
+11608,eftrenonacog alfa,98879,hemophilia b
+11613,velpatasvir,114550,hepatocellular carcinoma
+11613,velpatasvir,88673,hepatocellular carcinoma
+11627,hepatitis b vaccine (recombinant),114550,hepatocellular carcinoma
+11627,hepatitis b vaccine (recombinant),88673,hepatocellular carcinoma
+11632,opicapone,116790,catechol-o-methyltransferase
+11637,delamanid,3389,tuberculosis
+11638,artenimol,673,malaria
+11640,amifampridine,211750,c syndrome
+11640,amifampridine,211980,lung cancer
+11640,amifampridine,1308,c syndrome
+11640,amifampridine,43393,lambert-eaton myasthenic syndrome
+11644,tafamidis,69,amyloidosis
+11647,incyclinide,33276,kaposi sarcoma
+11651,dactolisib,114480,breast cancer
+11651,dactolisib,310465,n syndrome
+11651,dactolisib,201,cowden syndrome
+11651,dactolisib,2608,n syndrome
+11652,tucatinib,114480,breast cancer
+11657,tabalumab,109100,autoimmune disease
+11657,tabalumab,180300,rheumatoid arthritis
+11662,rabusertib,211980,lung cancer
+11663,pictilisib,114480,breast cancer
+11665,bms-690514,114480,breast cancer
+11666,buparlisib,114480,breast cancer
+11666,buparlisib,211980,lung cancer
+11667,2'-cyano-2'-deoxy-1-(beta-d-arabinofuranosyl)cytosine,114500,colorectal cancer
+11669,ortataxel,211980,lung cancer
+11669,ortataxel,360,glioblastoma
+11672,curcumin,114480,breast cancer
+11672,curcumin,176807,prostate cancer
+11672,curcumin,181500,schizophrenia
+11672,curcumin,211980,lung cancer
+11672,curcumin,29073,multiple myeloma
+11674,equol,114480,breast cancer
+11675,mosapride,310465,n syndrome
+11675,mosapride,2608,n syndrome
+11677,triheptanoin,206583,adult polyglucosan body disease
+11679,fruquintinib,114500,colorectal cancer
+11680,ficlatuzumab,211980,lung cancer
+11684,apr-246,167000,ovarian cancer
+11685,figitumumab,114480,breast cancer
+11688,2-chloroethyl-3-sarcosinamide-1-nitrosourea,114500,colorectal cancer
+11689,selumetinib,114480,breast cancer
+11689,selumetinib,211980,lung cancer
+11692,azd-2624,181500,schizophrenia
+11702,antineoplaston a10,211980,lung cancer
+11703,acalabrutinib,167000,ovarian cancer
+11703,acalabrutinib,29073,multiple myeloma
+11703,acalabrutinib,52416,mantle cell lymphoma
+11703,acalabrutinib,98293,hodgkin lymphoma
+11708,peficitinib,180300,rheumatoid arthritis
+11712,tezacaftor,219700,cystic fibrosis
+11712,tezacaftor,586,cystic fibrosis
+11717,epacadostat,360,glioblastoma
+11718,encorafenib,114500,colorectal cancer
+11724,bombesin,176807,prostate cancer
+11726,encenicline,181500,schizophrenia
+11727,endostar,161550,nasopharyngeal carcinoma
+11727,endostar,211980,lung cancer
+11731,depatuxizumab mafodotin,360,glioblastoma
+11735,galactose,167000,ovarian cancer
+11737,icotinib,211980,lung cancer
+11740,mk-1775,167000,ovarian cancer
+11740,mk-1775,360,glioblastoma
+11741,famitinib,114500,colorectal cancer
+11743,ipatasertib,114480,breast cancer
+11745,otenabant,601665,obesity
+11746,onartuzumab,114500,colorectal cancer
+11746,onartuzumab,211980,lung cancer
+11746,onartuzumab,360,glioblastoma
+11750,clobetasol,801,scleroderma
+11754,lirilumab,29073,multiple myeloma
+11755,tetrahydrocannabivarin,181500,schizophrenia
+11759,pevonedistat,29073,multiple myeloma
+11759,pevonedistat,98293,hodgkin lymphoma
+11762,marizomib,360,glioblastoma
+11763,momelotinib,3318,essential thrombocythemia
+11763,momelotinib,729,polycythemia vera
+11763,momelotinib,824,primary myelofibrosis
+11764,spebrutinib,180300,rheumatoid arthritis
+11767,sarilumab,180300,rheumatoid arthritis
+11769,funapide,165720,osteoarthritis
+11771,tremelimumab,114550,hepatocellular carcinoma
+11771,tremelimumab,88673,hepatocellular carcinoma
+11772,pilaralisib,114480,breast cancer
+11772,pilaralisib,360,glioblastoma
+11776,brodalumab,180300,rheumatoid arthritis
+11780,allicin,613024,follicular lymphoma
+11780,allicin,545,follicular lymphoma
+11781,tosedostat,260350,pancreatic cancer
+11781,tosedostat,29073,multiple myeloma
+11782,birinapant,211750,c syndrome
+11782,birinapant,1308,c syndrome
+11784,nrx-1074,181500,schizophrenia
+11787,ralimetinib,114480,breast cancer
+11787,ralimetinib,360,glioblastoma
+11791,capmatinib,114500,colorectal cancer
+11793,niraparib,167000,ovarian cancer
+11797,aceneuramic acid,599,distal myopathy
+11800,tivozanib,167000,ovarian cancer
+11800,tivozanib,176807,prostate cancer
+11800,tivozanib,360,glioblastoma
+11803,sirukumab,397,giant cell arteritis
+11804,azd-5672,180300,rheumatoid arthritis
+11805,saracatinib,167000,ovarian cancer
+11805,saracatinib,668,osteosarcoma
+11806,vtp-194204,211980,lung cancer
+11809,artefenomel,673,malaria
+11810,etarfolatide,211980,lung cancer
+11813,mipsagargin,114550,hepatocellular carcinoma
+11813,mipsagargin,176807,prostate cancer
+11813,mipsagargin,360,glioblastoma
+11813,mipsagargin,88673,hepatocellular carcinoma
+11815,tilarginine,601665,obesity
+11817,baricitinib,109100,autoimmune disease
+11817,baricitinib,180300,rheumatoid arthritis
+11827,ertugliflozin,601665,obesity
+11828,neratinib,114480,breast cancer
+11830,mocetinostat,211750,c syndrome
+11830,mocetinostat,1308,c syndrome
+11833,basimglurant,908,fragile x syndrome
+11835,indium in-111 pentetreotide,553,cushing syndrome
+11835,indium in-111 pentetreotide,797,sarcoidosis
+11836,sapanisertib,360,glioblastoma
+11838,revamilast,180300,rheumatoid arthritis
+11840,dalotuzumab,114480,breast cancer
+11840,dalotuzumab,114500,colorectal cancer
+11840,dalotuzumab,211980,lung cancer
+11841,entinostat,114480,breast cancer
+11841,entinostat,211980,lung cancer
+11843,pf-04958242,181500,schizophrenia
+11846,creatinine,803,amyotrophic lateral sclerosis
+11849,emibetuzumab,211980,lung cancer
+11850,ublituximab,52416,mantle cell lymphoma
+11850,ublituximab,71211,neuromyelitis optica
+11851,bafetinib,360,glioblastoma
+11851,bafetinib,521,chronic myeloid leukemia
+11853,relugolix,176807,prostate cancer
+11857,seribantumab,114500,colorectal cancer
+11860,aramchol,211750,c syndrome
+11860,aramchol,1308,c syndrome
+11861,litronesib,167000,ovarian cancer
+11861,litronesib,176807,prostate cancer
+11862,landogrozumab,260350,pancreatic cancer
+11865,brivanib alaninate,114500,colorectal cancer
+11866,romosozumab,166710,osteoporosis
+11867,jnj-39393406,181500,schizophrenia
+11869,valspodar,114480,breast cancer
+11870,rg-4733,668,osteosarcoma
+11874,crocin,211750,c syndrome
+11874,crocin,1308,c syndrome
+11875,"3,3'-diindolylmethane",176807,prostate cancer
+11877,basmisanil,310465,n syndrome
+11877,basmisanil,2608,n syndrome
+11877,basmisanil,870,down syndrome
+11880,acridine carboxamide,211980,lung cancer
+11881,auy922,114480,breast cancer
+11884,vadastuximab talirine,211750,c syndrome
+11884,vadastuximab talirine,1308,c syndrome
+11884,vadastuximab talirine,520,acute promyelocytic leukemia
+11885,anlotinib,114500,colorectal cancer
+11885,anlotinib,211980,lung cancer
+11890,cilengitide,211980,lung cancer
+11891,cudc-907,114480,breast cancer
+11891,cudc-907,29073,multiple myeloma
+11891,cudc-907,443167,nut midline carcinoma
+11893,avagacestat,104300,alzheimer disease
+11894,efatutazone,29073,multiple myeloma
+11894,efatutazone,69078,liposarcoma
+11896,gedatolisib,114480,breast cancer
+11896,gedatolisib,608089,endometrial cancer
+11901,apalutamide,176807,prostate cancer
+11903,gw842166,165720,osteoarthritis
+11905,sutezolid,3389,tuberculosis
+11907,rociletinib,211980,lung cancer
+11910,mk-0249,181500,schizophrenia
+11911,galunisertib,176807,prostate cancer
+11911,galunisertib,360,glioblastoma
+11913,ly-2090314,260350,pancreatic cancer
+11914,lebrikizumab,2032,idiopathic pulmonary fibrosis
+11915,valbenazine,272620,tardive dyskinesia
+11917,vatiquinone,214,cystinuria
+11917,vatiquinone,778,rett syndrome
+11918,guadecitabine,114500,colorectal cancer
+11919,6-o-benzylguanine,360,glioblastoma
+11919,6-o-benzylguanine,98293,hodgkin lymphoma
+11921,deflazacort,98896,duchenne muscular dystrophy
+11928,vosoritide,15,achondroplasia
+11930,varlilumab,52416,mantle cell lymphoma
+11940,triapine,176807,prostate cancer
+11940,triapine,211980,lung cancer
+11940,triapine,260350,pancreatic cancer
+11941,tasisulam,114480,breast cancer
+11941,tasisulam,167000,ovarian cancer
+11952,duvelisib,613024,follicular lymphoma
+11952,duvelisib,545,follicular lymphoma
+11956,delanzomib,29073,multiple myeloma
+11957,idalopirdine,181500,schizophrenia
+11958,brivanib,114500,colorectal cancer
+11958,brivanib,114550,hepatocellular carcinoma
+11958,brivanib,88673,hepatocellular carcinoma
+11960,carboxyamidotriazole,114480,breast cancer
+11960,carboxyamidotriazole,167000,ovarian cancer
+11960,carboxyamidotriazole,211980,lung cancer
+11961,azd-1236,219700,cystic fibrosis
+11961,azd-1236,586,cystic fibrosis
+11962,gsk-1059615,114480,breast cancer
+11962,gsk-1059615,608089,endometrial cancer
+11963,dacomitinib,211980,lung cancer
+11965,sjg-136,211750,c syndrome
+11965,sjg-136,1308,c syndrome
+11970,burixafor,29073,multiple myeloma
+11972,rilotumumab,176807,prostate cancer
+11972,rilotumumab,211980,lung cancer
+11973,tesevatinib,133239,esophageal cancer
+11973,tesevatinib,176807,prostate cancer
+11974,pf-04691502,114480,breast cancer
+11975,tak-448,176807,prostate cancer
+11976,anifrolumab,801,scleroderma
+11983,placulumab,180300,rheumatoid arthritis
+11986,entrectinib,635,neuroblastoma
+11988,ocrelizumab,109100,autoimmune disease
+11991,oprozomib,114550,hepatocellular carcinoma
+11991,oprozomib,29073,multiple myeloma
+11991,oprozomib,88673,hepatocellular carcinoma
+11993,pf-03463275,181500,schizophrenia
+11994,diacerein,165720,osteoarthritis
+11996,thymopentin,114550,hepatocellular carcinoma
+11996,thymopentin,88673,hepatocellular carcinoma
+11997,interleukin-7,114480,breast cancer
+12001,abemaciclib,114480,breast cancer
+12001,abemaciclib,360,glioblastoma
+12005,nirogacestat,114480,breast cancer
+12005,nirogacestat,873,desmoid tumor
+12007,isoflavone,176807,prostate cancer
+12008,prexasertib,114480,breast cancer
+12008,prexasertib,167000,ovarian cancer
+12010,fostamatinib,180300,rheumatoid arthritis
+12010,fostamatinib,3002,immune thrombocytopenic purpura
+12014,ozoralizumab,180300,rheumatoid arthritis
+12015,alpelisib,114480,breast cancer
+12019,tesetaxel,176807,prostate cancer
+12028,broxuridine,176807,prostate cancer
+12036,naquotinib,211980,lung cancer
+12047,ganetespib,114480,breast cancer
+12047,ganetespib,211750,c syndrome
+12047,ganetespib,211980,lung cancer
+12047,ganetespib,1308,c syndrome
+12048,savolitinib,114500,colorectal cancer
+12049,dasolampanel etibutil,256870,"neuropathy, painful"
+12050,ly-3039478,114480,breast cancer
+12056,trebananib,167000,ovarian cancer
+12059,jnj-40411813,181500,schizophrenia
+12060,rrx-001,615619,cholangiocarcinoma
+12060,rrx-001,70567,cholangiocarcinoma
+12062,volasertib,211750,c syndrome
+12062,volasertib,1308,c syndrome
+12066,orteronel,176807,prostate cancer
+12071,vabicaserin,181500,schizophrenia
+12072,orantinib,114480,breast cancer
+12072,orantinib,176807,prostate cancer
+12072,orantinib,211980,lung cancer
+12077,urelumab,29073,multiple myeloma
+12078,enobosarm,114480,breast cancer
+12085,lcl-161,114480,breast cancer
+12085,lcl-161,167000,ovarian cancer
+12089,lorvotuzumab mertansine,167000,ovarian cancer
+12089,lorvotuzumab mertansine,29073,multiple myeloma
+12090,patritumab,211980,lung cancer
+12093,tetrahydropalmatine,181500,schizophrenia
+12095,telotristat ethyl,100093,carcinoid syndrome
+12098,l-baclofen,221091,trigeminal neuralgia
+12104,tarextumab,211980,lung cancer
+12104,tarextumab,260350,pancreatic cancer
+12108,taselisib,114480,breast cancer
+12108,taselisib,167000,ovarian cancer
+12109,cpi-613,260350,pancreatic cancer
+12112,zuretinol acetate,268000,retinitis pigmentosa
+12112,zuretinol acetate,65,leber congenital amaurosis
+12112,zuretinol acetate,791,retinitis pigmentosa
+12113,ce-224535,165720,osteoarthritis
+12114,poziotinib,114480,breast cancer
+12117,mitometh,155255,medulloblastoma
+12117,mitometh,161550,nasopharyngeal carcinoma
+12117,mitometh,211980,lung cancer
+12117,mitometh,616,medulloblastoma
+12118,sotatercept,109800,bladder cancer
+12118,sotatercept,29073,multiple myeloma
+12119,gevokizumab,165720,osteoarthritis
+12119,gevokizumab,48104,pyoderma gangrenosum
+12120,avoralstat,91378,hereditary angioedema
+12121,entospletinib,613024,follicular lymphoma
+12121,entospletinib,52416,mantle cell lymphoma
+12121,entospletinib,545,follicular lymphoma
+12121,entospletinib,98293,hodgkin lymphoma
+12129,tideglusib,104300,alzheimer disease
+12129,tideglusib,683,progressive supranuclear palsy
+12130,lorlatinib,211980,lung cancer
+12132,vanutide cridificar,104300,alzheimer disease
+12135,elubrixin,219700,cystic fibrosis
+12135,elubrixin,586,cystic fibrosis
+12140,dilmapimod,180300,rheumatoid arthritis
+12142,duligotuzumab,114500,colorectal cancer
+12143,rezatomidine,256870,"neuropathy, painful"
+12144,bms-275183,211980,lung cancer
+12145,azd-0328,181500,schizophrenia
+12148,menatetrenone,114550,hepatocellular carcinoma
+12148,menatetrenone,166710,osteoporosis
+12148,menatetrenone,88673,hepatocellular carcinoma
+12149,s-3304,211980,lung cancer
+12152,simtuzumab,114500,colorectal cancer
+12152,simtuzumab,260350,pancreatic cancer
+12152,simtuzumab,2032,idiopathic pulmonary fibrosis
+12154,itacitinib,608089,endometrial cancer
+12157,fasinumab,165720,osteoarthritis
+12158,filorexant,256870,"neuropathy, painful"
+12160,bucillamine,180300,rheumatoid arthritis
+12167,ly-3023414,114480,breast cancer
+12168,mk-0557,181500,schizophrenia
+12170,veledimex,114480,breast cancer
+12170,veledimex,360,glioblastoma
+12174,cudc-101,114480,breast cancer
+12179,secoisolariciresinol,114480,breast cancer
+12180,apitolisib,114480,breast cancer
+12180,apitolisib,176807,prostate cancer
+12182,binetrakin,211750,c syndrome
+12182,binetrakin,1308,c syndrome
+12183,sapitinib,114480,breast cancer
+12185,exatecan,211980,lung cancer
+12188,zicronapine,181500,schizophrenia
+12190,faropenem,3389,tuberculosis
+12192,emeramide,330021,mercury poisoning
+12193,ajulemic acid,160750,myositis
+12193,ajulemic acid,219700,cystic fibrosis
+12193,ajulemic acid,220393,diffuse cutaneous systemic sclerosis
+12193,ajulemic acid,221,dermatomyositis
+12193,ajulemic acid,586,cystic fibrosis
+12193,ajulemic acid,90291,systemic sclerosis
+12194,atamestane,114480,breast cancer
+12196,cp-866087,601665,obesity
+12198,fosdagrocorat,180300,rheumatoid arthritis
+12201,pf-03654746,181500,schizophrenia
+12205,ganitumab,114480,breast cancer
+12206,n-6022,219700,cystic fibrosis
+12206,n-6022,586,cystic fibrosis
+12208,iron isomaltoside 1000,133239,esophageal cancer
+12209,tirasemtiv,589,myasthenia gravis
+12209,tirasemtiv,803,amyotrophic lateral sclerosis
+12218,azd-5363,114480,breast cancer
+12220,org-25935,181500,schizophrenia
+12227,tetulomab tetraxetan lu-177,98293,hodgkin lymphoma
+12229,cerlapirdine,104300,alzheimer disease
+12231,temefos,673,malaria
+12232,krn-7000,211980,lung cancer
+12233,iguratimod,180300,rheumatoid arthritis
+12234,bms-214662,211750,c syndrome
+12234,bms-214662,1308,c syndrome
+12234,bms-214662,520,acute promyelocytic leukemia
+12234,bms-214662,86839,refractory anemia with excess blasts
+12234,bms-214662,98826,refractory anemia
+12238,mk-0777,181500,schizophrenia
+12239,balicatib,165720,osteoarthritis
+12239,balicatib,166710,osteoporosis
+12249,stem bromelain,165720,osteoarthritis
+12250,cixutumumab,211980,lung cancer
+12252,pg-701,180300,rheumatoid arthritis
+12253,gdc-0810,114480,breast cancer
+12254,abt-751,211980,lung cancer
+12257,platinum,114480,breast cancer
+12257,platinum,167000,ovarian cancer
+12257,platinum,211980,lung cancer
+12257,platinum,168829,primary peritoneal carcinoma
+12261,ascrinvacumab,50251,pleural mesothelioma
+12263,begacestat,104300,alzheimer disease
+12265,fexinidazole,3386,american trypanosomiasis
+12267,brigatinib,211980,lung cancer
+12275,seviteronel,176807,prostate cancer
+12276,apomine,166710,osteoporosis
+12281,luspatercept,211750,c syndrome
+12281,luspatercept,613985,beta-thalassemia
+12281,luspatercept,1308,c syndrome
+12281,luspatercept,848,beta-thalassemia
+12282,defactinib,50251,pleural mesothelioma
+12287,talsaclidine,104300,alzheimer disease
+12291,tacedinaline,211980,lung cancer
+12291,tacedinaline,260350,pancreatic cancer
+12291,tacedinaline,29073,multiple myeloma
+12296,gs-5745,114480,breast cancer
+12296,gs-5745,114500,colorectal cancer
+12296,gs-5745,260350,pancreatic cancer
+12300,p-nitrobiphenyl,176780,pelvic organ prolapse
+12302,cp-724714,114480,breast cancer
+12303,motolimod,167000,ovarian cancer
+12304,entolimod,114500,colorectal cancer
+12306,cipargamin,673,malaria
+12307,foretinib,114480,breast cancer
+12310,trehalose,270,oculopharyngeal muscular dystrophy
+12314,chlorproguanil,673,malaria
+12317,vanucizumab,114500,colorectal cancer
+12320,palovarotene,337,fibrodysplasia ossificans progressiva
+12321,ifetroban,109100,autoimmune disease
+12321,ifetroban,801,scleroderma
+12323,radotinib,521,chronic myeloid leukemia
+12326,antroquinonol,211980,lung cancer
+12328,cantharidin,507,leishmaniasis
+12330,blisibimod,608710,granulomatosis with polyangiitis
+12330,blisibimod,727,microscopic polyangiitis
+12330,blisibimod,900,granulomatosis with polyangiitis
+12331,labetuzumab govitecan,114500,colorectal cancer
+12332,rucaparib,167000,ovarian cancer
+12333,spk-843,1546,cryptococcosis
+12335,tanezumab,165720,osteoarthritis
+12338,carisbamate,103780,alcohol dependence
+12341,ly-2456302,103780,alcohol dependence
+12342,ensituximab,114500,colorectal cancer
+12342,ensituximab,260350,pancreatic cancer
+12344,fezakinumab,180300,rheumatoid arthritis
+12348,"5-amino-1,3,4-thiadiazole-2-thiol",3389,tuberculosis
+12349,dulanermin,114500,colorectal cancer
+12354,imrecoxib,165720,osteoarthritis
+12356,fletikumab,180300,rheumatoid arthritis
+12363,dusigitumab,114480,breast cancer
+12363,dusigitumab,114550,hepatocellular carcinoma
+12363,dusigitumab,88673,hepatocellular carcinoma
+12365,perzinfotel,256870,"neuropathy, painful"
+12369,sotrastaurin,39044,uveal melanoma
+12369,sotrastaurin,52416,mantle cell lymphoma
+12371,siponimod,109100,autoimmune disease
+12371,siponimod,160750,myositis
+12371,siponimod,221,dermatomyositis
+12371,siponimod,732,polymyositis
+12374,velmanase alfa,61,alpha-mannosidosis
+12376,ricolinostat,114480,breast cancer
+12378,apricoxib,114480,breast cancer
+12378,apricoxib,211980,lung cancer
+12378,apricoxib,260350,pancreatic cancer
+12381,merestinib,114500,colorectal cancer
+12384,ar-67,360,glioblastoma
+12385,10-hydroxycamptothecin,211750,c syndrome
+12385,10-hydroxycamptothecin,1308,c syndrome
+12386,bacillus calmette-guerin substrain danish 1331 live antigen,3389,tuberculosis
+12391,sagopilone,114480,breast cancer
+12392,resminostat,114550,hepatocellular carcinoma
+12392,resminostat,254400,mycosis fungoides
+12392,resminostat,88673,hepatocellular carcinoma
+12396,fresolimumab,114480,breast cancer
+12396,fresolimumab,90291,systemic sclerosis
+12397,dsm-265,673,malaria
+12398,naproxen etemesil,165720,osteoarthritis
+12399,polmacoxib,165720,osteoarthritis
+12400,voxtalisib,114480,breast cancer
+12400,voxtalisib,360,glioblastoma
+12401,bromperidol,181500,schizophrenia
+12402,pumosetrag,109350,gastroesophageal reflux
+12403,samarium,176807,prostate cancer
+12403,samarium,668,osteosarcoma
+12405,triciribine,114480,breast cancer
+12405,triciribine,167000,ovarian cancer
+12410,sabarubicin,176807,prostate cancer
+12411,r-428,211980,lung cancer
+12414,usistapide,601665,obesity
+12415,galeterone,176807,prostate cancer
+12420,diazepinomicin,360,glioblastoma
+12422,sulforaphane,209850,autism
+12425,liothyronine i-131,1209,tricuspid atresia
+12426,bitopertin,181500,schizophrenia
+12429,ci-1040,114480,breast cancer
+12429,ci-1040,114500,colorectal cancer
+12429,ci-1040,211980,lung cancer
+12429,ci-1040,260350,pancreatic cancer
+12435,tipelukast,2032,idiopathic pulmonary fibrosis
+12440,verdiperstat,102,multiple system atrophy
+12454,zalypsis,608089,endometrial cancer
+12459,belotecan,167000,ovarian cancer
+12462,ralinepag,182090,pulmonary arterial hypertension
+12463,semagacestat,104300,alzheimer disease
+12476,cpg-52852,114480,breast cancer
+12476,cpg-52852,167000,ovarian cancer
+12483,copanlisib,613024,follicular lymphoma
+12483,copanlisib,545,follicular lymphoma
+12483,copanlisib,98293,hodgkin lymphoma
+12485,pimonidazole,176807,prostate cancer
+12489,mirvetuximab soravtansine,167000,ovarian cancer
+12489,mirvetuximab soravtansine,608089,endometrial cancer
+12494,sgi-1776,176807,prostate cancer
+12512,verucerfont,418,congenital adrenal hyperplasia
+12513,omaveloxolone,211980,lung cancer
+12514,iofolastat i-123,176807,prostate cancer
+12515,9-aminocamptothecin,133239,esophageal cancer
+12515,9-aminocamptothecin,167000,ovarian cancer
+12519,sarcosine,181500,schizophrenia
+12521,methyl pyrrolidone,29073,multiple myeloma
+12522,toreforant,180300,rheumatoid arthritis
+12525,molgramostim,219700,cystic fibrosis
+12525,molgramostim,586,cystic fibrosis
+12525,molgramostim,747,autoimmune pulmonary alveolar proteinosis
+12528,glyceryl trierucate,300100,adrenoleukodystrophy
+12534,mavrilimumab,180300,rheumatoid arthritis
+12535,ac-430,180300,rheumatoid arthritis
+12536,n-acetylmannosamine,602,gne myopathy
+12537,benzodiazepine,601665,obesity
+12539,oltipraz,211980,lung cancer
+12540,lecozotan,104300,alzheimer disease
+12542,gsk-356278,399,huntington disease
+12543,samidorphan,103780,alcohol dependence
+12543,samidorphan,181500,schizophrenia
+12549,pyrazoloacridine,114480,breast cancer
+12549,pyrazoloacridine,211980,lung cancer
+12550,taladegib,114480,breast cancer
+12551,idazoxan,104300,alzheimer disease
+12558,aee-788,360,glioblastoma
+12559,ec-17,167000,ovarian cancer
+12560,blosozumab,166710,osteoporosis
+12561,wnt-974,114500,colorectal cancer
+12561,wnt-974,275355,"squamous cell carcinoma, head and neck"
+12563,mk-0686,165720,osteoarthritis
+12564,gemcitabine elaidate,211980,lung cancer
+12566,decernotinib,180300,rheumatoid arthritis
+12568,tecemotide,176807,prostate cancer
+12570,cc-223,114550,hepatocellular carcinoma
+12570,cc-223,211980,lung cancer
+12570,cc-223,29073,multiple myeloma
+12570,cc-223,360,glioblastoma
+12570,cc-223,88673,hepatocellular carcinoma
+12571,rimacalib,180300,rheumatoid arthritis
+12572,pexacerfont,103780,alcohol dependence
+12573,ly-2452473,176807,prostate cancer
+12574,ly-295501,167000,ovarian cancer
+12579,jnj-37822681,181500,schizophrenia
+12581,ozarelix,176807,prostate cancer
+12582,piperine,29073,multiple myeloma
+12583,maltodextrin,209850,autism
+12583,maltodextrin,603903,sickle cell anemia
+12583,maltodextrin,232,sickle cell anemia
+12584,bimagrumab,147421,inclusion body myositis
+12584,bimagrumab,160750,myositis
+12584,bimagrumab,611,inclusion body myositis
+12585,ondelopran,103780,alcohol dependence
+12588,azd-1480,824,primary myelofibrosis
+12589,dacetuzumab,29073,multiple myeloma
+12589,dacetuzumab,98293,hodgkin lymphoma
+12593,apaziquone,109800,bladder cancer
+12594,azd-9056,180300,rheumatoid arthritis
+12598,nafamostat,310465,n syndrome
+12598,nafamostat,2608,n syndrome
+12601,sonolisib,176807,prostate cancer
+12601,sonolisib,211980,lung cancer
+12601,sonolisib,360,glioblastoma
+12602,pentetreotide,553,cushing syndrome
+12609,tovetumab,360,glioblastoma
+12613,davunetide,310465,n syndrome
+12613,davunetide,2608,n syndrome
+12613,davunetide,683,progressive supranuclear palsy
+12614,reparixin,114480,breast cancer
+12616,sprifermin,165720,osteoarthritis
+12617,mizoribine,180300,rheumatoid arthritis
+12625,evogliptin,166710,osteoporosis
+12635,aleplasinin,104300,alzheimer disease
+12636,samalizumab,29073,multiple myeloma
+12637,onapristone,176807,prostate cancer
+12639,telbermin,803,amyotrophic lateral sclerosis
+12645,givinostat,729,polycythemia vera
+12645,givinostat,92,juvenile idiopathic arthritis
+12645,givinostat,98896,duchenne muscular dystrophy
+12649,ibipinabant,601665,obesity
+12650,l-deprenyl-d2 c-11,104300,alzheimer disease
+12659,sj-733,673,malaria
+12663,letrazuril,1549,cryptosporidiosis
+12665,isoquercetin,114500,colorectal cancer
+12665,isoquercetin,260350,pancreatic cancer
+12671,beloranib,601665,obesity
+12671,beloranib,54595,craniopharyngioma
+12672,icaritin,114480,breast cancer
+12672,icaritin,114550,hepatocellular carcinoma
+12672,icaritin,88673,hepatocellular carcinoma
+12674,lurbinectedin,114480,breast cancer
+12674,lurbinectedin,167000,ovarian cancer
+12676,modufolin,668,osteosarcoma
+12677,soblidotin,211980,lung cancer
+12683,lumretuzumab,114480,breast cancer
+12683,lumretuzumab,211980,lung cancer
+12688,moxetumomab pasudotox,98293,hodgkin lymphoma
+12694,ce-326597,601665,obesity
+12695,phenethyl isothiocyanate,211980,lung cancer
+12703,omipalisib,2032,idiopathic pulmonary fibrosis
+12707,ar-42,2495,meningioma
+12709,tributyrin,176807,prostate cancer
+12710,perazine,181500,schizophrenia
+12718,carlumab,176807,prostate cancer
+12727,perfosfamide,29073,multiple myeloma
+12727,perfosfamide,635,neuroblastoma
+12736,etanidazole,251636,ependymoma
+12736,etanidazole,360,glioblastoma
+12740,cc-115,176807,prostate cancer
+12740,cc-115,360,glioblastoma
+12740,cc-115,668,osteosarcoma
+12744,cgi-1842,167000,ovarian cancer
+12748,ltx-315,114480,breast cancer
+12755,zoptarelin doxorubicin,114480,breast cancer
+12755,zoptarelin doxorubicin,167000,ovarian cancer
+12755,zoptarelin doxorubicin,176807,prostate cancer
+12755,zoptarelin doxorubicin,608089,endometrial cancer
+12756,tak-901,29073,multiple myeloma
+12762,rabacfosadine,29073,multiple myeloma
+12768,bcg vaccine,109800,bladder cancer
+12769,lometrexol,211980,lung cancer
+12770,lafutidine,109350,gastroesophageal reflux
+12771,hydroxytyrosol,114480,breast cancer
+12775,abituzumab,176807,prostate cancer
+12777,somatoprim,963,acromegaly
+12783,benserazide,115000,cardiac arrhythmia
+12784,ns-018,3318,essential thrombocythemia
+12784,ns-018,729,polycythemia vera
+12784,ns-018,824,primary myelofibrosis
+12794,p-quaterphenyl,673,malaria
+12799,laniquidar,114480,breast cancer
+12802,picropodophyllin,211980,lung cancer
+12807,naptumomab estafenatox,260350,pancreatic cancer
+12809,bk-mda,93930,bladder exstrophy
+12819,gsi-136,104300,alzheimer disease
+12827,indoximod,211980,lung cancer
+12827,indoximod,251636,ependymoma
+12833,tandospirone,181500,schizophrenia
+12836,grapiprant,114480,breast cancer
+12836,grapiprant,165720,osteoarthritis
+12836,grapiprant,176807,prostate cancer
+12836,grapiprant,211980,lung cancer
+12839,pegvaliase,261600,phenylketonuria
+12839,pegvaliase,716,phenylketonuria
+12842,pegamotecan,133239,esophageal cancer
+12843,oleandrin,211980,lung cancer
+12845,amatuximab,156240,"mesothelioma, malignant"
+12845,amatuximab,167000,ovarian cancer
+12845,amatuximab,260350,pancreatic cancer
+12847,pyroxamide,211750,c syndrome
+12847,pyroxamide,1308,c syndrome
+12849,clazakizumab,180300,rheumatoid arthritis
+12850,etalocib,260350,pancreatic cancer
+12854,bms-908662,114500,colorectal cancer
+12857,nvp-leq-506,155255,medulloblastoma
+12857,nvp-leq-506,616,medulloblastoma
+12858,ly-377604,601665,obesity
+12859,tantalum,165720,osteoarthritis
+12860,actinium,114480,breast cancer
+12867,benperidol,181500,schizophrenia
+12870,buthionine sulfoximine,635,neuroblastoma
+12871,burlulipase,219700,cystic fibrosis
+12871,burlulipase,586,cystic fibrosis
+12872,vonicog alfa,903,von willebrand disease
+12873,dianhydrogalactitol,360,glioblastoma
+12875,mavatrep,165720,osteoarthritis
+12881,indole-3-carbinol,114480,breast cancer
+12883,eltoprazine,181500,schizophrenia
+12884,lavoltidine,109350,gastroesophageal reflux
+12885,cf-102,114550,hepatocellular carcinoma
+12885,cf-102,88673,hepatocellular carcinoma
+12886,gsk-1521498,601665,obesity
+12887,tazemetostat,69077,rhabdoid tumor
+12889,velneperit,601665,obesity
+12891,ozanezumab,803,amyotrophic lateral sclerosis
+12893,sacituzumab govitecan,114480,breast cancer
+12893,sacituzumab govitecan,114500,colorectal cancer
+12893,sacituzumab govitecan,133239,esophageal cancer
+12895,td-139,2032,idiopathic pulmonary fibrosis
+12902,trofosfamide,155255,medulloblastoma
+12902,trofosfamide,251636,ependymoma
+12902,trofosfamide,616,medulloblastoma
+12905,samarium sm-153,114480,breast cancer
+12905,samarium sm-153,176807,prostate cancer
+12905,samarium sm-153,211980,lung cancer
+12920,pinometostat,211750,c syndrome
+12920,pinometostat,1308,c syndrome
+12921,chlorsulfaquinoxaline,114500,colorectal cancer
+12921,chlorsulfaquinoxaline,211980,lung cancer
+12928,get-73,103780,alcohol dependence
+12930,opipramol,181500,schizophrenia
+12931,fenobam,908,fragile x syndrome
+12941,odm-201,114480,breast cancer
+12941,odm-201,176807,prostate cancer
+12943,milatuzumab,211750,c syndrome
+12943,milatuzumab,1308,c syndrome
+12943,milatuzumab,29073,multiple myeloma
+12946,"8-cyclopentyl-1,3-dipropylxanthine",219700,cystic fibrosis
+12946,"8-cyclopentyl-1,3-dipropylxanthine",586,cystic fibrosis
+12952,methylprednisone,180300,rheumatoid arthritis
+12954,terizidone,3389,tuberculosis
+12956,vantictumab,260350,pancreatic cancer
+12958,prothipendyl,181500,schizophrenia
+12962,cp-547632,167000,ovarian cancer
+12963,ccx-354,180300,rheumatoid arthritis
+12975,pyronaridine,673,malaria
+12976,robatumumab,668,osteosarcoma
+12982,silicon,254400,mycosis fungoides
+12983,pigment blue 16,254400,mycosis fungoides
+12984,larotaxel,114480,breast cancer
+12985,quisinostat,211750,c syndrome
+12985,quisinostat,1308,c syndrome
+12988,ly-518674,211750,c syndrome
+12988,ly-518674,1308,c syndrome
+12992,bleomycin a6,211980,lung cancer
+12994,mip-1095 i-123,176807,prostate cancer
+12998,pf-00217830,181500,schizophrenia
+13000,pci-27483,260350,pancreatic cancer
+13005,rebastinib,521,chronic myeloid leukemia
+13010,4-isothioureidobutyronitrile,167000,ovarian cancer
+13012,aqx-1125,310465,n syndrome
+13012,aqx-1125,2608,n syndrome
+13012,aqx-1125,37202,interstitial cystitis
+13017,rovalpituzumab tesirine,211980,lung cancer
+13017,rovalpituzumab tesirine,360,glioblastoma
+13020,apratastat,180300,rheumatoid arthritis
+13029,mk-0873,180300,rheumatoid arthritis
+13030,2'-fluoro-5-ethylarabinosyluracil,52416,mantle cell lymphoma
+13031,niobium,601665,obesity
+13034,foxy-5,114480,breast cancer
+13034,foxy-5,114500,colorectal cancer
+13034,foxy-5,176807,prostate cancer
+13037,namilumab,180300,rheumatoid arthritis
+13038,glyceryl trioleate,300100,adrenoleukodystrophy
+13040,gandotinib,187950,"thrombocythemia, essential"
+13040,gandotinib,729,polycythemia vera
+13040,gandotinib,824,primary myelofibrosis
+13044,gossypol,211980,lung cancer
+13045,racotumomab,635,neuroblastoma
+13045,racotumomab,790,retinoblastoma
+13046,tocladesine,114500,colorectal cancer
+13046,tocladesine,29073,multiple myeloma
+13047,pentavalent antimony,507,leishmaniasis
+13048,pac-1,114480,breast cancer
+13049,lobaplatin,114480,breast cancer
+13049,lobaplatin,114550,hepatocellular carcinoma
+13049,lobaplatin,668,osteosarcoma
+13049,lobaplatin,88673,hepatocellular carcinoma
+13052,upamostat,260350,pancreatic cancer
+13054,act-451840,673,malaria
+13069,nimustine,360,glioblastoma
+13071,creatinolfosfate,180300,rheumatoid arthritis
+13073,tregalizumab,180300,rheumatoid arthritis
+13074,macimorelin,90695,panhypopituitarism
+13076,yttrium y-90,114500,colorectal cancer
+13080,cyr-101,181500,schizophrenia
+13084,pyritinol,181500,schizophrenia
+13085,riamet,673,malaria
+13089,enoxolone,320,apparent mineralocorticoid excess
+13098,ct-2584,176807,prostate cancer
+13104,x-396,211980,lung cancer
+13110,antimony,507,leishmaniasis
+13111,chromanol,176807,prostate cancer
+13118,paquinimod,109100,autoimmune disease
+13118,paquinimod,673,malaria
+13120,deferitazole,613985,beta-thalassemia
+13120,deferitazole,848,beta-thalassemia
+13132,artemisinin,181500,schizophrenia
+13132,artemisinin,673,malaria
+13133,von willebrand factor human,903,von willebrand disease
+13142,calcium glubionate,166710,osteoporosis
+13145,nedaplatin,211980,lung cancer
+13146,fluciclovine (18f),176807,prostate cancer
+13150,coagulation factor vii human,306700,hemophilia a
+13150,coagulation factor vii human,327,congenital factor vii deficiency
+13150,coagulation factor vii human,73274,acquired hemophilia
+13150,coagulation factor vii human,98878,hemophilia a
+13151,anti-inhibitor coagulant complex,306700,hemophilia a
+13151,anti-inhibitor coagulant complex,98878,hemophilia a
+13152,coagulation factor ix human,306900,hemophilia b
+13152,coagulation factor ix human,98879,hemophilia b
+13164,olmutinib,211980,lung cancer
+13167,alclofenac,180300,rheumatoid arthritis
+13173,cerliponase alfa,168491,late infantile neuronal ceroid lipofuscinosis
+13173,cerliponase alfa,216,neuronal ceroid lipofuscinosis
+13173,cerliponase alfa,79263,infantile neuronal ceroid lipofuscinosis
+13178,inositol,211750,c syndrome
+13178,inositol,1308,c syndrome
+13192,antihemophilic factor human,306700,hemophilia a
+13192,antihemophilic factor human,98878,hemophilia a
+13196,valerian,143465,attention deficit-hyperactivity disorder
+13198,pepsin,219700,cystic fibrosis
+13198,pepsin,260350,pancreatic cancer
+13198,pepsin,586,cystic fibrosis
+13200,lipegfilgrastim,211750,c syndrome
+13200,lipegfilgrastim,1308,c syndrome
+13227,tribenoside,192200,varicose veins
+13268,acetarsol,673,malaria
+13281,bromelains,165720,osteoarthritis
+13307,proscillaridin,360,glioblastoma
+13352,deanol,143465,attention deficit-hyperactivity disorder
+13352,deanol,209850,autism
+13352,deanol,272620,tardive dyskinesia
+13392,mercurochrome,330021,mercury poisoning
+13518,alginic acid,109350,gastroesophageal reflux
+13615,mifamurtide,668,osteosarcoma
+13620,potassium gluconate,115000,cardiac arrhythmia
+13783,acemetacin,165720,osteoarthritis
+13783,acemetacin,180300,rheumatoid arthritis
+13851,artemotil,673,malaria
+13854,gamolenic acid,166710,osteoporosis
+13854,gamolenic acid,180300,rheumatoid arthritis
+13882,methyl nicotinate,180300,rheumatoid arthritis
+13884,albutrepenonacog alfa,306900,hemophilia b
+13884,albutrepenonacog alfa,98879,hemophilia b
+13894,agkistrodon piscivorus antivenin,97278,ppoma
+13897,equine botulinum neurotoxin e immune fab2,1267,botulism
+13898,equine botulinum neurotoxin c immune fab2,1267,botulism
+13899,equine botulinum neurotoxin g immune fab2,1267,botulism
+13900,equine botulinum neurotoxin a immune fab2,1267,botulism
+13901,equine botulinum neurotoxin f immune fab2,1267,botulism
+13902,equine botulinum neurotoxin d immune fab2,1267,botulism
+13903,equine botulinum neurotoxin b immune fab2,1267,botulism
+13906,aloe polysaccharide,146850,immune suppression
+13913,belladonna,211750,c syndrome
+13913,belladonna,1308,c syndrome
+13915,axicabtagene ciloleucel,613024,follicular lymphoma
+13915,axicabtagene ciloleucel,545,follicular lymphoma
+13915,axicabtagene ciloleucel,98293,hodgkin lymphoma
+13923,emicizumab,306700,hemophilia a
+13923,emicizumab,98878,hemophilia a
+13928,semaglutide,601665,obesity
+13933,nonacog beta pegol,306900,hemophilia b
+13933,nonacog beta pegol,98879,hemophilia b
+13934,ligandrol,166710,osteoporosis
+13938,s-40503,166710,osteoporosis
+13939,rad-140,114480,breast cancer
+13941,piperaquine,673,malaria
+13944,testosterone enanthate,114480,breast cancer
+13959,medium-chain triglycerides,219700,cystic fibrosis
+13959,medium-chain triglycerides,586,cystic fibrosis
+13967,patent blue,114480,breast cancer
+13968,plasma protein fraction (human),54057,thrombotic thrombocytopenic purpura
+13973,remestemcel-l,39812,graft versus host disease
+13975,cimicifuga racemosa,114480,breast cancer
+13984,cyclopropane,552,mody
+13998,lonoctocog alfa,306700,hemophilia a
+13998,lonoctocog alfa,903,von willebrand disease
+13998,lonoctocog alfa,98878,hemophilia a
+13999,moroctocog alfa,134500,factor viii deficiency
+13999,moroctocog alfa,306700,hemophilia a
+13999,moroctocog alfa,98878,hemophilia a
+14001,alpha-tocopherol succinate,200100,abetalipoproteinemia
+14001,alpha-tocopherol succinate,14,abetalipoproteinemia
+14002,d-alpha-tocopherol acetate,180300,rheumatoid arthritis
+14003,alpha-tocopherol acetate,200100,abetalipoproteinemia
+14003,alpha-tocopherol acetate,14,abetalipoproteinemia
+14006,choline salicylate,180300,rheumatoid arthritis
+14006,choline salicylate,3099,rheumatic fever
+14009,medical cannabis,181500,schizophrenia
+14012,burosumab,437,hypophosphatemic rickets
+14012,burosumab,89936,x-linked hypophosphatemia
+14033,acetyl sulfisoxazole,31204,nocardiosis
+14033,acetyl sulfisoxazole,33475,meningococcal meningitis
+14033,acetyl sulfisoxazole,673,malaria
+14050,cannabidivarin,209850,autism
+14050,cannabidivarin,778,rett syndrome
+14050,cannabidivarin,908,fragile x syndrome
+14100,pork collagen,165720,osteoarthritis
+14132,8-chlorotheophylline,158280,motion sickness
+14185,aripiprazole lauroxil,181500,schizophrenia
