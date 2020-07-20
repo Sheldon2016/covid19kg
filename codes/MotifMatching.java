@@ -71,8 +71,12 @@ public class MotifMatching {
 			return res;
 		}
 		
-		if(mf.motif.length == 3)
+		if(mf.motif.length == 3) {
+			//match a triangle
+			//ArrayList<ArrayList<Integer>> res = new ArrayList();
+			//
 			return match3nodes(kg, mf);
+		}
 		
 		if(mf.motif.length == 4)
 			return match4nodes(kg, mf);
@@ -152,7 +156,7 @@ public class MotifMatching {
 				return match3nodes1label(subgraph,mf.edgeNum,res);
 			}
 			if(mf.motifLabelKinds.size()==2) {
-				return  match3nodes2labels(mf, kg, res);
+				return match3nodes2labels(mf, kg, res);
 			}
 			
 		}
@@ -319,6 +323,7 @@ public class MotifMatching {
 
 	private static ArrayList<ArrayList<Integer>> match4nodes(covid19kg kg, Motif mf) {
 		// match 4-node pattern graphs
+<<<<<<< HEAD
 		ArrayList<ArrayList<Integer>>res = new ArrayList();
 		if(mf.edgeNum==4) {
 			//a tailed rectangle or a rectangle: check the degree vector
@@ -411,6 +416,59 @@ public class MotifMatching {
 		}
 		
 		return res;
+=======
+		ArrayList<ArrayList<Integer>> res = new ArrayList();
+		if (mf.edgeNum < 3) {
+			System.out.println("The 4-node pattern graph is not connected!");
+			return res;
+		}
+		if (mf.edgeNum == 3) {
+			
+		}
+		else if (mf.edgeNum == 4) {
+			//check if pattern graph is 3-path or square
+			int seed = -1;
+			int seedID = -1;
+			for (int i = 0; i < mf.motif.length; i++) {
+				if (mf.motif[i].size() == 3) {
+					//pattern graph is a 3-path
+					seed = i;
+					seedID = i;
+					break;
+				}
+			}
+			if (seed == -1) {
+				//pattern graph is a square
+				seed = 0;
+				seedID = 0;
+			}
+			
+			if (mf.motifLabelKinds.size() == 2) {
+				return match4nodes2labels(seed, seedID, kg, mf, res);
+			}
+			
+			
+		}
+		else if (mf.edgeNum == 5) {
+			
+		}
+		else {
+			
+		}
+		
+		return res;
+	}
+	
+	private static ArrayList<ArrayList<Integer>> match4nodes2labels(int seed, int seedID, covid19kg kg, Motif mf, ArrayList<ArrayList<Integer>> res) {
+		int seedLabel = mf.motifLabels.get(seed);
+		int seedNei1 = mf.motif[seed].get(0);
+		int seedNei1Label = mf.motifLabels.get(seedNei1);
+		int seedNei2 = mf.motif[seed].get(1);
+		int seedNei2Label = mf.motifLabels.get(seedNei2);
+		
+		
+		return res;
+>>>>>>> db7f65d... match4nodes2labels first attempt
 	}
 	
 	private static ArrayList<ArrayList<Integer>> match5nodes(covid19kg kg, Motif mf) {
