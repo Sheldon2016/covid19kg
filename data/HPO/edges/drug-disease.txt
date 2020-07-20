@@ -1,4 +1,3 @@
-#DrugBank-ID,Drug-name,Disease-ID,Disease
 1,lepirudin,3325,heparin-induced thrombocytopenia
 3,dornase alfa,219700,cystic fibrosis
 3,dornase alfa,586,cystic fibrosis
@@ -10,9 +9,9 @@
 17,salmon calcitonin,166710,osteoporosis
 22,peginterferon alfa-2b,114550,hepatocellular carcinoma
 22,peginterferon alfa-2b,88673,hepatocellular carcinoma
-25,"antihemophilic factor, human recombinant",306700,hemophilia a
-25,"antihemophilic factor, human recombinant",903,von willebrand disease
-25,"antihemophilic factor, human recombinant",98878,hemophilia a
+25,antihemophilic factor- human recombinant-,306700,hemophilia a
+25,antihemophilic factor- human recombinant-,903,von willebrand disease
+25,antihemophilic factor- human recombinant-,98878,hemophilia a
 26,anakinra,180300,rheumatoid arthritis
 28,immune globulin human,180300,rheumatoid arthritis
 28,immune globulin human,168569,h syndrome
@@ -295,7 +294,7 @@
 659,acamprosate,103780,alcohol dependence
 660,metaxalone,310465,n syndrome
 660,metaxalone,2608,n syndrome
-663,flumethasone,603165,"dermatitis, atopic"
+663,flumethasone-,603165,dermatitis- atopic
 664,sulfametopyrazine,673,malaria
 665,nilutamide,176807,prostate cancer
 666,nafarelin,759,central precocious puberty
@@ -584,7 +583,7 @@
 4250,butyrylthiocholine,177400,butyrylcholinesterase
 4253,tretazicar,114550,hepatocellular carcinoma
 4253,tretazicar,88673,hepatocellular carcinoma
-4455,"n,n,n-trimethylglycinium",214,cystinuria
+4455,n-n-n-trimethylglycinium-,214,cystinuria
 4552,niflumic acid,180300,rheumatoid arthritis
 4572,thiotepa,109800,bladder cancer
 4572,thiotepa,114480,breast cancer
@@ -1314,7 +1313,7 @@
 9099,somatostatin,114480,breast cancer
 9099,somatostatin,211980,lung cancer
 9099,somatostatin,963,acromegaly
-9100,"thyroid, porcine",601665,obesity
+9100,thyroid- porcine-,601665,obesity
 9102,daclatasvir,114550,hepatocellular carcinoma
 9102,daclatasvir,88673,hepatocellular carcinoma
 9105,asfotase alfa,436,hypophosphatasia
@@ -1380,10 +1379,10 @@
 9323,benzathine benzylpenicillin,3299,tetanus
 9323,benzathine benzylpenicillin,509,leptospirosis
 9327,tegafur-uracil,114500,colorectal cancer
-9329,"antihemophilic factor (recombinant), pegylated",134500,factor viii deficiency
-9329,"antihemophilic factor (recombinant), pegylated",306700,hemophilia a
-9329,"antihemophilic factor (recombinant), pegylated",903,von willebrand disease
-9329,"antihemophilic factor (recombinant), pegylated",98878,hemophilia a
+9329,antihemophilic factor (recombinant)- pegylated-,134500,factor viii deficiency
+9329,antihemophilic factor (recombinant)- pegylated-,306700,hemophilia a
+9329,antihemophilic factor (recombinant)- pegylated-,903,von willebrand disease
+9329,antihemophilic factor (recombinant)- pegylated-,98878,hemophilia a
 9330,osimertinib,211980,lung cancer
 9331,daratumumab,29073,multiple myeloma
 9332,kappadione,219700,cystic fibrosis
@@ -1391,9 +1390,9 @@
 9336,technetium tc-99m nofetumomab merpentan,211980,lung cancer
 9343,tipiracil,114500,colorectal cancer
 9363,rauwolfia serpentina root,181500,schizophrenia
-9381,"estrogens, esterified",114480,breast cancer
-9381,"estrogens, esterified",166710,osteoporosis
-9381,"estrogens, esterified",176807,prostate cancer
+9381,estrogens- esterified-,114480,breast cancer
+9381,estrogens- esterified-,166710,osteoporosis
+9381,estrogens- esterified-,176807,prostate cancer
 9397,technetium tc-99m sulfur colloid,109350,gastroesophageal reflux
 9397,technetium tc-99m sulfur colloid,114480,breast cancer
 9418,potassium perchlorate,211750,c syndrome
@@ -1413,7 +1412,7 @@
 9568,omega-3-carboxylic acids,1308,c syndrome
 9570,ixazomib,29073,multiple myeloma
 10076,haemophilus influenzae type b strain 1482 capsular polysaccharide tetanus toxoid conjugate antigen,3299,tetanus
-10283,"rabies virus inactivated antigen, a",770,rabies
+10283,rabies virus inactivated antigen- a-,770,rabies
 10343,bacillus calmette-guerin substrain tice live antigen,3389,tuberculosis
 10583,clostridium tetani toxoid antigen (formaldehyde inactivated),3299,tetanus
 10795,poliovirus type 1 antigen (formaldehyde inactivated),2912,poliomyelitis
@@ -1629,7 +1628,7 @@
 11870,rg-4733,668,osteosarcoma
 11874,crocin,211750,c syndrome
 11874,crocin,1308,c syndrome
-11875,"3,3'-diindolylmethane",176807,prostate cancer
+11875,3-3'-diindolylmethane-,176807,prostate cancer
 11877,basmisanil,310465,n syndrome
 11877,basmisanil,2608,n syndrome
 11877,basmisanil,870,down syndrome
@@ -1727,7 +1726,7 @@
 12047,ganetespib,211980,lung cancer
 12047,ganetespib,1308,c syndrome
 12048,savolitinib,114500,colorectal cancer
-12049,dasolampanel etibutil,256870,"neuropathy, painful"
+12049,dasolampanel etibutil-,256870,neuropathy- painful
 12050,ly-3039478,114480,breast cancer
 12056,trebananib,167000,ovarian cancer
 12059,jnj-40411813,181500,schizophrenia
@@ -1781,7 +1780,7 @@
 12135,elubrixin,586,cystic fibrosis
 12140,dilmapimod,180300,rheumatoid arthritis
 12142,duligotuzumab,114500,colorectal cancer
-12143,rezatomidine,256870,"neuropathy, painful"
+12143,rezatomidine-,256870,neuropathy- painful
 12144,bms-275183,211980,lung cancer
 12145,azd-0328,181500,schizophrenia
 12148,menatetrenone,114550,hepatocellular carcinoma
@@ -1793,7 +1792,7 @@
 12152,simtuzumab,2032,idiopathic pulmonary fibrosis
 12154,itacitinib,608089,endometrial cancer
 12157,fasinumab,165720,osteoarthritis
-12158,filorexant,256870,"neuropathy, painful"
+12158,filorexant-,256870,neuropathy- painful
 12160,bucillamine,180300,rheumatoid arthritis
 12167,ly-3023414,114480,breast cancer
 12168,mk-0557,181500,schizophrenia
@@ -1895,14 +1894,14 @@
 12342,ensituximab,114500,colorectal cancer
 12342,ensituximab,260350,pancreatic cancer
 12344,fezakinumab,180300,rheumatoid arthritis
-12348,"5-amino-1,3,4-thiadiazole-2-thiol",3389,tuberculosis
+12348,5-amino-1-3-4-thiadiazole-2-thiol-,3389,tuberculosis
 12349,dulanermin,114500,colorectal cancer
 12354,imrecoxib,165720,osteoarthritis
 12356,fletikumab,180300,rheumatoid arthritis
 12363,dusigitumab,114480,breast cancer
 12363,dusigitumab,114550,hepatocellular carcinoma
 12363,dusigitumab,88673,hepatocellular carcinoma
-12365,perzinfotel,256870,"neuropathy, painful"
+12365,perzinfotel-,256870,neuropathy- painful
 12369,sotrastaurin,39044,uveal melanoma
 12369,sotrastaurin,52416,mantle cell lymphoma
 12371,siponimod,109100,autoimmune disease
@@ -1992,7 +1991,7 @@
 12559,ec-17,167000,ovarian cancer
 12560,blosozumab,166710,osteoporosis
 12561,wnt-974,114500,colorectal cancer
-12561,wnt-974,275355,"squamous cell carcinoma, head and neck"
+12561,wnt-974-,275355,squamous cell carcinoma- head and neck
 12563,mk-0686,165720,osteoarthritis
 12564,gemcitabine elaidate,211980,lung cancer
 12566,decernotinib,180300,rheumatoid arthritis
@@ -2109,7 +2108,7 @@
 12839,pegvaliase,716,phenylketonuria
 12842,pegamotecan,133239,esophageal cancer
 12843,oleandrin,211980,lung cancer
-12845,amatuximab,156240,"mesothelioma, malignant"
+12845,amatuximab-,156240,mesothelioma- malignant
 12845,amatuximab,167000,ovarian cancer
 12845,amatuximab,260350,pancreatic cancer
 12847,pyroxamide,211750,c syndrome
@@ -2160,8 +2159,8 @@
 12943,milatuzumab,211750,c syndrome
 12943,milatuzumab,1308,c syndrome
 12943,milatuzumab,29073,multiple myeloma
-12946,"8-cyclopentyl-1,3-dipropylxanthine",219700,cystic fibrosis
-12946,"8-cyclopentyl-1,3-dipropylxanthine",586,cystic fibrosis
+12946,8-cyclopentyl-1-3-dipropylxanthine-,219700,cystic fibrosis
+12946,8-cyclopentyl-1-3-dipropylxanthine-,586,cystic fibrosis
 12952,methylprednisone,180300,rheumatoid arthritis
 12954,terizidone,3389,tuberculosis
 12956,vantictumab,260350,pancreatic cancer
@@ -2197,7 +2196,7 @@
 13034,foxy-5,176807,prostate cancer
 13037,namilumab,180300,rheumatoid arthritis
 13038,glyceryl trioleate,300100,adrenoleukodystrophy
-13040,gandotinib,187950,"thrombocythemia, essential"
+13040,gandotinib-,187950,thrombocythemia- essential
 13040,gandotinib,729,polycythemia vera
 13040,gandotinib,824,primary myelofibrosis
 13044,gossypol,211980,lung cancer
