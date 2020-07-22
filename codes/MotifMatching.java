@@ -7,7 +7,7 @@ public class MotifMatching {
 
 	public static void main(String[] args) throws IOException {
 		// TODO Auto-generated method stub
-		covid19kg kg = new covid19kg("C:\\Users\\Sheldon\\Documents\\GitHub\\covid19kg\\data\\HPO\\");
+		covid19kg kg = new covid19kg("C:\\Users\\joeyd\\Desktop\\Internship2020\\covid19kg\\data\\HPO\\");
 		Motif mf = new Motif();
 		mf.getM7();
 		
@@ -352,7 +352,7 @@ public class MotifMatching {
 							ArrayList<Integer>subgraphBB[] = kg.edge[label2][label2];
 							for(int i=0;i<subgraphAA.length;i++) {
 								if(kg.nodeNID[label0].get(i)==483)
-									System.out.println();
+									System.out.println("loda");
 								if(subgraphAA[i]==null)continue;
 								for(int j=0;j<subgraphAA[i].size();j++) {
 									int nei1 = subgraphAA[i].get(j);
@@ -385,11 +385,60 @@ public class MotifMatching {
 						}else {
 							//for ABAB
 							//write code here
+							int id3 = mf.motif[id1].get(0);
+							if(id3==0)
+								id3 = mf.motif[id1].get(1);
+							
+							ArrayList<Integer> subgraphAB[] = kg.edge[label0][label1];
+							ArrayList<Integer> subgraphAA[] = kg.edge[label0][label0];
+							ArrayList<Integer> subgraphBB[] = kg.edge[label1][label1];
+							ArrayList<Integer> subgraphBA[] = kg.edge[label1][label0];
+							
+							for (int i = 0; i < subgraphAB.length; i++) {
+								if (subgraphAB[i] == null)
+									continue;
+								for (int j = 0; j < subgraphAB[i].size(); j++) {
+									int nei1 = subgraphAB[i].get(j);
+									if (nei1 < i)
+										continue;
+									if (subgraphBA[i] == null)
+										continue;
+									for (int k = 0; k < subgraphBA[i].size(); k++) {
+										int nei2 = subgraphAB[i].get(k);
+										if (subgraphBB[nei1] != null && subgraphBB[nei1].contains(nei2))
+											continue;
+										if (subgraphBA[nei1] == null)
+											continue;
+										for (int p = 0; p < subgraphBA[nei1].size(); p++) {
+											int nei3 = subgraphBA[nei1].get(p);
+											if (subgraphAA[i] != null && subgraphAA[i].contains(nei3))
+												continue;
+											if (subgraphAB[nei3] != null && subgraphAB[nei3].contains(nei2)) {
+												ArrayList<Integer> ins = new ArrayList();
+												ins.add(i);
+												ins.add(nei1);
+												ins.add(nei2);
+												ins.add(nei3);
+												if (i != mf.motifLabels.get(0)) {
+													ins = reorder(ins, 0, id1, id2, id3);
+												}
+												res.add(ins);
+											}
+											
+										}
+									}
+									
+								}
+							}
 						}
 						
 					}else {
 						//for AAAB
 						//write code here
+						int label0 = mf.motifLabels.get(0), id0 = 0;
+						int label1 = mf.motifLabels.get(mf.motif[0].get(0)), id1 = mf.motif[0].get(0);
+						int label2 = mf.motifLabels.get(mf.motif[0].get(1)), id2 = mf.motif[0].get(1);
+						
 					}
 					
 				}
