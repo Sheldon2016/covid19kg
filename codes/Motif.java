@@ -204,6 +204,30 @@ public class Motif {
 		run();
 	}
 	
+	void getM8() {
+		//rectangle: strain-location-strain-location
+		motif = new ArrayList[4];
+		motif[0] = new ArrayList();
+		motif[0].add(1);
+		motif[0].add(2);
+		motif[1] = new ArrayList();
+		motif[1].add(0);
+		motif[1].add(3);
+		motif[2] = new ArrayList();
+		motif[2].add(0);
+		motif[2].add(3);
+		motif[3] = new ArrayList();
+		motif[3].add(1);
+		motif[3].add(2);
+		
+		motifLabels = new ArrayList();
+		motifLabels.add(6);
+		motifLabels.add(7);
+		motifLabels.add(7);
+		motifLabels.add(6); 
+		run();
+	}
+	
 	public boolean run() {
 		degreeVec = new ArrayList();
 		for(int i=0;i<motif.length;i++){

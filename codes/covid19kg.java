@@ -32,11 +32,11 @@ public class covid19kg {
 		loadNode(mainDir, nodes, node, nodeNID, nodeName);
 		
 		//load edges
-		String[]edges = {"virusprotein_hostprotein", "virus_hostprotein", "drug_gene", "hpoID_geneID","virus_virusprotein","virus_disease","hpoID_diseaseID_disease","drug_virusprotein","disease_gene","hpo_virus","hostprotein_hostprotein", "location_location", "strain_strain", "strain_location", "drug_disease"};
-		int[]column1	= {1, 0, 0, 0, 0, 0, 0, 0, 3, 0, 0, 0, 0, 0, 0};
-		int[]column2	= {4, 3, 2, 2, 2, 3, 1, 2, 1, 1, 1, 1, 1, 1, 2};
-		int[]label1		= {5, 4, 1, 3, 4, 4, 3, 1, 0, 3, 2, 7, 6, 6, 1};
-		int[]label2		= {2, 2, 2, 2, 5, 0, 0, 5, 2, 4, 2, 7, 6, 7, 0};
+		String[]edges = {"virusprotein_hostprotein", "virus_hostprotein", "drug_gene", "hpoID_geneID","virus_virusprotein","virus_disease","hpoID_diseaseID_disease","drug_virusprotein","disease_gene","hpo_virus","hostprotein_hostprotein", "location_location", "strain_strain", "strain_location", "drug_disease", "drug_symptom"};
+		int[]column1	= {1, 0, 0, 0, 0, 0, 0, 0, 3, 0, 0, 0, 0, 0, 0, 0};
+		int[]column2	= {4, 3, 2, 2, 2, 3, 1, 2, 1, 1, 1, 1, 1, 1, 2, 2};
+		int[]label1		= {5, 4, 1, 3, 4, 4, 3, 1, 0, 3, 2, 7, 6, 6, 1, 1};
+		int[]label2		= {2, 2, 2, 2, 5, 0, 0, 5, 2, 4, 2, 7, 6, 7, 0, 3};
 		this.label1 = label1;
 		this.label2 = label2;
 		edge = new ArrayList[nodes.length][nodes.length][];//
