@@ -79,15 +79,15 @@
 33,interferon gamma-1b,11002,osteopetrosis
 33,interferon gamma-1b,11010,chronic
 33,interferon gamma-1b,32252,granuloma
-34,"interferon alfa-2a, recombinant",1259,coma
-34,"interferon alfa-2a, recombinant",1909,leukemia
-34,"interferon alfa-2a, recombinant",5506,chronic myelogenous leukemia
-34,"interferon alfa-2a, recombinant",11010,chronic
-34,"interferon alfa-2a, recombinant",12115,hepatitis
-34,"interferon alfa-2a, recombinant",12830,position
-34,"interferon alfa-2a, recombinant",100242,sarcoma
-34,"interferon alfa-2a, recombinant",100726,kaposi's sarcoma
-34,"interferon alfa-2a, recombinant",200123,chronic hepatitis
+34,interferon alfa-2a- recombinant,1259,coma
+34,interferon alfa-2a- recombinant,1909,leukemia
+34,interferon alfa-2a- recombinant,5506,chronic myelogenous leukemia
+34,interferon alfa-2a- recombinant,11010,chronic
+34,interferon alfa-2a- recombinant,12115,hepatitis
+34,interferon alfa-2a- recombinant,12830,position
+34,interferon alfa-2a- recombinant,100242,sarcoma
+34,interferon alfa-2a- recombinant,100726,kaposi's sarcoma
+34,interferon alfa-2a- recombinant,200123,chronic hepatitis
 35,desmopressin,17,nocturia
 35,desmopressin,103,polyuria
 35,desmopressin,805,enuresis
@@ -235,12 +235,12 @@
 100,coagulation factor ix (recombinant),100033,tics
 102,becaplermin,11856,pica
 102,becaplermin,200042,skin ulcer
-105,"interferon alfa-2b, recombinant",1259,coma
-105,"interferon alfa-2b, recombinant",1909,leukemia
-105,"interferon alfa-2b, recombinant",2861,melanoma
-105,"interferon alfa-2b, recombinant",12830,position
-105,"interferon alfa-2b, recombinant",100242,sarcoma
-105,"interferon alfa-2b, recombinant",100726,kaposi's sarcoma
+105,interferon alfa-2b- recombinant,1259,coma
+105,interferon alfa-2b- recombinant,1909,leukemia
+105,interferon alfa-2b- recombinant,2861,melanoma
+105,interferon alfa-2b- recombinant,12830,position
+105,interferon alfa-2b- recombinant,100242,sarcoma
+105,interferon alfa-2b- recombinant,100726,kaposi's sarcoma
 106,abarelix,12125,prostate cancer
 108,natalizumab,1298,encephalopathy
 108,natalizumab,2352,leukoencephalopathy
@@ -4555,11 +4555,11 @@
 2659,cholic acid,2570,steatorrhea
 2660,filaminast,2099,asthma
 2660,filaminast,11010,chronic
-2665,"(1r,2s)-2-phenylcyclopropanaminium",11856,pica
+2665,(1r-2s)-2-phenylcyclopropanaminium,11856,pica
 2679,cyanamide,30955,alcoholism
 2731,ethylmercurithiosalicylic acid,11856,pica
 2896,methylthioinosine,12830,position
-2937,"gamma-arsono-beta, gamma-methyleneadenosine-5'-diphosphate",12830,position
+2937,gamma-arsono-beta- gamma-methyleneadenosine-5'-diphosphate,12830,position
 3006,arsanilic acid,618,blindness
 3040,nitrilotriacetic acid,31915,stable
 3068,zebularine,31915,stable
@@ -4614,7 +4614,7 @@
 3852,eucalyptol,12531,pain
 3852,eucalyptol,12735,cough
 3925,freselestat,11010,chronic
-4022,"guanosine-5',3'-tetraphosphate",12830,position
+4022,guanosine-5'-3'-tetraphosphate,12830,position
 4090,rh-1,2665,lymphoma
 4115,berberine,2014,diarrhea
 4145,nicotinyl alcohol,25637,vasospasm
@@ -4639,9 +4639,9 @@
 4339,carbocisteine,12735,cough
 4365,arecoline,31844,euphoria
 4398,lactic acid,12825,mild
-4455,"n,n,n-trimethylglycinium",2153,hyperkalemia
-4455,"n,n,n-trimethylglycinium",2156,homocystinuria
-4455,"n,n,n-trimethylglycinium",3131,cystinuria
+4455,n-n-n-trimethylglycinium,2153,hyperkalemia
+4455,n-n-n-trimethylglycinium,2156,homocystinuria
+4455,n-n-n-trimethylglycinium,3131,cystinuria
 4468,afimoxifene,771,gynecomastia
 4468,afimoxifene,1259,coma
 4468,afimoxifene,12531,pain
@@ -6162,10 +6162,10 @@
 6116,eldelumab,1370,rheumatoid arthritis
 6116,eldelumab,2583,colitis
 6116,eldelumab,100279,ulcerative colitis
-6117,"1alpha,24s-dihydroxyvitamin d2",843,hyperparathyroidism
-6117,"1alpha,24s-dihydroxyvitamin d2",867,secondary hyperparathyroidism
-6117,"1alpha,24s-dihydroxyvitamin d2",11010,chronic
-6117,"1alpha,24s-dihydroxyvitamin d2",12622,chronic kidney disease
+6117,1alpha-24s-dihydroxyvitamin d2,843,hyperparathyroidism
+6117,1alpha-24s-dihydroxyvitamin d2,867,secondary hyperparathyroidism
+6117,1alpha-24s-dihydroxyvitamin d2,11010,chronic
+6117,1alpha-24s-dihydroxyvitamin d2,12622,chronic kidney disease
 6119,cenobamate,739,anxiety
 6124,l-aminocarnityl-succinyl-leucyl-argininal-diethylacetal,3560,muscular dystrophy
 6124,l-aminocarnityl-succinyl-leucyl-argininal-diethylacetal,12531,pain
@@ -6971,8 +6971,8 @@
 8490,cts-1027,11010,chronic
 8490,cts-1027,12115,hepatitis
 8490,cts-1027,200123,chronic hepatitis
-8555,"1-(3-bromophenyl)-7-chloro-6-methoxy-3,4-dihydroisoquinoline",31450,polycyclic
-8559,"n-[(2s,4s,6r)-2-(dihydroxymethyl)-4-hydroxy-3,3-dimethyl-7-oxo-4lambda~4~-thia-1-azabicyclo[3.2.0]hept-6-yl]-2-phenylacetamide",12830,position
+8555,1-(3-bromophenyl)-7-chloro-6-methoxy-3-4-dihydroisoquinoline,31450,polycyclic
+8559,n-[(2s-4s-6r)-2-(dihydroxymethyl)-4-hydroxy-3-3-dimethyl-7-oxo-4lambda~4~-thia-1-azabicyclo[3.2.0]hept-6-yl]-2-phenylacetamide,12830,position
 8633,tnp-470,1259,coma
 8633,tnp-470,2664,neoplasm
 8633,tnp-470,100242,sarcoma
@@ -7592,12 +7592,12 @@
 9099,somatostatin,9733,glioma
 9099,somatostatin,11009,acute
 9099,somatostatin,100033,tics
-9100,"thyroid, porcine",821,hypothyroidism
-9100,"thyroid, porcine",836,hyperthyroidism
-9100,"thyroid, porcine",853,goiter
-9100,"thyroid, porcine",1513,obesity
-9100,"thyroid, porcine",11010,chronic
-9100,"thyroid, porcine",100646,thyroiditis
+9100,thyroid- porcine,821,hypothyroidism
+9100,thyroid- porcine,836,hyperthyroidism
+9100,thyroid- porcine,853,goiter
+9100,thyroid- porcine,1513,obesity
+9100,thyroid- porcine,11010,chronic
+9100,thyroid- porcine,100646,thyroiditis
 9101,elvitegravir,2721,immunodeficiency
 9102,daclatasvir,1394,cirrhosis
 9102,daclatasvir,1402,hepatocellular carcinoma
@@ -8095,22 +8095,22 @@
 9316,thallous chloride,12735,cough
 9316,thallous chloride,25143,chills
 9316,thallous chloride,100749,chest pain
-9317,"synthetic conjugated estrogens, a",12531,pain
-9317,"synthetic conjugated estrogens, a",12826,moderate
-9317,"synthetic conjugated estrogens, a",12828,severe
-9317,"synthetic conjugated estrogens, a",25281,sharp
-9317,"synthetic conjugated estrogens, a",31088,vaginal dryness
-9317,"synthetic conjugated estrogens, a",31217,hot flashes
-9317,"synthetic conjugated estrogens, a",40282,frequent
-9317,"synthetic conjugated estrogens, a",100033,tics
-9318,"synthetic conjugated estrogens, b",12531,pain
-9318,"synthetic conjugated estrogens, b",12826,moderate
-9318,"synthetic conjugated estrogens, b",12828,severe
-9318,"synthetic conjugated estrogens, b",25281,sharp
-9318,"synthetic conjugated estrogens, b",31088,vaginal dryness
-9318,"synthetic conjugated estrogens, b",31217,hot flashes
-9318,"synthetic conjugated estrogens, b",40282,frequent
-9318,"synthetic conjugated estrogens, b",100033,tics
+9317,synthetic conjugated estrogens- a,12531,pain
+9317,synthetic conjugated estrogens- a,12826,moderate
+9317,synthetic conjugated estrogens- a,12828,severe
+9317,synthetic conjugated estrogens- a,25281,sharp
+9317,synthetic conjugated estrogens- a,31088,vaginal dryness
+9317,synthetic conjugated estrogens- a,31217,hot flashes
+9317,synthetic conjugated estrogens- a,40282,frequent
+9317,synthetic conjugated estrogens- a,100033,tics
+9318,synthetic conjugated estrogens- b,12531,pain
+9318,synthetic conjugated estrogens- b,12826,moderate
+9318,synthetic conjugated estrogens- b,12828,severe
+9318,synthetic conjugated estrogens- b,25281,sharp
+9318,synthetic conjugated estrogens- b,31088,vaginal dryness
+9318,synthetic conjugated estrogens- b,31217,hot flashes
+9318,synthetic conjugated estrogens- b,40282,frequent
+9318,synthetic conjugated estrogens- b,100033,tics
 9319,carbenicillin indanyl,24,prostatitis
 9319,carbenicillin indanyl,11009,acute
 9319,carbenicillin indanyl,11010,chronic
@@ -8200,10 +8200,10 @@
 9372,tannic acid,12735,cough
 9379,sutilain,12531,pain
 9379,sutilain,30646,peripheral
-9381,"estrogens, esterified",939,osteoporosis
-9381,"estrogens, esterified",12125,prostate cancer
-9381,"estrogens, esterified",31088,vaginal dryness
-9381,"estrogens, esterified",31217,hot flashes
+9381,estrogens- esterified,939,osteoporosis
+9381,estrogens- esterified,12125,prostate cancer
+9381,estrogens- esterified,31088,vaginal dryness
+9381,estrogens- esterified,31217,hot flashes
 9394,phosphoric acid,100033,tics
 9395,sodium acetate,1941,acidosis
 9395,sodium acetate,1942,metabolic acidosis
@@ -8440,8 +8440,8 @@
 10989,hepatitis a vaccine,25297,prolonged
 10989,hepatitis a vaccine,30645,central
 10989,hepatitis a vaccine,32322,healthy
-10991,"bordetella pertussis toxoid antigen (formaldehyde, glutaraldehyde inactivated)",12735,cough
-10991,"bordetella pertussis toxoid antigen (formaldehyde, glutaraldehyde inactivated)",31247,whooping cough
+10991,bordetella pertussis toxoid antigen (formaldehyde- glutaraldehyde inactivated),12735,cough
+10991,bordetella pertussis toxoid antigen (formaldehyde- glutaraldehyde inactivated),31247,whooping cough
 10997,autologous cultured chondrocytes,1369,arthritis
 10997,autologous cultured chondrocytes,2758,osteoarthritis
 10997,autologous cultured chondrocytes,11009,acute
@@ -8866,7 +8866,7 @@
 11597,human rho(d) immune globulin,979,purpura
 11597,human rho(d) immune globulin,11010,chronic
 11598,antithrombin iii human,1907,thromboembolism
-11599,"starch, corn",11856,pica
+11599,starch- corn,11856,pica
 11602,hydroxyethyl cellulose,11856,pica
 11602,hydroxyethyl cellulose,100033,tics
 11605,myrrh,230,gingivitis
@@ -9368,8 +9368,8 @@
 11874,crocin,2155,hypertriglyceridemia
 11874,crocin,3074,hyperglycemia
 11874,crocin,3124,hypercholesterolemia
-11875,"3,3'-diindolylmethane",12125,prostate cancer
-11875,"3,3'-diindolylmethane",32131,cervical dysplasia
+11875,3-3'-diindolylmethane,12125,prostate cancer
+11875,3-3'-diindolylmethane,32131,cervical dysplasia
 11876,alanyl glutamine,2014,diarrhea
 11876,alanyl glutamine,4395,malnutrition
 11878,filibuvir,11010,chronic
@@ -9409,7 +9409,7 @@
 11895,ghrelin,30955,alcoholism
 11895,ghrelin,40075,hypopituitarism
 11896,gedatolisib,2664,neoplasm
-11898,"2,4-thiazolidinedione",819,diabetes mellitus
+11898,2-4-thiazolidinedione,819,diabetes mellitus
 11899,mk-8776,1909,leukemia
 11899,mk-8776,2664,neoplasm
 11899,mk-8776,2665,lymphoma
@@ -10123,7 +10123,7 @@
 12344,fezakinumab,1370,rheumatoid arthritis
 12346,vatelizumab,2583,colitis
 12346,vatelizumab,100279,ulcerative colitis
-12348,"5-amino-1,3,4-thiadiazole-2-thiol",32262,pulmonary tuberculosis
+12348,5-amino-1-3-4-thiadiazole-2-thiol,32262,pulmonary tuberculosis
 12349,dulanermin,2665,lymphoma
 12350,rostafuroxin,822,hypertension
 12353,ulodesine,1369,arthritis
@@ -10524,7 +10524,7 @@
 12625,evogliptin,819,diabetes mellitus
 12625,evogliptin,939,osteoporosis
 12627,gsk-1292263,819,diabetes mellitus
-12629,"3,5-diiodothyropropionic acid",1635,congestive heart failure
+12629,3-5-diiodothyropropionic acid,1635,congestive heart failure
 12632,jnj-41443532,819,diabetes mellitus
 12635,aleplasinin,2511,alzheimer disease
 12636,samalizumab,1909,leukemia
@@ -11038,7 +11038,7 @@
 13005,rebastinib,11010,chronic
 13005,rebastinib,12324,myeloid leukemia
 13007,enfortumab vedotin,2664,neoplasm
-13008,"2,2-bis(4-hydroxy-3-tert-butylphenyl)propane",30731,carcinoma
+13008,2-2-bis(4-hydroxy-3-tert-butylphenyl)propane,30731,carcinoma
 13009,carbendazim,2665,lymphoma
 13011,diethylhomospermine,2014,diarrhea
 13012,aqx-1125,1047,atopic dermatitis
