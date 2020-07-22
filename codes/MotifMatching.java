@@ -3,13 +3,13 @@ package algo;
 import java.io.IOException;
 import java.util.ArrayList;
 
-public class MotifMatching {
+public class MotifMatchJoey {
 
 	public static void main(String[] args) throws IOException {
 		// TODO Auto-generated method stub
-		covid19kg kg = new covid19kg("C:\\Users\\joeyd\\Desktop\\Internship2020\\covid19kg\\data\\HPO\\");
+		covid19kg kg = new covid19kg("C:\\Users\\Sheldon\\Documents\\GitHub\\covid19kg\\data\\HPO\\");
 		Motif mf = new Motif();
-		mf.getM7();
+		mf.getM8();
 		
 		ArrayList<ArrayList<Integer>>motifIns = match(kg,mf);
 		motifIns2String(motifIns, mf, kg);
@@ -351,8 +351,6 @@ public class MotifMatching {
 							ArrayList<Integer>subgraphAB[] = kg.edge[label0][label2];
 							ArrayList<Integer>subgraphBB[] = kg.edge[label2][label2];
 							for(int i=0;i<subgraphAA.length;i++) {
-								if(kg.nodeNID[label0].get(i)==483)
-									System.out.println("loda");
 								if(subgraphAA[i]==null)continue;
 								for(int j=0;j<subgraphAA[i].size();j++) {
 									int nei1 = subgraphAA[i].get(j);
@@ -399,18 +397,19 @@ public class MotifMatching {
 									continue;
 								for (int j = 0; j < subgraphAB[i].size(); j++) {
 									int nei1 = subgraphAB[i].get(j);
-									if (nei1 < i)
+
+									if (subgraphAB[i] == null)//
 										continue;
-									if (subgraphBA[i] == null)
-										continue;
-									for (int k = 0; k < subgraphBA[i].size(); k++) {
+									for (int k = j+1; k < subgraphAB[i].size(); k++) {
 										int nei2 = subgraphAB[i].get(k);
 										if (subgraphBB[nei1] != null && subgraphBB[nei1].contains(nei2))
 											continue;
 										if (subgraphBA[nei1] == null)
 											continue;
 										for (int p = 0; p < subgraphBA[nei1].size(); p++) {
-											int nei3 = subgraphBA[nei1].get(p);
+											int nei3 = subgraphBA[nei1].get(p);//posible duplicates
+											if(nei3<=i)
+												continue;
 											if (subgraphAA[i] != null && subgraphAA[i].contains(nei3))
 												continue;
 											if (subgraphAB[nei3] != null && subgraphAB[nei3].contains(nei2)) {
@@ -419,9 +418,7 @@ public class MotifMatching {
 												ins.add(nei1);
 												ins.add(nei2);
 												ins.add(nei3);
-												if (i != mf.motifLabels.get(0)) {
-													ins = reorder(ins, 0, id1, id2, id3);
-												}
+												
 												res.add(ins);
 											}
 											
