@@ -7,7 +7,7 @@ public class MotifMatchJoey {
 
 	public static void main(String[] args) throws IOException {
 		// TODO Auto-generated method stub
-		covid19kg kg = new covid19kg("C:\\Users\\joeyd\\Desktop\\Internship2020\\covid19kg\\data\\HPO\\");
+		covid19kg kg = new covid19kg("C:\\Users\\Sheldon\\Documents\\GitHub\\covid19kg\\data\\HPO\\");
 		Motif mf = new Motif();
 		mf.getM9();
 		
@@ -461,8 +461,6 @@ public class MotifMatchJoey {
 							for (int j = 0; j < subgraphAB[i].size(); j++) {
 								int nei1 = subgraphAB[i].get(j);
 
-								if (subgraphBB[i] == null)//
-									continue;
 								for (int k = j+1; k < subgraphAB[i].size(); k++) {
 								//for (int k = 0; k < subgraphAB[i].size(); k++) {
 									int nei2 = subgraphAB[i].get(k);
@@ -482,7 +480,8 @@ public class MotifMatchJoey {
 											ins.add(nei1);
 											ins.add(nei2);
 											ins.add(nei3);
-											
+											if(singleLabelID!=0)
+												ins = reorder(ins, singleLabelID, multiLabelID1, multiLabelID2, multiLabelID3);
 											res.add(ins);
 										}
 										
