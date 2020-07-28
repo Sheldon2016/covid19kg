@@ -7,7 +7,7 @@ public class MotifMatchJoey {
 
 	public static void main(String[] args) throws IOException {
 		// TODO Auto-generated method stub
-		covid19kg kg = new covid19kg("C:\\Users\\Sheldon\\Documents\\GitHub\\covid19kg\\data\\HPO\\");
+		covid19kg kg = new covid19kg("C:\\Users\\joeyd\\Desktop\\Internship2020\\covid19kg\\data\\HPO\\");
 		Motif mf = new Motif();
 		mf.getM9();
 		
@@ -397,7 +397,6 @@ public class MotifMatchJoey {
 									continue;
 								for (int j = 0; j < subgraphAB[i].size(); j++) {
 									int nei1 = subgraphAB[i].get(j);
-
 									if (subgraphAB[i] == null)//
 										continue;
 									for (int k = j+1; k < subgraphAB[i].size(); k++) {
@@ -461,6 +460,8 @@ public class MotifMatchJoey {
 							for (int j = 0; j < subgraphAB[i].size(); j++) {
 								int nei1 = subgraphAB[i].get(j);
 
+								if (subgraphAB[i] == null)//
+									continue;
 								for (int k = j+1; k < subgraphAB[i].size(); k++) {
 								//for (int k = 0; k < subgraphAB[i].size(); k++) {
 									int nei2 = subgraphAB[i].get(k);
@@ -480,8 +481,11 @@ public class MotifMatchJoey {
 											ins.add(nei1);
 											ins.add(nei2);
 											ins.add(nei3);
-											if(singleLabelID!=0)
+											
+											if (singleLabelID != 0) {
 												ins = reorder(ins, singleLabelID, multiLabelID1, multiLabelID2, multiLabelID3);
+											}
+											
 											res.add(ins);
 										}
 										
@@ -491,66 +495,241 @@ public class MotifMatchJoey {
 							}
 						}
 						
-						/*
-						int label0 = mf.motifLabels.get(0), id0 = 0;
-						int label1 = mf.motifLabels.get(mf.motif[0].get(0)), id1 = mf.motif[0].get(0);
-						int label2 = mf.motifLabels.get(mf.motif[0].get(1)), id2 = mf.motif[0].get(1);
-						int label3 = mf.motifLabels.get(mf.motif[id1].get(0)), id3 = mf.motif[id1].get(0);
+					}
+					
+				}
+				else if (mf.motifLabelKinds.size() == 1) {
+					//write code here
+					int onlyLabel = mf.motifLabels.get(0), id0 = 0;
+					int id1 = mf.motif[0].get(0);
+					int id2 = mf.motif[0].get(1);
+					
+					int id3 = mf.motif[id1].get(0);
+					if (id3 == 0)
+						id3 = mf.motif[id1].get(1);
+					
+					ArrayList<Integer> subgraphAA[] = kg.edge[onlyLabel][onlyLabel];
+					
+					for (int i = 0; i < subgraphAA.length; i++) {
+						if (subgraphAA[i] == null)
+							continue;
+						for (int j = i+1; j < subgraphAA[i].size(); j++) {
+							int nei1 = subgraphAA[i].get(j);
+							
+							if (subgraphAA[i] == null)
+								continue;
+							
+							for (int k = j+1; k < subgraphAA[i].size(); k++) {
+								int nei2 = subgraphAA[i].get(k);
+								
+								if (subgraphAA[nei1] != null && subgraphAA[nei1].contains(nei2))
+									continue;
+								if (subgraphAA[nei1] == null)
+									continue;
+								
+								for (int p = k+1; p < subgraphAA[nei1].size(); p++) {
+									int nei3 = subgraphAA[nei1].get(p);
+									
+									if (subgraphAA[i] != null && subgraphAA[i].contains(nei3))
+										continue;									
+									if (subgraphAA[nei3] != null && subgraphAA[nei3].contains(nei2)) {
+										ArrayList<Integer> ins = new ArrayList();
+										ins.add(i);
+										ins.add(nei1);
+										ins.add(nei2);
+										ins.add(nei3);
+										
+										res.add(ins);
+									}
+								}
+							}
+						}
+					}
+					
+					
+				}
+				else if (mf.motifLabelKinds.size() == 3) {
+					//write code here
+					//for AABC and ABAC
+					int label0 = mf.motifLabels.get(0), id0 = 0;
+					int label1 = mf.motifLabels.get(mf.motif[0].get(0)), id1 = mf.motif[0].get(0);
+					int label2 = mf.motifLabels.get(mf.motif[0].get(1)), id2 = mf.motif[0].get(1);
+					int label3 = mf.motifLabels.get(mf.motif[id1].get(0)), id3 = mf.motif[id1].get(0);
+					
+					if (label0 != label1 && label0 != label2 && label1 != label2) {
+						//for AABC
+						//switch label2 and label1 if label2 == label0
 						
-						if (id3 == id0) {
+						if (label2 == label0) {
+							label2 = label1;
+							label1 = label0;
+							int temp = id2;
+							id2 = id1;
+							id1 = temp;
+						}
+						
+						if (id3 == 0) {
 							id3 = mf.motif[id1].get(1);
 							label3 = mf.motifLabels.get(mf.motif[id1].get(1));
 						}
 						
-						//BAAA --> AAAB
-						if (label0 != label1 && label0 != label2) {
-							//label0 is B, so switch label0 with label2
-							int temp = label2, idTemp = id2;
-							label2 = label0;
-							id2 = id0;
-							label0 = temp;
-							id0 = idTemp;
+						ArrayList<Integer> subgraphAA[] = kg.edge[label0][label1];
+						ArrayList<Integer> subgraphAB[] = kg.edge[label0][label3];
+						ArrayList<Integer> subgraphAC[] = kg.edge[label0][label2];
+						ArrayList<Integer> subgraphBC[] = kg.edge[label3][label2];
+						
+						for (int i = 0; i < subgraphAA.length; i++) {
+							if (subgraphAA[i] == null)
+								continue;
+							for (int j = 0; j < subgraphAA[i].size(); j++) {
+								int nei1 = subgraphAA[i].get(j);
+								
+								if (nei1 < i)
+									continue;
+								if (subgraphAC[i] == null)
+									continue;
+								
+								for (int k = 0; k < subgraphAC[i].size(); k++) {
+									int nei2 = subgraphAC[i].get(k);
+									
+									if (subgraphAC[nei1] != null && subgraphAC[nei1].contains(nei2))
+										continue;
+									if (subgraphAB[nei1] == null)
+										continue;
+									
+									for (int p = 0; p < subgraphAB[nei1].size(); p++) {
+										int nei3 = subgraphAB[nei1].get(p);
+										
+										if (subgraphAB[i] != null && subgraphAB[i].contains(nei3))
+											continue;
+										if (subgraphBC[nei3] != null && subgraphBC[nei3].contains(nei2)) {
+											ArrayList<Integer> ins = new ArrayList();
+											ins.add(i);
+											ins.add(nei1);
+											ins.add(nei2);
+											ins.add(nei3);
+											
+											ins = reorder(ins, 0, id1, id2, id3);
+											
+											res.add(ins);
+										}
+									}
+								}
+							}
 						}
-						//ABAA --> AAAB
-						else if (label1 != label0 && label1 != label2) {
-							//label1 is B, so switch label0 with label2
-							int temp = label2, idTemp = id2;
-							label2 = label1;
-							id2 = id1;
-							label1 = temp;
-							id1 = idTemp;
-						}
-						else if (label2 != label0 && label2 != label1) {
-							//label2 is B, so no switching required
-						}
-						//AABA --> AAAB
-						else {
-							//label3 is B, so switch label3 with label2
-							int temp = label2, idTemp = id2;
-							label2 = label1;
-							id2 = id1;
-							label1 = temp;
-							id1 = idTemp;
+					}
+					else {
+						//for ABAC
+						if (id3 == 0) {
+							id3 = mf.motif[id1].get(1);
+							label3 = mf.motifLabels.get(mf.motif[id1].get(1));
 						}
 						
-					*/}
+						ArrayList<Integer> subgraphAB[] = kg.edge[label0][label1];
+						ArrayList<Integer> subgraphBA[] = kg.edge[label1][label0];
+						ArrayList<Integer> subgraphAC[] = kg.edge[label0][label2];
+						ArrayList<Integer> subgraphBC[] = kg.edge[label1][label2];
+						ArrayList<Integer> subgraphAA[] = kg.edge[label0][label0];
+						
+						for (int i = 0; i < subgraphAB.length; i++) {
+							if (subgraphAB[i] == null)
+								continue;
+							for (int j = 0; j < subgraphAB[i].size(); j++) {
+								int nei1 = subgraphAB[i].get(j);
+								if (subgraphAC[i] == null)
+									continue;
+								for (int k = 0; k < subgraphAC[i].size(); k++) {
+									int nei2 = subgraphAC[i].get(k);
+									if (subgraphBC[nei1] != null && subgraphBC[nei1].contains(nei2))
+										continue;
+									if (subgraphBA[nei1] == null)
+										continue;
+									for (int p = 0; p < subgraphBA[nei1].size(); p++) {
+										int nei3 = subgraphBA[nei1].get(p);
+										if (nei3 <= i)
+											continue;
+										if (subgraphAA[i] != null && subgraphAA[i].contains(nei3))
+											continue;
+										if (subgraphAC[nei3] != null && subgraphAC[nei3].contains(nei2)) {
+											ArrayList<Integer> ins = new ArrayList();
+											ins.add(i);
+											ins.add(nei1);
+											ins.add(nei2);
+											ins.add(nei3);
+											
+											res.add(ins);
+										}
+									}
+								}
+							}
+						}
+						
+					}
 					
 				}
-				if(mf.motifLabelKinds.size()==1) {
+				else {
 					//write code here
+					//for ABCD
+
+					int label0 = mf.motifLabels.get(0), id0 = 0;
+					int label1 = mf.motifLabels.get(mf.motif[0].get(0)), id1 = mf.motif[0].get(0);
+					int label2 = mf.motifLabels.get(mf.motif[0].get(1)), id2 = mf.motif[0].get(1);
+					int label3 = mf.motifLabels.get(mf.motif[id1].get(0)), id3 = mf.motif[id1].get(0);
+					
+					if (id3 == 0) {
+						id3 = mf.motif[id1].get(1);
+						label3 = mf.motifLabels.get(mf.motif[id1].get(1));
+					}
+						
+					ArrayList<Integer> subgraphAB[] = kg.edge[label0][label1];
+					ArrayList<Integer> subgraphAC[] = kg.edge[label0][label3];
+					ArrayList<Integer> subgraphAD[] = kg.edge[label0][label2];
+					ArrayList<Integer> subgraphBC[] = kg.edge[label1][label3];
+					ArrayList<Integer> subgraphBD[] = kg.edge[label1][label2];
+					ArrayList<Integer> subgraphCD[] = kg.edge[label3][label2];
+					
+					for (int i = 0; i < subgraphAB.length; i++) {
+						if (subgraphAB[i] == null)
+							continue;
+						for (int j = 0; j < subgraphAB[i].size(); j++) {
+							int nei1 = subgraphAB[i].get(j);
+							if (subgraphAD[i] == null)
+								continue;
+							for (int k = 0; k < subgraphAD[i].size(); k++) {
+								int nei2 = subgraphAD[i].get(k);
+								if (subgraphBD[nei1] != null && subgraphBD[nei1].contains(nei2))
+									continue;
+								if (subgraphBC[nei1] == null)
+									continue;
+								for (int p = 0; p < subgraphBC[nei1].size(); p++) {
+									int nei3 = subgraphBC[nei1].get(p);
+									if (subgraphAC[i] != null && subgraphAC[i].contains(nei3))
+										continue;
+									if (subgraphCD[nei3] != null && subgraphCD[nei3].contains(nei2)) {
+										ArrayList<Integer> ins = new ArrayList();
+										ins.add(i);
+										ins.add(nei1);
+										ins.add(nei2);
+										ins.add(nei3);
+										
+										res.add(ins);
+									}
+								}
+							}
+						}
+					}
+					
 				}
-				if(mf.motifLabelKinds.size()==3) {
-					//write code here
-				}
-				if(mf.motifLabelKinds.size()==4) {
-					//write code here
-				}
-				
-			}else {
+			}
+			
+			else {
 				//it is a tailed triangle
 				//write code here
 			}
 			
+		}
+		else if (mf.edgeNum == 3) {
+			//
 		}
 		
 		return res;
