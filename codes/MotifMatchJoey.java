@@ -557,6 +557,54 @@ public class MotifMatchJoey {
 					int label3 = mf.motifLabels.get(mf.motif[id1].get(0)), id3 = mf.motif[id1].get(0);
 					
 					if (label0 != label1 && label0 != label2 && label1 != label2) {
+						//for ABAC
+						if (id3 == 0) {
+							id3 = mf.motif[id1].get(1);
+							label3 = mf.motifLabels.get(mf.motif[id1].get(1));
+						}
+						
+						ArrayList<Integer> subgraphAB[] = kg.edge[label0][label1];
+						ArrayList<Integer> subgraphBA[] = kg.edge[label1][label0];
+						ArrayList<Integer> subgraphAC[] = kg.edge[label0][label2];
+						ArrayList<Integer> subgraphBC[] = kg.edge[label1][label2];
+						ArrayList<Integer> subgraphAA[] = kg.edge[label0][label0];
+						
+						for (int i = 0; i < subgraphAB.length; i++) {
+							if (subgraphAB[i] == null)
+								continue;
+							for (int j = 0; j < subgraphAB[i].size(); j++) {
+								int nei1 = subgraphAB[i].get(j);
+								if (subgraphAC[i] == null)
+									continue;
+								for (int k = 0; k < subgraphAC[i].size(); k++) {
+									int nei2 = subgraphAC[i].get(k);
+									if (subgraphBC[nei1] != null && subgraphBC[nei1].contains(nei2))
+										continue;
+									if (subgraphBA[nei1] == null)
+										continue;
+									for (int p = 0; p < subgraphBA[nei1].size(); p++) {
+										int nei3 = subgraphBA[nei1].get(p);
+										if (nei3 <= i)
+											continue;
+										if (subgraphAA[i] != null && subgraphAA[i].contains(nei3))
+											continue;
+										if (subgraphAC[nei3] != null && subgraphAC[nei3].contains(nei2)) {
+											ArrayList<Integer> ins = new ArrayList();
+											ins.add(i);
+											ins.add(nei1);
+											ins.add(nei2);
+											ins.add(nei3);
+											
+											res.add(ins);
+										}
+									}
+								}
+							}
+						}
+						
+					
+					}
+					else {
 						//for AABC
 						//switch label2 and label1 if label2 == label0
 						
@@ -616,55 +664,7 @@ public class MotifMatchJoey {
 									}
 								}
 							}
-						}
-					}
-					else {
-						//for ABAC
-						if (id3 == 0) {
-							id3 = mf.motif[id1].get(1);
-							label3 = mf.motifLabels.get(mf.motif[id1].get(1));
-						}
-						
-						ArrayList<Integer> subgraphAB[] = kg.edge[label0][label1];
-						ArrayList<Integer> subgraphBA[] = kg.edge[label1][label0];
-						ArrayList<Integer> subgraphAC[] = kg.edge[label0][label2];
-						ArrayList<Integer> subgraphBC[] = kg.edge[label1][label2];
-						ArrayList<Integer> subgraphAA[] = kg.edge[label0][label0];
-						
-						for (int i = 0; i < subgraphAB.length; i++) {
-							if (subgraphAB[i] == null)
-								continue;
-							for (int j = 0; j < subgraphAB[i].size(); j++) {
-								int nei1 = subgraphAB[i].get(j);
-								if (subgraphAC[i] == null)
-									continue;
-								for (int k = 0; k < subgraphAC[i].size(); k++) {
-									int nei2 = subgraphAC[i].get(k);
-									if (subgraphBC[nei1] != null && subgraphBC[nei1].contains(nei2))
-										continue;
-									if (subgraphBA[nei1] == null)
-										continue;
-									for (int p = 0; p < subgraphBA[nei1].size(); p++) {
-										int nei3 = subgraphBA[nei1].get(p);
-										if (nei3 <= i)
-											continue;
-										if (subgraphAA[i] != null && subgraphAA[i].contains(nei3))
-											continue;
-										if (subgraphAC[nei3] != null && subgraphAC[nei3].contains(nei2)) {
-											ArrayList<Integer> ins = new ArrayList();
-											ins.add(i);
-											ins.add(nei1);
-											ins.add(nei2);
-											ins.add(nei3);
-											
-											res.add(ins);
-										}
-									}
-								}
-							}
-						}
-						
-					}
+						}}
 					
 				}
 				else {
