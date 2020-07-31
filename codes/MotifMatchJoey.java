@@ -725,6 +725,69 @@ public class MotifMatchJoey {
 			else {
 				//it is a tailed triangle
 				//write code here
+				int seed = -1;
+				int seedId = -1;
+				
+				for (int i = 0; i < mf.motif.length; i++) {
+					if (mf.motif[i].size() == 3) {
+						seed = i;
+						seedId = i;
+						break;
+					}
+				}
+				
+				
+				if (mf.motifLabelKinds.size() == 4) {
+					//for ABCD
+					int seedLabel = mf.motifLabels.get(seed);
+					int seedNei1 = mf.motif[seed].get(0);
+					int seedNei1Label = mf.motifLabels.get(seedNei1);
+					int seedNei2 = mf.motif[seed].get(1);
+					int seedNei2Label = mf.motifLabels.get(seedNei2);
+					int seedNei3 = mf.motif[seed].get(2);
+					int seedNei3Label = mf.motifLabels.get(seedNei3);
+					
+					ArrayList<Integer> subgraphAB[] = kg.edge[seedLabel][seedNei1Label];
+					ArrayList<Integer> subgraphAC[] = kg.edge[seedLabel][seedNei2Label];
+					ArrayList<Integer> subgraphAD[] = kg.edge[seedLabel][seedNei3Label];
+					ArrayList<Integer> subgraphBC[] = kg.edge[seedNei1Label][seedNei2Label];
+					ArrayList<Integer> subgraphBD[] = kg.edge[seedNei1Label][seedNei3Label];
+					ArrayList<Integer> subgraphCD[] = kg.edge[seedNei2Label][seedNei3Label];
+					
+					for (int i = 0; i < subgraphAB.length; i++) {
+						if (subgraphAB[i] == null)
+							continue;
+						for (int j = 0; j < subgraphAB[i].size(); j++) {
+							int nei1 = subgraphAB[i].get(j);
+							if (subgraphAC[i] == null)
+								continue;
+							for (int k = 0; k < subgraphAC[i].size(); k++) {
+								int nei2 = subgraphAC[i].get(k);
+								if (subgraphAD[i] == null)
+									continue;
+								for (int p = 0; p < subgraphAD[i].size(); p++) {
+									int nei3 = subgraphAD[i].get(p);
+									if (subgraphBD[nei1] != null && subgraphBD[nei1].contains(nei3))
+										continue;
+									if (subgraphCD[nei2] != null && subgraphCD[nei2].contains(nei3))
+										continue;
+									if (subgraphBC[nei1] != null && subgraphBC[nei1].contains(nei2)) {
+										ArrayList<Integer> ins = new ArrayList();
+										ins.add(i);
+										ins.add(nei1);
+										ins.add(nei2);
+										ins.add(nei3);
+										
+										res.add(ins);
+									}
+									
+								}
+							}
+							
+						}
+					}
+				}
+				
 			}
 			
 		}
