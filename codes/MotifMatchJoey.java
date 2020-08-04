@@ -7,9 +7,9 @@ public class MotifMatchJoey {
 
 	public static void main(String[] args) throws IOException {
 		// TODO Auto-generated method stub
-		covid19kg kg = new covid19kg("C:\\Users\\joeyd\\Desktop\\Internship2020\\covid19kg\\data\\HPO\\");
+		covid19kg kg = new covid19kg("C:\\Users\\Sheldon\\Documents\\GitHub\\covid19kg\\data\\HPO\\");
 		Motif mf = new Motif();
-		mf.getM11();
+		mf.getM9();
 		
 		ArrayList<ArrayList<Integer>>motifIns = match(kg,mf);
 		motifIns2String(motifIns, mf, kg);
@@ -500,13 +500,7 @@ public class MotifMatchJoey {
 				}
 				else if (mf.motifLabelKinds.size() == 1) {
 					//write code here
-					int onlyLabel = mf.motifLabels.get(0), id0 = 0;
-					int id1 = mf.motif[0].get(0);
-					int id2 = mf.motif[0].get(1);
-					
-					int id3 = mf.motif[id1].get(0);
-					if (id3 == 0)
-						id3 = mf.motif[id1].get(1);
+					int onlyLabel = mf.motifLabels.get(0);
 					
 					ArrayList<Integer> subgraphAA[] = kg.edge[onlyLabel][onlyLabel];
 					
@@ -527,9 +521,10 @@ public class MotifMatchJoey {
 								if (subgraphAA[nei1] == null)
 									continue;
 								
-								for (int p = k+1; p < subgraphAA[nei1].size(); p++) {
+								for (int p = 0; p < subgraphAA[nei1].size(); p++) {
 									int nei3 = subgraphAA[nei1].get(p);
-									
+									if(nei3<=i)
+										continue;
 									if (subgraphAA[i] != null && subgraphAA[i].contains(nei3))
 										continue;									
 									if (subgraphAA[nei3] != null && subgraphAA[nei3].contains(nei2)) {
@@ -556,6 +551,7 @@ public class MotifMatchJoey {
 					int label2 = mf.motifLabels.get(mf.motif[0].get(1)), id2 = mf.motif[0].get(1);
 					int label3 = mf.motifLabels.get(mf.motif[id1].get(0)), id3 = mf.motif[id1].get(0);
 					
+					//why not first find the single label?
 					if (label0 != label1 && label0 != label2 && label1 != label2) {
 						//for ABAC
 						if (id3 == 0) {
@@ -594,7 +590,7 @@ public class MotifMatchJoey {
 											ins.add(nei1);
 											ins.add(nei2);
 											ins.add(nei3);
-											
+											//reorder?
 											res.add(ins);
 										}
 									}
@@ -711,7 +707,7 @@ public class MotifMatchJoey {
 										ins.add(nei1);
 										ins.add(nei2);
 										ins.add(nei3);
-										
+										//reorder?
 										res.add(ins);
 									}
 								}
@@ -780,7 +776,7 @@ public class MotifMatchJoey {
 										ins.add(nei1);
 										ins.add(nei2);
 										ins.add(nei3);
-										
+										//reorder?
 										res.add(ins);
 									}
 									
