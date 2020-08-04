@@ -245,9 +245,9 @@ public class Motif {
 		motif[3].add(2);
 		
 		motifLabels = new ArrayList();
+		motifLabels.add(4);
+		motifLabels.add(5);
 		motifLabels.add(6);
-		motifLabels.add(7);
-		motifLabels.add(7);
 		motifLabels.add(7); 
 		run();
 	}
@@ -293,6 +293,22 @@ public class Motif {
 					motifLabelNodes.add(res);
 				}			
 		}
+		//rank motifLabelKinds and motifLabelNodes ASCE, according to the size of motifLabelNodes.get(i)
+		for(int i=0;i<motifLabelNodes.size();i++) {
+			int sizei = motifLabelNodes.get(i).size();
+			for(int j=i+1;j<motifLabelNodes.size();j++) {
+				int sizej = motifLabelNodes.get(j).size();
+				if(sizei>sizej) {
+					ArrayList<Integer>mlnTem = motifLabelNodes.get(i);
+					motifLabelNodes.set(i, motifLabelNodes.get(j));
+					motifLabelNodes.set(j, mlnTem);
+					int mlkTem = motifLabelKinds.get(i);
+					motifLabelKinds.set(i, motifLabelKinds.get(j));
+					motifLabelKinds.set(j, mlkTem);
+				}
+			}
+		}
+		
 		if(!sig)
 			return false;
 		//check if every node in the same list is in the same orbit
