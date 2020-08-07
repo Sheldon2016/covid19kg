@@ -17,3 +17,5 @@ We first extract four labels (drugbank-ID, drug-name, description and indication
 For the “drug-symptom” edge file, we extract the same four labels from DrugBank and two labels (HPO-ID, symptom-name) from hp.obo of HPO database. Therefore symptom-name could be watched with description and indication of each drug in of DrugBank and “drug-symptom.txt” edge file is created.
  
 Protein-protein interaction information is extracted in combined with two databases: Uniprot and Biogrid. We first map the coronavirus-related protein of Uniprot with Biogrid databases using Uniprot ID to produce the whole SARS-CoV and SARS-CoV-2 protein information with NCBI-gene ID which is “virusprotein.txt” node file. Taxonomy information is extracted from NCBI. Then we filter every protein-protein interaction either related to SARS-CoV or SARS-CoV-2 from Biogrid. Interactions between SARS-CoV and SARS-CoV-2 or themselves were used to create “virusprotein-virusprotein.txt” edge file. Interactions between human with SARS-CoV or SARS-CoV-2 were used to create “virusprotein-hostprotein.txt” edge file.
+
+Now we have 68536	entities and 1722806 relations.
