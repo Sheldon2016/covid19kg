@@ -320,18 +320,32 @@ public class MotifMatchJoey {
 	private static ArrayList<ArrayList<Integer>> match4nodes(covid19kg kg, Motif mf) {
 		// match 4-node pattern graphs
 		ArrayList<ArrayList<Integer>>res = new ArrayList();
-		if(mf.edgeNum==4) {
+		if (mf.edgeNum == 4) {
 			//a tailed rectangle or a rectangle: check the degree vector
-			if(mf.degreeVec.get(0)==2) {
+			if (mf.degreeVec.get(0) == 2) {
 				//it is a rectangle
-				res = matchRectangles(kg,mf);
-			} else {
-				//it is a tailed triangle
-				res = matchTailedTriangles(kg,mf);
+				res = matchRectangles(kg, mf);
 			}
-			
+			else {
+				//it is a tailed triangle
+				res = matchTailedTriangles(kg, mf);
+			}
 		}
 		else if (mf.edgeNum == 3) {
+			//straight line (two path) or three path: check degree vector
+			if (mf.degreeVec.get(mf.degreeVec.size()-1) == 3) {
+				//it is a three path
+				res = matchThreePath(kg, mf);
+			}
+			else {
+				//it is a line (two path)
+				res = matchTwoPath(kg, mf);
+			}
+		}
+		else if (mf.edgeNum == 5) {
+			//
+		}
+		else {
 			//
 		}
 		
@@ -1313,6 +1327,18 @@ public class MotifMatchJoey {
 		return res;
 	}
 
+	private static ArrayList<ArrayList<Integer>> matchThreePath(covid19kg kg, Motif mf) {
+		ArrayList<ArrayList<Integer>> res = new ArrayList();
+		
+		return res;
+	}
+	
+	private static ArrayList<ArrayList<Integer>> matchTwoPath(covid19kg kg, Motif mf) {
+		ArrayList<ArrayList<Integer>> res = new ArrayList();
+		
+		return res;
+	}
+	
 	private static ArrayList<ArrayList<Integer>> match5nodes(covid19kg kg, Motif mf) {
 		// match 5-node pattern graphs
 		return null;
