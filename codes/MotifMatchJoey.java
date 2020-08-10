@@ -1518,7 +1518,7 @@ public class MotifMatchJoey {
 					int nei1 = subgraphAA[i].get(i);
 					if (nei1 < i)
 						continue;
-					for (int j = 0; subgraphAB.length; j++) {
+					for (int j = 0; j < subgraphAB.length; j++) {
 						if (subgraphAB[i] == null)
 							continue;
 						int nei2 = subgraphAB[i].get(j);
@@ -1680,6 +1680,7 @@ public class MotifMatchJoey {
 	
 	private static ArrayList<ArrayList<Integer>> matchTwoPath(covid19kg kg, Motif mf) {
 		ArrayList<ArrayList<Integer>> res = new ArrayList();
+		
 		
 		return res;
 	}
