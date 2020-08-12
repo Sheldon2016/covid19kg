@@ -1,4 +1,3 @@
-#DrugBank-ID,Drug-name,HPO-ID,Symptom
 1,lepirudin,1873,thrombocytopenia
 1,lepirudin,11874,heparin-induced thrombocytopenia
 1,lepirudin,12830,position

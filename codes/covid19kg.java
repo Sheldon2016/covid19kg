@@ -18,13 +18,40 @@ public class covid19kg {
 	public covid19kg(String mainDir) throws IOException {
 		//String mainDir = "C:\\Users\\Sheldon\\Documents\\GitHub\\covid19kg\\data\\HPO\\";
 		
+		//loaddata(mainDir);
+		loadToyData(mainDir);
+	}
+
+	private void loadToyData(String mainDir) throws IOException {
+		String nodes2[] = {"A","B","C","D"};
+		nodes = nodes2;
+		NodeList = new ArrayList();
+		for(int i=0;i<nodes.length;i++) 
+			NodeList.add(nodes[i]);
+		node = new Hashtable[nodes.length];//nid-id
+		nodeNID = new ArrayList[nodes.length];//id-nid
+		nodeName = new ArrayList[nodes.length];//id-name
+		loadNode(mainDir, nodes, node, nodeNID, nodeName);
+		
+		String[]edges = {"A_B", "A_C", "A_D", "B_C", "B_D", "C_D", "A_A", "B_B", "C_C", "D_D",};
+		int[]column1	= {0, 0, 0, 0, 0, 0, 0, 0, 0, 0};
+		int[]column2	= {1, 1, 1, 1, 1, 1, 1, 1, 1, 1};
+		int[]label1		= {0, 0, 0, 1, 1, 2, 0, 1, 2, 3};
+		int[]label2		= {1, 2, 3, 2, 3, 3, 0, 1, 2, 3};
+		this.label1 = label1;
+		this.label2 = label2;
+		edge = new ArrayList[nodes.length][nodes.length][];//
+		loadEdges(mainDir, nodes, node, nodeNID, edges, edge, column1, column2, label1, label2);
+	}
+
+	private void loaddata(String mainDir) throws IOException {
 		//load nodes
 		String nodes2[] = {"Disease","Drug","HostProtein","HPO","Virus","VirusProtein","Strain","Location"};
 		nodes = nodes2;
 		NodeList = new ArrayList();
-		for(int i=0;i<nodes.length;i++) {
+		for(int i=0;i<nodes.length;i++) 
 			NodeList.add(nodes[i]);
-		}
+		
 		
 		node = new Hashtable[nodes.length];//nid-id
 		nodeNID = new ArrayList[nodes.length];//id-nid
@@ -32,11 +59,11 @@ public class covid19kg {
 		loadNode(mainDir, nodes, node, nodeNID, nodeName);
 		
 		//load edges
-		String[]edges = {"virusprotein_hostprotein", "virus_hostprotein", "drug_gene", "hpoID_geneID","virus_virusprotein","virus_disease","hpoID_diseaseID_disease","drug_virusprotein","disease_gene","hpo_virus","hostprotein_hostprotein", "location_location", "strain_strain", "strain_location", "drug_disease", "drug_symptom"};
-		int[]column1	= {1, 0, 0, 0, 0, 0, 0, 0, 3, 0, 0, 0, 0, 0, 0, 0};
-		int[]column2	= {4, 3, 2, 2, 2, 3, 1, 2, 1, 1, 1, 1, 1, 1, 2, 2};
-		int[]label1		= {5, 4, 1, 3, 4, 4, 3, 1, 0, 3, 2, 7, 6, 6, 1, 1};
-		int[]label2		= {2, 2, 2, 2, 5, 0, 0, 5, 2, 4, 2, 7, 6, 7, 0, 3};
+		String[]edges = {"virusprotein_hostprotein", "virus_hostprotein", "drug_gene", "hpoID_geneID","virus_virusprotein","virus_disease","hpoID_diseaseID_disease","drug_virusprotein","disease_gene","hpo_virus","hostprotein_hostprotein", "location_location", "strain_strain", "strain_location", "drug_disease", "drug_symptom","virusprotein_virusprotein"};
+		int[]column1	= {1, 0, 0, 0, 0, 0, 0, 0, 3, 0, 0, 0, 0, 0, 0, 0, 0};
+		int[]column2	= {4, 3, 2, 2, 2, 3, 1, 2, 1, 1, 1, 1, 1, 1, 2, 2, 1};
+		int[]label1		= {5, 4, 1, 3, 4, 4, 3, 1, 0, 3, 2, 7, 6, 6, 1, 1, 5};
+		int[]label2		= {2, 2, 2, 2, 5, 0, 0, 5, 2, 4, 2, 7, 6, 7, 0, 3, 5};
 		this.label1 = label1;
 		this.label2 = label2;
 		edge = new ArrayList[nodes.length][nodes.length][];//
@@ -53,7 +80,6 @@ public class covid19kg {
 		//ArrayList<Integer>Thit = new ArrayList();
 		
 		//Katz(Snid, path, T, Thit, node, edge, nodeNID, nodeName);	
-		
 	}
 
 	private void Katz(int[] Snid, int[] path, ArrayList<Integer> T, ArrayList<Integer> Thit,

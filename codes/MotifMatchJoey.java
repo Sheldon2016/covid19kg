@@ -7,9 +7,9 @@ public class MotifMatchJoey {
 
 	public static void main(String[] args) throws IOException {
 		// TODO Auto-generated method stub
-		covid19kg kg = new covid19kg("C:\\Users\\joeyd\\Desktop\\Internship2020\\covid19kg\\data\\HPO\\");
+		covid19kg kg = new covid19kg("C:\\Users\\Sheldon\\Documents\\GitHub\\covid19kg\\data\\toyKG\\");
 		Motif mf = new Motif();
-		mf.getM10();
+		mf.getTailedTriangle();
 		
 		ArrayList<ArrayList<Integer>>motifIns = match(kg,mf);
 		motifIns2String(motifIns, mf, kg);
@@ -451,28 +451,32 @@ public class MotifMatchJoey {
 					for(int i=0;i<subgraphAA.length;i++) {
 						if(subgraphAA[i]==null)
 							continue;
-						int nei1 = subgraphAA[i].get(i);
-						if(nei1<i) 
-							continue;
-						for(int j=0;j<subgraphAB.length;j++) {
-							int nei2 = subgraphAB[i].get(j);
-							if(subgraphAB[nei1]!=null&&subgraphAB[nei1].contains(nei2))
+						for(int p=0;p<subgraphAA[i].size();p++) {
+							int nei1 = subgraphAA[i].get(p);
+							if(subgraphAB[i]==null)
 								continue;
-							for(int k=0;k<subgraphAC.length;k++) {
-								int nei3 = subgraphAC[i].get(k);
-								if(subgraphAC[nei1]!=null&&subgraphAC[nei1].contains(nei3))
+							for(int j=0;j<subgraphAB[i].size();j++) {
+								int nei2 = subgraphAB[i].get(j);
+								if(subgraphAB[nei1]!=null&&subgraphAB[nei1].contains(nei2))
 									continue;
-								if(subgraphBC[nei2]==null||!subgraphBC[nei2].contains(nei3))
+								if(subgraphAC[i]==null)
 									continue;
-								
-								ArrayList<Integer>ins = new ArrayList();
-								ins.add(i);
-								ins.add(nei1);
-								ins.add(nei2);
-								ins.add(nei3);
-								ins = reorder(ins, seed, deg1ID, labelB_id, labelC_id);
-								res.add(ins);
-								}
+								for(int k=0;k<subgraphAC[i].size();k++) {
+									int nei3 = subgraphAC[i].get(k);
+									if(subgraphAC[nei1]!=null&&subgraphAC[nei1].contains(nei3))
+										continue;
+									if(subgraphBC[nei2]==null||!subgraphBC[nei2].contains(nei3))
+										continue;
+									
+									ArrayList<Integer>ins = new ArrayList();
+									ins.add(i);
+									ins.add(nei1);
+									ins.add(nei2);
+									ins.add(nei3);
+									ins = reorder(ins, seed, deg1ID, labelB_id, labelC_id);
+									res.add(ins);
+									}
+							}
 						}
 					}
 				}
@@ -487,6 +491,11 @@ public class MotifMatchJoey {
 					
 					int labelA_id2 = ids.get(0), labelB_id = ids.get(1);
 					int labelB = mf.motifLabels.get(labelB_id);
+					if(labelB == seedLabel){
+						//change the ids of labelA
+						labelB = mf.motifLabels.get(labelA_id2);
+						labelB_id = ids.get(0);
+					}
 					
 					ArrayList<Integer>[]subgraphAA = kg.edge[seedLabel][seedLabel];
 					ArrayList<Integer>[]subgraphAB = kg.edge[seedLabel][labelB];
@@ -496,29 +505,37 @@ public class MotifMatchJoey {
 					for (int i = 0; i < subgraphAC.length; i++) {
 						if (subgraphAC[i] == null)
 							continue;
-						int nei1 = subgraphAC[i].get(i);
-						for (int j = 0; j < subgraphAA.length; j++) {
-							int nei2 = subgraphAA[i].get(j);
-							if (nei2 < i)
+						for(int p=0;p<subgraphAC[i].size();p++) {
+							int nei1 = subgraphAC[i].get(p);
+							if (subgraphAA[i] == null)
 								continue;
-							if (subgraphAC[nei2] != null && subgraphAC[nei2].contains(nei1))
-								continue;
-							for (int k = 0; k < subgraphAB.length; k++) {
-								int nei3 = subgraphAB[i].get(k);
-								if (subgraphBC[nei3] != null && subgraphBC[nei3].contains(nei1))
+							for (int j = 0; j < subgraphAA[i].size(); j++) {
+								int nei2 = subgraphAA[i].get(j);
+								//if (nei2 < i)
+								//	continue;
+								if (subgraphAC[nei2] != null && subgraphAC[nei2].contains(nei1))
 									continue;
-								if (subgraphAB[nei2] == null || !subgraphAB[nei2].contains(nei3))
+								if (subgraphAB[i] == null)
 									continue;
-								
-								ArrayList<Integer>ins = new ArrayList();
-								ins.add(i);
-								ins.add(nei1);
-								ins.add(nei2);
-								ins.add(nei3);
-								ins = reorder(ins, seed, deg1ID, labelA_id2, labelB_id);
-								res.add(ins);
+								for (int k = 0; k < subgraphAB[i].size(); k++) {
+									int nei3 = subgraphAB[i].get(k);
+									if (subgraphBC[nei3] != null && subgraphBC[nei3].contains(nei1))
+										continue;
+									if (subgraphAB[nei2] == null || !subgraphAB[nei2].contains(nei3))
+										continue;
+									
+									ArrayList<Integer>ins = new ArrayList();
+									ins.add(i);
+									ins.add(nei1);
+									ins.add(nei2);
+									ins.add(nei3);
+									ins = reorder(ins, seed, deg1ID, labelA_id2, labelB_id);
+									res.add(ins);
+								}
 							}
 						}
+						
+						
 					}
 				}
 				
@@ -550,30 +567,36 @@ public class MotifMatchJoey {
 					for (int i = 0; i < subgraphBA.length; i++) {
 						if (subgraphBA[i] == null)
 							continue;
-						int nei1 = subgraphBA[i].get(i);
-						for (int j = 0; j < subgraphBA.length; j++) {
-							int nei2 = subgraphBA[i].get(j);
-							if (nei2 < nei1)
-								continue;
-							if (subgraphAA[nei2] != null && subgraphAA[nei2].contains(nei1))
-								continue;
-							for (int k = 0; k < subgraphBC.length; k++) {
-								int nei3 = subgraphBC[i].get(k);
-								if (subgraphCA[nei3] != null && subgraphCA[nei3].contains(nei1))
+						//int nei1 = subgraphBA[i].get(i);//CHANGE THIS!!! otherwise why we need to check if (subgraphBA[i] == null)
+						for(int p=0;p<subgraphBA[i].size();p++) {//to find node i's neighbors in subgraphBA
+							int nei1 = subgraphBA[i].get(p);
+							for (int j = 0; j < subgraphBA[i].size(); j++) {
+								int nei2 = subgraphBA[i].get(j);
+								if (nei2 == nei1)
 									continue;
-								if (subgraphCA[nei3] == null || !subgraphCA[nei3].contains(nei2))
+								if (subgraphAA[nei2] != null && subgraphAA[nei2].contains(nei1))
 									continue;
+								if (subgraphBC[i] == null)
+									continue;
+								for (int k = 0; k < subgraphBC[i].size(); k++) {//to find node i's neighbors in subgraphBC
+									int nei3 = subgraphBC[i].get(k);
+									if (subgraphCA[nei3] != null && subgraphCA[nei3].contains(nei1))
+										continue;
+									if (subgraphCA[nei3] == null || !subgraphCA[nei3].contains(nei2))
+										continue;
+									
+									ArrayList<Integer>ins = new ArrayList();
+									ins.add(i);
+									ins.add(nei1);
+									ins.add(nei2);
+									ins.add(nei3);
+									ins = reorder(ins, seed, deg1ID, labelA_id2, labelC_id);
+									res.add(ins);
+								}
 								
-								ArrayList<Integer>ins = new ArrayList();
-								ins.add(i);
-								ins.add(nei1);
-								ins.add(nei2);
-								ins.add(nei3);
-								ins = reorder(ins, seed, deg1ID, labelA_id2, labelC_id);
-								res.add(ins);
 							}
-							
 						}
+						
 					}
 				}
 				else {
@@ -593,31 +616,36 @@ public class MotifMatchJoey {
 					for (int i = 0; i < subgraphBC.length; i++) {
 						if (subgraphBC[i] == null)
 							continue;
-						int nei1 = subgraphBC[i].get(i);
-						for (int j = 0; j < subgraphBA.length; j++) {
-							if (subgraphBA[i] == null)
+						//int nei1 = subgraphBC[i].get(i);
+						for(int p=0;p<subgraphBC[i].size();p++) {
+							int nei1 = subgraphBC[i].get(p);
+							if(subgraphBA[i]==null)
 								continue;
-							int nei2 = subgraphBA[i].get(j);
-							if (subgraphAC[nei2] != null && subgraphAC[nei2].contains(nei1))
-								continue;
-							for (int k = 0; k < subgraphBA.length; k++) {
-								int nei3 = subgraphBA[i].get(k);
-								if (nei3 < nei2)
+							for (int j = 0; j < subgraphBA[i].size(); j++) {
+								int nei2 = subgraphBA[i].get(j);
+								if (subgraphAC[nei2] != null && subgraphAC[nei2].contains(nei1))
 									continue;
-								if (subgraphAC[nei3] != null && subgraphAC[nei3].contains(nei1))
-									continue;
-								if (subgraphAA[nei2] == null || !subgraphAA[nei2].contains(nei3))
-									continue;
-								
-								ArrayList<Integer>ins = new ArrayList();
-								ins.add(i);
-								ins.add(nei1);
-								ins.add(nei2);
-								ins.add(nei3);
-								ins = reorder(ins, seed, deg1ID, labelA_id1, labelA_id2);
-								res.add(ins);
+								//no need to check whether subgraphBA[i] exist ot not, since it is already checked in last loop!
+								for (int k = 0; k < subgraphBA[i].get(k); k++) {
+									int nei3 = subgraphBA[i].get(k);
+									if (nei3 == nei2)// the only duplicate id from nei2==nei3, since they are in different orbits
+										continue;
+									if (subgraphAC[nei3] != null && subgraphAC[nei3].contains(nei1))
+										continue;
+									if (subgraphAA[nei2] == null || !subgraphAA[nei2].contains(nei3))
+										continue;
+									
+									ArrayList<Integer>ins = new ArrayList();
+									ins.add(i);//of label of seed
+									ins.add(nei1);//of label of deg1ID
+									ins.add(nei2);//of label of labelA_id1
+									ins.add(nei3);//of label of labelA_id2
+									ins = reorder(ins, seed, deg1ID, labelA_id1, labelA_id2);
+									res.add(ins);
+								}
 							}
 						}
+						
 					}
 				}
 			}
@@ -654,33 +682,42 @@ public class MotifMatchJoey {
 					for (int i = 0; i < subgraphAA.length; i++) {
 						if (subgraphAA[i] == null)
 							continue;
-						int nei1 = subgraphAA[i].get(i);
-						if (nei1 < i)
-							continue;
-						for (int j = 0; j < subgraphAB.length; j++) {
+						//int nei1 = subgraphAA[i].get(i);
+						for(int p=0;p<subgraphAA[i].size();p++) {
+							int nei1 = subgraphAA[i].get(p);
+							//if (nei1 < i)
+								//continue;//no need: they are in differnt orbits
 							if (subgraphAB[i] == null)
 								continue;
-							int nei2 = subgraphAB[i].get(j);
-							if (subgraphAB[nei1] != null && subgraphAB[nei1].contains(nei2))
-								continue;
-							for (int k = 0; k < subgraphAB.length; k++) {
-								int nei3 = subgraphAB[i].get(k);
-								if (nei3 < nei2)
+							for (int j = 0; j < subgraphAB[i].size(); j++) {
+								//if (subgraphAB[i] == null)
+									//continue;// need to check it BEFORE you access it!!!
+								int nei2 = subgraphAB[i].get(j);
+								if (subgraphAB[nei1] != null && subgraphAB[nei1].contains(nei2))
 									continue;
-								if (subgraphAB[nei1] != null && subgraphAB[nei1].contains(nei3))
-									continue;
-								if (subgraphBB[nei2] == null || !subgraphBB[nei2].contains(nei3))
-									continue;
-								
-								ArrayList<Integer>ins = new ArrayList();
-								ins.add(i);
-								ins.add(nei1);
-								ins.add(nei2);
-								ins.add(nei3);
-								ins = reorder(ins, seed, deg1ID, labelB_id1, labelB_id2);
-								res.add(ins);
+								//if (subgraphAB[i] == null)
+									//continue; //if it is not checked in last loop, then need to check here!
+								for (int k = 0; k < subgraphAB[i].size(); k++) {
+									int nei3 = subgraphAB[i].get(k);
+									if (nei3 <= nei2)//in same orbit: check by <=
+										continue;
+									if (subgraphAB[nei1] != null && subgraphAB[nei1].contains(nei3))
+										continue;
+									if (subgraphBB[nei2] == null || !subgraphBB[nei2].contains(nei3))
+										continue;
+									
+									ArrayList<Integer>ins = new ArrayList();
+									ins.add(i);
+									ins.add(nei1);
+									ins.add(nei2);
+									ins.add(nei3);
+									ins = reorder(ins, seed, deg1ID, labelB_id1, labelB_id2);
+									res.add(ins);
+								}
 							}
 						}
+						
+						
 					}
 				}
 				else {
@@ -703,32 +740,38 @@ public class MotifMatchJoey {
 					for (int i = 0; i < subgraphBA.length; i++) {
 						if (subgraphBA[i] == null)
 							continue;
-						int nei1 = subgraphBA[i].get(i);
-						for (int j = 0; j < subgraphBA.length; j++) {
-							int nei2 = subgraphBA[i].get(j);
-							if (nei2 < nei1)
-								continue;
-							if (subgraphAA[nei1] != null && subgraphAA[nei1].contains(nei2))
-								continue;
-							for (int k = 0; k < subgraphBB.length; k++) {
-								int nei3 = subgraphBB[i].get(k);
-								if (nei3 < i)
+						//for each i, find its neighbors
+						for(int p=0;p<subgraphBA[i].size();p++){
+							int nei1 = subgraphBA[i].get(p);
+							for (int j = 0; j < subgraphBA[i].size(); j++) {
+								int nei2 = subgraphBA[i].get(j);
+								if (nei2 == nei1)
 									continue;
-								if (subgraphBA[nei3] != null && subgraphBA[nei3].contains(nei1))
+								if (subgraphAA[nei1] != null && subgraphAA[nei1].contains(nei2))
 									continue;
-								if (subgraphBA[nei3] == null || !subgraphBA[nei3].contains(nei2))
+								if (subgraphBB[i] == null)
 									continue;
+								for (int k = 0; k < subgraphBB[i].size(); k++) {
+									int nei3 = subgraphBB[i].get(k);
+									//if (nei3 < i)
+										//continue;
+									if (subgraphBA[nei3] != null && subgraphBA[nei3].contains(nei1))
+										continue;
+									if (subgraphBA[nei3] == null || !subgraphBA[nei3].contains(nei2))
+										continue;
+									
+									ArrayList<Integer>ins = new ArrayList();
+									ins.add(i);
+									ins.add(nei1);
+									ins.add(nei2);
+									ins.add(nei3);
+									ins = reorder(ins, seed, deg1ID, labelA_id2, labelB_id2);
+									res.add(ins);
+								}
 								
-								ArrayList<Integer>ins = new ArrayList();
-								ins.add(i);
-								ins.add(nei1);
-								ins.add(nei2);
-								ins.add(nei3);
-								ins = reorder(ins, seed, deg1ID, labelA_id2, labelB_id2);
-								res.add(ins);
 							}
-							
 						}
+						
 					}
 				}
 			}
@@ -758,31 +801,36 @@ public class MotifMatchJoey {
 						for (int i = 0; i < subgraphAA.length; i++) {
 							if (subgraphAA[i] == null)
 								continue;
-							int nei1 = subgraphAA[i].get(i);
-							if (nei1 < i)
-								continue;
-							for (int j = 0; j < subgraphAA.length; j++) {
-								int nei2 = subgraphAA[i].get(j);
-								if (nei2 < i)
-									continue;
-								if (subgraphAA[nei1] != null && subgraphAA[nei1].contains(nei2))
-									continue;
-								for (int k = 0; k < subgraphAB.length; k++) {
-									int nei3 = subgraphAB[i].get(k);
-									if (subgraphAB[nei1] != null && subgraphAB[nei1].contains(nei3))
+							for(int p=0;p<subgraphAA[i].size();p++) {
+								int nei1 = subgraphAA[i].get(p);
+								//if (nei1 < i)
+									//continue;//all three A are in the different orbits
+								for (int j = 0; j < subgraphAA[i].size(); j++) {
+									int nei2 = subgraphAA[i].get(j);
+									if (nei2 == nei1)
 										continue;
-									if (subgraphAB[nei2] == null || !subgraphAB[nei2].contains(nei3))
+									if (subgraphAA[nei1] != null && subgraphAA[nei1].contains(nei2))
 										continue;
-									
-									ArrayList<Integer>ins = new ArrayList();
-									ins.add(i);
-									ins.add(nei1);
-									ins.add(nei2);
-									ins.add(nei3);
-									ins = reorder(ins, seed, deg1ID, labelA_id3, labelB_id);
-									res.add(ins);
+									if (subgraphAB[i] == null)
+										continue;
+									for (int k = 0; k < subgraphAB[i].size(); k++) {
+										int nei3 = subgraphAB[i].get(k);
+										if (subgraphAB[nei1] != null && subgraphAB[nei1].contains(nei3))
+											continue;
+										if (subgraphAB[nei2] == null || !subgraphAB[nei2].contains(nei3))
+											continue;
+										
+										ArrayList<Integer>ins = new ArrayList();
+										ins.add(i);
+										ins.add(nei1);
+										ins.add(nei2);
+										ins.add(nei3);
+										ins = reorder(ins, seed, deg1ID, labelA_id3, labelB_id);
+										res.add(ins);
+									}
 								}
 							}
+							
 						}
 					}
 					else {
@@ -800,29 +848,36 @@ public class MotifMatchJoey {
 						for (int i = 0; i < subgraphAB.length; i++) {
 							if (subgraphAB[i] == null)
 								continue;
-							int nei1 = subgraphAB[i].get(i);
-							for (int j = 0; j < subgraphAA.length; j++) {
-								int nei2 = subgraphAA[i].get(j);
-								if (nei2 < i)
+							for(int p=0;p<subgraphAB[i].size();p++) {
+								int nei1 = subgraphAB[i].get(p);
+								if (subgraphAA[i] == null)
 									continue;
-								if (subgraphAB[nei2] != null && subgraphAB[nei2].contains(nei1))
-									continue;
-								for (int k = 0; k < subgraphAA.length; k++) {
-									int nei3 = subgraphAA[i].get(k);
-									if (subgraphAB[nei3] != null && subgraphAB[nei3].contains(nei1))
+								for (int j = 0; j < subgraphAA[i].size(); j++) {
+									int nei2 = subgraphAA[i].get(j);
+									//if (nei2 < i)
+										//continue;
+									if (subgraphAB[nei2] != null && subgraphAB[nei2].contains(nei1))
 										continue;
-									if (subgraphAA[nei2] == null || !subgraphAA[nei2].contains(nei3))
-										continue;
-									
-									ArrayList<Integer>ins = new ArrayList();
-									ins.add(i);
-									ins.add(nei1);
-									ins.add(nei2);
-									ins.add(nei3);
-									ins = reorder(ins, seed, deg1ID, labelA_id2, labelA_id3);
-									res.add(ins);
+									for (int k = 0; k < subgraphAA[i].size(); k++) {
+										int nei3 = subgraphAA[i].get(k);
+										if(nei3==nei2)
+											continue;
+										if (subgraphAB[nei3] != null && subgraphAB[nei3].contains(nei1))
+											continue;
+										if (subgraphAA[nei2] == null || !subgraphAA[nei2].contains(nei3))
+											continue;
+										
+										ArrayList<Integer>ins = new ArrayList();
+										ins.add(i);
+										ins.add(nei1);
+										ins.add(nei2);
+										ins.add(nei3);
+										ins = reorder(ins, seed, deg1ID, labelA_id2, labelA_id3);
+										res.add(ins);
+									}
 								}
 							}
+							
 						}
 					}
 				}
@@ -841,31 +896,34 @@ public class MotifMatchJoey {
 					for (int i = 0; i < subgraphAB.length; i++) {
 						if (subgraphAB[i] == null)
 							continue;
-						int nei1 = subgraphAB[i].get(i);
-						for (int j = 0; j < subgraphAB.length; j++) {
-							int nei2 = subgraphAB[i].get(j);
-							if (nei2 < nei1)
-								continue;
-							if (subgraphBB[nei1] != null && subgraphBB[nei1].contains(nei2))
-								continue;
-							for (int k = 0; k < subgraphAB.length; k++) {
-								int nei3 = subgraphAB[i].get(k);
-								if (nei3 < nei1 || nei3 < nei2)
+						for(int p=0;p<subgraphAB[i].size();p++) {
+							int nei1 = subgraphAB[i].get(p);
+							for (int j = 0; j < subgraphAB[i].size(); j++) {
+								int nei2 = subgraphAB[i].get(j);
+								if (nei2 == nei1)
 									continue;
-								if (subgraphBB[nei1] != null && subgraphBB[nei1].contains(nei3))
+								if (subgraphBB[nei1] != null && subgraphBB[nei1].contains(nei2))
 									continue;
-								if (subgraphBB[nei2] == null || !subgraphBB[nei2].contains(nei3))
-									continue;
-								
-								ArrayList<Integer>ins = new ArrayList();
-								ins.add(i);
-								ins.add(nei1);
-								ins.add(nei2);
-								ins.add(nei3);
-								ins = reorder(ins, seed, deg1ID, labelB_id2, labelB_id3);
-								res.add(ins);
+								for (int k = 0; k < subgraphAB[i].size(); k++) {
+									int nei3 = subgraphAB[i].get(k);
+									if (nei3 == nei1 || nei3 <= nei2)//nei2 and nei3 are in the same orbit
+										continue;
+									if (subgraphBB[nei1] != null && subgraphBB[nei1].contains(nei3))
+										continue;
+									if (subgraphBB[nei2] == null || !subgraphBB[nei2].contains(nei3))
+										continue;
+									
+									ArrayList<Integer>ins = new ArrayList();
+									ins.add(i);
+									ins.add(nei1);
+									ins.add(nei2);
+									ins.add(nei3);
+									ins = reorder(ins, seed, deg1ID, labelB_id2, labelB_id3);
+									res.add(ins);
+								}
 							}
 						}
+						
 					}
 				}
 			}	
@@ -895,33 +953,36 @@ public class MotifMatchJoey {
 			for (int i = 0; i < subgraphAA.length; i++) {
 				if (subgraphAA[i] == null)
 					continue;
-				int nei1 = subgraphAA[i].get(i);
-				if (nei1 < i)
-					continue;
-				for (int j = 0; j < subgraphAA.length; j++) {
-					int nei2 = subgraphAA[i].get(j);
-					if (nei2 < i || nei2 < nei1)
-						continue;
-					if (subgraphAA[nei1] != null && subgraphAA[nei1].contains(nei2))
-						continue;
-					for (int k = 0; k < subgraphAA.length; k++) {
-						int nei3 = subgraphAA[i].get(k);
-						if (nei3 < i || nei3 < nei1 || nei3 < nei2)
+				for(int p=0;p<subgraphAA[i].size();p++) {
+					int nei1 = subgraphAA[i].get(p);
+					//if (nei1 < i)
+						//continue;
+					for (int j = 0; j < subgraphAA[i].size(); j++) {
+						int nei2 = subgraphAA[i].get(j);
+						if (nei2 == nei1)//not in same orbit, thus only check if they are the same node
 							continue;
-						if (subgraphAA[nei1] != null && subgraphAA[nei1].contains(nei3))
+						if (subgraphAA[nei1] != null && subgraphAA[nei1].contains(nei2))
 							continue;
-						if (subgraphAA[nei2] == null || !subgraphAA[nei2].contains(nei3))
-							continue;
-						
-						ArrayList<Integer>ins = new ArrayList();
-						ins.add(i);
-						ins.add(nei1);
-						ins.add(nei2);
-						ins.add(nei3);
-						//ins = reorder(ins, seed, deg1ID, onlyLabel_id2, onlyLabel_id3);
-						res.add(ins);
+						for (int k = 0; k < subgraphAA[i].size(); k++) {
+							int nei3 = subgraphAA[i].get(k);
+							if (nei3 == nei1 || nei3 <= nei2)
+								continue;
+							if (subgraphAA[nei1] != null && subgraphAA[nei1].contains(nei3))
+								continue;
+							if (subgraphAA[nei2] == null || !subgraphAA[nei2].contains(nei3))
+								continue;
+							
+							ArrayList<Integer>ins = new ArrayList();
+							ins.add(i);
+							ins.add(nei1);
+							ins.add(nei2);
+							ins.add(nei3);
+							//ins = reorder(ins, seed, deg1ID, onlyLabel_id2, onlyLabel_id3);
+							res.add(ins);
+						}
 					}
 				}
+				
 			}
 			
 		}
