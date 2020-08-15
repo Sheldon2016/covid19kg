@@ -1964,6 +1964,20 @@ public class MotifMatchJoey {
 							
 						}else {
 							//for CABA
+							if(seed2Label==multiLabel) {
+								//switch seed1 and seed2
+								int tem = seed1;
+								seed1 = seed2;
+								seed2 = tem;
+								seed1Label = mf.motifLabels.get(seed1);
+								seed2Label = mf.motifLabels.get(seed2);
+								//switch id2 and id3
+								tem = id2;
+								id2 = id3;
+								id3 = tem;
+								label2 = mf.motifLabels.get(id2);
+								label3 = mf.motifLabels.get(id3);
+							}
 							ArrayList<Integer> subgraphAA[] = kg.edge[seed1Label][seed1Label];
 							ArrayList<Integer> subgraphAB[] = kg.edge[seed1Label][seed2Label];
 							ArrayList<Integer> subgraphBA[] = kg.edge[seed2Label][seed1Label];
