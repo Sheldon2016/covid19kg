@@ -11,6 +11,45 @@ public class Motif {
 	public ArrayList<ArrayList<Integer>> motifLabelNodes = null;
 	public int edgeNum = 0;
 	
+	void get4Path(){
+		motif = new ArrayList[4];
+		motif[0] = new ArrayList();//to store neighbors of 0
+		motif[0].add(1);
+		motif[1] = new ArrayList();
+		motif[1].add(0);
+		motif[1].add(2);
+		motif[2] = new ArrayList();
+		motif[2].add(1);
+		motif[2].add(3);
+		motif[3] = new ArrayList();
+		motif[3].add(2);
+		motifLabels = new ArrayList();
+		motifLabels.add(0);
+		motifLabels.add(1);
+		motifLabels.add(0);
+		motifLabels.add(2);
+		run();
+	}
+
+	void get4Star(){
+		motif = new ArrayList[4];
+		motif[0] = new ArrayList();//to store neighbors of 0
+		motif[0].add(1);
+		motif[1] = new ArrayList();
+		motif[1].add(0);
+		motif[1].add(2);
+		motif[1].add(3);
+		motif[2] = new ArrayList();
+		motif[2].add(1);
+		motif[3] = new ArrayList();
+		motif[3].add(1);
+		motifLabels = new ArrayList();
+		motifLabels.add(0);
+		motifLabels.add(1);
+		motifLabels.add(2);
+		motifLabels.add(1);
+		run();
+	}
 	
 	void getTailedTriangle(){
 		motif = new ArrayList[4];
