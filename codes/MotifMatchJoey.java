@@ -334,9 +334,11 @@ public class MotifMatchJoey {
 		}
 		else if (mf.edgeNum == 5) {
 			//
+			res = matchSingleDiagonalRectangles(kg, mf);
 		}
 		else {
 			//
+			res = matchDoubleDiagonalRectangles(kg, mf);
 		}
 		
 		return res;
@@ -2286,6 +2288,294 @@ public class MotifMatchJoey {
 							ins.add(nei2);
 							ins.add(nei3);
 							ins = reorder(ins, seed1, seed2, id2, id3);
+							res.add(ins);
+						}
+					}
+				}
+			}
+		}
+		
+		return res;
+	}
+	
+	private ArrayList<ArrayList<Integer>> matchSingleDiagonalRectangles(covid19kg kg, Motif mf) {
+		ArrayList<ArrayList<Integer>> res = new ArrayList();
+		
+		if (mf.motifLabelKinds.size() == 4) {
+			
+		}
+		else if (mf.motifLabelKinds.size() == 3) {
+			
+		}
+		else if (mf.motifLabelKinds.size() == 2) {
+			
+		}
+		else {
+			
+		}
+		
+		return res;
+	}
+	
+	private ArrayList<ArrayList<Integer>> matchDoubleDiagonalRectangles(covid19kg kg, Motif mf) {
+		ArrayList<ArrayList<Integer>> res = new ArrayList();
+		
+		if (mf.motifLabelKinds.size() == 4) {
+			//for ABCD
+			int id0 = 0, labelA = mf.motifLabels.get(0);
+			int id1 = mf.motif[id0].get(0), labelB = mf.motifLabels.get(id1);
+			int id2 = mf.motif[id0].get(1), labelD = mf.motifLabels.get(id2);
+			int id3 = mf.motif[id0].get(2), labelC = mf.motifLabels.get(id3);			
+				
+			ArrayList<Integer> subgraphAB[] = kg.edge[labelA][labelB];
+			ArrayList<Integer> subgraphAC[] = kg.edge[labelA][labelC];
+			ArrayList<Integer> subgraphAD[] = kg.edge[labelA][labelD];
+			ArrayList<Integer> subgraphBC[] = kg.edge[labelB][labelC];
+			ArrayList<Integer> subgraphBD[] = kg.edge[labelB][labelD];
+			ArrayList<Integer> subgraphCD[] = kg.edge[labelC][labelD];
+			
+			for (int i = 0; i < subgraphAB.length; i++) {
+				if (subgraphAB[i] == null)
+					continue;
+				for (int j = 0; j < subgraphAB[i].size(); j++) {
+					int nei1 = subgraphAB[i].get(j);
+					if (subgraphAD[i] == null)
+						continue;
+					for (int k = 0; k < subgraphAD[i].size(); k++) {
+						int nei2 = subgraphAD[i].get(k);
+						if (subgraphBD[nei1] == null || !subgraphBD[nei1].contains(nei2))
+							continue;
+						if (subgraphBC[nei1] == null)
+							continue;
+						for (int p = 0; p < subgraphBC[nei1].size(); p++) {
+							int nei3 = subgraphBC[nei1].get(p);
+							if (subgraphAC[i] == null || !subgraphAC[i].contains(nei3))
+								continue;
+							if (subgraphCD[nei3] == null || !subgraphCD[nei3].contains(nei2))
+								continue;
+							
+							ArrayList<Integer> ins = new ArrayList();
+							ins.add(i);
+							ins.add(nei1);
+							ins.add(nei2);
+							ins.add(nei3);
+							ins = reorder(ins, id0, id1, id2, id3);
+							res.add(ins);
+						}
+					}
+				}
+			}
+		}
+		else if (mf.motifLabelKinds.size() == 3) {
+			//for AABC
+			
+			int multiLabel = mf.motifLabelKinds.get(mf.motifLabelKinds.size()-1);
+			ArrayList<Integer>labelAids = mf.motifLabelNodes.get(mf.motifLabelKinds.size()-1);
+			int id0 = 0;
+			if (!labelAids.contains(0)) {
+				//need to use reorder function
+				id0 = labelAids.get(0);
+			}
+
+			int id1 = labelAids.get(1);
+			int id2 = mf.motif[id0].get(0);
+			if (id2 == id1) {
+				id2 = mf.motif[id0].get(1);
+			}
+			int labelC = mf.motifLabels.get(id2);
+			int id3 = mf.motif[id0].get(2);
+			if (id3 == id1)
+				id3 = mf.motif[id0].get(1);
+			int labelB = mf.motifLabels.get(id3);
+			
+			ArrayList<Integer> subgraphAA[] = kg.edge[multiLabel][multiLabel];
+			ArrayList<Integer> subgraphAB[] = kg.edge[multiLabel][labelB];
+			ArrayList<Integer> subgraphAC[] = kg.edge[multiLabel][labelC];
+			ArrayList<Integer> subgraphBC[] = kg.edge[labelB][labelC];
+			
+			for (int i = 0; i < subgraphAA.length; i++) {
+				if (subgraphAA[i] == null)
+					continue;
+				for (int j = 0; j < subgraphAA[i].size(); j++) {
+					int nei1 = subgraphAA[i].get(j);
+					if (nei1 < i)
+						continue;
+					if (subgraphAC[i] == null)
+						continue;
+					for (int k = 0; k < subgraphAC[i].size(); k++) {
+						int nei2 = subgraphAC[i].get(k);
+						if (subgraphAC[nei1] == null || !subgraphAC[nei1].contains(nei2))
+							continue;
+						if (subgraphAB[nei1] == null)
+							continue;
+						for (int p = 0; p < subgraphAB[nei1].size(); p++) {
+							int nei3 = subgraphAB[nei1].get(p);
+							if (subgraphAB[i] == null || !subgraphAB[i].contains(nei3))
+								continue;
+							if (subgraphBC[nei3] == null || !subgraphBC[nei3].contains(nei2))
+								continue;
+							
+							ArrayList<Integer> ins = new ArrayList();
+							ins.add(i);
+							ins.add(nei1);
+							ins.add(nei2);
+							ins.add(nei3);
+							if (id0 != 0)
+								ins = reorder(ins, id0, id1, id2, id3);
+							res.add(ins);
+						}
+					}
+				}
+			}
+		}
+		else if (mf.motifLabelKinds.size() == 2) {
+			if (mf.motifLabelNodes.get(0).size() == 2) {
+				//for AABB
+				int id0 = 0, labelA = mf.motifLabels.get(id0);
+				int id1 = -1;
+				ArrayList<Integer>ids = new ArrayList();
+				for (int i = 0; i < mf.motif[id0].size(); i++) {
+					if (mf.motifLabels.get(mf.motif[id0].get(i)) == labelA) {
+						id1 = mf.motif[id0].get(i);
+					}
+					else
+						ids.add(mf.motif[id0].get(i));
+				}
+				
+				int id2 = ids.get(0), labelB = mf.motifLabels.get(id2);
+				int id3 = ids.get(1);
+				
+				ArrayList<Integer> subgraphAA[] = kg.edge[labelA][labelA];
+				ArrayList<Integer> subgraphAB[] = kg.edge[labelA][labelB];
+				ArrayList<Integer> subgraphBB[] = kg.edge[labelB][labelB];
+				
+				for (int i = 0; i < subgraphAA.length; i++) {
+					if (subgraphAA[i] == null)
+						continue;
+					for (int j = 0; j < subgraphAA[i].size(); j++) {
+						int nei1 = subgraphAA[i].get(j);
+						if (subgraphAB[i] == null)
+							continue;
+						for (int k = 0; k < subgraphAB[i].size(); k++) {
+							int nei2 = subgraphAB[i].get(k);
+							if (subgraphAB[nei1] == null || !subgraphAB[nei1].contains(nei2))
+								continue;
+							if (subgraphAB[nei1] == null)
+								continue;
+							for (int p = 0; p < subgraphAB[nei1].size(); p++) {
+								int nei3 = subgraphAB[nei1].get(p);
+								if (!subgraphAB[i].contains(nei3))
+									continue;
+								if (subgraphBB[nei3] == null || !subgraphBB[nei3].contains(nei2))
+									continue;
+								
+								ArrayList<Integer> ins = new ArrayList();
+								ins.add(i);
+								ins.add(nei1);
+								ins.add(nei2);
+								ins.add(nei3);
+								//if (id0 != 0)
+									//ins = reorder(ins, id0, id1, id2, id3);
+								res.add(ins);
+							}
+						}
+					}
+				}
+			}
+			else {
+				//for AAAB
+				
+				int multiLabel = mf.motifLabelKinds.get(mf.motifLabelKinds.size()-1);
+				int singleLabel = mf.motifLabelKinds.get(0);
+				ArrayList<Integer>ids = new ArrayList();
+				int id0 = 0;
+				int id1 = mf.motif[id0].get(0);
+				int id2 = mf.motif[id0].get(1);
+				int id3 = mf.motif[id0].get(2);
+				
+				ArrayList<Integer> subgraphAA[] = kg.edge[multiLabel][multiLabel];
+				ArrayList<Integer> subgraphAB[] = kg.edge[multiLabel][singleLabel];
+				
+				for (int i = 0; i < subgraphAA.length; i++) {
+					if (subgraphAA[i] == null)
+						continue;
+					for (int j = 0; j < subgraphAA[i].size(); j++) {
+						int nei1 = subgraphAA[i].get(j);
+						if (nei1 < i)
+							continue;
+						for (int k = 0; k < subgraphAA[i].size(); k++) {
+							int nei2 = subgraphAA[i].get(k);
+							if (nei2 < i || nei2 <= nei1)
+								continue;
+							if (subgraphAA[nei1] == null || !subgraphAA[nei1].contains(nei2))
+								continue;
+							if (subgraphAB[nei1] == null)
+								continue;
+							for (int p = 0; p < subgraphAB[nei1].size(); p++) {
+								int nei3 = subgraphAB[nei1].get(p);
+								if (subgraphAB[i] == null || !subgraphAB[i].contains(nei3))
+									continue;
+								if (subgraphAB[nei2] == null || !subgraphAB[nei2].contains(nei3))
+									continue;
+								
+								ArrayList<Integer> ins = new ArrayList();
+								ins.add(i);
+								ins.add(nei1);
+								ins.add(nei2);
+								ins.add(nei3);
+								res.add(ins);
+							}
+						}
+					}
+				}
+				//for (int i = 0; i < mf.motif[id0].size(); i++) {
+				//	if (mf.motifLabels.get(mf.motif[id0].get(i)) == labelA) {
+				//		id1 = mf.motif[id0].get(i);
+				//	}
+				//	else
+				//		ids.add(mf.motif[id0].get(i));
+				//}
+			}
+		}
+		else {
+			//for AAAA
+			
+			int id0 = 0, onlyLabel = mf.motifLabels.get(id0);
+			int id1 = mf.motif[id0].get(0);
+			int id2 = mf.motif[id0].get(1);
+			int id3 = mf.motif[id0].get(2);
+			
+			ArrayList<Integer> subgraphAA[] = kg.edge[onlyLabel][onlyLabel];
+			
+			for (int i = 0; i < subgraphAA.length; i++) {
+				if (subgraphAA[i] == null)
+					continue;
+				for (int j = 0; j < subgraphAA[i].size(); j++) {
+					int nei1 = subgraphAA[i].get(j);
+					if (nei1 < i)
+						continue;
+					for (int k = 0; k < subgraphAA[i].size(); k++) {
+						int nei2 = subgraphAA[i].get(k);
+						if (nei2 < i || nei2 <= nei1)
+							continue;
+						if (subgraphAA[nei1] == null || !subgraphAA[nei1].contains(nei2))
+							continue;
+						if (subgraphAA[nei1] == null)
+							continue;
+						for (int p = 0; p < subgraphAA[nei1].size(); p++) {
+							int nei3 = subgraphAA[nei1].get(p);
+							if (nei3 <= i || nei3 < nei1 || nei3 <= nei2)
+								continue;
+							if (!subgraphAA[i].contains(nei3))
+								continue;
+							if (subgraphAA[nei3] == null || !subgraphAA[nei3].contains(nei2))
+								continue;
+							
+							ArrayList<Integer> ins = new ArrayList();
+							ins.add(i);
+							ins.add(nei1);
+							ins.add(nei2);
+							ins.add(nei3);
 							res.add(ins);
 						}
 					}
