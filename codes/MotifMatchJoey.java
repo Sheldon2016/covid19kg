@@ -14,6 +14,7 @@ public class MotifMatchJoey {
 		System.out.println();
 		for(int i=0;i<motifIns.size();i++) {
 			System.out.println(output(motifIns.get(i),mf.motifLabels, kg));
+			//System.out.println(output2(motifIns.get(i),mf.motifLabels, kg, mf));
 		}
 	}
 	
@@ -25,6 +26,37 @@ public class MotifMatchJoey {
 			s+= kg.nodeNID[label].get(id)+"\t";
 		}
 		return s;
+	}
+	
+	private String output2(ArrayList<Integer> ins, ArrayList<Integer> motifLabels, covid19kg kg, Motif mf) {
+		//match (a:A),(b:B),(c:A),(d:C) where a.nid=42 and b.nid=16 and c.nid=17 and d.nid=89  return a,b,c,d
+		String s = "match (a:"+kg.nodes[mf.motifLabels.get(0)]+"),(b:"+kg.nodes[mf.motifLabels.get(1)]+"),(c:"+kg.nodes[mf.motifLabels.get(2)]+"),(d:"+kg.nodes[mf.motifLabels.get(3)]+") where a.nid="+kg.nodeNID[motifLabels.get(0)].get(ins.get(0))+" and b.nid="+kg.nodeNID[motifLabels.get(1)].get(ins.get(1))+" and c.nid="+kg.nodeNID[motifLabels.get(2)].get(ins.get(2))+" and d.nid="+kg.nodeNID[motifLabels.get(3)].get(ins.get(3))+"  return a,b,c,d";
+		return s;
+	}
+	
+	public double score (Motif[]ms, int[]labelIDs, int id, covid19kg kg) {
+		double res = 0;
+		for(int i=0;i<ms.length;i++) {
+			Motif m = ms[i];
+			int labelID = labelIDs[i];
+			int mnum = getInstanceNumSpecified(id, labelIDs[i], kg, ms[i]);
+			res += mnum;
+		}
+		return res/ms.length;
+	}
+	
+	public int getInstanceNumSpecified(int id, int labelID, covid19kg kg, Motif mf) {
+		ArrayList<ArrayList<Integer>> res = match(kg, mf);
+		int mcounter = 0;
+		for(int i=0;i<res.size();i++) {
+			ArrayList<Integer>mins = res.get(i);
+			//mins: a motif instance labeled A,B,C,D in the order of mf.motifLabels
+			int nid = mins.get(labelID);
+			if(nid == id) {
+				mcounter ++;
+			}
+		}
+		return mcounter;
 	}
 
 	ArrayList<ArrayList<Integer>> match(covid19kg kg, Motif mf) {
@@ -2114,7 +2146,7 @@ public class MotifMatchJoey {
 									int nei3 = subgraphBB[nei1].get(p);
 									if (subgraphAB[i] != null && subgraphAB[i].contains(nei3))
 										continue;
-									if (subgraphAB[nei2] != null & subgraphAB[nei2].contains(nei3))
+									if (subgraphAB[nei2] != null && subgraphAB[nei2].contains(nei3))
 										continue;
 									
 									ArrayList<Integer> ins = new ArrayList();
@@ -2135,21 +2167,7 @@ public class MotifMatchJoey {
 				int multiLabel = mf.motifLabelKinds.get(mf.motifLabelKinds.size()-1);
 				if (seed1Label == seed2Label) {
 					//for AAAB
-					if (seed2Label != label3) {
-						//switch seed1 and seed2
-						int tem = seed1;
-						seed1 = seed2;
-						seed2 = tem;
-						seed1Label = mf.motifLabels.get(seed1);
-						seed2Label = mf.motifLabels.get(seed2);
-						//switch id2 and id3
-						tem = id2;
-						id2 = id3;
-						id3 = tem;
-						label2 = mf.motifLabels.get(id2);
-						label3 = mf.motifLabels.get(id3);
-					}
-					
+
 					ArrayList<Integer> subgraphAA[] = kg.edge[seed1Label][seed1Label];
 					ArrayList<Integer> subgraphAB[] = kg.edge[seed1Label][label3];
 					
@@ -2613,6 +2631,8 @@ public class MotifMatchJoey {
 							continue;
 						for (int j = 0; j < subgraphAA[i].size(); j++) {
 							int nei1 = subgraphAA[i].get(j);
+							if(subgraphAB[i]==null)
+								continue;
 							for (int k = 0; k < subgraphAB[i].size(); k++) {
 								int nei2 = subgraphAB[i].get(k);
 								if (subgraphAB[nei1] != null && subgraphAB[nei1].contains(nei2))
