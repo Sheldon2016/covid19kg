@@ -3,7 +3,7 @@ package algo;
 import java.io.IOException;
 import java.util.ArrayList;
 
-public class MotifMatchJoey {
+public class MotifMatch {
 	
 	void motifIns2String(ArrayList<ArrayList<Integer>>motifIns, Motif mf, covid19kg kg) {
 		// output the matching results
@@ -32,31 +32,6 @@ public class MotifMatchJoey {
 		//match (a:A),(b:B),(c:A),(d:C) where a.nid=42 and b.nid=16 and c.nid=17 and d.nid=89  return a,b,c,d
 		String s = "match (a:"+kg.nodes[mf.motifLabels.get(0)]+"),(b:"+kg.nodes[mf.motifLabels.get(1)]+"),(c:"+kg.nodes[mf.motifLabels.get(2)]+"),(d:"+kg.nodes[mf.motifLabels.get(3)]+") where a.nid="+kg.nodeNID[motifLabels.get(0)].get(ins.get(0))+" and b.nid="+kg.nodeNID[motifLabels.get(1)].get(ins.get(1))+" and c.nid="+kg.nodeNID[motifLabels.get(2)].get(ins.get(2))+" and d.nid="+kg.nodeNID[motifLabels.get(3)].get(ins.get(3))+"  return a,b,c,d";
 		return s;
-	}
-	
-	public double score (Motif[]ms, int[]labelIDs, int id, covid19kg kg) {
-		double res = 0;
-		for(int i=0;i<ms.length;i++) {
-			Motif m = ms[i];
-			int labelID = labelIDs[i];
-			int mnum = getInstanceNumSpecified(id, labelIDs[i], kg, ms[i]);
-			res += mnum;
-		}
-		return res/ms.length;
-	}
-	
-	public int getInstanceNumSpecified(int id, int labelID, covid19kg kg, Motif mf) {
-		ArrayList<ArrayList<Integer>> res = match(kg, mf);
-		int mcounter = 0;
-		for(int i=0;i<res.size();i++) {
-			ArrayList<Integer>mins = res.get(i);
-			//mins: a motif instance labeled A,B,C,D in the order of mf.motifLabels
-			int nid = mins.get(labelID);
-			if(nid == id) {
-				mcounter ++;
-			}
-		}
-		return mcounter;
 	}
 
 	ArrayList<ArrayList<Integer>> match(covid19kg kg, Motif mf) {
