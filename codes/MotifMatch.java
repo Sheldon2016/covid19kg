@@ -8,7 +8,7 @@ import tools.Motif;
 
 public class MotifMatch {
 	
-	void motifIns2String(ArrayList<ArrayList<Integer>>motifIns, Motif mf, covid19kg kg) {
+	public void motifIns2String(ArrayList<ArrayList<Integer>>motifIns, Motif mf, covid19kg kg) {
 		// output the matching results
 		System.out.println("Matching results for motif of "+mf.motif.length+" nodes ("+mf.motifLabelKinds.size()+" labels and "+mf.edgeNum+" edges): "+motifIns.size()+" motif instances.");
 		for(int i=0;i<mf.motifLabels.size();i++) {
@@ -21,7 +21,7 @@ public class MotifMatch {
 		}
 	}
 	
-	private String output(ArrayList<Integer> ins, ArrayList<Integer> motifLabels, covid19kg kg) {
+	public String output(ArrayList<Integer> ins, ArrayList<Integer> motifLabels, covid19kg kg) {
 		String s = "";
 		for(int i=0;i<ins.size();i++) {
 			int id = ins.get(i);
@@ -31,13 +31,13 @@ public class MotifMatch {
 		return s;
 	}
 	
-	private String output2(ArrayList<Integer> ins, ArrayList<Integer> motifLabels, covid19kg kg, Motif mf) {
+	public String output2(ArrayList<Integer> ins, ArrayList<Integer> motifLabels, covid19kg kg, Motif mf) {
 		//match (a:A),(b:B),(c:A),(d:C) where a.nid=42 and b.nid=16 and c.nid=17 and d.nid=89  return a,b,c,d
 		String s = "match (a:"+kg.nodes[mf.motifLabels.get(0)]+"),(b:"+kg.nodes[mf.motifLabels.get(1)]+"),(c:"+kg.nodes[mf.motifLabels.get(2)]+"),(d:"+kg.nodes[mf.motifLabels.get(3)]+") where a.nid="+kg.nodeNID[motifLabels.get(0)].get(ins.get(0))+" and b.nid="+kg.nodeNID[motifLabels.get(1)].get(ins.get(1))+" and c.nid="+kg.nodeNID[motifLabels.get(2)].get(ins.get(2))+" and d.nid="+kg.nodeNID[motifLabels.get(3)].get(ins.get(3))+"  return a,b,c,d";
 		return s;
 	}
 
-	ArrayList<ArrayList<Integer>> match(covid19kg kg, Motif mf) {
+	public ArrayList<ArrayList<Integer>> match(covid19kg kg, Motif mf) {
 		if(mf.motif.length == 1) {
 			//match a single node
 			ArrayList<ArrayList<Integer>> res = new ArrayList();

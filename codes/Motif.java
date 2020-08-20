@@ -5,7 +5,7 @@ import java.util.ArrayList;
 public class Motif {
 	
 	public ArrayList<Integer> motif[] = null;
-	public ArrayList<Integer> degreeVec = null;
+	public ArrayList<Integer> degreeVec = null; // DESC
 	public ArrayList<Integer> motifLabels = null;
 	public ArrayList<Integer> motifLabelKinds = null;
 	public ArrayList<ArrayList<Integer>> motifLabelNodes = null;
@@ -212,6 +212,7 @@ public class Motif {
 		for(int i=0;i<labels.length;i++) {
 			motifLabels.add(labels[i]);
 		}
+		run();
 	}
 	
 	public boolean run() {
@@ -233,7 +234,7 @@ public class Motif {
 		//to check if the motif can be over-counted.
 		motifLabelKinds = new ArrayList();
 		motifLabelNodes = new ArrayList();
-		
+		edgeNum = 0;
 		for(int i=0;i<motif.length;i++) {
 			for(int j=0;j<motif[i].size();j++) {
 				int nei = motif[i].get(j);
