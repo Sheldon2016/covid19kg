@@ -1,4 +1,4 @@
-#Virus-ID,Virus-name,hostprotein-ID,NCBI-hhostprotein-ID,hostprotein
+#Virus-ID,Virus-name,hostprotein-ID,NCBI-hostprotein-ID,hostprotein
 11120,IBV,4841,3574,NONO
 11120,IBV,2931,2211,GSK3A
 11120,IBV,2932,2212,GSK3B

@@ -1,4 +1,4 @@
-package algo;
+package tools;
 
 import java.util.ArrayList;
 
@@ -10,8 +10,8 @@ public class Motif {
 	public ArrayList<Integer> motifLabelKinds = null;
 	public ArrayList<ArrayList<Integer>> motifLabelNodes = null;
 	public int edgeNum = 0;
-
-	void get4clique(){
+	
+	public void get4clique(){
 		motif = new ArrayList[4];
 		motif[0] = new ArrayList();//to store neighbors of 0
 		motif[0].add(1);
@@ -37,7 +37,7 @@ public class Motif {
 		run();
 	}
 	
-	void getDiamond(){
+	public void getDiamond(){
 		motif = new ArrayList[4];
 		motif[0] = new ArrayList();//to store neighbors of 0
 		motif[0].add(1);
@@ -46,33 +46,33 @@ public class Motif {
 		motif[1] = new ArrayList();
 		motif[1].add(0);
 		motif[1].add(2);
+		motif[1].add(3);
 		motif[2] = new ArrayList();
 		motif[2].add(0);
 		motif[2].add(1);
-		motif[2].add(3);
 		motif[3] = new ArrayList();
 		motif[3].add(0);
-		motif[3].add(2);
+		motif[3].add(1);
 		motifLabels = new ArrayList();
-		motifLabels.add(0);
+		motifLabels.add(2);
 		motifLabels.add(1);
-		motifLabels.add(1);
-		motifLabels.add(0);
+		motifLabels.add(5);
+		motifLabels.add(4);
 		run();
 	}
 	
-	void get4Path(){
+	public void get4Path(){
 		motif = new ArrayList[4];
 		motif[0] = new ArrayList();//to store neighbors of 0
 		motif[0].add(1);
+		motif[0].add(2);
 		motif[1] = new ArrayList();
 		motif[1].add(0);
-		motif[1].add(2);
+		motif[1].add(3);
 		motif[2] = new ArrayList();
-		motif[2].add(1);
-		motif[2].add(3);
+		motif[2].add(0);
 		motif[3] = new ArrayList();
-		motif[3].add(2);
+		motif[3].add(1);
 		motifLabels = new ArrayList();
 		motifLabels.add(0);
 		motifLabels.add(0);
@@ -81,18 +81,18 @@ public class Motif {
 		run();
 	}
 
-	void get4Star(){
+	public void get4Star(){
 		motif = new ArrayList[4];
 		motif[0] = new ArrayList();//to store neighbors of 0
 		motif[0].add(1);
+		motif[0].add(2);
+		motif[0].add(3);
 		motif[1] = new ArrayList();
 		motif[1].add(0);
-		motif[1].add(2);
-		motif[1].add(3);
 		motif[2] = new ArrayList();
-		motif[2].add(1);
+		motif[2].add(0);
 		motif[3] = new ArrayList();
-		motif[3].add(1);
+		motif[3].add(0);
 		motifLabels = new ArrayList();
 		motifLabels.add(0);
 		motifLabels.add(1);
@@ -101,20 +101,20 @@ public class Motif {
 		run();
 	}
 	
-	void getTailedTriangle(){
+	public void getTailedTriangle(){
 		motif = new ArrayList[4];
 		motif[0] = new ArrayList();//to store neighbors of 0
 		motif[0].add(1);
+		motif[0].add(2);
+		motif[0].add(3);
 		motif[1] = new ArrayList();
 		motif[1].add(0);
 		motif[1].add(2);
-		motif[1].add(3);
 		motif[2] = new ArrayList();
+		motif[2].add(0);
 		motif[2].add(1);
-		motif[2].add(3);
 		motif[3] = new ArrayList();
-		motif[3].add(1);
-		motif[3].add(2);
+		motif[3].add(0);
 		motifLabels = new ArrayList();
 		motifLabels.add(0);
 		motifLabels.add(1);
@@ -123,7 +123,7 @@ public class Motif {
 		run();
 	}
 	
-	void getNode(){
+	public void getNode(){
 		motif = new ArrayList[1];
 		motif[0] = new ArrayList();//to store neighbors of 0
 		motifLabels = new ArrayList();
@@ -131,7 +131,7 @@ public class Motif {
 		run();
 	}
 	
-	void getM0(){
+	public void getEdge(){
 		motif = new ArrayList[2];
 		motif[0] = new ArrayList();//to store neighbors of 0
 		motif[0].add(1);
@@ -145,7 +145,7 @@ public class Motif {
 		run();
 	}
 	
-	void getM1(){
+	public void get3Star(){
 		motif = new ArrayList[3];
 		motif[0] = new ArrayList();//to store neighbors of 0
 		motif[0].add(1);
@@ -162,137 +162,8 @@ public class Motif {
 		
 		run();
 	}
-	
-	void getM2() {
-		motif = new ArrayList[3];
-		motif[0] = new ArrayList();
-		motif[0].add(1);
-		motif[0].add(2);
-		//motif[0].add(3);
-		motif[1] = new ArrayList();
-		motif[1].add(0);
-		motif[1].add(2);
-		//motif[1].add(3);
-		motif[2] = new ArrayList();
-		motif[2].add(0);
-		motif[2].add(1);
-		//motif[3] = new ArrayList();
-		//motif[3].add(0);
-		//motif[3].add(1);
-		
-		motifLabels = new ArrayList();
-		motifLabels.add(2);
-		//motifLabels.add(-1);
-		motifLabels.add(2);
-		motifLabels.add(5); 
 
-		run();
-	}
-	
-	void getM3() {
-		motif = new ArrayList[4];
-		motif[0] = new ArrayList();
-		motif[0].add(1);
-		motif[0].add(2);
-		motif[0].add(3);
-		motif[1] = new ArrayList();
-		motif[1].add(0);
-		motif[1].add(2);
-		motif[1].add(3);
-		motif[2] = new ArrayList();
-		motif[2].add(0);
-		motif[2].add(1);
-		motif[3] = new ArrayList();
-		motif[3].add(0);
-		motif[3].add(1);
-		
-		motifLabels = new ArrayList();
-		motifLabels.add(2);
-		motifLabels.add(5);
-		motifLabels.add(4);
-		motifLabels.add(1); 
-		run();
-	}
-	
-	void getM4() {
-		motif = new ArrayList[3];
-		motif[0] = new ArrayList();
-		motif[0].add(1);
-		motif[0].add(2);
-		//motif[0].add(3);
-		motif[1] = new ArrayList();
-		motif[1].add(0);
-		motif[1].add(2);
-		//motif[1].add(3);
-		motif[2] = new ArrayList();
-		motif[2].add(0);
-		motif[2].add(1);
-		//motif[2].add(3);
-		//motif[3] = new ArrayList();
-		//motif[3].add(0);
-		//motif[3].add(1);
-		//motif[3].add(2);
-		
-		motifLabels = new ArrayList();
-		motifLabels.add(5);
-		motifLabels.add(5);
-		motifLabels.add(5);
-		//motifLabels.add(0); 
-		run();
-	}
-	
-	void getM5() {
-		motif = new ArrayList[3];
-		motif[0] = new ArrayList();
-		motif[0].add(1);
-		motif[0].add(2);
-		//motif[0].add(3);
-		motif[1] = new ArrayList();
-		motif[1].add(0);
-		motif[1].add(2);
-		//motif[1].add(3);
-		motif[2] = new ArrayList();
-		motif[2].add(0);
-		motif[2].add(1);
-		//motif[2].add(3);
-		//motif[3] = new ArrayList();
-		//motif[3].add(0);
-		//motif[3].add(1);
-		//motif[3].add(2);
-		
-		motifLabels = new ArrayList();
-		motifLabels.add(2);
-		motifLabels.add(2);
-		motifLabels.add(2);
-		//motifLabels.add(0); 
-		run();
-	}
-	
-	void getM6() {
-		motif = new ArrayList[4];
-		motif[0] = new ArrayList();
-		motif[0].add(1);
-		motif[0].add(2);
-		motif[0].add(3);
-		motif[1] = new ArrayList();
-		motif[1].add(0);
-		motif[1].add(2);
-		motif[1].add(3);
-		motif[2] = new ArrayList();
-		motif[2].add(0);
-		motif[2].add(1);
-		motif[3] = new ArrayList();
-		motif[3].add(0);
-		motif[3].add(1);
-		
-		motifLabels = new ArrayList();
-		motifLabels.add(2);
-		motifLabels.add(2);
-		motifLabels.add(4);
-		motifLabels.add(0); 
-		run();
-	}
-	void getM7() {
+	public void getRectangle() {
 		//rectangle: strain-strain-location-location
 		motif = new ArrayList[4];
 		motif[0] = new ArrayList();
@@ -316,52 +187,31 @@ public class Motif {
 		run();
 	}
 	
-	void getM8() {
-		//rectangle: strain-location-strain-location
-		motif = new ArrayList[4];
-		motif[0] = new ArrayList();
-		motif[0].add(1);
-		motif[0].add(2);
-		motif[1] = new ArrayList();
-		motif[1].add(0);
-		motif[1].add(3);
-		motif[2] = new ArrayList();
-		motif[2].add(0);
-		motif[2].add(3);
-		motif[3] = new ArrayList();
-		motif[3].add(1);
-		motif[3].add(2);
-		
-		motifLabels = new ArrayList();
-		motifLabels.add(6);
-		motifLabels.add(7);
-		motifLabels.add(7);
-		motifLabels.add(6); 
-		run();
-	}
 	
-	void getM9() {
-		//rectangle: strain-location-location-location
-		motif = new ArrayList[4];
+	public void getTriangle() {
+		motif = new ArrayList[3];
 		motif[0] = new ArrayList();
 		motif[0].add(1);
 		motif[0].add(2);
 		motif[1] = new ArrayList();
 		motif[1].add(0);
-		motif[1].add(3);
+		motif[1].add(2);
 		motif[2] = new ArrayList();
 		motif[2].add(0);
-		motif[2].add(3);
-		motif[3] = new ArrayList();
-		motif[3].add(1);
-		motif[3].add(2);
+		motif[2].add(1);
 		
 		motifLabels = new ArrayList();
 		motifLabels.add(4);
 		motifLabels.add(5);
 		motifLabels.add(6);
-		motifLabels.add(7); 
 		run();
+	}
+	
+	public void assignLabels(int[]labels) {
+		motifLabels = new ArrayList();
+		for(int i=0;i<labels.length;i++) {
+			motifLabels.add(labels[i]);
+		}
 	}
 	
 	public boolean run() {

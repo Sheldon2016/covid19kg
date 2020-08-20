@@ -3,6 +3,9 @@ package algo;
 import java.io.IOException;
 import java.util.ArrayList;
 
+import datapre.covid19kg;
+import tools.Motif;
+
 public class MotifMatch {
 	
 	void motifIns2String(ArrayList<ArrayList<Integer>>motifIns, Motif mf, covid19kg kg) {

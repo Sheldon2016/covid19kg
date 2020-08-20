@@ -1,4 +1,4 @@
-package algo;
+package datapre;
 import java.io.BufferedReader;
 import java.io.FileReader;
 import java.io.IOException;
@@ -7,19 +7,19 @@ import java.util.Hashtable;
 
 public class covid19kg {
 
-	ArrayList<Integer>nodeNID[] = null;//to store the nodeID-nid for each node label
-	ArrayList<String>nodeName[] = null;//to store the nodeID-name for each node label
-	Hashtable<Integer,Integer>node[] = null;//to match nid-nodeID for each node label
+	public ArrayList<Integer>nodeNID[] = null;//to store the nodeID-nid for each node label
+	public ArrayList<String>nodeName[] = null;//to store the nodeID-name for each node label
+	public Hashtable<Integer,Integer>node[] = null;//to match nid-nodeID for each node label
 	
-	ArrayList<String>NodeList = null; // to store the node label list
-	String[]nodes = null;
-	ArrayList<Integer>[][][]edge = null;//to store the Bgraphs
-	int[]label1 = null, label2 = null;// to store the source label and target label of each Bgraph
+	public ArrayList<String>NodeList = null; // to store the node label list
+	public String[]nodes = null;
+	public ArrayList<Integer>[][][]edge = null;//to store the Bgraphs
+	public int[]label1 = null, label2 = null;// to store the source label and target label of each Bgraph
 	public covid19kg(String mainDir) throws IOException {
 		//String mainDir = "C:\\Users\\Sheldon\\Documents\\GitHub\\covid19kg\\data\\HPO\\";
 		
-		//loaddata(mainDir);
-		loadToyData(mainDir);
+		loaddata(mainDir);
+		//loadToyData(mainDir);
 	}
 
 	private void loadToyData(String mainDir) throws IOException {
@@ -67,6 +67,10 @@ public class covid19kg {
 		this.label1 = label1;
 		this.label2 = label2;
 		edge = new ArrayList[nodes.length][nodes.length][];//
+		for(int i=0;i<edge.length;i++) 
+			for(int j=0;j<edge.length;j++) 
+				edge[i][j] = new ArrayList[nodeNID[i].size()];
+		
 		loadEdges(mainDir, nodes, node, nodeNID, edges, edge, column1, column2, label1, label2);
 		
 		//int[]Snid = {694009};//{694009mat};//HCoV, HCoV-2
@@ -187,8 +191,12 @@ public class covid19kg {
 				int nid1 = -1;
 				int nid2 = -1;
 				if(tem.length>column1[file]&&tem.length>column2[file]&&tem[column1[file]].length()>0&&tem[column2[file]].length()>0) {
+					try {
 					nid1 = Integer.parseInt(tem[column1[file]]);
 					nid2 = Integer.parseInt(tem[column2[file]]);
+					}catch(Exception e) {
+						//System.out.println(edges[file]);
+					}
 				}
 				if(nid1==-1||nid2==-1){
 					s=a.readLine();
