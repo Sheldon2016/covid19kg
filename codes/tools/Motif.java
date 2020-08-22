@@ -11,6 +11,54 @@ public class Motif {
 	public ArrayList<ArrayList<Integer>> motifLabelNodes = null;
 	public int edgeNum = 0;
 	
+	public Motif() {
+		
+	}
+	public Motif(String degVec) {
+    	switch(degVec.length()) {
+    	case 1: getNode(); break;
+    	case 2: getEdge(); break;
+    	case 3: 
+    		if(degVec.equals("112")) {
+    			get3Star();
+    			break;
+    			}
+    		if(degVec.equals("222")) {
+    			getTriangle();
+    			break;
+    		}
+    		System.out.println("No such degVec: "+degVec);
+    		break;
+    	case 4:
+    		if(degVec.equals("1122")) {
+    			get4Path();;
+    			break;
+    			}
+    		if(degVec.equals("1113")) {
+    			get4Star();;
+    			break;
+    		}
+    		if(degVec.equals("2222")) {
+    			getRectangle();;
+    			break;
+    			}
+    		if(degVec.equals("1223")) {
+    			getTailedTriangle();
+    			break;
+    		}
+    		if(degVec.equals("2233")) {
+    			getDiamond();;
+    			break;
+    			}
+    		if(degVec.equals("3333")) {
+    			get4clique();;
+    			break;
+    		}
+    		System.out.println("No such degVec: "+degVec);
+    		break;
+    	}
+	}
+
 	public void get4clique(){
 		motif = new ArrayList[4];
 		motif[0] = new ArrayList();//to store neighbors of 0
