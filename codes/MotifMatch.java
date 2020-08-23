@@ -16,8 +16,8 @@ public class MotifMatch {
 		}
 		System.out.println();
 		for(int i=0;i<motifIns.size();i++) {
-			System.out.println(output(motifIns.get(i),mf.motifLabels, kg));
-			//System.out.println(output2(motifIns.get(i),mf.motifLabels, kg, mf));
+			//System.out.println(output(motifIns.get(i),mf.motifLabels, kg));
+			System.out.println(output2(motifIns.get(i),mf.motifLabels, kg, mf));
 		}
 	}
 	
@@ -38,13 +38,14 @@ public class MotifMatch {
 	}
 
 	public ArrayList<ArrayList<Integer>> match(covid19kg kg, Motif mf) {
+		//return the id rather than NID!
 		if(mf.motif.length == 1) {
 			//match a single node
 			ArrayList<ArrayList<Integer>> res = new ArrayList();
 			int labelID = mf.motifLabels.get(0);
 			for(int i=0;i<kg.nodeNID[labelID].size();i++) {
 				ArrayList<Integer>ins = new ArrayList();
-				ins.add(kg.nodeNID[labelID].get(i));
+				ins.add(i);
 				res.add(ins);
 			}
 			return res;
@@ -2145,6 +2146,16 @@ public class MotifMatch {
 				int multiLabel = mf.motifLabelKinds.get(mf.motifLabelKinds.size()-1);
 				if (seed1Label == seed2Label) {
 					//for AAAB
+					
+					if(label3==seed1Label) {
+						//switch id2 and id3
+						int tem = id2;
+						id2 = id3;
+						id3 = tem;
+						tem = label2;
+						label2 = label3;
+						label3 = tem;
+					}
 
 					ArrayList<Integer> subgraphAA[] = kg.edge[seed1Label][seed1Label];
 					ArrayList<Integer> subgraphAB[] = kg.edge[seed1Label][label3];

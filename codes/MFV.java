@@ -23,7 +23,7 @@ public class MFV {
     	}
     	
     	int slabelid = kg.getLabelID(slabel);
-    	int sid = kg.node[slabelid].get(snid);
+    	//int sid = kg.node[slabelid].get(snid);
     	
     	for(int i=0;i<degVec.length;i++) {
     		MCount mc = new MCount();
@@ -31,7 +31,7 @@ public class MFV {
     		
     		for(int j=0;j<res.size();j++) {
     			List<Integer> ins = res.get(j);
-    			if(kg.IfInsContain(ins, sid, labels[i], slabelid))
+    			if(kg.IfInsContain(ins, snid, labels[i], slabelid))
     				fres.set(i, fres.get(i)+1);
     		}
     		

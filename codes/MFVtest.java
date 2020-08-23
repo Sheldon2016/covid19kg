@@ -15,13 +15,9 @@ public class MFVTest {
 		int snid = 5, tnid = 111;
 		String slabel = "A", tlabel = "C";
 		
-		//List<Integer>freVec = a.mfv(degVecs, labels, snid+"", slabel, tnid+"", tlabel);
-		//System.out.println(freVec.toString());
+		List<Integer>freVec = a.mfv(degVecs, labels, snid+"", slabel, tnid+"", tlabel);
+		System.out.println(freVec.toString());
 		
-		String[]bits = Combination.getStr(4, 2);
-		for(int i=0;i<bits.length;i++) {
-			System.out.println(bits[i]);
-		}
 	}
 
 }

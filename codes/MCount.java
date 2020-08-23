@@ -14,6 +14,7 @@ import tools.Motif;
 
 public class MCount {
 
+	
 	@UserFunction
     public List<List<Integer>> mcount(@Name("value") String degVec, @Name("value") String labels) throws IOException {
     	
@@ -27,7 +28,7 @@ public class MCount {
 		int[] labelsInt=kg.getlabelsfromString(labels);
 		mf.assignLabels(labelsInt);
 		
-		ArrayList<ArrayList<Integer>>motifIns = mm.match(kg,mf);
+		ArrayList<ArrayList<Integer>>motifIns = mm.match(kg,mf);// get raw ids rather than NIDs!
 		//mm.motifIns2String(motifIns, mf, kg);
         
 		List<List<Integer>> res = new ArrayList();
@@ -35,9 +36,13 @@ public class MCount {
 			List<Integer> ares = new ArrayList();
 			for(int j=0;j<motifIns.get(i).size();j++) {
 				int id = motifIns.get(i).get(j);
-				//int label = mf.motifLabels.get(j);
-				//ares.add(kg.nodeNID[label].get(id));
-				ares.add(id);
+				int label = labelsInt[j];
+				
+				ares.add(kg.nodeNID[label].get(id));
+
+				//ares.add(id);
+				
+				//return the nid rather than id!
 			}
 			//String s = mm.output(motifIns.get(i), mf.motifLabels, kg);
 			//System.out.println(s);
@@ -46,6 +51,7 @@ public class MCount {
 		
 		return res;
     }
+    
     
     
 }
