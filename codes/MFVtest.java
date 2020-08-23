@@ -3,7 +3,9 @@ package neo4jdriver;
 import java.io.IOException;
 import java.util.List;
 
-public class MFVtest {
+import tools.Combination;
+
+public class MFVTest {
 
 	public static void main(String[] args) throws IOException {
 		// TODO Auto-generated method stub
@@ -13,9 +15,13 @@ public class MFVtest {
 		int snid = 5, tnid = 111;
 		String slabel = "A", tlabel = "C";
 		
-		List<Integer>freVec = a.mfv(degVecs, labels, snid+"", slabel, tnid+"", tlabel);
-		System.out.println(freVec.toString());
+		//List<Integer>freVec = a.mfv(degVecs, labels, snid+"", slabel, tnid+"", tlabel);
+		//System.out.println(freVec.toString());
 		
+		String[]bits = Combination.getStr(4, 2);
+		for(int i=0;i<bits.length;i++) {
+			System.out.println(bits[i]);
+		}
 	}
 
 }

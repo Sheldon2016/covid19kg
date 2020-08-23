@@ -31,7 +31,7 @@ public class MFV {
     		
     		for(int j=0;j<res.size();j++) {
     			List<Integer> ins = res.get(j);
-    			if(ifcontains(ins, sid, labels[i], slabelid, kg))
+    			if(kg.IfInsContain(ins, sid, labels[i], slabelid))
     				fres.set(i, fres.get(i)+1);
     		}
     		
@@ -39,16 +39,6 @@ public class MFV {
     	
 		return fres;
     }
-    
-    private boolean ifcontains(List<Integer> ins, int snid, String labels, int slabelid, covid19kg kg) {
-		int[]labelsInt = kg.getlabelsfromString(labels);
-		for(int i=0;i<ins.size();i++) {
-			if(labelsInt[i]==slabelid&&ins.get(i)==snid) {
-				return true;
-			}
-		}
-		return false;
-	}
 
     @UserFunction
 	public List<Integer> mfv(@Name("value") String degVecStr, @Name("value") String labelsStr, @Name("value") String snidStr,  @Name("value")String slabel, @Name("value") String tnidStr,  @Name("value")String tlabel) throws IOException {
@@ -75,7 +65,7 @@ public class MFV {
     		for(int j=0;j<res.size();j++) {
     			List<Integer> ins = res.get(j);
     			
-    			if(ifcontains(ins, snid, labels[i], slabelid, kg)&&ifcontains(ins, tnid, labels[i], tlabelid, kg))
+    			if(kg.IfInsContain(ins, snid, labels[i], slabelid)&&kg.IfInsContain(ins, tnid, labels[i], tlabelid))
     				fres.set(i, fres.get(i)+1);
     		}
     		

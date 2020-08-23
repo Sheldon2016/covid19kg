@@ -35,8 +35,9 @@ public class MCount {
 			List<Integer> ares = new ArrayList();
 			for(int j=0;j<motifIns.get(i).size();j++) {
 				int id = motifIns.get(i).get(j);
-				int label = mf.motifLabels.get(j);
-				ares.add(kg.nodeNID[label].get(id));
+				//int label = mf.motifLabels.get(j);
+				//ares.add(kg.nodeNID[label].get(id));
+				ares.add(id);
 			}
 			//String s = mm.output(motifIns.get(i), mf.motifLabels, kg);
 			//System.out.println(s);
