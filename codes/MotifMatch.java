@@ -628,7 +628,7 @@ public class MotifMatch {
 								if (subgraphAC[nei2] != null && subgraphAC[nei2].contains(nei1))
 									continue;
 								//no need to check whether subgraphBA[i] exist ot not, since it is already checked in last loop!
-								for (int k = 0; k < subgraphBA[i].get(k); k++) {
+								for (int k = 0; k < subgraphBA[i].size(); k++) {
 									int nei3 = subgraphBA[i].get(k);
 									if (nei3 == nei2)// the only duplicate id from nei2==nei3, since they are in different orbits
 										continue;
@@ -843,6 +843,7 @@ public class MotifMatch {
 								ids.add(mf.motif[seed].get(i));
 						}
 						int labelA_id2 = ids.get(0), labelA_id3 = ids.get(1);
+						singleLabel = mf.motifLabels.get(deg1ID);
 						
 						ArrayList<Integer>[]subgraphAA = kg.edge[multiLabel][multiLabel];
 						ArrayList<Integer>[]subgraphAB = kg.edge[multiLabel][singleLabel];
