@@ -10,7 +10,7 @@ public class Motif {
 	public ArrayList<Integer> motifLabelKinds = null;
 	public ArrayList<ArrayList<Integer>> motifLabelNodes = null;
 	public int edgeNum = 0;
-	
+	public static String degVecs[] = {"0", "11", "112", "222", "1122", "1113", "2222", "1223", "2233", "3333"};
 	public Motif() {
 		
 	}
