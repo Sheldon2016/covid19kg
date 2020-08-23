@@ -1482,7 +1482,7 @@ public class MotifMatch {
 				for (int i = 0; i < subgraphAA.length; i++) {
 					if (subgraphAA[i] == null)
 						continue;
-					for (int p = 0; p < subgraphAA[i].size(); i++) {
+					for (int p = 0; p < subgraphAA[i].size(); p++) {
 						int nei1 = subgraphAA[i].get(p);
 						if (subgraphAB[i] == null)
 							continue;
@@ -1638,7 +1638,7 @@ public class MotifMatch {
 					for (int i = 0; i < subgraphAA.length; i++) {
 						if (subgraphAA[i] == null)
 							continue;
-						for (int p = 0; p < subgraphAA[i].size(); i++) {
+						for (int p = 0; p < subgraphAA[i].size(); p++) {
 							int nei1 = subgraphAA[i].get(p);
 							for (int j = 0; j < subgraphAA[i].size(); j++) {
 								int nei2 = subgraphAA[i].get(j);
@@ -1865,7 +1865,7 @@ public class MotifMatch {
 								int nei3 = subgraphAC[nei1].get(p);
 								if (subgraphAC[i] != null & subgraphAC[nei1].contains(nei3))
 									continue;
-								if (subgraphCB[nei3] != null & subgraphCB[nei3].contains(nei2))
+								if (subgraphCB[nei3] != null && subgraphCB[nei3].contains(nei2))
 									continue;
 								
 								ArrayList<Integer> ins = new ArrayList();
