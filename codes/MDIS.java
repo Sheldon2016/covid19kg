@@ -4,8 +4,7 @@ import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
 
-import org.neo4j.procedure.Name;
-import org.neo4j.procedure.UserFunction;
+
 
 import datapre.covid19kg;
 import tools.BitGenerator;
@@ -23,8 +22,8 @@ public class MDIS {
 		//the labels given by the user MUST NOT have duplicates
 	}
 	
-	@UserFunction
-	public List<List<String>> mdis(@Name("value") String labels, @Name("value") String kStr, @Name("value") String snidStr, @Name("value") String slabel) throws IOException, InterruptedException {
+
+	public List<List<String>> mdiss(String labels, String kStr, String snidStr, String slabel) throws IOException, InterruptedException {
 		List<List<String>> res = new ArrayList();//a list of <degVec-label, count> pairs
 		int k = Integer.parseInt(kStr);
 		int snid = Integer.parseInt(snidStr);
@@ -63,8 +62,7 @@ public class MDIS {
 		return res;
 	}
 	
-	@UserFunction
-	public List<List<String>> mdis(@Name("value") String labels, @Name("value") String kStr) throws IOException, InterruptedException {
+	public List<List<String>> mdis(String labels, String kStr) throws IOException, InterruptedException {
 		List<List<String>> res = new ArrayList();//a list of <degVec-label, count> pairs
 		int k = Integer.parseInt(kStr);
 		if(k>4)
