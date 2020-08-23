@@ -4,6 +4,7 @@ import java.io.FileReader;
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Hashtable;
+import java.util.List;
 
 public class covid19kg {
 
@@ -18,8 +19,11 @@ public class covid19kg {
 	public covid19kg(String mainDir) throws IOException {
 		//String mainDir = "C:\\Users\\Sheldon\\Documents\\GitHub\\covid19kg\\data\\HPO\\";
 		
-		loaddata(mainDir);
-		//loadToyData(mainDir);
+		if(mainDir.contains("toy"))
+			loadToyData(mainDir);
+		else
+			loaddata(mainDir);
+		
 	}
 
 	private void loadToyData(String mainDir) throws IOException {
@@ -51,7 +55,6 @@ public class covid19kg {
 		NodeList = new ArrayList();
 		for(int i=0;i<nodes.length;i++) 
 			NodeList.add(nodes[i]);
-		
 		
 		node = new Hashtable[nodes.length];//nid-id
 		nodeNID = new ArrayList[nodes.length];//id-nid
@@ -267,6 +270,40 @@ public class covid19kg {
 				}
 		}
 		
+	}
+	
+	public int getLabelID(String s) {
+		return NodeList.indexOf(s);
+	}
+
+	public int[] getlabelsfromString(String labels) {
+		String[]tem = labels.split(",");
+		int[] labelsInt= new int[tem.length];
+		for(int i=0;i<tem.length;i++) {
+			labelsInt[i] = getLabelID(tem[i]);
+			//System.out.println(labelsInt[i]);
+		}
+		return labelsInt;
+	}
+	
+	public boolean IfInsContain(List<Integer> ins, int snid, String labels, int slabelid) {
+		int[]labelsInt = getlabelsfromString(labels);
+		for(int i=0;i<ins.size();i++) {
+			if(labelsInt[i]==slabelid&&ins.get(i)==snid) {
+				return true;
+			}
+		}
+		return false;
+	}
+	
+	public ArrayList<Integer> getNIDsFromIDs(ArrayList<Integer>IDs, ArrayList<Integer>motifLabels){
+		ArrayList<Integer>NIDs = new ArrayList();
+		for(int i=0;i<IDs.size();i++) {
+			int id = IDs.get(i);
+			int label = motifLabels.get(i);
+			NIDs.add(nodeNID[label].get(id));
+		}
+		return NIDs;
 	}
 	
 }
