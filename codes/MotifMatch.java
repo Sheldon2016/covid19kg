@@ -2036,7 +2036,7 @@ public class MotifMatch {
 			}
 		}
 		else if (mf.motifLabelKinds.size() == 2) {
-			//for AABB, ABBA, AAAB, AABA
+			//for AABB, ABBA, ABAB, AAAB, AABA
 			ArrayList<Integer>seedIds = new ArrayList();
 			for (int i = 0; i < mf.motif.length; i++) {
 				if (mf.motif[i].size() == 2) {
@@ -2058,7 +2058,7 @@ public class MotifMatch {
 			int label3 = mf.motifLabels.get(id3);
 			
 			if (mf.motifLabelNodes.get(0).size() == 2) {
-				//for AABB, ABBA
+				//for AABB, ABBA, ABAB
 				if (seed1Label == seed2Label) {
 					//for ABBA
 					
@@ -2103,39 +2103,82 @@ public class MotifMatch {
 					}
 				}
 				else {
-					//for AABB
-					
-					ArrayList<Integer> subgraphAB[] = kg.edge[seed1Label][seed2Label];
-					ArrayList<Integer> subgraphAA[] = kg.edge[seed1Label][seed1Label];
-					ArrayList<Integer> subgraphBB[] = kg.edge[seed2Label][seed2Label];
-					
-					for (int i = 0; i < subgraphAB.length; i++) {
-						if (subgraphAB[i] == null)
-							continue;
-						for (int j = 0; j < subgraphAB[i].size(); j++) {
-							int nei1 = subgraphAB[i].get(j);
-							if (subgraphAA[i] == null)
+					//for AABB, ABAB
+					if (label2 == seed1Label) {
+						//for AABB
+						ArrayList<Integer> subgraphAB[] = kg.edge[seed1Label][seed2Label];
+						ArrayList<Integer> subgraphAA[] = kg.edge[seed1Label][seed1Label];
+						ArrayList<Integer> subgraphBB[] = kg.edge[seed2Label][seed2Label];
+						
+						for (int i = 0; i < subgraphAB.length; i++) {
+							if (subgraphAB[i] == null)
 								continue;
-							for (int k = 0; k < subgraphAA[i].size(); k++) {
-								int nei2 = subgraphAA[i].get(k);
-								if (subgraphAB[nei2] != null && subgraphAB[nei2].contains(nei1))
+							for (int j = 0; j < subgraphAB[i].size(); j++) {
+								int nei1 = subgraphAB[i].get(j);
+								if (subgraphAA[i] == null)
 									continue;
-								if (subgraphBB[nei1] == null)
-									continue;
-								for (int p = 0; p < subgraphBB[nei1].size(); p++) {
-									int nei3 = subgraphBB[nei1].get(p);
-									if (subgraphAB[i] != null && subgraphAB[i].contains(nei3))
+								for (int k = 0; k < subgraphAA[i].size(); k++) {
+									int nei2 = subgraphAA[i].get(k);
+									if (subgraphAB[nei2] != null && subgraphAB[nei2].contains(nei1))
 										continue;
-									if (subgraphAB[nei2] != null && subgraphAB[nei2].contains(nei3))
+									if (subgraphBB[nei1] == null)
 										continue;
-									
-									ArrayList<Integer> ins = new ArrayList();
-									ins.add(i);
-									ins.add(nei1);
-									ins.add(nei2);
-									ins.add(nei3);
-									ins = reorder(ins, seed1, seed2, id2, id3);
-									res.add(ins);
+									for (int p = 0; p < subgraphBB[nei1].size(); p++) {
+										int nei3 = subgraphBB[nei1].get(p);
+										if (subgraphAB[i] != null && subgraphAB[i].contains(nei3))
+											continue;
+										if (subgraphAB[nei2] != null && subgraphAB[nei2].contains(nei3))
+											continue;
+										
+										ArrayList<Integer> ins = new ArrayList();
+										ins.add(i);
+										ins.add(nei1);
+										ins.add(nei2);
+										ins.add(nei3);
+										ins = reorder(ins, seed1, seed2, id2, id3);
+										res.add(ins);
+									}
+								}
+							}
+						}
+					}
+					else {
+						//for ABAB
+						ArrayList<Integer> subgraphBA[] = kg.edge[seed1Label][seed2Label];
+						ArrayList<Integer> subgraphAB[] = kg.edge[seed2Label][seed1Label];
+						ArrayList<Integer> subgraphBB[] = kg.edge[seed1Label][seed1Label];
+						ArrayList<Integer> subgraphAA[] = kg.edge[seed2Label][seed2Label];
+						
+						for (int i = 0; i < subgraphBA.length; i++) {
+							if (subgraphBA[i] == null)
+								continue;
+							for (int j = 0; j < subgraphBA[i].size(); j++) {
+								int nei1 = subgraphBA[i].get(j);
+								for (int k = 0; k < subgraphBA[i].size(); k++) {
+									int nei2 = subgraphBA[i].get(k);
+									if (nei2 == nei1)
+										continue;
+									if (subgraphAA[nei2] != null && subgraphAA[nei2].contains(nei1))
+										continue;
+									if (subgraphAB[nei1] == null)
+										continue;
+									for (int p = 0; p < subgraphAB[nei1].size(); p++) {
+										int nei3 = subgraphAB[nei1].get(p);
+										if (nei3 == i)
+											continue;
+										if (subgraphBB[i] != null && subgraphBB[i].contains(nei3))
+											continue;
+										if (subgraphAB[nei2] != null && subgraphAB[nei2].contains(nei3))
+											continue;
+										
+										ArrayList<Integer> ins = new ArrayList();
+										ins.add(i);
+										ins.add(nei1);
+										ins.add(nei2);
+										ins.add(nei3);
+										ins = reorder(ins, seed1, seed2, id2, id3);
+										res.add(ins);
+									}
 								}
 							}
 						}
