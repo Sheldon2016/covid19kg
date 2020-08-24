@@ -422,8 +422,8 @@ public class MotifMatch {
 							ins.add(nei1);
 							ins.add(nei2);
 							ins.add(nei3);
-							if(seed!=0)
-								ins = reorder(ins,seed,deg1ID,deg2ID1,deg2ID2);
+							//if(seed!=0)
+							ins = reorder(ins,seed,deg1ID,deg2ID1,deg2ID2);
 							res.add(ins);
 							}
 						}
