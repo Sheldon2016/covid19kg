@@ -371,24 +371,33 @@ public class MotifMatch {
 		if (mf.motifLabelKinds.size() == 4) {
 			//for BACD
 			int seedLabel = mf.motifLabels.get(seed);
-			int idNei1 = mf.motif[seed].get(1);
-			int nei1Label = mf.motifLabels.get(idNei1);
-			int idNei2 = mf.motif[seed].get(2);
-			int nei2Label = mf.motifLabels.get(idNei2);
-			int idNei3 = mf.motif[seed].get(0);
-			int nei3Label = mf.motifLabels.get(idNei3);
 			
-			ArrayList<Integer> subgraphAB[] = kg.edge[seedLabel][nei1Label];
-			ArrayList<Integer> subgraphAC[] = kg.edge[seedLabel][nei2Label];
-			ArrayList<Integer> subgraphAD[] = kg.edge[seedLabel][nei3Label];
-			ArrayList<Integer> subgraphBC[] = kg.edge[nei1Label][nei2Label];
-			ArrayList<Integer> subgraphBD[] = kg.edge[nei1Label][nei3Label];
-			ArrayList<Integer> subgraphCD[] = kg.edge[nei2Label][nei3Label];
+			int deg1Label = -1, deg1ID = -1;
+			for(int i = 0; i < mf.motif.length; i++) {
+				if (mf.motif[i].size() == 1) {
+					deg1ID = i;
+					deg1Label = mf.motifLabels.get(i);
+					break;
+				}
+			}
+			
+			ArrayList<Integer>ids = new ArrayList();
+			for (int i = 0; i < mf.motif[seed].size(); i++) {
+				if (mf.motif[seed].get(i) != deg1ID)
+					ids.add(mf.motif[seed].get(i));
+			}
+			
+			int deg2ID1 = ids.get(0), deg2ID2 = ids.get(1);
+			int deg2Label1 = mf.motifLabels.get(deg2ID1), deg2Label2 = mf.motifLabels.get(deg2ID2);
+			
+			ArrayList<Integer> subgraphAB[] = kg.edge[seedLabel][deg1Label];
+			ArrayList<Integer> subgraphAC[] = kg.edge[seedLabel][deg2Label1];
+			ArrayList<Integer> subgraphAD[] = kg.edge[seedLabel][deg2Label2];
+			ArrayList<Integer> subgraphBC[] = kg.edge[deg1Label][deg2Label1];
+			ArrayList<Integer> subgraphBD[] = kg.edge[deg1Label][deg2Label2];
+			ArrayList<Integer> subgraphCD[] = kg.edge[deg2Label1][deg2Label2];
 			
 			for (int i = 0; i < subgraphAB.length; i++) {
-				if (subgraphAB == null || subgraphAC == null || subgraphAD == null || 
-					subgraphBC == null)
-					continue;
 				if (subgraphAB[i] == null)
 					continue;
 				for (int j = 0; j < subgraphAB[i].size(); j++) {
@@ -397,31 +406,32 @@ public class MotifMatch {
 						continue;
 					for (int k = 0; k < subgraphAC[i].size(); k++) {
 						int nei2 = subgraphAC[i].get(k);
+						if (subgraphBC[nei1] != null && subgraphBC[nei1].contains(nei2))
+							continue;
 						if (subgraphAD[i] == null)
 							continue;
 						for (int p = 0; p < subgraphAD[i].size(); p++) {
 							int nei3 = subgraphAD[i].get(p);
-							if (subgraphBD != null && subgraphBD[nei1] != null && subgraphBD[nei1].contains(nei3))
+							if (subgraphBD[nei1] != null && subgraphBD[nei1].contains(nei3))
 								continue;
-							if (subgraphCD != null && subgraphCD[nei2] != null && subgraphCD[nei2].contains(nei3))
+							if (subgraphCD[nei2] == null || !subgraphCD[nei2].contains(nei3))
 								continue;
-							if (subgraphBC[nei1] != null && subgraphBC[nei1].contains(nei2)) {
-								ArrayList<Integer> ins = new ArrayList();
-								ins.add(i);
-								ins.add(nei1);
-								ins.add(nei2);
-								ins.add(nei3);
-								if(seed!=0)
-									ins = reorder(ins,seed,idNei1,idNei2,idNei3);
-								res.add(ins);
-							}
 							
+							ArrayList<Integer> ins = new ArrayList();
+							ins.add(i);
+							ins.add(nei1);
+							ins.add(nei2);
+							ins.add(nei3);
+							if(seed!=0)
+								ins = reorder(ins,seed,deg1ID,deg2ID1,deg2ID2);
+							res.add(ins);
+							}
 						}
 					}
 					
 				}
 			}
-		} else if (mf.motifLabelKinds.size() == 3) {
+		else if (mf.motifLabelKinds.size() == 3) {
 			//for AABC, ABAC, CAAB, CBAA
 			
 			//split the motifs patterns into {AABC,CAAB} and {ABAC,CBAA} by checking label of seed
@@ -629,7 +639,7 @@ public class MotifMatch {
 								if (subgraphAC[nei2] != null && subgraphAC[nei2].contains(nei1))
 									continue;
 								//no need to check whether subgraphBA[i] exist ot not, since it is already checked in last loop!
-								for (int k = 0; k < subgraphBA[i].get(k); k++) {
+								for (int k = 0; k < subgraphBA[i].size(); k++) {
 									int nei3 = subgraphBA[i].get(k);
 									if (nei3 == nei2)// the only duplicate id from nei2==nei3, since they are in different orbits
 										continue;
@@ -844,6 +854,7 @@ public class MotifMatch {
 								ids.add(mf.motif[seed].get(i));
 						}
 						int labelA_id2 = ids.get(0), labelA_id3 = ids.get(1);
+						singleLabel = mf.motifLabels.get(deg1ID);
 						
 						ArrayList<Integer>[]subgraphAA = kg.edge[multiLabel][multiLabel];
 						ArrayList<Integer>[]subgraphAB = kg.edge[multiLabel][singleLabel];
