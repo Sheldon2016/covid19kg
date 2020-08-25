@@ -1,4 +1,4 @@
-package neo4jdriver;
+
 
 import java.io.IOException;
 import java.util.ArrayList;
@@ -10,7 +10,7 @@ public class MCountTest {
 	public static void main(String[]args) throws IOException {
 		MCount mc = new MCount();
 		
-		List<List<Integer>>motifIns = mc.mcount("1122", "A,A,B,A");
+		List<List<Integer>>motifIns = mc.mcount("1122", "A,B,B,A");
 		
 		System.out.println(motifIns.size());
 	}

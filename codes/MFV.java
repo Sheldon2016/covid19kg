@@ -1,4 +1,4 @@
-package neo4jdriver;
+
 
 import java.io.IOException;
 import java.util.ArrayList;
@@ -14,8 +14,12 @@ import tools.Motif;
 
 public class MFV {
 	
-    public List<Integer> mfv(@Name("value") String[]degVec, @Name("value") String[]labels, @Name("value") int snid, @Name("value") String slabel) throws IOException {
+	@UserFunction
+    public List<Integer> mfvnode(@Name("value") String degVecStr, @Name("value") String labelsStr, @Name("value") String snidStr, @Name("value") String slabel) throws IOException {
     	covid19kg kg = new covid19kg(CONF.mainDir);
+    	String[]degVec = degVecStr.split("[|]");
+    	String[]labels = labelsStr.split("[|]");
+    	int snid = Integer.parseInt(snidStr);
     	
     	List<Integer> fres = new ArrayList();
     	for(int i=0;i<degVec.length;i++) {

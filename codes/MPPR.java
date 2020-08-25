@@ -1,19 +1,13 @@
-package neo4jdriver;
 
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
 
-import org.neo4j.configuration.Description;
 import org.neo4j.procedure.Name;
 import org.neo4j.procedure.UserFunction;
 
-import archive.MotifMatchOld;
 import datapre.covid19kg;
-import tools.BFS;
 import tools.CONF;
-import tools.MInsFromGroups;
-import tools.Motif;
 import tools.graphReady;
 
 public class MPPR {
@@ -77,7 +71,7 @@ public class MPPR {
     	return res;
 	   }
 	
-	static double[] rootedPageRank(int s, ArrayList<Integer>T, ArrayList<Integer>[] graph, int walkNum, double alpha) {
+	double[] rootedPageRank(int s, ArrayList<Integer>T, ArrayList<Integer>[] graph, int walkNum, double alpha) {
 		double res[] = new double[T.size()];
 		
 		//int hittingNum = 0;
