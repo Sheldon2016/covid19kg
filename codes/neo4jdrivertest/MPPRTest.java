@@ -1,11 +1,9 @@
+package neo4jdrivertest;
 
 
 import java.io.IOException;
-import java.util.ArrayList;
 
-import archive.MotifMatchOld;
-import datapre.covid19kg;
-import tools.Motif;
+import neo4jdriver.MPPR;
 
 public class MPPRTest {
 

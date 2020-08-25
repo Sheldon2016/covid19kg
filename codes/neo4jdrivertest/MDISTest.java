@@ -1,8 +1,10 @@
+package neo4jdrivertest;
 
 
 import java.io.IOException;
-import java.util.ArrayList;
 import java.util.List;
+
+import neo4jdriver.MDIS;
 
 
 public class MDISTest {
