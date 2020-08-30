@@ -15,15 +15,15 @@ import algo.MotifMatch;
 import datapre.covid19kg;
 import tools.CONF;
 
-public class MAM {
+public class MAMF {
 	
 	static covid19kg kg = null;
-	public MAM() throws IOException {
+	public MAMF() throws IOException {
 		kg = new covid19kg(CONF.mainDir);
 	}
 	
 	@UserFunction
-    public List<List<String>> mam(@Name("value") String degVec2, @Name("value") String labels2) throws IOException {
+    public List<List<String>> MAM(@Name("value") String degVec2, @Name("value") String labels2) throws IOException {
     	
     	List<List<String>> res = new ArrayList();
     	String[]degVecs = degVec2.split("[|]");
@@ -32,8 +32,8 @@ public class MAM {
     	HashMap<String, Integer> hp = new HashMap();
     	
     	for(int q=0;q<degVecs.length;q++) {
-    		MCount mc = new MCount();
-        	List<List<Integer>> InsSet = mc.mcount(degVecs[q], labelss[q]);
+    		MCOUNTF mc = new MCOUNTF(kg);
+        	List<List<Integer>> InsSet = mc.MCOUNT(degVecs[q], labelss[q]);
         	int[]labelsID = kg.getlabelsfromString(labelss[q]);
         		
         	for(int j=0;j<InsSet.size();j++) {

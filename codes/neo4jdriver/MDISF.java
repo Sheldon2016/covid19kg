@@ -13,19 +13,19 @@ import tools.BitGenerator;
 import tools.CONF;
 import tools.Motif;
 
-public class MDIS {
+public class MDISF {
 
 	static covid19kg kg = null;
 	static List<List<Integer>> motifInsForMMC = null;
-	static int bar = -1;
+	static int bar = 0;
 	
-	public MDIS() throws IOException {
+	public MDISF() throws IOException {
 		kg = new covid19kg(CONF.mainDir);
 		//the labels given by the user MUST NOT have duplicates
 	}
 	
 	@UserFunction
-	public List<List<String>> mdiss(@Name("value") String labels, @Name("value") String kStr, @Name("value") String snidStr, @Name("value") String slabel) throws IOException, InterruptedException {
+	public List<List<String>> MDISS(@Name("value") String labels, @Name("value") String kStr, @Name("value") String snidStr, @Name("value") String slabel) throws IOException, InterruptedException {
 		List<List<String>> res = new ArrayList();//a list of <degVec-label, count> pairs
 		int k = Integer.parseInt(kStr);
 		int snid = Integer.parseInt(snidStr);
@@ -45,7 +45,7 @@ public class MDIS {
 			for(int j=0;j<bitvec.size();j++) {
 				String bits = bitvec.get(j);
 				String labelStr = getLabelStrFromBit(label, bits);;
-				List<List<Integer>>motifIns = new MCount().mcount(degvecs[i], labelStr);
+				List<List<Integer>>motifIns = new MCOUNTF(kg).MCOUNT(degvecs[i], labelStr);
 				List<List<Integer>>motifIns2 = new ArrayList();
 				for(int p=0;p<motifIns.size();p++) {
 					List<Integer>ins = motifIns.get(p);
@@ -65,7 +65,7 @@ public class MDIS {
 	}
 	
 	@UserFunction
-	public List<List<String>> mdis(@Name("value") String labels, @Name("value") String kStr) throws IOException, InterruptedException {
+	public List<List<String>> MDIS(@Name("value") String labels, @Name("value") String kStr) throws IOException, InterruptedException {
 		List<List<String>> res = new ArrayList();//a list of <degVec-label, count> pairs
 		int k = Integer.parseInt(kStr);
 		if(k>4)
@@ -82,8 +82,8 @@ public class MDIS {
 			ArrayList<String>bitvec = BitGenerator.getBits(degvecs[i].length(), label.length);
 			for(int j=0;j<bitvec.size();j++) {
 				String bits = bitvec.get(j);
-				String labelStr = getLabelStrFromBit(label, bits);;
-				List<List<Integer>>motifIns = new MCount().mcount(degvecs[i], labelStr);
+				String labelStr = getLabelStrFromBit(label, bits);
+				List<List<Integer>>motifIns = new MCOUNTF(kg).MCOUNT(degvecs[i], labelStr);
 				int count = motifIns.size();
 				if(count>bar)
 					res.add(getARes(degvecs[i], labelStr, count));

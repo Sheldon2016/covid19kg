@@ -13,19 +13,19 @@ import datapre.covid19kg;
 import tools.CONF;
 import tools.graphReady;
 
-public class MPPR {
+public class MPPRF {
 
 	static covid19kg kg = null;
 	static GetMAMGraph gmam = null;
 	static graphReady g = null;
 	
-	public MPPR() throws IOException {
+	public MPPRF() throws IOException {
 		kg = new covid19kg(CONF.mainDir);
 	}
 	
 	
 	@UserFunction
-	public List<List<String>> mppr(@Name("value") String degVec2, @Name("value") String labels2, @Name("value") String snidStr, @Name("value") String slabel, @Name("value") String tlabel, @Name("value") String iterationNumStr, @Name("value") String damplingfactorStr) throws IOException, InterruptedException {
+	public List<List<String>> MPPR(@Name("value") String degVec2, @Name("value") String labels2, @Name("value") String snidStr, @Name("value") String slabel, @Name("value") String tlabel, @Name("value") String iterationNumStr, @Name("value") String damplingfactorStr) throws IOException, InterruptedException {
 	    //to generate rankings for all tnids with label tlabel from snid
 
 		int snid = Integer.parseInt(snidStr);

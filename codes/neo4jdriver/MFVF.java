@@ -13,10 +13,10 @@ import datapre.covid19kg;
 import tools.CONF;
 import tools.Motif;
 
-public class MFV {
+public class MFVF {
 	
 	@UserFunction
-    public List<Integer> mfvnode(@Name("value") String degVecStr, @Name("value") String labelsStr, @Name("value") String snidStr, @Name("value") String slabel) throws IOException {
+    public List<Integer> MFVN(@Name("value") String degVecStr, @Name("value") String labelsStr, @Name("value") String snidStr, @Name("value") String slabel) throws IOException {
     	covid19kg kg = new covid19kg(CONF.mainDir);
     	String[]degVec = degVecStr.split("[|]");
     	String[]labels = labelsStr.split("[|]");
@@ -31,8 +31,8 @@ public class MFV {
     	//int sid = kg.node[slabelid].get(snid);
     	
     	for(int i=0;i<degVec.length;i++) {
-    		MCount mc = new MCount();
-    		List<List<Integer>> res = mc.mcount(degVec[i], labels[i]);
+    		MCOUNTF mc = new MCOUNTF();
+    		List<List<Integer>> res = mc.MCOUNT(degVec[i], labels[i]);
     		
     		for(int j=0;j<res.size();j++) {
     			List<Integer> ins = res.get(j);
@@ -46,7 +46,7 @@ public class MFV {
     }
 
     @UserFunction
-	public List<Integer> mfv(@Name("value") String degVecStr, @Name("value") String labelsStr, @Name("value") String snidStr,  @Name("value")String slabel, @Name("value") String tnidStr,  @Name("value")String tlabel) throws IOException {
+	public List<Integer> MFV(@Name("value") String degVecStr, @Name("value") String labelsStr, @Name("value") String snidStr,  @Name("value")String slabel, @Name("value") String tnidStr,  @Name("value")String tlabel) throws IOException {
     	covid19kg kg = new covid19kg(CONF.mainDir);
     	List<Integer> fres = new ArrayList();
     	
@@ -61,8 +61,8 @@ public class MFV {
     	//int sid = kg.node[slabelid].get(snid), tid = kg.node[tlabelid].get(tnid);
     	
     	for(int i=0;i<degVec.length;i++) {
-    		MCount mc = new MCount();
-    		List<List<Integer>> res = mc.mcount(degVec[i], labels[i]);
+    		MCOUNTF mc = new MCOUNTF(kg);
+    		List<List<Integer>> res = mc.MCOUNT(degVec[i], labels[i]);
     		// note that mcount returns the list of NIDs
     		
     		//System.out.println(res.toString());

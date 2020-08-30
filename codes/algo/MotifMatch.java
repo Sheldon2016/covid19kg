@@ -1239,7 +1239,7 @@ public class MotifMatch {
 			int label2 = mf.motifLabels.get(mf.motif[id0].get(1)), id2 = mf.motif[id0].get(1);
 			//int label3 = mf.motifLabels.get(mf.motif[id1].get(0)), id3 = mf.motif[id1].get(0);
 			
-			if (label1 != label2) {
+			if (label1 != label2 && label1 != label0 && label2 !=label0) {
 				//for ABAC
 				int id3 = mf.motif[id1].get(0);
 				if (id3 == id0) {
@@ -1299,7 +1299,7 @@ public class MotifMatch {
 				}
 				//now A = label1 = label2
 				int id3 = mf.motif[id1].get(0), label3 = mf.motifLabels.get(id3);;
-				if (id3 == 0) {
+				if (label3 == label0) {
 					id3 = mf.motif[id1].get(1);
 					label3 = mf.motifLabels.get(id3);
 				}

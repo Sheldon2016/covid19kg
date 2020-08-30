@@ -18,7 +18,8 @@ public class Motif {
 		//note: the degVec is in DESC order from input
 		//the degreeVec in calculation is in ASCE
 		
-		degVec = reverse(degVec);
+		if(Integer.parseInt(degVec.charAt(0)+"")>Integer.parseInt(degVec.charAt(degVec.length()-1)+""))
+			degVec = reverse(degVec);
 		
     	switch(degVec.length()) {
     	case 1: getNode(); break;

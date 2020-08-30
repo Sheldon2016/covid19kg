@@ -3,14 +3,14 @@ package neo4jdrivertest;
 
 import java.io.IOException;
 
-import neo4jdriver.MAM;
+import neo4jdriver.MAMF;
 
 public class MAMTest {
 
 	public static void main(String[] args) throws IOException {
 		
-		MAM a = new MAM();
-		System.out.println(a.mam("112", "A,B,C"));
+		MAMF a = new MAMF();
+		System.out.println(a.MAM("112", "A,B,C"));
 	}
 
 }

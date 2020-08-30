@@ -13,17 +13,28 @@ import datapre.covid19kg;
 import tools.CONF;
 import tools.Motif;
 
-public class MCount {
+public class MCOUNTF {
 
 	
+	static covid19kg kg = null;
+	
+	public MCOUNTF() throws IOException {
+		kg = new covid19kg(CONF.mainDir);
+		//covid19kg kg = new covid19kg("C:\\Users\\Sheldon\\Documents\\GitHub\\covid19kg\\data\\HPO\\");
+	}
+	
+	public MCOUNTF(covid19kg kg2) throws IOException {
+		kg = kg2;
+		//covid19kg kg = new covid19kg("C:\\Users\\Sheldon\\Documents\\GitHub\\covid19kg\\data\\HPO\\");
+	}
+	
 	@UserFunction
-    public List<List<Integer>> mcount(@Name("value") String degVec, @Name("value") String labels) throws IOException {
+    public List<List<Integer>> MCOUNT(@Name("value") String degVec, @Name("value") String labels) throws IOException {
     	
     	Motif mf = new Motif(degVec);
     	
-    	MotifMatch mm = new MotifMatch();
-		covid19kg kg = new covid19kg(CONF.mainDir);
-		//covid19kg kg = new covid19kg("C:\\Users\\Sheldon\\Documents\\GitHub\\covid19kg\\data\\HPO\\");
+    	MotifMatch mm = new MotifMatch(); 
+    	
 		//note that mf.motif is ranked by node degree
 		
 		int[] labelsInt=kg.getlabelsfromString(labels);
