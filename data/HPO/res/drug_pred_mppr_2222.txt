@@ -1,0 +1,94 @@
+135,L-Tyrosine|(?)-¦Á-amino-p-hydroxyhydrocinnamic acid|(2S)-2-amino-3-(4-hydroxyphenyl)propanoic acid|(S)-(-)-Tyrosine|(S)-2-Amino-3-(p-hydroxyphenyl)propionic acid|(S)-3-(p-Hydroxyphenyl)alanine|(S)-alpha-amino-4-Hydroxybenzenepropanoic acid|(S)-Tyrosine|(S)-¦Á-amino-4-hydroxybenzenepropanoic acid|4-hydroxy-L-phenylalanine|L-Tyrosin|Tyr|Tyrosine|Y,-769.2307692307693
+157,NADH|1-4-dihydronicotinamide adenine dinucleotide|DPNH|NAD reduced form|Nicotinamide adenine dinucleotide (reduced)|Nicotinamide-adenine dinucleotide- reduced|Reduced nicotinamide adenine diphosphate|Reduced nicotinamide-adenine dinucleotide,-1000.0
+199,Erythromycin|3''-O-demethylerythromycin|Abomacetin|Eritromicina|Erythromycin A|Erythromycin C|¨¦rythromycine|Erythromycinum,-909.0909090909091
+201,Caffeine|1-methyltheobromine|1-3-7-trimethyl-2-6-dioxopurine|1-3-7-trimethylpurine-2-6-dione|1-3-7-trimethylxanthine|3-7-Dihydro-1-3-7-trimethyl-1H-purin-2-6-dion|7-methyltheophylline|Anhydrous caffeine|Cafe¨ªna|Caf¨¦ine|Caffeinum|Coffein|Coffeinum|Guaranine|Koffein|Mate¨ªna|Methyltheobromine|te¨ªna|Thein|Theine,-769.2307692307693
+216,Eletriptan|Eletriptanum,-1111.111111111111
+241,Butalbital|5-(2-methylpropyl)-5-prop-2-enyl-1-3-diazinane-2-4-6-trione|5-Allyl-5-(2-methylpropyl)barbituric acid|5-Allyl-5-(2'-methyl-N-propyl) barbituric acid|5-Allyl-5-isobutyl-2-4-6(1H-3H-5H)-pyrimidinetrione|5-Allyl-5-isobutyl-pyrimidine-2-4-6-trione|5-Allyl-5-isobutylbarbituric acid|5-isobutyl-5-allylbarbituric acid|allylbarbital|allylbarbitone|Allylbarbituric acid|Butalbarbital|Butalbitalum|Iso-butylallylbarbituric acid|Itobarbital|Tetrallobarbital,-1111.111111111111
+247,Methysergide|(+)-9-10-Didehydro-N-(1-(hydroxymethyl)propyl)-1-6-dimethylergoline-8beta-carboxamide|(+)-N-(1-(Hydroxymethyl)propyl)-1-methyl-D-lysergamide|1-Methyl-D-lysergic acid butanolamide|1-Methyl-dextro-lysergic acid (+)-1-hydroxy-2-butylamide|1-Methyllysergic acid butanolamide|1-Methylmethylergonovine|9-10-Didehydro-N-(1-(hydroxymethyl)propyl)-1-6-dimethylergoline-8-carboxamide|Methysergide|Methysergidum|Metisergida|Metisergido|N-(1-(Hydroxymethyl)propyl)-1-methyl-dextro-(+)-lysergamide,-909.0909090909091
+254,Doxycycline|5-hydroxy-¦Á-6-deoxytetracycline|6-alpha-deoxy-5-oxytetracycline|6alpha-deoxy-5-oxytetracycline|6¦Á-deoxy-5-oxytetracycline|Anhydrous doxycycline|Doxiciclina|Doxycyclin|Doxycycline (anhydrous)|Doxycycline anhydrous|Doxycyclinum,-625.0
+264,Metoprolol|(RS)-Metoprolol|1-(isopropylamino)-3-[4-(2-methoxyethyl)phenoxy]propan-2-ol|DL-metoprolol,-1000.0
+273,Topiramate|2-3:4-5-Bis-O-(1-methylethylidene)-beta-D-fructopyranose sulfamate|2-3:4-5-Di-O-isopropylidene-beta-D-fructopyranose sulfamate|McN-4853|RWJ-17021|Tipiramate|Tipiramato|Topiramate|Topiramato|Topiramatum|TPM,-1000.0
+313,Valproic Acid|2-n-propyl-n-valeric acid|2-propyl-pentanoic acid|2-Propylpentanoic Acid|2-Propylvaleric Acid|4-heptanecarboxylic acid|acide valpro?que|¨¢cido valproico|acidum valproicum|di-n-propylacetic acid|Di-n-propylessigs?ure|Dipropylacetic acid|DPA|n-DPA|Valproate|Valproins?ure|VPA,-555.5555555555555
+318,Codeine|(?)-Codeine|(5alpha-6alpha)-7-8-Didehydro-4-5-epoxy-3-methoxy-17-methylmorphinan-6-ol|(5¦Á-6¦Á)-7-8-didehydro-4-5-epoxy-3-methoxy-17-methylmorphinan-6-ol|3-Methylmorphin|3-methylmorphine|7-8-didehydro-4-5alpha-epoxy-3-methoxy-17-methylmorphinan-6alpha-ol|7-8-didehydro-4-5¦Á-epoxy-3-methoxy-17-methylmorphinan-6¦Á-ol|Codein|Code¨ªna|Cod¨¦ine|Codeine anhydrous|Codeine polistirex|Codeinum|L-Codeine|Methylmorphine|morphine 3-methyl ether|Morphine monomethyl ether|morphine monomethyl ether|morphine-3-methyl ether|O(3)-methylmorphine,-1000.0
+320,Dihydroergotamine|(2R-4R-7R)-N-[(1S-2S-4R-7S)-7-benzyl-2-hydroxy-4-methyl-5-8-dioxo-3-oxa-6-9-diazatricyclo[7.3.0.02-6]dodecan-4-yl]-6-methyl-6-11-diazatetracyclo[7.6.1.02-7.012-16]hexadeca-1(16)-9-12-14-tetraene-4-carboxamide|5'-Benzyl-12'-hydroxy-2'-methyl-3'-6'-18-trioxo-9-10-dihydroergotaman|9-10-dihydro-12'-Hydroxy-2'-methyl-5'-(phenylmethyl)ergotoman-3'-6'-18-trione|9-10-dihydroergotamine|Dihidroergotamina|Dihydroergotamin|Dihydroergotamine|Dihydroergotaminum|Diidroergotamina,-1111.111111111111
+321,Amitriptyline|10-11-dihydro-5-(gamma-Dimethylaminopropylidene)-5H-dibenzo(a-D)cycloheptene|10-11-dihydro-N-N-Dimethyl-5H-dibenzo(a-D)heptalene-delta(5)-gamma-propylamine|3-(10-11-dihydro-5H-Dibenzo(a-D)cyclohepten-5-ylidene)-N-N-dimethyl-1-propanamine|3-(10-11-dihydro-5H-Dibenzo[a-D]cyclohepten-5-ylidene)-N-N-dimethylpropan-1-amine|5-(3-Dimethylaminopropylidene)-10-11-dihydro-5H-dibenzo(a-D)cycloheptatriene|5-(3-Dimethylaminopropylidene)-10-11-dihydro-5H-dibenzo(a-D)cycloheptene|5-(gamma-Dimethylaminopropylidene)-5H-dibenzo[a-D][1-4]cycloheptadiene|Amitriptilina|Amitriptylin|Amitriptyline|Amitriptylinum,-714.2857142857143
+373,Timolol|(S)-1-(tert-butylamino)-3-[(4-morpholin-4-yl-1-2-5-thiadiazol-3-yl)oxy]propan-2-ol|Timolol|Timolol anhydrous|Timololo|Timololum,-1111.111111111111
+413,Pramipexole|(-)-Pramipexole|(S)-N??6-propyl-4-5-6-7-tetrahydro-1-3-benzothiazole-2-6-diamine|2-6-Benzothiazolediamine- 4-5-6-7-tetrahydro-N(sup 6)-propyl-- (S)-|Pramipexol|Pramipexole|Pramipexolum,-769.2307692307693
+417,Phenoxymethylpenicillin|(2S-5R-6R)-3-3-DIMETHYL-7-OXO-6-(2-PHENOXYACETAMIDO)-4-THIA-1- AZABICYCLO(3.2.0)HEPTANE-2-CARBOXYLIC ACID|(2S-5R-6R)-3-3-dimethyl-7-oxo-6-[(phenoxyacetyl)amino]-4-thia-1-azabicyclo[3.2.0]heptane-2-carboxylic acid|6-phenoxyacetamidopenicillanic acid|Fenoximetilpenicilina|Oracillin|Penicillin Phenoxymethyl|Penicillin V|Phenoxomethylpenicillin|Phenoxymethyl Penicillin|Phenoxymethylenepenicillinic acid|Ph¨¦noxym¨¦thylp¨¦nicilline|Phenoxymethylpenicillinum|PV,-666.6666666666666
+440,Trimethoprim|2-4-Diamino-5-(3-4-5-trimethoxybenzyl)pyrimidine|5-[(3-4-5-Trimethoxyphenyl)methyl]-2-4-pyrimidinediamine|Trimethoprim|Trim¨¦thoprime|Trimethoprimum|Trimetoprima,-909.0909090909091
+472,Fluoxetine|(+-)-N-Methyl-3-phenyl-3-((alpha-alpha-alpha-trifluoro-P-tolyl)oxy)propylamine|(+-)-N-Methyl-gamma-(4-(trifluoromethyl)phenoxy)benzenepropanamine|Fluoxetin|Fluoxetina|Fluox¨¦tine|Fluoxetinum,-666.6666666666666
+537,Ciprofloxacin|1-cyclopropyl-6-fluoro-1-4-dihydro-4-oxo-7-(1-piperazinyl)-3-quinolinecarboxylic acid|1-cyclopropyl-6-fluoro-4-oxo-7-(piperazin-1-yl)-1-4-dihydroquinoline-3-carboxylic acid|1-Cyclopropyl-6-fluoro-4-oxo-7-piperazin-1-yl-1-4-dihydro-quinoline-3-carboxylic acid|1-cyclopropyl-6-fluoro-4-oxo-7-piperazin-1-ylquinoline-3-carboxylic acid|1-Cyclopropyl-6-fluoro-7-(4-methyl-piperazin-1-yl)-4-oxo-1-4-dihydro-quinoline-3-carboxylic acid|1-cyclopropyl-6-fluoro-7-hexahydro-1-pyrazinyl-4-oxo-1-4-dihydro-3-quinolinecarboxylic acid|Ciprofloxacine|Ciprofloxacino|Ciprofloxacinum,-769.2307692307693
+540,Nortriptyline|10-11-dihydro-N-Methyl-5H-dibenzo[a-D]cycloheptene-delta(5-gamma)-propylamine|3-(10-11-dihydro-5H-Dibenzo[a-D]cyclohepten-5-ylidene)-N-methyl-1-propanamine|Ateben|Avantyl|Demethylamitriptyline|Desmethylamitriptyline|Noritren|Nortriptyline|Psychostyl|Sensaval,-588.2352941176471
+567,Cephalexin|(6R-7R)-7-{[(2R)-2-amino-2-phenylacetyl]amino}-3-methyl-8-oxo-5-thia-1-azabicyclo[4.2.0]oct-2-ene-2-carboxylic acid|7-(D-alpha-Aminophenylacetamido)desacetoxycephalosporanic acid|7-beta-(D-alpha-Amino-alpha-phenylacetylamino)-3-methyl-3-cephem-4-carboxylic acid|Anhydrous cefalexin|Anhydrous cephalexin|Cefalexin|Cefalexin anhydrous|Cefalexina|C¨¦falexine|Cefalexinum|Cephalexin anhydrous,-666.6666666666666
+575,Clonidine|2-[(2-6-Dichlorophenyl)imino]imidazoline|2-6-Dichloro-N-2-imidazolidinylidenebenzenamine|Chlofazoline|Clonidin|Clonidina|Clonidinum,-833.3333333333334
+661,Verapamil|Iproveratril|V¨¦rapamil|Verapamil|Verapamilo|Verapamilum,-666.6666666666666
+671,Cefixime|(?)-cefixim|Cefixim|Cefixima|C¨¦fixime|Cefixime anhydrous|Cefiximum,-1428.5714285714287
+696,Ergotamine|(5'¦Á)-12'-hydroxy-2'-methyl-5'-(phenylmethyl)ergotoman-3'-6'-18-trione|12'-Hydroxy-2'-methyl-5'alpha-(phenylmethyl)ergotaman-3'-6'-18-trione|12'-hydroxy-2'-methyl-5'¦Á-(phenylmethyl)ergotaman-3'-6'-18-trione|Ergotamin|Ergotamina|Ergotamine|Ergotaminum,-1111.111111111111
+759,Tetracycline|(4S-4aS-5aS-12aS)-4-(Dimethylamino)-1-4-4a-5-5a-6-11-12a-octahydro-3-6-10-12-12a-pentahydroxy-6-methyl-1-11-dioxo-2-naphthacenecarboxamide|Abramycin|Anhydrotetracycline|Deschlorobiomycin|Tetracyclin|T¨¦tracycline|Tetracyclinum|Tetrazyklin|Tsiklomitsin,-909.0909090909091
+792,Tripelennamine|Tripelennamin|Tripelennamina|Trip¨¦lennamine |Tripelennaminum,-833.3333333333334
+836,Loperamide|Loperamid|Loperamida|Lop¨¦ramide|Loperamidum,-769.2307692307693
+874,Guaifenesin|Glyceryl guaiacolate|guaiphenesin|Hustosil,-588.2352941176471
+918,Almotriptan|1-(((3-(2-(Dimethylamino)ethyl)indol-5-yl)methyl)sulfonyl)pyrrolidine,-1250.0
+952,Naratriptan|N-Methyl-2-(3-(1-methylpiperiden-4-yl)indole-5-yl)ethanesulfonamide|N-Methyl-2-[3-(1-methyl-4-piperidyl)-1H-indol-5-yl]-ethanesulfonamide|Naratriptanum,-625.0
+953,Rizatriptan|N-N-Dimethyl-2-[5-(1-2-4-triazol-1-ylmethyl)-1H-indol-3-yl]-ethanamine|N-N-Dimethyl-5-(1H-1-2-4-triazol-1-ylmethyl)-1H-indole-3-ethanamine|Risatriptan|Rizatript¨¢n|Rizatriptan|Rizatriptanum,-769.2307692307693
+954,Dirithromycin,-526.3157894736842
+956,Hydrocodone|(-)-Dihydrocodeinone|4-5-alpha-Epoxy-3-methoxy-17-methylmorphinan-6-one|Dihydrocodeinone|Hidrocodona|Hydrocodon|Hydrocodone polistirex|Hydrocodonum|Hydrocone|Hydroconum|Idrocodone,-769.2307692307693
+976,Telithromycin,-714.2857142857143
+998,Frovatriptan,-769.2307692307693
+1017,Minocycline|(4S-4AS-5ar-12as)-4-7-bis(dimethylamino)-3-10-12-12a-tetrahydroxy-1-11-dioxo-1-4-4a-5-5a-6-11-12a-octahydrotetracene-2-carboxamide|7-Dimethylamino-6-demethyl-6-deoxytetracycline|Minociclina|Minociclinum|Minocyclin|Minocyclinum,-714.2857142857143
+1044,Gatifloxacin|1-Cyclopropyl-1-4-dihydro-6-fluoro-8-methoxy-7-(3-methyl-1-piperazinyl)-4-oxo-3-quinolinecarboxylic acid|1-cyclopropyl-6-fluoro- 8-methoxy-7-(3-methylpiperazin-1-yl)- 4-oxo-quinoline-3-carboxylic acid|Gatifloxacin anhydrous|Gatifloxacine|Gatifloxacino|Gatifloxacinum,-500.0
+1065,Melatonin|5-methoxy-N-acetyltryptamine|Melatonin|Melatonine|N-[2-(5-methoxyindol-3-yl)ethyl]acetamide|N-Acetyl-5-methoxytryptamine,-833.3333333333334
+1066,Cefditoren,-1250.0
+1104,Sertraline|(+)-Sertraline|(1S-cis)-1-2-3-4-tetrahydro-4-(3-4-dichlorophenyl)-N-methyl-1-naphthalenamine|(1S-4S)-sertraline|cis-(+)-sertraline|Sertralina|Sertraline|Sertralinum,-714.2857142857143
+1211,Clarithromycin|6-O-methyl erythromycin|6-O-Methylerythromycin|6-O-Methylerythromycin a|CLA|CLARITHROMYCIN|Clarithromycina|Clarithromycine|Clarithromycinum,-1428.5714285714287
+1237,Bromodiphenhydramine|2-(P-Bromo-alpha-phenylbenzyloxy)-N-N-dimethylethylamine|beta-(P-Bromobenzhydryloxy)ethyldimethylamine|beta-Dimethylaminoethyl P-bromobenzhydryl ether|Bromazina|Bromazine|Bromazinum|Bromodiphenhydramine,-588.2352941176471
+1356,Lithium|Li(+)|Lithium cation|Lithium ion|Lithium- ion|Lithium- ion (li1+),-625.0
+1501,Difenoxin|1-(3-Cyano-3-3-diphenylpropyl)-4-phenylisonipecotic acid|Difenoxin|Difenoxina|Difenoxinum|Diphenoxilic acid|Diphenoxin |Diphenoxylic acid,-769.2307692307693
+1550,Fenproporex|Fenorex|Perphoxene,-1000.0
+1551,Dihydrocodeine|DHC|Remedacen,-555.5555555555555
+1593,Zinc|30Zn|Cinc|Zinc|Zincum|Zink|Zn|Zn(ii)|Zn2+,-1428.5714285714287
+1604,Pivampicillin|Ampicillin pivaloyloxymethyl ester|Pivaloylampicillin|Pivaloyloxymethyl ampicillinate|Pivampicilina|Pivampicilline|Pivampicillinum,-1250.0
+4869,Olcegepant,-1000.0
+5070,ADX10059,-1000.0
+5475,Golotimod,-1000.0
+5488,Technetium Tc-99m ciprofloxacin|99mTc-ciprofloxacin|Infecton|Technetium (99mTc) ciprofloxacin|Technetium Tc 99m ciprofloxacin,-1000.0
+5821,DP-VPA,-2500.0
+5824,CNS-5161,-833.3333333333334
+6096,NXN-188,-625.0
+6354,Tezampanel|NGX424-NGX426,-714.2857142857143
+6446,Dotarizine,-833.3333333333334
+6578,Tonabersat,-769.2307692307693
+6706,Isometheptene|Isometheptene,-476.1904761904762
+6742,Ambroxol|Ambroxolum|Bisolvon metabolite vIII|Bromhexine metabolite vIII|Bromhexine-metabolite vIII|Cyclohexanol- 4-((2-amino-3-5-dibromobenzyl)amino)- (E)-|N-(2-Amino-3-4-dibromociclohexil)-trans-4-aminociclohexanol|N-(2-Amino-3-4-dibromocyclohexyl)-trans-4-aminocyclohexanol|trans-4-((2-Amino-3-5-dibromobencil)amino)ciclohexanol|trans-4-((2-Amino-3-5-dibromobenzyl)amine)cyclohexanol|trans-4-((2-Amino-3-5-dibromobenzyl)amino)cyclohexanol,-666.6666666666666
+8842,Acetylcarnitine|acetyl-L-carnitine|O-acetyl-L-carnitine |O-Acetylcarnitine,-833.3333333333334
+8895,Tofacitinib|Tasocitinib|Tofacitinibum,-526.3157894736842
+8934,Sofosbuvir|S)-Isopropyl 2-((S)-(((2R-3R-4R-5R)-5-(2-4-dioxo-3-4- dihydropyrimidin-1(2H)-yl)-4-fluoro-3-hydroxy-4-methyltetrahydrofuran-2-yl)methoxy)- (phenoxy)phosphorylamino)propanoate,-833.3333333333334
+9027,Ledipasvir|methyl [(2S)-1-{(6S)-6-[4-(9-9-difluoro-7-{2-[(1R-3S-4S)-2-{(2S)-2-[(methoxycarbonyl)amino]-3-methylbutanoyl}-2-azabicyclo[2.2.1]hept-3-yl]-1H-benzimidazol-5-yl}-9H-fluoren-2-yl)-1H-imidazol-2-yl]-5-azaspiro[2.4]hept-5-yl}-3-methyl-1-oxobutan-2-yl]carbamate,-714.2857142857143
+9084,Benzydamine,-769.2307692307693
+9119,Eslicarbazepine acetate|(10S)-10-acetoxy-10-11-dihydro-5H-dibenz[b-f]azepine-5-carboxamide|(10S)-5-carbamoyl-10-11-dihydro-5H-dibenzo[b-f]azepin-10-yl acetate|ESL|Stedesa,-833.3333333333334
+9120,Zucapsaicin|(Z)-Capsaicin|cis-Capsaicin|Civamide,-769.2307692307693
+9140,Oxygen|Dioxygen|Molecular oxygen|Oxygen USP|Pure oxygen,-909.0909090909091
+9209,Pholcodine,-1428.5714285714287
+9244,Pirlindole,-1428.5714285714287
+9270,Ubidecarenone|Coenzyme Q-10|Coenzyme Q10,-1666.6666666666667
+9296,Ombitasvir|dimethyl ([(2S-5S)-1-(4-tert-butylphenyl)pyrrolidine-2-5-diyl]bis{(4-1-phenylene)carbamoyl(2S)pyrrolidine-2-1-diyl[(2S)-3-methyl-1-oxobutane-1-2-diyl]})biscarbamate,-1250.0
+9297,Paritaprevir|(2R-6S-12Z-13aR-14aR-16aS)-N-(cyclopropanesulfonyl)-6-[(5-methylpyrazine-2-carbonyl)amino]-5-16-dioxo-2-[(phenanthridin-6-yl)oxy]-1-2-3-6-7-8-9-10-11-13a-14-15-16-16a-tetradecahydrocyclopropa[e]pyrrolo[1-2-a][1-4]diazacyclopentadecine-14a(5H)-carboxamide|Veruprevir,-1000.0
+9316,Thallous Chloride|Thallium chloride|thallium monochloride|Thallium(I) chloride|Thallous Chloride Tl-201,-555.5555555555555
+9323,Benzathine benzylpenicillin|Benzathine penicillin|Benzylpenicillin benzathine|Penicillin G benzathine,-714.2857142857143
+9353,Sulfur,-833.3333333333334
+9372,Tannic acid,-769.2307692307693
+10789,Bordetella pertussis pertactin antigen|Bordetella pertussis pertactin vaccine- inactivated|Pertactin|Pertactin adsorbed,-714.2857142857143
+10989,Hepatitis A Vaccine|Hepatitis A vaccine- inactivated,-1250.0
+10991,Bordetella pertussis toxoid antigen (formaldehyde- glutaraldehyde inactivated)|Bordetella pertussis toxoid vaccine- inactivated,-909.0909090909091
+11097,Plantago seed|Psyllium|Psyllium husk,-1111.111111111111
+11160,Phenyltoloxamine|Feniltoloxamina|Phenyltoloxaminum,-1666.6666666666667
+11198,Peppermint oil|English black mint oil|Mentha crispa oil|Mentha dumetorum oil|Mentha piperita (peppermint) leaf water|Mentha piperita (peppermint) oil|Mentha piperita flowering top oil|Mentha piperita oil|Mentha X piperita oil|Menthae piperitae aetheroleum|Oil of peppermint|Pepermint oil|Peppermint american far west bulked|Peppermint american willamette natural|Peppermint flowering top oil|Peppermint indian rectified|Peppermint oil america|Peppermint oil mongolia|Peppermint oil yakima|Peppermint volatile oil,-1000.0
+11248,Zinc gluconate,-1250.0
+12158,Filorexant,-625.0
+12959,IOWH-032,-769.2307692307693
+13003,Cortivazol,-1000.0
+13016,LY-2300559,-1111.111111111111
+13886,Human cytomegalovirus immune globulin|CMV-immune globulin|CMVIG|Cytomegalovirus immunoglobulin,-769.2307692307693
+13975,Cimicifuga racemosa|Black cohosh|Black snakeroot|Cimicifuga racemosa rhizome|Cimicifuga racemosa root|Cimicifuga racemosa root with rhizome|Cimicifugae rhizoma|Fairy candle root|Rattleroot,-833.3333333333334
+14041,Fremanezumab,-1111.111111111111
+14042,Galcanezumab,-833.3333333333334
