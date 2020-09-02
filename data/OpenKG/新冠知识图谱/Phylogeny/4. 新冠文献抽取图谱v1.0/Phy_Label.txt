@@ -1,0 +1,31 @@
+Labels correspondence :
+-------------------nodeLabels-------------------
+0:http://www.openkg.cn/COVID-19/research/class/C19	VirusProtein
+1:http://www.openkg.cn/COVID-19/research/class/C18	Host
+2:http://www.openkg.cn/COVID-19/research/class/C1	Virus
+3:http://www.openkg.cn/COVID-19/research/class/C23	Disease
+4:http://www.openkg.cn/COVID-19/research/class/C20	HostProtein
+5:http://www.openkg.cn/COVID-19/research/class/C21	Drug
+6:http://www.openkg.cn/COVID-19/research/class/C24	Reference
+7:http://www.openkg.cn/COVID-19/research/class/C25	LiteratureInfo
+-------------------edgeLabels-------------------
+0:subject_is
+[:Reference]-[:subject_is]->[:Virus]
+[:Reference]-[:subject_is]->[:VirusProtein]
+[:Reference]-[:subject_is]->[:HostProtein]
+[:Reference]-[:subject_is]->[:Drug]
+1:reference_is	[:Reference]-[:reference_is]->[:LiteratureInfo]
+2:similarity	[:Virus]-[:similarity]->[:Virus]
+3:effect		[:Drug]-[:effect]->[:Virus]
+4:cause			[:Virus]-[:cause]->[:Disease]
+5:binding		[:VirusProtein]-[:binding]->[:HostProtein]
+6:virus_protein_interaction	[:Virus]-[:virus_protein_interaction]->[:HostProtein]
+7:object_is		
+[:Reference]-[:object_is]->[:Virus]
+[:Reference]-[:object_is]->[:VirusProtein]
+[:Reference]-[:object_is]->[:HostProtein]
+[:Reference]-[:object_is]->[:Drug]
+[:Reference]-[:object_is]->[:Disease]
+8:produce		[:Virus]-[:produce]->[:VirusProtein]
+9:host_is		[:Virus]-[:host_is]->[:Strain]
+10:target		[:Drug]-[:target]->[:VirusProtein]

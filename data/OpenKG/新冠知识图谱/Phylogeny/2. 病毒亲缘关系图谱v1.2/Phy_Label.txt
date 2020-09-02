@@ -1,0 +1,13 @@
+Labels correspondence :
+-------------------nodeLabels-------------------
+0:http://cnschema.org/State							Division
+1:http://www.openkg.cn/COVID-19/research/class/C17	Branch
+2:http://www.openkg.cn/COVID-19/research/class/C18	Host
+3:http://cnschema.org/Country
+4:http://www.openkg.cn/COVID-19/research/class/C16	Strain
+-------------------edgeLabels-------------------
+0:from_country
+1:from_mutate_branch
+2:from_division
+3:from_location
+4:host_is

@@ -1,0 +1,470 @@
+0,0,orf1ab polyprotein,QHU79193.1,https://www.ncbi.nlm.nih.gov/protein/1805599855
+1,0,nucleocapsid phosphoprotein,QHW06046.1,https://www.ncbi.nlm.nih.gov/protein/1806553196
+2,0,orf8 protein,QHZ87598.1,https://www.ncbi.nlm.nih.gov/protein/1808500230
+3,0,nonstructural protein NS7a,QHR63285.1,https://www.ncbi.nlm.nih.gov/protein/1802633837
+4,0,nucleocapsid phosphoprotein,QHZ87599.1,https://www.ncbi.nlm.nih.gov/protein/1808500231
+5,0,orf10 protein,QHW06047.1,https://www.ncbi.nlm.nih.gov/protein/1806553197
+6,0,orf10 protein,QHZ87600.1,https://www.ncbi.nlm.nih.gov/protein/1808500232
+7,0,membrane glycoprotein,QHW06042.1,https://www.ncbi.nlm.nih.gov/protein/1806553192
+8,0,envelope protein,QHZ87594.1,https://www.ncbi.nlm.nih.gov/protein/1808500226
+9,0,nonstructural protein NS3,QHR63281.1,https://www.ncbi.nlm.nih.gov/protein/1802633833
+10,0,membrane glycoprotein,QHZ87595.1,https://www.ncbi.nlm.nih.gov/protein/1808500227
+11,0,envelope protein,QHR63282.1,https://www.ncbi.nlm.nih.gov/protein/1802633834
+12,0,orf6 protein,QHW06043.1,https://www.ncbi.nlm.nih.gov/protein/1806553193
+13,0,membrane protein,QHR63283.1,https://www.ncbi.nlm.nih.gov/protein/1802633835
+14,0,orf6 protein,QHZ87596.1,https://www.ncbi.nlm.nih.gov/protein/1808500228
+15,0,orf7a protein,QHW06044.1,https://www.ncbi.nlm.nih.gov/protein/1806553194
+16,0,nonstructural protein NS6,QHR63284.1,https://www.ncbi.nlm.nih.gov/protein/1802633836
+17,0,orf7a protein,QHZ87597.1,https://www.ncbi.nlm.nih.gov/protein/1808500229
+18,0,orf8 protein,QHW06045.1,https://www.ncbi.nlm.nih.gov/protein/1806553195
+19,0,nucleocapsid phosphoprotein,QHR84456.1,https://www.ncbi.nlm.nih.gov/protein/1803016613
+20,0,orf1ab polyprotein,QHW06038.1,https://www.ncbi.nlm.nih.gov/protein/1806553188
+21,0,surface glycoprotein,QHW06039.1,https://www.ncbi.nlm.nih.gov/protein/1806553189
+22,0,ORF10 protein,QHR84457.1,https://www.ncbi.nlm.nih.gov/protein/1803016614
+23,0,orf1ab polyprotein,QHZ87591.1,https://www.ncbi.nlm.nih.gov/protein/1808500223
+24,0,surface glycoprotein,QHZ87592.1,https://www.ncbi.nlm.nih.gov/protein/1808500224
+25,0,orf3a protein,QHW06040.1,https://www.ncbi.nlm.nih.gov/protein/1806553190
+26,0,orf1ab polyprotein,QHR63279.1,https://www.ncbi.nlm.nih.gov/protein/1802633831
+27,0,spike glycoprotein,QHR63280.2,https://www.ncbi.nlm.nih.gov/protein/1807246653
+28,0,envelope protein,QHW06041.1,https://www.ncbi.nlm.nih.gov/protein/1806553191
+29,0,orf3a protein,QHZ87593.1,https://www.ncbi.nlm.nih.gov/protein/1808500225
+30,0,ORF8 protein,QHR84455.1,https://www.ncbi.nlm.nih.gov/protein/1803016612
+31,0,ORF6 protein,QHR84453.1,https://www.ncbi.nlm.nih.gov/protein/1803016610
+32,0,orf1ab polyprotein,QIA98592.1,https://www.ncbi.nlm.nih.gov/protein/1809484488
+33,0,orf8 protein,QHW06065.1,https://www.ncbi.nlm.nih.gov/protein/1806553217
+34,0,nucleocapsid phosphoprotein,QHW06066.1,https://www.ncbi.nlm.nih.gov/protein/1806553218
+35,0,ORF1ab polyprotein,QIA20057.1,https://www.ncbi.nlm.nih.gov/protein/1808633735
+36,0,ORF7a protein,QHR84454.1,https://www.ncbi.nlm.nih.gov/protein/1803016611
+37,0,ORF1ab polyprotein,QIA20055.1,https://www.ncbi.nlm.nih.gov/protein/1808633731
+38,0,orf10 protein,QHW06067.1,https://www.ncbi.nlm.nih.gov/protein/1806553219
+39,0,ORF1ab polyprotein,QIA20054.1,https://www.ncbi.nlm.nih.gov/protein/1808633729
+40,0,surface glycoprotein,QHR84449.1,https://www.ncbi.nlm.nih.gov/protein/1803016606
+41,0,ORF10 protein,QIA98614.1,https://www.ncbi.nlm.nih.gov/protein/1809484514
+42,0,envelope protein,QHW06061.1,https://www.ncbi.nlm.nih.gov/protein/1806553213
+43,0,membrane glycoprotein,QHW06062.1,https://www.ncbi.nlm.nih.gov/protein/1806553214
+44,0,nucleocapsid phosphoprotein,BCA37477.1,https://www.ncbi.nlm.nih.gov/protein/1808682190
+45,0,ORF3a protein,QHR84450.1,https://www.ncbi.nlm.nih.gov/protein/1803016607
+46,0,envelope protein,QHR84451.1,https://www.ncbi.nlm.nih.gov/protein/1803016608
+47,0,orf1ab polyprotein,QIA98594.1,https://www.ncbi.nlm.nih.gov/protein/1809484492
+48,0,orf6 protein,QHW06063.1,https://www.ncbi.nlm.nih.gov/protein/1806553215
+49,0,membrane glycoprotein,QHR84452.1,https://www.ncbi.nlm.nih.gov/protein/1803016609
+50,0,nucleocapsid phosphoprotein,BCA37476.1,https://www.ncbi.nlm.nih.gov/protein/1808682188
+51,0,orf7a protein,QHW06064.1,https://www.ncbi.nlm.nih.gov/protein/1806553216
+52,0,nonstructural protein NS7b,QHR63296.1,https://www.ncbi.nlm.nih.gov/protein/1802633849
+53,0,nonstructural protein NS8,QHR63297.1,https://www.ncbi.nlm.nih.gov/protein/1802633850
+54,0,orf1ab polyprotein,QHW06058.1,https://www.ncbi.nlm.nih.gov/protein/1806553210
+55,0,surface glycoprotein,QHW06059.1,https://www.ncbi.nlm.nih.gov/protein/1806553211
+56,0,nucleocapsid protein,QHR63298.1,https://www.ncbi.nlm.nih.gov/protein/1802633851
+57,0,ORF8 protein,QIA98612.1,https://www.ncbi.nlm.nih.gov/protein/1809484512
+58,0,nucleocapsid phosphoprotein,QIA98613.1,https://www.ncbi.nlm.nih.gov/protein/1809484513
+59,0,orf3a protein,QHW06060.1,https://www.ncbi.nlm.nih.gov/protein/1806553212
+60,0,orf1ab polyprotein,QHR84448.1,https://www.ncbi.nlm.nih.gov/protein/1803016605
+61,0,orf3a protein,QHZ00390.1,https://www.ncbi.nlm.nih.gov/protein/1807860455
+62,0,envelope protein,QHZ00391.1,https://www.ncbi.nlm.nih.gov/protein/1807860456
+63,0,surface glycoprotein,QHZ00389.1,https://www.ncbi.nlm.nih.gov/protein/1807860454
+64,0,ORF10 protein,QIA20053.1,https://www.ncbi.nlm.nih.gov/protein/1808633727
+65,0,ORF6 protein,QHU79177.1,https://www.ncbi.nlm.nih.gov/protein/1805599848
+66,0,orf1ab polyprotein,QHZ87576.1,https://www.ncbi.nlm.nih.gov/protein/1808500187
+67,0,ORF7a protein,QHU79178.1,https://www.ncbi.nlm.nih.gov/protein/1805599849
+68,0,orf1ab polyprotein,QHZ87577.1,https://www.ncbi.nlm.nih.gov/protein/1808500189
+69,0,ORF7b protein,QHU79179.1,https://www.ncbi.nlm.nih.gov/protein/1805599850
+70,0,ORF8 protein,QHU79180.1,https://www.ncbi.nlm.nih.gov/protein/1805599851
+71,0,orf1ab polyprotein,QHZ00388.1,https://www.ncbi.nlm.nih.gov/protein/1807860453
+72,0,surface glycoprotein,QHU79173.1,https://www.ncbi.nlm.nih.gov/protein/1805599844
+73,0,ORF7a protein,QIA20049.1,https://www.ncbi.nlm.nih.gov/protein/1808633723
+74,0,ORF7b,QIA20050.1,https://www.ncbi.nlm.nih.gov/protein/1808633724
+75,0,ORF3a protein,QHU79174.1,https://www.ncbi.nlm.nih.gov/protein/1805599845
+76,0,envelope protein,QHU79175.1,https://www.ncbi.nlm.nih.gov/protein/1805599846
+77,0,ORF8 protein,QIA20051.1,https://www.ncbi.nlm.nih.gov/protein/1808633725
+78,0,membrane glycoprotein,QHU79176.1,https://www.ncbi.nlm.nih.gov/protein/1805599847
+79,0,nucleocapsid phosphoprotein,QIA20052.1,https://www.ncbi.nlm.nih.gov/protein/1808633726
+80,0,orf1ab polyprotein,QHU79171.1,https://www.ncbi.nlm.nih.gov/protein/1805599842
+81,0,ORF6 protein,QIA20048.1,https://www.ncbi.nlm.nih.gov/protein/1808633722
+82,0,orf1a polyprotein,QHU79172.1,https://www.ncbi.nlm.nih.gov/protein/1805599843
+83,0,envelope protein,QIA20046.1,https://www.ncbi.nlm.nih.gov/protein/1808633720
+84,0,orf10 protein,QHU79202.1,https://www.ncbi.nlm.nih.gov/protein/1805599864
+85,0,membrane glycoprotein,QIA20047.1,https://www.ncbi.nlm.nih.gov/protein/1808633721
+86,0,orf1ab polyprotein,QIA20042.1,https://www.ncbi.nlm.nih.gov/protein/1808633716
+87,0,orf6 protein,QHU79198.1,https://www.ncbi.nlm.nih.gov/protein/1805599860
+88,0,orf1ab polyprotein,QIA20043.1,https://www.ncbi.nlm.nih.gov/protein/1808633717
+89,0,orf7a protein,QHU79199.1,https://www.ncbi.nlm.nih.gov/protein/1805599861
+90,0,surface glycoprotein,QIA20044.1,https://www.ncbi.nlm.nih.gov/protein/1808633718
+91,0,orf8 protein,QHU79200.1,https://www.ncbi.nlm.nih.gov/protein/1805599862
+92,0,nucleocapsid phosphoprotein,QHU79201.1,https://www.ncbi.nlm.nih.gov/protein/1805599863
+93,0,ORF3a protein,QIA20045.1,https://www.ncbi.nlm.nih.gov/protein/1808633719
+94,0,surface glycoprotein,QHU79194.1,https://www.ncbi.nlm.nih.gov/protein/1805599856
+95,0,nucleocapsid phosphoprotein,BCA37478.1,https://www.ncbi.nlm.nih.gov/protein/1808682192
+96,0,orf1ab polyprotein,QHZ87580.1,https://www.ncbi.nlm.nih.gov/protein/1808500195
+97,0,orf3a protein,QHU79195.1,https://www.ncbi.nlm.nih.gov/protein/1805599857
+98,0,envelope protein,QHU79196.1,https://www.ncbi.nlm.nih.gov/protein/1805599858
+99,0,ORF1ab polyprotein,QIA20056.1,https://www.ncbi.nlm.nih.gov/protein/1808633733
+100,0,membrane glycoprotein,QHU79197.1,https://www.ncbi.nlm.nih.gov/protein/1805599859
+101,0,orf1ab polyprotein,QHZ87579.1,https://www.ncbi.nlm.nih.gov/protein/1808500193
+102,0,ORF10 protein,BCA25662.1,https://www.ncbi.nlm.nih.gov/protein/1807816336
+103,3,ORF1A,null,null
+104,0,ORF7a protein,BBW89522.1,https://www.ncbi.nlm.nih.gov/protein/1806500541
+105,3,ORF3,null,null
+106,0,orf1ab polyprotein,BBZ90167.1,https://www.ncbi.nlm.nih.gov/protein/1806649154
+107,3,ORF7B,null,null
+108,0,matrix protein,QHO62109.1,https://www.ncbi.nlm.nih.gov/protein/1800455121
+109,3,ORF8,null,null
+110,0,ORF6 protein,BCA25658.1,https://www.ncbi.nlm.nih.gov/protein/1807816332
+111,0,ORF3a protein,BBW89518.1,https://www.ncbi.nlm.nih.gov/protein/1806500537
+112,0,envelope protein,BBW89519.1,https://www.ncbi.nlm.nih.gov/protein/1806500538
+113,0,nucleocapsid protein,QHO62110.1,https://www.ncbi.nlm.nih.gov/protein/1800455122
+114,3,ORF6,null,null
+115,0,ORF7a protein,BCA25659.1,https://www.ncbi.nlm.nih.gov/protein/1807816333
+116,0,membrane glycoprotein,BBW89520.1,https://www.ncbi.nlm.nih.gov/protein/1806500539
+117,0,ORF8 protein,BCA25660.1,https://www.ncbi.nlm.nih.gov/protein/1807816334
+118,3,NS8,null,null
+119,0,orf1ab polyprotein,QHO62111.1,https://www.ncbi.nlm.nih.gov/protein/1800455124
+120,0,surface glycoprotein,QHO62112.1,https://www.ncbi.nlm.nih.gov/protein/1800455125
+121,0,nucleocapsid phosphoprotein,BCA25661.1,https://www.ncbi.nlm.nih.gov/protein/1807816335
+122,0,ORF6 protein,BBW89521.1,https://www.ncbi.nlm.nih.gov/protein/1806500540
+123,3,ORF7,null,null
+124,0,surface glycoprotein,BCA25654.1,https://www.ncbi.nlm.nih.gov/protein/1807816328
+125,0,ORF10 protein,QHU36842.1,https://www.ncbi.nlm.nih.gov/protein/1805293632
+126,0,orf10 protein,QHQ82472.1,https://www.ncbi.nlm.nih.gov/protein/1802498796
+127,0,membrane glycoprotein,QHR93622.1,https://www.ncbi.nlm.nih.gov/protein/1803066043
+128,3,N,null,null
+129,0,ORF3a protein,BCA25655.1,https://www.ncbi.nlm.nih.gov/protein/1807816329
+130,0,orf1ab polyprotein,QHO62106.1,https://www.ncbi.nlm.nih.gov/protein/1800455118
+131,0,surface glycoprotein,QHO62107.1,https://www.ncbi.nlm.nih.gov/protein/1800455119
+132,0,envelope protein,BCA25656.1,https://www.ncbi.nlm.nih.gov/protein/1807816330
+133,3,NS3,null,null
+134,0,orf1ab polyprotein,BBW89516.1,https://www.ncbi.nlm.nih.gov/protein/1806500535
+135,0,surface glycoprotein,BBW89517.1,https://www.ncbi.nlm.nih.gov/protein/1806500536
+136,0,membrane glycoprotein,BCA25657.1,https://www.ncbi.nlm.nih.gov/protein/1807816331
+137,0,envelope protein,QHO62108.1,https://www.ncbi.nlm.nih.gov/protein/1800455120
+138,3,NS7A,null,null
+139,0,orf8 protein,QHQ82470.1,https://www.ncbi.nlm.nih.gov/protein/1802498794
+140,0,nucleocapsid phosphoprotein,QHU36841.1,https://www.ncbi.nlm.nih.gov/protein/1805293631
+141,0,nucleocapsid phosphoprotein,QHQ82471.1,https://www.ncbi.nlm.nih.gov/protein/1802498795
+142,3,S,null,null
+143,0,nucleocapsid phosphoprotein,BCA25671.1,https://www.ncbi.nlm.nih.gov/protein/1807816346
+144,0,ORF7a protein,QHU36839.1,https://www.ncbi.nlm.nih.gov/protein/1805293629
+145,0,orf7a protein,QHQ82469.1,https://www.ncbi.nlm.nih.gov/protein/1802498793
+146,3,ORF10,null,null
+147,0,ORF10 protein,BCA25672.1,https://www.ncbi.nlm.nih.gov/protein/1807816347
+148,0,ORF8 protein,QHU36840.1,https://www.ncbi.nlm.nih.gov/protein/1805293630
+149,3,M,null,null
+150,0,orf1ab polyprotein,BCA25653.1,https://www.ncbi.nlm.nih.gov/protein/1807816327
+151,3,E,null,null
+152,0,membrane glycoprotein,BCA25667.1,https://www.ncbi.nlm.nih.gov/protein/1807816342
+153,0,ORF3a protein,QHU36835.1,https://www.ncbi.nlm.nih.gov/protein/1805293625
+154,0,orf3a protein,QHQ82465.1,https://www.ncbi.nlm.nih.gov/protein/1802498789
+155,1,vertebrates,null,null
+156,0,envelope protein,QHU36836.1,https://www.ncbi.nlm.nih.gov/protein/1805293626
+157,0,envelope protein,QHQ82466.1,https://www.ncbi.nlm.nih.gov/protein/1802498790
+158,0,ORF6 protein,BCA25668.1,https://www.ncbi.nlm.nih.gov/protein/1807816343
+159,3,ORF7A,null,null
+160,0,membrane glycoprotein,QHU36837.1,https://www.ncbi.nlm.nih.gov/protein/1805293627
+161,0,membrane glycoprotein,QHQ82467.1,https://www.ncbi.nlm.nih.gov/protein/1802498791
+162,3,ORF1AB,null,null
+163,0,ORF7a protein,BCA25669.1,https://www.ncbi.nlm.nih.gov/protein/1807816344
+164,3,NS6,null,null
+165,0,ORF8 protein,BCA25670.1,https://www.ncbi.nlm.nih.gov/protein/1807816345
+166,0,ORF6 protein,QHU36838.1,https://www.ncbi.nlm.nih.gov/protein/1805293628
+167,0,orf6 protein,QHQ82468.1,https://www.ncbi.nlm.nih.gov/protein/1802498792
+168,0,nucleocapsid phosphoprotein,QHU36861.1,https://www.ncbi.nlm.nih.gov/protein/1805293653
+169,0,nucleocapsid phosphoprotein,QHO62884.1,https://www.ncbi.nlm.nih.gov/protein/1800489765
+170,0,surface glycoprotein,BCA25664.1,https://www.ncbi.nlm.nih.gov/protein/1807816339
+171,0,ORF10 protein,QHU36862.1,https://www.ncbi.nlm.nih.gov/protein/1805293654
+172,0,orf10 protein,QHO62885.1,https://www.ncbi.nlm.nih.gov/protein/1800489766
+173,0,ORF3a protein,BCA25665.1,https://www.ncbi.nlm.nih.gov/protein/1807816340
+174,0,orf1ab polyprotein,QHU36833.1,https://www.ncbi.nlm.nih.gov/protein/1805293623
+175,0,orf1ab polyprotein,QHQ82463.1,https://www.ncbi.nlm.nih.gov/protein/1802498787
+176,0,surface glycoprotein,QHU36834.1,https://www.ncbi.nlm.nih.gov/protein/1805293624
+177,0,surface glycoprotein,QHQ82464.1,https://www.ncbi.nlm.nih.gov/protein/1802498788
+178,0,envelope protein,BCA25666.1,https://www.ncbi.nlm.nih.gov/protein/1807816341
+179,1,human,null,null
+180,0,orf8 protein,QHO62883.1,https://www.ncbi.nlm.nih.gov/protein/1800489764
+181,0,ORF7a protein,QIA98611.1,https://www.ncbi.nlm.nih.gov/protein/1809484511
+182,0,membrane protein,QHR63293.1,https://www.ncbi.nlm.nih.gov/protein/1802633846
+183,0,ORF3a protein,QIA98607.1,https://www.ncbi.nlm.nih.gov/protein/1809484507
+184,0,orf7a protein,QHW06054.1,https://www.ncbi.nlm.nih.gov/protein/1806553205
+185,0,orf3a protein,QHZ87583.1,https://www.ncbi.nlm.nih.gov/protein/1808500214
+186,0,nonstructural protein NS6,QHR63294.1,https://www.ncbi.nlm.nih.gov/protein/1802633847
+187,0,envelope protein,QIA98608.1,https://www.ncbi.nlm.nih.gov/protein/1809484508
+188,0,envelope protein,QHZ87584.1,https://www.ncbi.nlm.nih.gov/protein/1808500215
+189,0,orf8 protein,QHW06055.1,https://www.ncbi.nlm.nih.gov/protein/1806553206
+190,0,membrane glycoprotein,QIA98609.1,https://www.ncbi.nlm.nih.gov/protein/1809484509
+191,0,nucleocapsid phosphoprotein,QHW06056.1,https://www.ncbi.nlm.nih.gov/protein/1806553207
+192,0,nonstructural protein NS7a,QHR63295.1,https://www.ncbi.nlm.nih.gov/protein/1802633848
+193,0,ORF6 protein,QIA98610.1,https://www.ncbi.nlm.nih.gov/protein/1809484510
+194,0,orf10 protein,QHW06057.1,https://www.ncbi.nlm.nih.gov/protein/1806553208
+195,0,ORF10 protein,QIA98603.1,https://www.ncbi.nlm.nih.gov/protein/1809484502
+196,0,orf3a protein,QHW06050.1,https://www.ncbi.nlm.nih.gov/protein/1806553201
+197,0,orf1ab polyprotein,QHR63289.1,https://www.ncbi.nlm.nih.gov/protein/1802633842
+198,0,orf10 protein,QHO60602.1,https://www.ncbi.nlm.nih.gov/protein/1800408786
+199,0,spike glycoprotein,QHR63290.2,https://www.ncbi.nlm.nih.gov/protein/1807246654
+200,0,surface glycoprotein,QHN73823.1,https://www.ncbi.nlm.nih.gov/protein/1800242681
+201,0,envelope protein,QHW06051.1,https://www.ncbi.nlm.nih.gov/protein/1806553202
+202,0,orf1ab polyprotein,QIA98593.1,https://www.ncbi.nlm.nih.gov/protein/1809484490
+203,0,membrane glycoprotein,QHW06052.1,https://www.ncbi.nlm.nih.gov/protein/1806553203
+204,0,nonstructural protein NS3,QHR63291.1,https://www.ncbi.nlm.nih.gov/protein/1802633844
+205,0,orf1ab polyprotein,QIA98605.1,https://www.ncbi.nlm.nih.gov/protein/1809484505
+206,0,orf1ab polyprotein,QHZ87581.1,https://www.ncbi.nlm.nih.gov/protein/1808500212
+207,0,surface glycoprotein,QIA98606.1,https://www.ncbi.nlm.nih.gov/protein/1809484506
+208,0,surface glycoprotein,QHZ87582.1,https://www.ncbi.nlm.nih.gov/protein/1808500213
+209,0,envelope protein,QHR63292.1,https://www.ncbi.nlm.nih.gov/protein/1802633845
+210,0,orf6 protein,QHW06053.1,https://www.ncbi.nlm.nih.gov/protein/1806553204
+211,0,orf6 protein,QHO60598.1,https://www.ncbi.nlm.nih.gov/protein/1800408782
+212,0,ORF8 protein,QHU36830.1,https://www.ncbi.nlm.nih.gov/protein/1805293619
+213,0,orf7a protein,QHO60599.1,https://www.ncbi.nlm.nih.gov/protein/1800408783
+214,0,nucleocapsid phosphoprotein,QHU36831.1,https://www.ncbi.nlm.nih.gov/protein/1805293620
+215,0,orf1ab polyprotein,QHW06048.1,https://www.ncbi.nlm.nih.gov/protein/1806553199
+216,0,orf8 protein,QHO60600.1,https://www.ncbi.nlm.nih.gov/protein/1800408784
+217,0,surface glycoprotein,QHW06049.1,https://www.ncbi.nlm.nih.gov/protein/1806553200
+218,0,ORF10 protein,QHU36832.1,https://www.ncbi.nlm.nih.gov/protein/1805293621
+219,0,nucleocapsid phosphoprotein,QIA98602.1,https://www.ncbi.nlm.nih.gov/protein/1809484501
+220,0,nucleocapsid phosphoprotein,QHO60601.1,https://www.ncbi.nlm.nih.gov/protein/1800408785
+221,0,ORF10 protein,BCA25682.1,https://www.ncbi.nlm.nih.gov/protein/1807816358
+222,0,ORF7a protein,QIA98604.1,https://www.ncbi.nlm.nih.gov/protein/1809484503
+223,0,ORF8 protein,QIA98601.1,https://www.ncbi.nlm.nih.gov/protein/1809484500
+224,0,envelope protein,QHU36826.1,https://www.ncbi.nlm.nih.gov/protein/1805293615
+225,0,ORF6 protein,BCA25678.1,https://www.ncbi.nlm.nih.gov/protein/1807816354
+226,0,ORF3a protein,QIA98597.1,https://www.ncbi.nlm.nih.gov/protein/1809484496
+227,0,orf3a protein,QHO60595.1,https://www.ncbi.nlm.nih.gov/protein/1800408779
+228,0,membrane glycoprotein,QHU36827.1,https://www.ncbi.nlm.nih.gov/protein/1805293616
+229,0,envelope protein,QIA98598.1,https://www.ncbi.nlm.nih.gov/protein/1809484497
+230,0,envelope protein,QHO60596.1,https://www.ncbi.nlm.nih.gov/protein/1800408780
+231,0,ORF7a protein,BCA25679.1,https://www.ncbi.nlm.nih.gov/protein/1807816355
+232,0,membrane glycoprotein,QIA98599.1,https://www.ncbi.nlm.nih.gov/protein/1809484498
+233,0,membrane glycoprotein,QHO60597.1,https://www.ncbi.nlm.nih.gov/protein/1800408781
+234,0,ORF8 protein,BCA25680.1,https://www.ncbi.nlm.nih.gov/protein/1807816356
+235,0,ORF6 protein,QHU36828.1,https://www.ncbi.nlm.nih.gov/protein/1805293617
+236,0,nucleocapsid phosphoprotein,BCA25681.1,https://www.ncbi.nlm.nih.gov/protein/1807816357
+237,0,ORF6 protein,QIA98600.1,https://www.ncbi.nlm.nih.gov/protein/1809484499
+238,0,ORF7a protein,QHU36829.1,https://www.ncbi.nlm.nih.gov/protein/1805293618
+239,0,surface glycoprotein,BCA25674.1,https://www.ncbi.nlm.nih.gov/protein/1807816350
+240,0,surface glycoprotein,QHN73824.1,https://www.ncbi.nlm.nih.gov/protein/1800242683
+241,0,ORF10 protein,BBW89525.1,https://www.ncbi.nlm.nih.gov/protein/1806500544
+242,3,NS7B,null,null
+243,0,surface glycoprotein,QHN73822.1,https://www.ncbi.nlm.nih.gov/protein/1800242679
+244,3,ORF3A,null,null
+245,0,ORF3a protein,BCA25675.1,https://www.ncbi.nlm.nih.gov/protein/1807816351
+246,0,orf1ab polyprotein,QHU36823.1,https://www.ncbi.nlm.nih.gov/protein/1805293612
+247,0,surface glycoprotein,QHU36824.1,https://www.ncbi.nlm.nih.gov/protein/1805293613
+248,0,envelope protein,BCA25676.1,https://www.ncbi.nlm.nih.gov/protein/1807816352
+249,0,orf1ab polyprotein,QIA98595.1,https://www.ncbi.nlm.nih.gov/protein/1809484494
+250,0,orf1ab polyprotein,QHO60603.1,https://www.ncbi.nlm.nih.gov/protein/1800408787
+251,0,surface glycoprotein,QIA98596.1,https://www.ncbi.nlm.nih.gov/protein/1809484495
+252,0,surface glycoprotein,QHO60594.1,https://www.ncbi.nlm.nih.gov/protein/1800408778
+253,0,membrane glycoprotein,BCA25677.1,https://www.ncbi.nlm.nih.gov/protein/1807816353
+254,0,ORF3a protein,QHU36825.1,https://www.ncbi.nlm.nih.gov/protein/1805293614
+255,0,envelope protein,QHO62113.1,https://www.ncbi.nlm.nih.gov/protein/1800455126
+256,0,matrix protein,QHO62114.1,https://www.ncbi.nlm.nih.gov/protein/1800455127
+257,0,ORF8 protein,BBW89523.1,https://www.ncbi.nlm.nih.gov/protein/1806500542
+258,0,nucleocapsid phosphoprotein,BBW89524.1,https://www.ncbi.nlm.nih.gov/protein/1806500543
+259,0,nucleocapsid protein,QHO62115.1,https://www.ncbi.nlm.nih.gov/protein/1800455128
+260,0,orf1ab polyprotein,BCA25673.1,https://www.ncbi.nlm.nih.gov/protein/1807816349
+261,0,ORF8 protein,QHU36850.1,https://www.ncbi.nlm.nih.gov/protein/1805293641
+262,0,envelope protein,QHU36846.1,https://www.ncbi.nlm.nih.gov/protein/1805293637
+263,0,envelope protein,QHQ71975.1,https://www.ncbi.nlm.nih.gov/protein/1802471974
+264,0,orf1ab polyprotein,YP_009724389.1,https://www.ncbi.nlm.nih.gov/protein/1796318597
+265,0,membrane glycoprotein,QHU36847.1,https://www.ncbi.nlm.nih.gov/protein/1805293638
+266,0,membrane glycoprotein,QHQ71976.1,https://www.ncbi.nlm.nih.gov/protein/1802471975
+267,0,orf1a polyprotein,YP_009725295.1,https://www.ncbi.nlm.nih.gov/protein/1802476803
+268,0,surface glycoprotein,YP_009724390.1,https://www.ncbi.nlm.nih.gov/protein/1796318598
+269,0,ORF6 protein,QHU36848.1,https://www.ncbi.nlm.nih.gov/protein/1805293639
+270,0,orf6 protein,QHQ71977.1,https://www.ncbi.nlm.nih.gov/protein/1802471976
+271,0,ORF7a protein,QHU36849.1,https://www.ncbi.nlm.nih.gov/protein/1805293640
+272,0,orf7a protein,QHQ71978.1,https://www.ncbi.nlm.nih.gov/protein/1802471977
+273,0,ORF10 protein,QHU36872.1,https://www.ncbi.nlm.nih.gov/protein/1805293665
+274,0,nucleocapsid protein,QHR63268.1,https://www.ncbi.nlm.nih.gov/protein/1802633818
+275,0,nucleocapsid phosphoprotein,QHD43423.2,https://www.ncbi.nlm.nih.gov/protein/1798172432
+276,0,ORF10 protein,QHI42199.1,https://www.ncbi.nlm.nih.gov/protein/1798172433
+277,0,orf1ab polyprotein,QHU36843.1,https://www.ncbi.nlm.nih.gov/protein/1805293634
+278,0,orf1ab polyprotein,QHQ71972.1,https://www.ncbi.nlm.nih.gov/protein/1802471971
+279,0,surface glycoprotein,QHU36844.1,https://www.ncbi.nlm.nih.gov/protein/1805293635
+280,0,surface glycoprotein,QHQ71973.1,https://www.ncbi.nlm.nih.gov/protein/1802471972
+281,0,surface glycoprotein,QHN73805.1,https://www.ncbi.nlm.nih.gov/protein/1800242654
+282,0,membrane glycoprotein,QHR93621.1,https://www.ncbi.nlm.nih.gov/protein/1803066040
+283,0,ORF3a protein,QHU36845.1,https://www.ncbi.nlm.nih.gov/protein/1805293636
+284,0,orf3a protein,QHQ71974.1,https://www.ncbi.nlm.nih.gov/protein/1802471973
+285,0,ORF6 protein,QHD43420.1,https://www.ncbi.nlm.nih.gov/protein/1791269094
+286,0,nonstructural protein NS7b,QHR63266.1,https://www.ncbi.nlm.nih.gov/protein/1802633816
+287,0,ORF7a protein,QHD43421.1,https://www.ncbi.nlm.nih.gov/protein/1791269095
+288,0,nucleocapsid phosphoprotein,QHU36871.1,https://www.ncbi.nlm.nih.gov/protein/1805293664
+289,0,ORF8 protein,QHD43422.1,https://www.ncbi.nlm.nih.gov/protein/1791269096
+290,0,nonstructural protein NS8,QHR63267.1,https://www.ncbi.nlm.nih.gov/protein/1802633817
+291,0,ORF7a protein,QHU36869.1,https://www.ncbi.nlm.nih.gov/protein/1805293662
+292,0,nonstructural protein NS7a,QHR63265.1,https://www.ncbi.nlm.nih.gov/protein/1802633815
+293,0,ORF8 protein,QHU36870.1,https://www.ncbi.nlm.nih.gov/protein/1805293663
+294,0,surface glycoprotein,QHD43416.1,https://www.ncbi.nlm.nih.gov/protein/1791269090
+295,0,nonstructural protein NS3,QHR63261.1,https://www.ncbi.nlm.nih.gov/protein/1802633811
+296,0,ORF3a protein,QHU36865.1,https://www.ncbi.nlm.nih.gov/protein/1805293658
+297,0,envelope protein,QHU36866.1,https://www.ncbi.nlm.nih.gov/protein/1805293659
+298,0,envelope protein,QHR63262.1,https://www.ncbi.nlm.nih.gov/protein/1802633812
+299,0,ORF3a protein,QHD43417.1,https://www.ncbi.nlm.nih.gov/protein/1791269091
+300,0,membrane glycoprotein,QHU36867.1,https://www.ncbi.nlm.nih.gov/protein/1805293660
+301,0,membrane protein,QHR63263.1,https://www.ncbi.nlm.nih.gov/protein/1802633813
+302,0,envelope protein,QHD43418.1,https://www.ncbi.nlm.nih.gov/protein/1791269092
+303,0,nonstructural protein NS6,QHR63264.1,https://www.ncbi.nlm.nih.gov/protein/1802633814
+304,0,membrane glycoprotein,QHD43419.1,https://www.ncbi.nlm.nih.gov/protein/1791269093
+305,0,ORF6 protein,QHU36868.1,https://www.ncbi.nlm.nih.gov/protein/1805293661
+306,0,nucleocapsid phosphoprotein,QHU79181.1,https://www.ncbi.nlm.nih.gov/protein/1805599852
+307,0,nonstructural protein NS8,QHR63277.1,https://www.ncbi.nlm.nih.gov/protein/1802633828
+308,0,orf1ab polyprotein,QHN69982.1,https://www.ncbi.nlm.nih.gov/protein/1799706761
+309,0,ORF10 protein,QHU79182.1,https://www.ncbi.nlm.nih.gov/protein/1805599853
+310,0,nucleocapsid protein,QHR63278.1,https://www.ncbi.nlm.nih.gov/protein/1802633829
+311,0,orf1ab polyprotein,QHN69983.1,https://www.ncbi.nlm.nih.gov/protein/1799706763
+312,0,orf1ab polyprotein,QHU36863.1,https://www.ncbi.nlm.nih.gov/protein/1805293656
+313,0,orf1ab polyprotein,QHR63259.1,https://www.ncbi.nlm.nih.gov/protein/1802633809
+314,0,ORF1ab polyprotein,QHN73803.1,https://www.ncbi.nlm.nih.gov/protein/1800242650
+315,0,surface glycoprotein,QHU36864.1,https://www.ncbi.nlm.nih.gov/protein/1805293657
+316,0,spike glycoprotein,QHR63260.2,https://www.ncbi.nlm.nih.gov/protein/1807246651
+317,0,orf1ab polyprotein,QHD43415.1,https://www.ncbi.nlm.nih.gov/protein/1791269089
+318,0,ORF8 protein,QHN73801.1,https://www.ncbi.nlm.nih.gov/protein/1800242647
+319,0,nucleocapsid phosphoprotein,QHN73802.1,https://www.ncbi.nlm.nih.gov/protein/1800242648
+320,0,nonstructural protein NS7b,QHR63276.1,https://www.ncbi.nlm.nih.gov/protein/1802633827
+321,0,ORF8 protein,QHZ00364.1,https://www.ncbi.nlm.nih.gov/protein/1807860418
+322,0,ORF6 protein,QHU36858.1,https://www.ncbi.nlm.nih.gov/protein/1805293650
+323,0,orf6 protein,QHO62881.1,https://www.ncbi.nlm.nih.gov/protein/1800489762
+324,0,structural protein,QHZ00365.1,https://www.ncbi.nlm.nih.gov/protein/1807860419
+325,0,ORF7a protein,QHU36859.1,https://www.ncbi.nlm.nih.gov/protein/1805293651
+326,0,orf7a protein,QHO62882.1,https://www.ncbi.nlm.nih.gov/protein/1800489763
+327,0,ORF10 proteiin,QHZ00366.1,https://www.ncbi.nlm.nih.gov/protein/1807860420
+328,0,ORF8 protein,QHU36860.1,https://www.ncbi.nlm.nih.gov/protein/1805293652
+329,0,orf1ab polyprotein,BCA25663.1,https://www.ncbi.nlm.nih.gov/protein/1807816338
+330,0,surface glycoprotein,QHU36854.1,https://www.ncbi.nlm.nih.gov/protein/1805293646
+331,0,surface glycoprotein,QHO62877.1,https://www.ncbi.nlm.nih.gov/protein/1800489758
+332,0,structural protein,QHZ00360.1,https://www.ncbi.nlm.nih.gov/protein/1807860414
+333,0,structural protein,QHZ00361.1,https://www.ncbi.nlm.nih.gov/protein/1807860415
+334,0,ORF3a protein,QHU36855.1,https://www.ncbi.nlm.nih.gov/protein/1805293647
+335,0,orf3a protein,QHO62878.1,https://www.ncbi.nlm.nih.gov/protein/1800489759
+336,0,envelope protein,QHU36856.1,https://www.ncbi.nlm.nih.gov/protein/1805293648
+337,0,envelope protein,QHO62879.1,https://www.ncbi.nlm.nih.gov/protein/1800489760
+338,0,ORF6 protein,QHZ00362.1,https://www.ncbi.nlm.nih.gov/protein/1807860416
+339,0,membrane glycoprotein,QHU36857.1,https://www.ncbi.nlm.nih.gov/protein/1805293649
+340,0,membrane glycoprotein,QHO62880.1,https://www.ncbi.nlm.nih.gov/protein/1800489761
+341,0,ORF7a protein,QHZ00363.1,https://www.ncbi.nlm.nih.gov/protein/1807860417
+342,0,orf8 protein,QHQ71969.1,https://www.ncbi.nlm.nih.gov/protein/1802471967
+343,0,nucleocapsid phosphoprotein,QHU79211.1,https://www.ncbi.nlm.nih.gov/protein/1805599874
+344,0,nucleocapsid phosphoprotein,QHQ71970.1,https://www.ncbi.nlm.nih.gov/protein/1802471968
+345,0,surface glycoprotein,QHZ00358.1,https://www.ncbi.nlm.nih.gov/protein/1807860412
+346,0,orf10 protein,QHU79212.1,https://www.ncbi.nlm.nih.gov/protein/1805599875
+347,0,orf10 protein,QHQ71971.1,https://www.ncbi.nlm.nih.gov/protein/1802471969
+348,0,ORF3a protein,QHZ00359.1,https://www.ncbi.nlm.nih.gov/protein/1807860413
+349,0,orf1ab polyprotein,QHU36853.1,https://www.ncbi.nlm.nih.gov/protein/1805293645
+350,0,orf1ab polyprotein,QHO62876.1,https://www.ncbi.nlm.nih.gov/protein/1800489757
+351,2,SARS-CoV-2,2697049,https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=2697049
+352,0,orf1ab polyprotein,QHZ00357.1,https://www.ncbi.nlm.nih.gov/protein/1807860411
+353,0,ORF10 protein,YP_009725255.1,https://www.ncbi.nlm.nih.gov/protein/1798174256
+354,0,membrane glycoprotein,QHU79207.1,https://www.ncbi.nlm.nih.gov/protein/1805599870
+355,0,membrane glycoprotein,QHQ71966.1,https://www.ncbi.nlm.nih.gov/protein/1802471964
+356,0,ORF7a protein,QHZ00384.1,https://www.ncbi.nlm.nih.gov/protein/1807860446
+357,0,ORF8 protein,QHZ00385.1,https://www.ncbi.nlm.nih.gov/protein/1807860447
+358,0,orf6 protein,QHU79208.1,https://www.ncbi.nlm.nih.gov/protein/1805599871
+359,0,orf6 protein,QHQ71967.1,https://www.ncbi.nlm.nih.gov/protein/1802471965
+360,0,ORF1ab polyprotein,QHN73821.1,https://www.ncbi.nlm.nih.gov/protein/1800242677
+361,0,nucleocapsid phosphoprotein,QHZ00386.1,https://www.ncbi.nlm.nih.gov/protein/1807860448
+362,0,orf7a protein,QHU79209.1,https://www.ncbi.nlm.nih.gov/protein/1805599872
+363,0,orf7a protein,QHQ71968.1,https://www.ncbi.nlm.nih.gov/protein/1802471966
+364,0,ORF10 protein,QHZ00387.1,https://www.ncbi.nlm.nih.gov/protein/1807860449
+365,0,orf8 protein,QHU79210.1,https://www.ncbi.nlm.nih.gov/protein/1805599873
+366,0,ORF3a protein,QHZ00380.1,https://www.ncbi.nlm.nih.gov/protein/1807860442
+367,0,orf1ab polyprotein,QHU79203.1,https://www.ncbi.nlm.nih.gov/protein/1805599866
+368,0,orf1ab polyprotein,QHQ71962.1,https://www.ncbi.nlm.nih.gov/protein/1802471960
+369,0,ORF7a protein,YP_009724395.1,https://www.ncbi.nlm.nih.gov/protein/1796318603
+370,0,surface glycoprotein,QHU79204.1,https://www.ncbi.nlm.nih.gov/protein/1805599867
+371,0,surface glycoprotein,QHQ71963.1,https://www.ncbi.nlm.nih.gov/protein/1802471961
+372,0,envelope protein,QHZ00381.1,https://www.ncbi.nlm.nih.gov/protein/1807860443
+373,0,ORF7b,YP_009725296.1,https://www.ncbi.nlm.nih.gov/protein/1802476804
+374,0,membrane glycoprotein,QHZ00382.1,https://www.ncbi.nlm.nih.gov/protein/1807860444
+375,0,ORF8 protein,YP_009724396.1,https://www.ncbi.nlm.nih.gov/protein/1796318604
+376,0,orf3a protein,QHU79205.1,https://www.ncbi.nlm.nih.gov/protein/1805599868
+377,0,orf3a protein,QHQ71964.1,https://www.ncbi.nlm.nih.gov/protein/1802471962
+378,0,envelope protein,QHU79206.1,https://www.ncbi.nlm.nih.gov/protein/1805599869
+379,0,envelope protein,QHQ71965.1,https://www.ncbi.nlm.nih.gov/protein/1802471963
+380,0,nucleocapsid phosphoprotein,YP_009724397.2,https://www.ncbi.nlm.nih.gov/protein/1798174255
+381,0,ORF6 protein,QHZ00383.1,https://www.ncbi.nlm.nih.gov/protein/1807860445
+382,0,ORF3a protein,YP_009724391.1,https://www.ncbi.nlm.nih.gov/protein/1796318599
+383,0,envelope protein,YP_009724392.1,https://www.ncbi.nlm.nih.gov/protein/1796318600
+384,0,orf8 protein,QHQ71979.1,https://www.ncbi.nlm.nih.gov/protein/1802471978
+385,0,membrane glycoprotein,YP_009724393.1,https://www.ncbi.nlm.nih.gov/protein/1796318601
+386,0,nucleocapsid phosphoprotein,QHU36851.1,https://www.ncbi.nlm.nih.gov/protein/1805293642
+387,0,nucleocapsid phosphoprotein,QHQ71980.1,https://www.ncbi.nlm.nih.gov/protein/1802471979
+388,0,surface glycoprotein,QHZ00379.1,https://www.ncbi.nlm.nih.gov/protein/1807860441
+389,0,ORF10 protein,QHU36852.1,https://www.ncbi.nlm.nih.gov/protein/1805293643
+390,0,ORF6 protein,YP_009724394.1,https://www.ncbi.nlm.nih.gov/protein/1796318602
+391,0,orf10 protein,QHQ71981.1,https://www.ncbi.nlm.nih.gov/protein/1802471980
+392,0,nucleocapsid phosphoprotein,QHN73817.1,https://www.ncbi.nlm.nih.gov/protein/1800242670
+393,0,ORF10 protein,QHN73818.1,https://www.ncbi.nlm.nih.gov/protein/1800242671
+394,0,surface glycoprotein,QHN73807.1,https://www.ncbi.nlm.nih.gov/protein/1800242658
+395,0,membrane glycoprotein,QHN73813.1,https://www.ncbi.nlm.nih.gov/protein/1800242666
+396,0,ORF6 protein,QHN73814.1,https://www.ncbi.nlm.nih.gov/protein/1800242667
+397,0,ORF7a protein,QHN73815.1,https://www.ncbi.nlm.nih.gov/protein/1800242668
+398,0,ORF8 protein,QHN73816.1,https://www.ncbi.nlm.nih.gov/protein/1800242669
+399,0,surface glycoprotein,QHN73810.1,https://www.ncbi.nlm.nih.gov/protein/1800242663
+400,0,ORF3a protein,QHN73811.1,https://www.ncbi.nlm.nih.gov/protein/1800242664
+401,0,envelope protein,QHN73812.1,https://www.ncbi.nlm.nih.gov/protein/1800242665
+402,0,orf1ab polyprotein,QHZ87578.1,https://www.ncbi.nlm.nih.gov/protein/1808500191
+403,0,ORF1ab polyprotein,QHN73820.1,https://www.ncbi.nlm.nih.gov/protein/1800242675
+404,0,ORF1ab polyprotein,QHN73819.1,https://www.ncbi.nlm.nih.gov/protein/1800242673
+405,0,orf1ab polyprotein,QHN73809.1,https://www.ncbi.nlm.nih.gov/protein/1800242662
+406,0,orf7a protein,QHZ87587.1,https://www.ncbi.nlm.nih.gov/protein/1808500218
+407,0,orf8 protein,QHZ87588.1,https://www.ncbi.nlm.nih.gov/protein/1808500219
+408,0,nucleocapsid phosphoprotein,QHZ87589.1,https://www.ncbi.nlm.nih.gov/protein/1808500220
+409,0,orf10 protein,QHZ87590.1,https://www.ncbi.nlm.nih.gov/protein/1808500221
+410,0,membrane glycoprotein,QHZ87585.1,https://www.ncbi.nlm.nih.gov/protein/1808500216
+411,0,orf6 protein,QHZ87586.1,https://www.ncbi.nlm.nih.gov/protein/1808500217
+412,0,nonstructural protein NS6,QHR63274.1,https://www.ncbi.nlm.nih.gov/protein/1802633825
+413,0,ORF7 protein,QHN73800.1,https://www.ncbi.nlm.nih.gov/protein/1800242646
+414,0,nonstructural protein NS7a,QHR63275.1,https://www.ncbi.nlm.nih.gov/protein/1802633826
+415,0,spike glycoprotein,QHR63270.2,https://www.ncbi.nlm.nih.gov/protein/1807246652
+416,0,ORF3 protein,QHN73796.1,https://www.ncbi.nlm.nih.gov/protein/1800242642
+417,0,envelope protein,QHN73797.1,https://www.ncbi.nlm.nih.gov/protein/1800242643
+418,0,nonstructural protein NS3,QHR63271.1,https://www.ncbi.nlm.nih.gov/protein/1802633822
+419,0,membrane glycoprotein,QHN73798.1,https://www.ncbi.nlm.nih.gov/protein/1800242644
+420,0,envelope protein,QHR63272.1,https://www.ncbi.nlm.nih.gov/protein/1802633823
+421,0,membrane protein,QHR63273.1,https://www.ncbi.nlm.nih.gov/protein/1802633824
+422,0,ORF6 protein,QHN73799.1,https://www.ncbi.nlm.nih.gov/protein/1800242645
+423,0,nucleocapsid phosphoprotein,BCA25651.1,https://www.ncbi.nlm.nih.gov/protein/1807816324
+424,0,nonstructural protein NS7b,QHR63256.1,https://www.ncbi.nlm.nih.gov/protein/1802633805
+425,0,ORF10 protein,BCA25652.1,https://www.ncbi.nlm.nih.gov/protein/1807816325
+426,0,nonstructural protein NS8,QHR63257.1,https://www.ncbi.nlm.nih.gov/protein/1802633806
+427,0,nucleocapsid protein,QHR63258.1,https://www.ncbi.nlm.nih.gov/protein/1802633807
+428,0,ORF1ab polyprotein,QHN73794.1,https://www.ncbi.nlm.nih.gov/protein/1800242640
+429,0,surface glycoprotein,QHN73795.1,https://www.ncbi.nlm.nih.gov/protein/1800242641
+430,0,orf1ab polyprotein,QHR63269.1,https://www.ncbi.nlm.nih.gov/protein/1802633820
+431,0,ORF8 protein,BCA25650.1,https://www.ncbi.nlm.nih.gov/protein/1807816323
+432,0,membrane protein,QHR63253.1,https://www.ncbi.nlm.nih.gov/protein/1802633802
+433,0,ORF6 protein,BCA25648.1,https://www.ncbi.nlm.nih.gov/protein/1807816321
+434,0,nonstructural protein NS6,QHR63254.1,https://www.ncbi.nlm.nih.gov/protein/1802633803
+435,0,ORF7a protein,BCA25649.1,https://www.ncbi.nlm.nih.gov/protein/1807816322
+436,0,nonstructural protein NS7a,QHR63255.1,https://www.ncbi.nlm.nih.gov/protein/1802633804
+437,0,surface glycoprotein,BCA25644.1,https://www.ncbi.nlm.nih.gov/protein/1807816317
+438,0,orf1ab polyprotein,QHR63249.1,https://www.ncbi.nlm.nih.gov/protein/1802633798
+439,0,spike glycoprotein,QHR63250.2,https://www.ncbi.nlm.nih.gov/protein/1807246650
+440,0,ORF3a protein,BCA25645.1,https://www.ncbi.nlm.nih.gov/protein/1807816318
+441,0,envelope protein,BCA25646.1,https://www.ncbi.nlm.nih.gov/protein/1807816319
+442,0,nonstructural protein NS3,QHR63251.1,https://www.ncbi.nlm.nih.gov/protein/1802633800
+443,0,membrane glycoprotein,BCA25647.1,https://www.ncbi.nlm.nih.gov/protein/1807816320
+444,0,envelope protein,QHR63252.1,https://www.ncbi.nlm.nih.gov/protein/1802633801
+445,0,surface glycoprotein,QHN73808.1,https://www.ncbi.nlm.nih.gov/protein/1800242660
+446,0,surface glycoprotein,QHN73806.1,https://www.ncbi.nlm.nih.gov/protein/1800242656
+447,0,nonstructural protein NS7b,QHR63286.1,https://www.ncbi.nlm.nih.gov/protein/1802633838
+448,0,nonstructural protein NS8,QHR63287.1,https://www.ncbi.nlm.nih.gov/protein/1802633839
+449,0,ORF1ab polyprotein,QHN73804.1,https://www.ncbi.nlm.nih.gov/protein/1800242652
+450,0,nucleocapsid protein,QHR63288.1,https://www.ncbi.nlm.nih.gov/protein/1802633840
+451,0,orf1ab polyprotein,BCA25643.1,https://www.ncbi.nlm.nih.gov/protein/1807816316
+452,0,nucleocapsid phosphoprotein,QHZ00406.1,https://www.ncbi.nlm.nih.gov/protein/1807860472
+453,0,orf10 protein,QHZ00407.1,https://www.ncbi.nlm.nih.gov/protein/1807860473
+454,0,orf1ab polyprotein,QHZ00378.1,https://www.ncbi.nlm.nih.gov/protein/1807860440
+455,0,membrane glycoprotein,QHZ00402.1,https://www.ncbi.nlm.nih.gov/protein/1807860468
+456,0,orf6 protein,QHZ00403.1,https://www.ncbi.nlm.nih.gov/protein/1807860469
+457,0,orf7a protein,QHZ00404.1,https://www.ncbi.nlm.nih.gov/protein/1807860470
+458,0,orf8 protein,QHZ00405.1,https://www.ncbi.nlm.nih.gov/protein/1807860471
+459,0,surface glycoprotein,QHZ00399.1,https://www.ncbi.nlm.nih.gov/protein/1807860465
+460,0,orf3a protein,QHZ00400.1,https://www.ncbi.nlm.nih.gov/protein/1807860466
+461,0,envelope protein,QHZ00401.1,https://www.ncbi.nlm.nih.gov/protein/1807860467
+462,0,nucleocapsid phosphoprotein,QHZ00396.1,https://www.ncbi.nlm.nih.gov/protein/1807860461
+463,0,orf10 protein,QHZ00397.1,https://www.ncbi.nlm.nih.gov/protein/1807860462
+464,0,orf1ab polyprotein,QHZ87575.1,https://www.ncbi.nlm.nih.gov/protein/1808500185
+465,0,orf1ab polyprotein,QHZ00398.1,https://www.ncbi.nlm.nih.gov/protein/1807860464
+466,0,membrane glycoprotein,QHZ00392.1,https://www.ncbi.nlm.nih.gov/protein/1807860457
+467,0,orf6 protein,QHZ00393.1,https://www.ncbi.nlm.nih.gov/protein/1807860458
+468,0,orf7a protein,QHZ00394.1,https://www.ncbi.nlm.nih.gov/protein/1807860459
+469,0,orf8 protein,QHZ00395.1,https://www.ncbi.nlm.nih.gov/protein/1807860460

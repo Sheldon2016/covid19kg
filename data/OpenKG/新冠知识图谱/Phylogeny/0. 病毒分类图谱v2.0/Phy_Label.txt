@@ -1,0 +1,27 @@
+Labels correspondence :
+-------------------nodeLabels-------------------
+0:http://www.openkg.cn/COVID-19/research/class/C11	Class
+1:http://www.openkg.cn/COVID-19/research/class/C3	Genus
+2:http://www.openkg.cn/COVID-19/research/class/C12	SubPhylum
+3:http://www.openkg.cn/COVID-19/research/class/C4	SubGenus
+4:http://www.openkg.cn/COVID-19/research/class/C5	Family
+5:http://www.openkg.cn/COVID-19/research/class/C15	UnknowLineage
+6:http://www.openkg.cn/COVID-19/research/class/C6	SubFamily
+7:http://www.openkg.cn/COVID-19/research/class/C7	Order
+8:http://www.openkg.cn/COVID-19/research/class/C13	Phylum
+9:http://www.openkg.cn/COVID-19/research/class/C8	SubOrder
+10:http://www.openkg.cn/COVID-19/research/class/C14	SuperKindom
+11:http://www.openkg.cn/COVID-19/research/class/C9	Species
+12:http://www.openkg.cn/COVID-19/research/class/C1	Virus
+-------------------edgeLabels-------------------
+0:parent
+1:subFamily
+2:phylum
+3:species
+4:genus
+5:subOrder
+6:family
+7:subPhylum
+8:class
+9:subGenus
+10:order

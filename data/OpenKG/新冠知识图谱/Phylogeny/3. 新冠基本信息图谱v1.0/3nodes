@@ -1,0 +1,470 @@
+0,0,orf1ab polyprotein
+1,0,nucleocapsid phosphoprotein
+2,0,orf8 protein
+3,0,nonstructural protein NS7a
+4,0,nucleocapsid phosphoprotein
+5,0,orf10 protein
+6,0,orf10 protein
+7,0,membrane glycoprotein
+8,0,envelope protein
+9,0,nonstructural protein NS3
+10,0,membrane glycoprotein
+11,0,envelope protein
+12,0,orf6 protein
+13,0,membrane protein
+14,0,orf6 protein
+15,0,orf7a protein
+16,0,nonstructural protein NS6
+17,0,orf7a protein
+18,0,orf8 protein
+19,0,nucleocapsid phosphoprotein
+20,0,orf1ab polyprotein
+21,0,surface glycoprotein
+22,0,ORF10 protein
+23,0,orf1ab polyprotein
+24,0,surface glycoprotein
+25,0,orf3a protein
+26,0,orf1ab polyprotein
+27,0,spike glycoprotein
+28,0,envelope protein
+29,0,orf3a protein
+30,0,ORF8 protein
+31,0,ORF6 protein
+32,0,orf1ab polyprotein
+33,0,orf8 protein
+34,0,nucleocapsid phosphoprotein
+35,0,ORF1ab polyprotein
+36,0,ORF7a protein
+37,0,ORF1ab polyprotein
+38,0,orf10 protein
+39,0,ORF1ab polyprotein
+40,0,surface glycoprotein
+41,0,ORF10 protein
+42,0,envelope protein
+43,0,membrane glycoprotein
+44,0,nucleocapsid phosphoprotein
+45,0,ORF3a protein
+46,0,envelope protein
+47,0,orf1ab polyprotein
+48,0,orf6 protein
+49,0,membrane glycoprotein
+50,0,nucleocapsid phosphoprotein
+51,0,orf7a protein
+52,0,nonstructural protein NS7b
+53,0,nonstructural protein NS8
+54,0,orf1ab polyprotein
+55,0,surface glycoprotein
+56,0,nucleocapsid protein
+57,0,ORF8 protein
+58,0,nucleocapsid phosphoprotein
+59,0,orf3a protein
+60,0,orf1ab polyprotein
+61,0,orf3a protein
+62,0,envelope protein
+63,0,surface glycoprotein
+64,0,ORF10 protein
+65,0,ORF6 protein
+66,0,orf1ab polyprotein
+67,0,ORF7a protein
+68,0,orf1ab polyprotein
+69,0,ORF7b protein
+70,0,ORF8 protein
+71,0,orf1ab polyprotein
+72,0,surface glycoprotein
+73,0,ORF7a protein
+74,0,ORF7b
+75,0,ORF3a protein
+76,0,envelope protein
+77,0,ORF8 protein
+78,0,membrane glycoprotein
+79,0,nucleocapsid phosphoprotein
+80,0,orf1ab polyprotein
+81,0,ORF6 protein
+82,0,orf1a polyprotein
+83,0,envelope protein
+84,0,orf10 protein
+85,0,membrane glycoprotein
+86,0,orf1ab polyprotein
+87,0,orf6 protein
+88,0,orf1ab polyprotein
+89,0,orf7a protein
+90,0,surface glycoprotein
+91,0,orf8 protein
+92,0,nucleocapsid phosphoprotein
+93,0,ORF3a protein
+94,0,surface glycoprotein
+95,0,nucleocapsid phosphoprotein
+96,0,orf1ab polyprotein
+97,0,orf3a protein
+98,0,envelope protein
+99,0,ORF1ab polyprotein
+100,0,membrane glycoprotein
+101,0,orf1ab polyprotein
+102,0,ORF10 protein
+103,3,ORF1A
+104,0,ORF7a protein
+105,3,ORF3
+106,0,orf1ab polyprotein
+107,3,ORF7B
+108,0,matrix protein
+109,3,ORF8
+110,0,ORF6 protein
+111,0,ORF3a protein
+112,0,envelope protein
+113,0,nucleocapsid protein
+114,3,ORF6
+115,0,ORF7a protein
+116,0,membrane glycoprotein
+117,0,ORF8 protein
+118,3,NS8
+119,0,orf1ab polyprotein
+120,0,surface glycoprotein
+121,0,nucleocapsid phosphoprotein
+122,0,ORF6 protein
+123,3,ORF7
+124,0,surface glycoprotein
+125,0,ORF10 protein
+126,0,orf10 protein
+127,0,membrane glycoprotein
+128,3,N
+129,0,ORF3a protein
+130,0,orf1ab polyprotein
+131,0,surface glycoprotein
+132,0,envelope protein
+133,3,NS3
+134,0,orf1ab polyprotein
+135,0,surface glycoprotein
+136,0,membrane glycoprotein
+137,0,envelope protein
+138,3,NS7A
+139,0,orf8 protein
+140,0,nucleocapsid phosphoprotein
+141,0,nucleocapsid phosphoprotein
+142,3,S
+143,0,nucleocapsid phosphoprotein
+144,0,ORF7a protein
+145,0,orf7a protein
+146,3,ORF10
+147,0,ORF10 protein
+148,0,ORF8 protein
+149,3,M
+150,0,orf1ab polyprotein
+151,3,E
+152,0,membrane glycoprotein
+153,0,ORF3a protein
+154,0,orf3a protein
+155,1,vertebrates
+156,0,envelope protein
+157,0,envelope protein
+158,0,ORF6 protein
+159,3,ORF7A
+160,0,membrane glycoprotein
+161,0,membrane glycoprotein
+162,3,ORF1AB
+163,0,ORF7a protein
+164,3,NS6
+165,0,ORF8 protein
+166,0,ORF6 protein
+167,0,orf6 protein
+168,0,nucleocapsid phosphoprotein
+169,0,nucleocapsid phosphoprotein
+170,0,surface glycoprotein
+171,0,ORF10 protein
+172,0,orf10 protein
+173,0,ORF3a protein
+174,0,orf1ab polyprotein
+175,0,orf1ab polyprotein
+176,0,surface glycoprotein
+177,0,surface glycoprotein
+178,0,envelope protein
+179,1,human
+180,0,orf8 protein
+181,0,ORF7a protein
+182,0,membrane protein
+183,0,ORF3a protein
+184,0,orf7a protein
+185,0,orf3a protein
+186,0,nonstructural protein NS6
+187,0,envelope protein
+188,0,envelope protein
+189,0,orf8 protein
+190,0,membrane glycoprotein
+191,0,nucleocapsid phosphoprotein
+192,0,nonstructural protein NS7a
+193,0,ORF6 protein
+194,0,orf10 protein
+195,0,ORF10 protein
+196,0,orf3a protein
+197,0,orf1ab polyprotein
+198,0,orf10 protein
+199,0,spike glycoprotein
+200,0,surface glycoprotein
+201,0,envelope protein
+202,0,orf1ab polyprotein
+203,0,membrane glycoprotein
+204,0,nonstructural protein NS3
+205,0,orf1ab polyprotein
+206,0,orf1ab polyprotein
+207,0,surface glycoprotein
+208,0,surface glycoprotein
+209,0,envelope protein
+210,0,orf6 protein
+211,0,orf6 protein
+212,0,ORF8 protein
+213,0,orf7a protein
+214,0,nucleocapsid phosphoprotein
+215,0,orf1ab polyprotein
+216,0,orf8 protein
+217,0,surface glycoprotein
+218,0,ORF10 protein
+219,0,nucleocapsid phosphoprotein
+220,0,nucleocapsid phosphoprotein
+221,0,ORF10 protein
+222,0,ORF7a protein
+223,0,ORF8 protein
+224,0,envelope protein
+225,0,ORF6 protein
+226,0,ORF3a protein
+227,0,orf3a protein
+228,0,membrane glycoprotein
+229,0,envelope protein
+230,0,envelope protein
+231,0,ORF7a protein
+232,0,membrane glycoprotein
+233,0,membrane glycoprotein
+234,0,ORF8 protein
+235,0,ORF6 protein
+236,0,nucleocapsid phosphoprotein
+237,0,ORF6 protein
+238,0,ORF7a protein
+239,0,surface glycoprotein
+240,0,surface glycoprotein
+241,0,ORF10 protein
+242,3,NS7B
+243,0,surface glycoprotein
+244,3,ORF3A
+245,0,ORF3a protein
+246,0,orf1ab polyprotein
+247,0,surface glycoprotein
+248,0,envelope protein
+249,0,orf1ab polyprotein
+250,0,orf1ab polyprotein
+251,0,surface glycoprotein
+252,0,surface glycoprotein
+253,0,membrane glycoprotein
+254,0,ORF3a protein
+255,0,envelope protein
+256,0,matrix protein
+257,0,ORF8 protein
+258,0,nucleocapsid phosphoprotein
+259,0,nucleocapsid protein
+260,0,orf1ab polyprotein
+261,0,ORF8 protein
+262,0,envelope protein
+263,0,envelope protein
+264,0,orf1ab polyprotein
+265,0,membrane glycoprotein
+266,0,membrane glycoprotein
+267,0,orf1a polyprotein
+268,0,surface glycoprotein
+269,0,ORF6 protein
+270,0,orf6 protein
+271,0,ORF7a protein
+272,0,orf7a protein
+273,0,ORF10 protein
+274,0,nucleocapsid protein
+275,0,nucleocapsid phosphoprotein
+276,0,ORF10 protein
+277,0,orf1ab polyprotein
+278,0,orf1ab polyprotein
+279,0,surface glycoprotein
+280,0,surface glycoprotein
+281,0,surface glycoprotein
+282,0,membrane glycoprotein
+283,0,ORF3a protein
+284,0,orf3a protein
+285,0,ORF6 protein
+286,0,nonstructural protein NS7b
+287,0,ORF7a protein
+288,0,nucleocapsid phosphoprotein
+289,0,ORF8 protein
+290,0,nonstructural protein NS8
+291,0,ORF7a protein
+292,0,nonstructural protein NS7a
+293,0,ORF8 protein
+294,0,surface glycoprotein
+295,0,nonstructural protein NS3
+296,0,ORF3a protein
+297,0,envelope protein
+298,0,envelope protein
+299,0,ORF3a protein
+300,0,membrane glycoprotein
+301,0,membrane protein
+302,0,envelope protein
+303,0,nonstructural protein NS6
+304,0,membrane glycoprotein
+305,0,ORF6 protein
+306,0,nucleocapsid phosphoprotein
+307,0,nonstructural protein NS8
+308,0,orf1ab polyprotein
+309,0,ORF10 protein
+310,0,nucleocapsid protein
+311,0,orf1ab polyprotein
+312,0,orf1ab polyprotein
+313,0,orf1ab polyprotein
+314,0,ORF1ab polyprotein
+315,0,surface glycoprotein
+316,0,spike glycoprotein
+317,0,orf1ab polyprotein
+318,0,ORF8 protein
+319,0,nucleocapsid phosphoprotein
+320,0,nonstructural protein NS7b
+321,0,ORF8 protein
+322,0,ORF6 protein
+323,0,orf6 protein
+324,0,structural protein
+325,0,ORF7a protein
+326,0,orf7a protein
+327,0,ORF10 proteiin
+328,0,ORF8 protein
+329,0,orf1ab polyprotein
+330,0,surface glycoprotein
+331,0,surface glycoprotein
+332,0,structural protein
+333,0,structural protein
+334,0,ORF3a protein
+335,0,orf3a protein
+336,0,envelope protein
+337,0,envelope protein
+338,0,ORF6 protein
+339,0,membrane glycoprotein
+340,0,membrane glycoprotein
+341,0,ORF7a protein
+342,0,orf8 protein
+343,0,nucleocapsid phosphoprotein
+344,0,nucleocapsid phosphoprotein
+345,0,surface glycoprotein
+346,0,orf10 protein
+347,0,orf10 protein
+348,0,ORF3a protein
+349,0,orf1ab polyprotein
+350,0,orf1ab polyprotein
+351,2,SARS-CoV-2
+352,0,orf1ab polyprotein
+353,0,ORF10 protein
+354,0,membrane glycoprotein
+355,0,membrane glycoprotein
+356,0,ORF7a protein
+357,0,ORF8 protein
+358,0,orf6 protein
+359,0,orf6 protein
+360,0,ORF1ab polyprotein
+361,0,nucleocapsid phosphoprotein
+362,0,orf7a protein
+363,0,orf7a protein
+364,0,ORF10 protein
+365,0,orf8 protein
+366,0,ORF3a protein
+367,0,orf1ab polyprotein
+368,0,orf1ab polyprotein
+369,0,ORF7a protein
+370,0,surface glycoprotein
+371,0,surface glycoprotein
+372,0,envelope protein
+373,0,ORF7b
+374,0,membrane glycoprotein
+375,0,ORF8 protein
+376,0,orf3a protein
+377,0,orf3a protein
+378,0,envelope protein
+379,0,envelope protein
+380,0,nucleocapsid phosphoprotein
+381,0,ORF6 protein
+382,0,ORF3a protein
+383,0,envelope protein
+384,0,orf8 protein
+385,0,membrane glycoprotein
+386,0,nucleocapsid phosphoprotein
+387,0,nucleocapsid phosphoprotein
+388,0,surface glycoprotein
+389,0,ORF10 protein
+390,0,ORF6 protein
+391,0,orf10 protein
+392,0,nucleocapsid phosphoprotein
+393,0,ORF10 protein
+394,0,surface glycoprotein
+395,0,membrane glycoprotein
+396,0,ORF6 protein
+397,0,ORF7a protein
+398,0,ORF8 protein
+399,0,surface glycoprotein
+400,0,ORF3a protein
+401,0,envelope protein
+402,0,orf1ab polyprotein
+403,0,ORF1ab polyprotein
+404,0,ORF1ab polyprotein
+405,0,orf1ab polyprotein
+406,0,orf7a protein
+407,0,orf8 protein
+408,0,nucleocapsid phosphoprotein
+409,0,orf10 protein
+410,0,membrane glycoprotein
+411,0,orf6 protein
+412,0,nonstructural protein NS6
+413,0,ORF7 protein
+414,0,nonstructural protein NS7a
+415,0,spike glycoprotein
+416,0,ORF3 protein
+417,0,envelope protein
+418,0,nonstructural protein NS3
+419,0,membrane glycoprotein
+420,0,envelope protein
+421,0,membrane protein
+422,0,ORF6 protein
+423,0,nucleocapsid phosphoprotein
+424,0,nonstructural protein NS7b
+425,0,ORF10 protein
+426,0,nonstructural protein NS8
+427,0,nucleocapsid protein
+428,0,ORF1ab polyprotein
+429,0,surface glycoprotein
+430,0,orf1ab polyprotein
+431,0,ORF8 protein
+432,0,membrane protein
+433,0,ORF6 protein
+434,0,nonstructural protein NS6
+435,0,ORF7a protein
+436,0,nonstructural protein NS7a
+437,0,surface glycoprotein
+438,0,orf1ab polyprotein
+439,0,spike glycoprotein
+440,0,ORF3a protein
+441,0,envelope protein
+442,0,nonstructural protein NS3
+443,0,membrane glycoprotein
+444,0,envelope protein
+445,0,surface glycoprotein
+446,0,surface glycoprotein
+447,0,nonstructural protein NS7b
+448,0,nonstructural protein NS8
+449,0,ORF1ab polyprotein
+450,0,nucleocapsid protein
+451,0,orf1ab polyprotein
+452,0,nucleocapsid phosphoprotein
+453,0,orf10 protein
+454,0,orf1ab polyprotein
+455,0,membrane glycoprotein
+456,0,orf6 protein
+457,0,orf7a protein
+458,0,orf8 protein
+459,0,surface glycoprotein
+460,0,orf3a protein
+461,0,envelope protein
+462,0,nucleocapsid phosphoprotein
+463,0,orf10 protein
+464,0,orf1ab polyprotein
+465,0,orf1ab polyprotein
+466,0,membrane glycoprotein
+467,0,orf6 protein
+468,0,orf7a protein
+469,0,orf8 protein

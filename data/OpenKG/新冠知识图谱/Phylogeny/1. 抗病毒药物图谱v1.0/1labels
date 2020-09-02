@@ -1,0 +1,15 @@
+Labels correspondence :
+-------------------nodeLabels-------------------
+0:http://www.openkg.cn/COVID-19/research/class/C18	Host
+1:http://www.openkg.cn/COVID-19/research/class/C1	Virus
+2:http://www.openkg.cn/COVID-19/research/class/C3	Genus		VirusProtein
+3:http://www.openkg.cn/COVID-19/research/class/C4	SubGenus	HostProtein
+4:http://www.openkg.cn/COVID-19/research/class/C21	Drug
+-------------------edgeLabels-------------------
+0:Effect
+1:Interact
+2:Bind
+3:Belong_to
+4:Produce
+
+5:Host_is

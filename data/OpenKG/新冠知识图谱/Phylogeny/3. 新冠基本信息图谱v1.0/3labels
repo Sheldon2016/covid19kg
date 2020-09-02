@@ -1,0 +1,11 @@
+Labels correspondence :
+-------------------nodeLabels-------------------
+0:http://www.openkg.cn/COVID-19/research/class/C19	VirusProtein
+1:http://www.openkg.cn/COVID-19/research/class/C18	Host
+2:http://www.openkg.cn/COVID-19/research/class/C1	Virus
+3:http://www.openkg.cn/COVID-19/research/class/C22	Gene
+-------------------edgeLabels-------------------
+0:express
+1:produce
+2:host_is
+3:translate

@@ -1,0 +1,249 @@
+{
+  "label": {
+    "@id": "http://www.w3.org/2000/01/rdf-schema#label"
+  },
+  "type": {
+    "@id": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+    "@type": "@id"
+  },
+  "range": {
+    "@id": "http://www.w3.org/2000/01/rdf-schema#range",
+    "@type": "@id"
+  },
+  "domain": {
+    "@id": "http://www.w3.org/2000/01/rdf-schema#domain",
+    "@type": "@id"
+  },
+  "sameAs": {
+    "@id": "http://cnschema.org/sameAs"
+  },
+  "alias": {
+    "@id": "http://cnschema.org/alternateName"
+  },
+  "url": {
+    "@id": "http://cnschema.org/url"
+  },
+  "identifier": {
+    "@id": "http://cnschema.org/identifier"
+  },
+  "species": {
+    "@id": "http://www.openkg.cn/COVID-19/research/property/P1",
+    "@type": "@id"
+  },
+  "genus": {
+    "@id": "http://www.openkg.cn/COVID-19/research/property/P2",
+    "@type": "@id"
+  },
+  "subGenus": {
+    "@id": "http://www.openkg.cn/COVID-19/research/property/P3",
+    "@type": "@id"
+  },
+  "family": {
+    "@id": "http://www.openkg.cn/COVID-19/research/property/P4",
+    "@type": "@id"
+  },
+  "subFamily": {
+    "@id": "http://www.openkg.cn/COVID-19/research/property/P5",
+    "@type": "@id"
+  },
+  "order": {
+    "@id": "http://www.openkg.cn/COVID-19/research/property/P6",
+    "@type": "@id"
+  },
+  "subOrder": {
+    "@id": "http://www.openkg.cn/COVID-19/research/property/P7",
+    "@type": "@id"
+  },
+  "subSpecies": {
+    "@id": "http://www.openkg.cn/COVID-19/research/property/P8",
+    "@type": "@id"
+  },
+  "class": {
+    "@id": "http://www.openkg.cn/COVID-19/research/property/P9",
+    "@type": "@id"
+  },
+  "phylum": {
+    "@id": "http://www.openkg.cn/COVID-19/research/property/P10",
+    "@type": "@id"
+  },
+  "subPhylum": {
+    "@id": "http://www.openkg.cn/COVID-19/research/property/P11",
+    "@type": "@id"
+  },
+  "host_is": {
+    "@id": "http://www.openkg.cn/COVID-19/research/property/P12",
+    "@type": "@id"
+  },
+  "parent": {
+    "@id": "http://www.openkg.cn/COVID-19/research/property/P13",
+    "@type": "@id"
+  },
+  "from_country": {
+    "@id": "http://www.openkg.cn/COVID-19/research/property/P14",
+    "@type": "@id"
+  },
+  "from_division": {
+    "@id": "http://www.openkg.cn/COVID-19/research/property/P15",
+    "@type": "@id"
+  },
+  "from_location": {
+    "@id": "http://www.openkg.cn/COVID-19/research/property/P16",
+    "@type": "@id"
+  },
+  "from_mutate_branch": {
+    "@id": "http://www.openkg.cn/COVID-19/research/property/P17",
+    "@type": "@id"
+  },
+  "produce": {
+    "@id": "http://www.openkg.cn/COVID-19/research/property/P18",
+    "@type": "@id"
+  },
+  "effect": {
+    "@id": "http://www.openkg.cn/COVID-19/research/property/P19",
+    "@type": "@id"
+  },
+  "interaction": {
+    "@id": "http://www.openkg.cn/COVID-19/research/property/P20",
+    "@type": "@id"
+  },
+  "binding": {
+    "@id": "http://www.openkg.cn/COVID-19/research/property/P21",
+    "@type": "@id"
+  },
+  "belong_to": {
+    "@id": "http://www.openkg.cn/COVID-19/research/property/P22",
+    "@type": "@id"
+  },
+  "express": {
+    "@id": "http://www.openkg.cn/COVID-19/research/property/P23",
+    "@type": "@id"
+  },
+  "translate": {
+    "@id": "http://www.openkg.cn/COVID-19/research/property/P24",
+    "@type": "@id"
+  },
+  "therapeutic_method": {
+    "@id": "http://www.openkg.cn/COVID-19/research/property/P25"
+  },
+  "authors": {
+    "@id": "http://www.openkg.cn/COVID-19/research/property/P26"
+  },
+  "originating_lab": {
+    "@id": "http://www.openkg.cn/COVID-19/research/property/P27"
+  },
+  "submitting_lab": {
+    "@id": "http://www.openkg.cn/COVID-19/research/property/P28"
+  },
+  "gisaid_epi_isl": {
+    "@id": "http://www.openkg.cn/COVID-19/research/property/P29"
+  },
+  "collection_date": {
+    "@id": "http://www.openkg.cn/COVID-19/research/property/P30"
+  },
+  "nucleotide_mutation": {
+    "@id": "http://www.openkg.cn/COVID-19/research/property/P31"
+  },
+  "aa_mutation": {
+    "@id": "http://www.openkg.cn/COVID-19/research/property/P32"
+  },
+  "divergence": {
+    "@id": "http://www.openkg.cn/COVID-19/research/property/P33"
+  },
+  "virus_type": {
+    "@id": "http://www.openkg.cn/COVID-19/research/property/P34"
+  },
+  "drugbank_virus_id": {
+    "@id": "http://www.openkg.cn/COVID-19/research/property/P35"
+  },
+  "drugbank_drug_id": {
+    "@id": "http://www.openkg.cn/COVID-19/research/property/P36"
+  },
+  "atc_codes": {
+    "@id": "http://www.openkg.cn/COVID-19/research/property/P37"
+  },
+  "brand_names": {
+    "@id": "http://www.openkg.cn/COVID-19/research/property/P38"
+  },
+  "smiles_string_isomeric": {
+    "@id": "http://www.openkg.cn/COVID-19/research/property/P39"
+  },
+  "chemical_formula": {
+    "@id": "http://www.openkg.cn/COVID-19/research/property/P40"
+  },
+  "drug_type": {
+    "@id": "http://www.openkg.cn/COVID-19/research/property/P41"
+  },
+  "experimental_water_solubility": {
+    "@id": "http://www.openkg.cn/COVID-19/research/property/P42"
+  },
+  "molecular_weight_avg": {
+    "@id": "http://www.openkg.cn/COVID-19/research/property/P43"
+  },
+  "indication": {
+    "@id": "http://www.openkg.cn/COVID-19/research/property/P44"
+  },
+  "half_life": {
+    "@id": "http://www.openkg.cn/COVID-19/research/property/P45"
+  },
+  "pathways": {
+    "@id": "http://www.openkg.cn/COVID-19/research/property/P46"
+  },
+  "description": {
+    "@id": "http://www.openkg.cn/COVID-19/research/property/P47"
+  },
+  "pharmacology": {
+    "@id": "http://www.openkg.cn/COVID-19/research/property/P48"
+  },
+  "mechanism_of_action": {
+    "@id": "http://www.openkg.cn/COVID-19/research/property/P49"
+  },
+  "toxicity": {
+    "@id": "http://www.openkg.cn/COVID-19/research/property/P50"
+  },
+  "drug_category": {
+    "@id": "http://www.openkg.cn/COVID-19/research/property/P51"
+  },
+  "uniprotkb_entry_name": {
+    "@id": "http://www.openkg.cn/COVID-19/research/property/P52"
+  },
+  "similarity": {
+    "@id": "http://www.openkg.cn/COVID-19/research/property/P53",
+    "@type": "@id"
+  },
+  "property_is": {
+    "@id": "http://www.openkg.cn/COVID-19/research/property/P54",
+    "@type": "@id"
+  },
+  "virus_protein_interaction": {
+    "@id": "http://www.openkg.cn/COVID-19/research/property/P55",
+    "@type": "@id"
+  },
+  "target": {
+    "@id": "http://www.openkg.cn/COVID-19/research/property/P56",
+    "@type": "@id"
+  },
+  "cause": {
+    "@id": "http://www.openkg.cn/COVID-19/research/property/P57",
+    "@type": "@id"
+  },
+  "subject_is": {
+    "@id": "http://www.openkg.cn/COVID-19/research/property/P58",
+    "@type": "@id"
+  },
+  "object_is": {
+    "@id": "http://www.openkg.cn/COVID-19/research/property/P59",
+    "@type": "@id"
+  },
+  "predicate_is": {
+    "@id": "http://www.openkg.cn/COVID-19/research/property/P60",
+    "@type": "@id"
+  },
+  "reference_is": {
+    "@id": "http://www.openkg.cn/COVID-19/research/property/P61",
+    "@type": "@id"
+  },
+  "title": {
+    "@id": "http://www.openkg.cn/COVID-19/research/property/P62",
+    "@type": "@id"
+  }
+}

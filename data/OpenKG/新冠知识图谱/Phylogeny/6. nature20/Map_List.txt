@@ -1,0 +1,272 @@
+Atropine,Metabolism
+Chenodeoxycholicacid,Metabolism
+Clotrimazole,Metabolism
+Domperidone,Metabolism
+Glipizide,Metabolism
+Loperamide,Metabolism
+Metoclopramide,Metabolism
+Miconazole,Metabolism
+Omeprazole,Metabolism
+Ondansetron,Metabolism
+Orlistat,Metabolism
+Papaverine,Metabolism
+Phenformin,Metabolism
+Pioglitazone,Metabolism
+Pirenzepine,Metabolism
+Ranitidine,Metabolism
+Repaglinide,Metabolism
+Rosiglitazone,Metabolism
+Tolbutamide,Metabolism
+Ursodeoxycholicacid,Metabolism
+Acetylsalicylicacid,Blood
+Dicoumarol,Blood
+Dipyridamole,Blood
+Menadione,Blood
+Ticlopidine,Blood
+Acebutolol,Cardiovascular system  
+Alprenolol,Cardiovascular system  
+Bepridil,Cardiovascular system  
+Betaxolol,Cardiovascular system  
+Bezafibrate,Cardiovascular system  
+Bisoprolol,Cardiovascular system  
+Bumetanide,Cardiovascular system  
+Captopril,Cardiovascular system  
+Carteolol,Cardiovascular system  
+Clonidine,Cardiovascular system  
+Diltiazem,Cardiovascular system  
+Disopyramide,Cardiovascular system  
+Dobutamine,Cardiovascular system  
+Dopamine,Cardiovascular system  
+Doxazosin,Cardiovascular system  
+Enalapril,Cardiovascular system  
+Felodipine,Cardiovascular system  
+Fenofibrate,Cardiovascular system  
+Flecainide,Cardiovascular system  
+Fluvastatin,Cardiovascular system  
+Furosemide,Cardiovascular system  
+Gemfibrozil,Cardiovascular system  
+Guanfacine,Cardiovascular system  
+Hydrochlorothiazide,Cardiovascular system
+Hydroflumethiazide,Cardiovascular system  
+Ifenprodil,Cardiovascular system  
+Indapamide,Cardiovascular system  
+Isradipine,Cardiovascular system  
+Labetalol,Cardiovascular system  
+Lisinopril,Cardiovascular system  
+Lovastatin,Cardiovascular system  
+Mecamylamine,Cardiovascular system  
+Methoxamine,Cardiovascular system  
+Metolazone,Cardiovascular system  
+Metoprolol,Cardiovascular system  
+Mexiletine,Cardiovascular system  
+Milrinone,Cardiovascular system  
+Nadolol,Cardiovascular system  
+Nicardipine,Cardiovascular system  
+Nifedipine,Cardiovascular system  
+Nimodipine,Cardiovascular system  
+Nitrendipine,Cardiovascular system  
+Ouabain,Cardiovascular system  
+Pargyline,Cardiovascular system  
+Pentoxifylline,Cardiovascular system  
+Perhexiline,Cardiovascular system  
+Phenoxybenzamine,Cardiovascular system  
+Phentolamine,Cardiovascular system  
+Pindolol,Cardiovascular system  
+Practolol,Cardiovascular system  
+Prazosin,Cardiovascular system  
+Procainamide,Cardiovascular system  
+Propafenone,Cardiovascular system  
+Propranolol,Cardiovascular system  
+Quinethazone,Cardiovascular system  
+Quinidine,Cardiovascular system  
+Ramipril,Cardiovascular system  
+Simvastatin,Cardiovascular system  
+Sotalol,Cardiovascular system  
+Spironolactone,Cardiovascular system  
+Timolol,Cardiovascular system  
+Tolazoline,Cardiovascular system  
+Trichlormethiazide,Cardiovascular system  
+Verapamil,Cardiovascular system  
+Chloropyramine,Dermatologicals
+Clemastine,Dermatologicals
+Dapsone,Dermatologicals
+Diclofenac,Dermatologicals
+Diphenhydramine,Dermatologicals
+Econazole,Dermatologicals
+Finasteride,Dermatologicals
+Isoconazole,Dermatologicals
+Mafenide,Dermatologicals
+Mepyramine,Dermatologicals
+Methoxsalen,Dermatologicals
+Pheniramine,Dermatologicals
+Promethazine,Dermatologicals
+Alfuzosin,Genito-urinary system
+Apomorphine,Genito-urinary system
+Danazol,Genito-urinary system
+Dinoprostone,Genito-urinary system
+Estradiol,Genito-urinary system
+Estriol,Genito-urinary system
+Estrone,Genito-urinary system
+Levonorgestrel,Genito-urinary system
+Lisuride,Genito-urinary system
+Methylergometrine,Genito-urinary system
+Mifepristone,Genito-urinary system
+Oxybutynin,Genito-urinary system
+Progesterone,Genito-urinary system
+Raloxifene,Genito-urinary system
+Terazosin,Genito-urinary system
+Terconazole,Genito-urinary system
+Testosterone,Genito-urinary system
+Yohimbine,Genito-urinary system
+Cefadroxil,Antiinfectives
+Cefalotin,Antiinfectives
+Cefamandole,Antiinfectives
+Cefazolin,Antiinfectives
+Cefotaxime,Antiinfectives
+Dicloxacillin,Antiinfectives
+Enoxacin,Antiinfectives
+Idoxuridine,Antiinfectives
+Isoniazid,Antiinfectives
+Ribavirin,Antiinfectives
+Sulfamethizole,Antiinfectives
+Sulfanilamide,Antiinfectives
+Sulfaphenazole,Antiinfectives
+Trimethoprim,Antiinfectives
+Vidarabine,Antiinfectives
+Zalcitabine,Antiinfectives
+Zidovudine,Antiinfectives
+Aminoglutethimide,Antineoplastic
+Carmustine,Antineoplastic
+Celecoxib,Antineoplastic
+Daunorubicin,Antineoplastic
+Doxorubicin,Antineoplastic
+Etoposide,Antineoplastic
+Flutamide,Antineoplastic
+Gefitinib,Antineoplastic
+Imatinib,Antineoplastic
+Irinotecan,Antineoplastic
+Leflunomide,Antineoplastic
+Letrozole,Antineoplastic
+Methotrexate,Antineoplastic
+Mitoxantrone,Antineoplastic
+Mycophenolicacid,Antineoplastic
+Nilutamide,Antineoplastic
+Tamoxifen,Antineoplastic
+Vorinostat,Antineoplastic
+Etodolac,Musculo-skeletal system
+Fenoprofen,Musculo-skeletal system
+Flurbiprofen,Musculo-skeletal system
+Ketoprofen,Musculo-skeletal system
+Ketorolac,Musculo-skeletal system
+Meclofenamicacid,Musculo-skeletal system
+Mefenamicacid,Musculo-skeletal system
+Methocarbamol,Musculo-skeletal system
+Oxaprozin,Musculo-skeletal system
+Piroxicam,Musculo-skeletal system
+Probenecid,Musculo-skeletal system
+Rofecoxib,Musculo-skeletal system
+Sulfinpyrazone,Musculo-skeletal system
+Suprofen,Musculo-skeletal system
+Tolmetin,Musculo-skeletal system
+Valdecoxib,Musculo-skeletal system
+Acepromazine,Nervous system
+Amitriptyline,Nervous system
+Amoxapine,Nervous system
+Bethanechol,Nervous system
+Biperiden,Nervous system
+Bupropion,Nervous system
+Buspirone,Nervous system
+Carbachol,Nervous system
+Chlorpromazine,Nervous system
+Chlorprothixene,Nervous system
+Cinnarizine,Nervous system
+Citalopram,Nervous system
+Clomipramine,Nervous system
+Clozapine,Nervous system
+Desipramine,Nervous system
+Diflunisal,Nervous system
+Dihydroergotamine,Nervous system
+Disulfiram,Nervous system
+Doxepin,Nervous system
+Droperidol,Nervous system
+Etomidate,Nervous system
+Flunarizine,Nervous system
+Fluoxetine,Nervous system
+Fluphenazine,Nervous system
+Fluspirilene,Nervous system
+Fluvoxamine,Nervous system
+Gabapentin,Nervous system
+Galantamine,Nervous system
+Haloperidol,Nervous system
+Hydroxyzine,Nervous system
+Imipramine,Nervous system
+Loxapine,Nervous system
+Maprotiline,Nervous system
+Melatonin,Nervous system
+Memantine,Nervous system
+Mesoridazine,Nervous system
+Mianserin,Nervous system
+Molindone,Nervous system
+Nalbuphine,Nervous system
+Nortriptyline,Nervous system
+Paroxetine,Nervous system
+Pergolide,Nervous system
+Perphenazine,Nervous system
+Phenelzine,Nervous system
+Pilocarpine,Nervous system
+Pimozide,Nervous system
+Prochlorperazine,Nervous system
+Procyclidine,Nervous system
+Promazine,Nervous system
+Protriptyline,Nervous system
+Remoxipride,Nervous system
+Risperidone,Nervous system
+Sulpiride,Nervous system
+Thioproperazine,Nervous system
+Thioridazine,Nervous system
+Topiramate,Nervous system
+Trazodone,Nervous system
+Trifluoperazine,Nervous system
+Triflupromazine,Nervous system
+Trihexyphenidyl,Nervous system
+Trimipramine,Nervous system
+Amodiaquine,Antiparasitic
+Chloroquine,Antiparasitic
+Halofantrine,Antiparasitic
+Mebendazole,Antiparasitic
+Mefloquine,Antiparasitic
+Niclosamide,Antiparasitic
+Primaquine,Antiparasitic
+Pyrimethamine,Antiparasitic
+Aminophylline,Respiratory system
+Astemizole,Respiratory system
+Brompheniramine,Respiratory system
+Budesonide,Respiratory system
+Cetirizine,Respiratory system
+Chlorphenamine,Respiratory system
+Clenbuterol,Respiratory system
+Cromoglicicacid,Respiratory system
+Cyproheptadine,Respiratory system
+Dextromethorphan,Respiratory system
+Fenoterol,Respiratory system
+Isoetarine,Respiratory system
+Ketotifen,Respiratory system
+Naphazoline,Respiratory system
+Orciprenaline,Respiratory system
+Oxymetazoline,Respiratory system
+Salbutamol,Respiratory system
+Terbutaline,Respiratory system
+Triprolidine,Respiratory system
+Xylometazoline,Respiratory system
+Acetazolamide,Sensory_organs
+Brinzolamide,Sensory_organs
+Chlorhexidine,Sensory_organs
+Dexamethasone,Sensory_organs
+Diclofenamide,Sensory_organs
+Dorzolamide,Sensory_organs
+Levobunolol,Sensory_organs
+Physostigmine,Sensory_organs
+Prednisolone,Sensory_organs
+Tropicamide,Sensory_organs
+Metyrapone,Various
+Naloxone,Various

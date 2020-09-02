@@ -1,0 +1,1673 @@
+470	728	4
+0	orf1ab polyprotein
+1	nucleocapsid phosphoprotein
+2	orf8 protein
+3	nonstructural protein NS7a
+4	nucleocapsid phosphoprotein
+5	orf10 protein
+6	orf10 protein
+7	membrane glycoprotein
+8	envelope protein
+9	nonstructural protein NS3
+10	membrane glycoprotein
+11	envelope protein
+12	orf6 protein
+13	membrane protein
+14	orf6 protein
+15	orf7a protein
+16	nonstructural protein NS6
+17	orf7a protein
+18	orf8 protein
+19	nucleocapsid phosphoprotein
+20	orf1ab polyprotein
+21	surface glycoprotein
+22	ORF10 protein
+23	orf1ab polyprotein
+24	surface glycoprotein
+25	orf3a protein
+26	orf1ab polyprotein
+27	spike glycoprotein
+28	envelope protein
+29	orf3a protein
+30	ORF8 protein
+31	ORF6 protein
+32	orf1ab polyprotein
+33	orf8 protein
+34	nucleocapsid phosphoprotein
+35	ORF1ab polyprotein
+36	ORF7a protein
+37	ORF1ab polyprotein
+38	orf10 protein
+39	ORF1ab polyprotein
+40	surface glycoprotein
+41	ORF10 protein
+42	envelope protein
+43	membrane glycoprotein
+44	nucleocapsid phosphoprotein
+45	ORF3a protein
+46	envelope protein
+47	orf1ab polyprotein
+48	orf6 protein
+49	membrane glycoprotein
+50	nucleocapsid phosphoprotein
+51	orf7a protein
+52	nonstructural protein NS7b
+53	nonstructural protein NS8
+54	orf1ab polyprotein
+55	surface glycoprotein
+56	nucleocapsid protein
+57	ORF8 protein
+58	nucleocapsid phosphoprotein
+59	orf3a protein
+60	orf1ab polyprotein
+61	orf3a protein
+62	envelope protein
+63	surface glycoprotein
+64	ORF10 protein
+65	ORF6 protein
+66	orf1ab polyprotein
+67	ORF7a protein
+68	orf1ab polyprotein
+69	ORF7b protein
+70	ORF8 protein
+71	orf1ab polyprotein
+72	surface glycoprotein
+73	ORF7a protein
+74	ORF7b
+75	ORF3a protein
+76	envelope protein
+77	ORF8 protein
+78	membrane glycoprotein
+79	nucleocapsid phosphoprotein
+80	orf1ab polyprotein
+81	ORF6 protein
+82	orf1a polyprotein
+83	envelope protein
+84	orf10 protein
+85	membrane glycoprotein
+86	orf1ab polyprotein
+87	orf6 protein
+88	orf1ab polyprotein
+89	orf7a protein
+90	surface glycoprotein
+91	orf8 protein
+92	nucleocapsid phosphoprotein
+93	ORF3a protein
+94	surface glycoprotein
+95	nucleocapsid phosphoprotein
+96	orf1ab polyprotein
+97	orf3a protein
+98	envelope protein
+99	ORF1ab polyprotein
+100	membrane glycoprotein
+101	orf1ab polyprotein
+102	ORF10 protein
+103	ORF1A
+104	ORF7a protein
+105	ORF3
+106	orf1ab polyprotein
+107	ORF7B
+108	matrix protein
+109	ORF8
+110	ORF6 protein
+111	ORF3a protein
+112	envelope protein
+113	nucleocapsid protein
+114	ORF6
+115	ORF7a protein
+116	membrane glycoprotein
+117	ORF8 protein
+118	NS8
+119	orf1ab polyprotein
+120	surface glycoprotein
+121	nucleocapsid phosphoprotein
+122	ORF6 protein
+123	ORF7
+124	surface glycoprotein
+125	ORF10 protein
+126	orf10 protein
+127	membrane glycoprotein
+128	N
+129	ORF3a protein
+130	orf1ab polyprotein
+131	surface glycoprotein
+132	envelope protein
+133	NS3
+134	orf1ab polyprotein
+135	surface glycoprotein
+136	membrane glycoprotein
+137	envelope protein
+138	NS7A
+139	orf8 protein
+140	nucleocapsid phosphoprotein
+141	nucleocapsid phosphoprotein
+142	S
+143	nucleocapsid phosphoprotein
+144	ORF7a protein
+145	orf7a protein
+146	ORF10
+147	ORF10 protein
+148	ORF8 protein
+149	M
+150	orf1ab polyprotein
+151	E
+152	membrane glycoprotein
+153	ORF3a protein
+154	orf3a protein
+155	vertebrates
+156	envelope protein
+157	envelope protein
+158	ORF6 protein
+159	ORF7A
+160	membrane glycoprotein
+161	membrane glycoprotein
+162	ORF1AB
+163	ORF7a protein
+164	NS6
+165	ORF8 protein
+166	ORF6 protein
+167	orf6 protein
+168	nucleocapsid phosphoprotein
+169	nucleocapsid phosphoprotein
+170	surface glycoprotein
+171	ORF10 protein
+172	orf10 protein
+173	ORF3a protein
+174	orf1ab polyprotein
+175	orf1ab polyprotein
+176	surface glycoprotein
+177	surface glycoprotein
+178	envelope protein
+179	human
+180	orf8 protein
+181	ORF7a protein
+182	membrane protein
+183	ORF3a protein
+184	orf7a protein
+185	orf3a protein
+186	nonstructural protein NS6
+187	envelope protein
+188	envelope protein
+189	orf8 protein
+190	membrane glycoprotein
+191	nucleocapsid phosphoprotein
+192	nonstructural protein NS7a
+193	ORF6 protein
+194	orf10 protein
+195	ORF10 protein
+196	orf3a protein
+197	orf1ab polyprotein
+198	orf10 protein
+199	spike glycoprotein
+200	surface glycoprotein
+201	envelope protein
+202	orf1ab polyprotein
+203	membrane glycoprotein
+204	nonstructural protein NS3
+205	orf1ab polyprotein
+206	orf1ab polyprotein
+207	surface glycoprotein
+208	surface glycoprotein
+209	envelope protein
+210	orf6 protein
+211	orf6 protein
+212	ORF8 protein
+213	orf7a protein
+214	nucleocapsid phosphoprotein
+215	orf1ab polyprotein
+216	orf8 protein
+217	surface glycoprotein
+218	ORF10 protein
+219	nucleocapsid phosphoprotein
+220	nucleocapsid phosphoprotein
+221	ORF10 protein
+222	ORF7a protein
+223	ORF8 protein
+224	envelope protein
+225	ORF6 protein
+226	ORF3a protein
+227	orf3a protein
+228	membrane glycoprotein
+229	envelope protein
+230	envelope protein
+231	ORF7a protein
+232	membrane glycoprotein
+233	membrane glycoprotein
+234	ORF8 protein
+235	ORF6 protein
+236	nucleocapsid phosphoprotein
+237	ORF6 protein
+238	ORF7a protein
+239	surface glycoprotein
+240	surface glycoprotein
+241	ORF10 protein
+242	NS7B
+243	surface glycoprotein
+244	ORF3A
+245	ORF3a protein
+246	orf1ab polyprotein
+247	surface glycoprotein
+248	envelope protein
+249	orf1ab polyprotein
+250	orf1ab polyprotein
+251	surface glycoprotein
+252	surface glycoprotein
+253	membrane glycoprotein
+254	ORF3a protein
+255	envelope protein
+256	matrix protein
+257	ORF8 protein
+258	nucleocapsid phosphoprotein
+259	nucleocapsid protein
+260	orf1ab polyprotein
+261	ORF8 protein
+262	envelope protein
+263	envelope protein
+264	orf1ab polyprotein
+265	membrane glycoprotein
+266	membrane glycoprotein
+267	orf1a polyprotein
+268	surface glycoprotein
+269	ORF6 protein
+270	orf6 protein
+271	ORF7a protein
+272	orf7a protein
+273	ORF10 protein
+274	nucleocapsid protein
+275	nucleocapsid phosphoprotein
+276	ORF10 protein
+277	orf1ab polyprotein
+278	orf1ab polyprotein
+279	surface glycoprotein
+280	surface glycoprotein
+281	surface glycoprotein
+282	membrane glycoprotein
+283	ORF3a protein
+284	orf3a protein
+285	ORF6 protein
+286	nonstructural protein NS7b
+287	ORF7a protein
+288	nucleocapsid phosphoprotein
+289	ORF8 protein
+290	nonstructural protein NS8
+291	ORF7a protein
+292	nonstructural protein NS7a
+293	ORF8 protein
+294	surface glycoprotein
+295	nonstructural protein NS3
+296	ORF3a protein
+297	envelope protein
+298	envelope protein
+299	ORF3a protein
+300	membrane glycoprotein
+301	membrane protein
+302	envelope protein
+303	nonstructural protein NS6
+304	membrane glycoprotein
+305	ORF6 protein
+306	nucleocapsid phosphoprotein
+307	nonstructural protein NS8
+308	orf1ab polyprotein
+309	ORF10 protein
+310	nucleocapsid protein
+311	orf1ab polyprotein
+312	orf1ab polyprotein
+313	orf1ab polyprotein
+314	ORF1ab polyprotein
+315	surface glycoprotein
+316	spike glycoprotein
+317	orf1ab polyprotein
+318	ORF8 protein
+319	nucleocapsid phosphoprotein
+320	nonstructural protein NS7b
+321	ORF8 protein
+322	ORF6 protein
+323	orf6 protein
+324	structural protein
+325	ORF7a protein
+326	orf7a protein
+327	ORF10 proteiin
+328	ORF8 protein
+329	orf1ab polyprotein
+330	surface glycoprotein
+331	surface glycoprotein
+332	structural protein
+333	structural protein
+334	ORF3a protein
+335	orf3a protein
+336	envelope protein
+337	envelope protein
+338	ORF6 protein
+339	membrane glycoprotein
+340	membrane glycoprotein
+341	ORF7a protein
+342	orf8 protein
+343	nucleocapsid phosphoprotein
+344	nucleocapsid phosphoprotein
+345	surface glycoprotein
+346	orf10 protein
+347	orf10 protein
+348	ORF3a protein
+349	orf1ab polyprotein
+350	orf1ab polyprotein
+351	SARS-CoV-2
+352	orf1ab polyprotein
+353	ORF10 protein
+354	membrane glycoprotein
+355	membrane glycoprotein
+356	ORF7a protein
+357	ORF8 protein
+358	orf6 protein
+359	orf6 protein
+360	ORF1ab polyprotein
+361	nucleocapsid phosphoprotein
+362	orf7a protein
+363	orf7a protein
+364	ORF10 protein
+365	orf8 protein
+366	ORF3a protein
+367	orf1ab polyprotein
+368	orf1ab polyprotein
+369	ORF7a protein
+370	surface glycoprotein
+371	surface glycoprotein
+372	envelope protein
+373	ORF7b
+374	membrane glycoprotein
+375	ORF8 protein
+376	orf3a protein
+377	orf3a protein
+378	envelope protein
+379	envelope protein
+380	nucleocapsid phosphoprotein
+381	ORF6 protein
+382	ORF3a protein
+383	envelope protein
+384	orf8 protein
+385	membrane glycoprotein
+386	nucleocapsid phosphoprotein
+387	nucleocapsid phosphoprotein
+388	surface glycoprotein
+389	ORF10 protein
+390	ORF6 protein
+391	orf10 protein
+392	nucleocapsid phosphoprotein
+393	ORF10 protein
+394	surface glycoprotein
+395	membrane glycoprotein
+396	ORF6 protein
+397	ORF7a protein
+398	ORF8 protein
+399	surface glycoprotein
+400	ORF3a protein
+401	envelope protein
+402	orf1ab polyprotein
+403	ORF1ab polyprotein
+404	ORF1ab polyprotein
+405	orf1ab polyprotein
+406	orf7a protein
+407	orf8 protein
+408	nucleocapsid phosphoprotein
+409	orf10 protein
+410	membrane glycoprotein
+411	orf6 protein
+412	nonstructural protein NS6
+413	ORF7 protein
+414	nonstructural protein NS7a
+415	spike glycoprotein
+416	ORF3 protein
+417	envelope protein
+418	nonstructural protein NS3
+419	membrane glycoprotein
+420	envelope protein
+421	membrane protein
+422	ORF6 protein
+423	nucleocapsid phosphoprotein
+424	nonstructural protein NS7b
+425	ORF10 protein
+426	nonstructural protein NS8
+427	nucleocapsid protein
+428	ORF1ab polyprotein
+429	surface glycoprotein
+430	orf1ab polyprotein
+431	ORF8 protein
+432	membrane protein
+433	ORF6 protein
+434	nonstructural protein NS6
+435	ORF7a protein
+436	nonstructural protein NS7a
+437	surface glycoprotein
+438	orf1ab polyprotein
+439	spike glycoprotein
+440	ORF3a protein
+441	envelope protein
+442	nonstructural protein NS3
+443	membrane glycoprotein
+444	envelope protein
+445	surface glycoprotein
+446	surface glycoprotein
+447	nonstructural protein NS7b
+448	nonstructural protein NS8
+449	ORF1ab polyprotein
+450	nucleocapsid protein
+451	orf1ab polyprotein
+452	nucleocapsid phosphoprotein
+453	orf10 protein
+454	orf1ab polyprotein
+455	membrane glycoprotein
+456	orf6 protein
+457	orf7a protein
+458	orf8 protein
+459	surface glycoprotein
+460	orf3a protein
+461	envelope protein
+462	nucleocapsid phosphoprotein
+463	orf10 protein
+464	orf1ab polyprotein
+465	orf1ab polyprotein
+466	membrane glycoprotein
+467	orf6 protein
+468	orf7a protein
+469	orf8 protein
+142	135
+149	385
+142	131
+142	124
+149	374
+351	293
+351	291
+351	292
+351	309
+351	310
+351	311
+351	306
+351	307
+351	308
+351	315
+351	316
+351	317
+351	312
+351	313
+351	314
+351	297
+351	298
+351	299
+351	296
+351	295
+351	294
+351	305
+351	303
+351	304
+351	300
+351	301
+351	302
+149	265
+149	266
+149	282
+114	193
+351	320
+351	319
+351	318
+142	176
+142	177
+142	170
+149	333
+128	452
+351	414
+351	412
+351	413
+351	426
+351	425
+351	424
+351	423
+351	430
+351	429
+351	427
+351	428
+351	418
+351	417
+351	415
+351	416
+351	421
+351	422
+351	420
+351	419
+114	31
+149	354
+149	355
+351	431
+142	207
+142	208
+142	199
+142	200
+142	217
+149	160
+149	161
+128	462
+149	152
+351	352
+105	416
+351	372
+351	370
+351	371
+351	373
+351	366
+351	367
+351	368
+351	369
+351	381
+351	378
+351	379
+351	380
+351	374
+351	376
+351	377
+351	375
+351	357
+351	358
+351	359
+351	360
+351	356
+351	354
+351	355
+351	353
+351	364
+351	365
+351	361
+351	362
+351	363
+149	339
+149	340
+351	384
+351	383
+351	382
+351	388
+351	389
+351	391
+351	390
+351	386
+351	387
+351	385
+149	127
+142	251
+142	252
+142	247
+114	81
+142	243
+142	239
+142	240
+149	116
+114	65
+149	136
+128	79
+149	108
+351	261
+351	277
+351	278
+351	276
+351	273
+351	274
+351	275
+351	283
+351	284
+351	282
+351	279
+351	280
+351	281
+351	265
+351	266
+351	267
+351	262
+351	263
+351	264
+351	271
+351	272
+351	269
+351	270
+351	268
+351	285
+142	120
+351	288
+351	290
+351	289
+351	286
+351	287
+142	281
+128	92
+142	268
+351	159
+351	158
+351	156
+351	157
+351	152
+351	153
+351	154
+351	155
+351	164
+351	165
+351	166
+351	167
+351	162
+351	163
+351	160
+351	161
+151	461
+351	146
+351	147
+351	148
+351	142
+351	143
+351	144
+351	145
+351	151
+351	149
+351	150
+351	180
+149	395
+351	170
+351	171
+351	172
+142	315
+142	316
+114	322
+351	168
+351	169
+351	178
+351	176
+351	177
+351	179
+114	338
+351	173
+351	174
+351	175
+128	4
+128	1
+351	333
+351	334
+351	335
+351	332
+351	330
+351	331
+351	341
+351	339
+351	340
+351	338
+351	336
+351	337
+351	324
+351	325
+351	326
+351	321
+351	322
+351	323
+351	329
+351	327
+351	328
+114	158
+128	95
+142	415
+351	343
+351	344
+351	342
+149	443
+114	166
+351	348
+351	349
+351	350
+149	432
+351	345
+351	346
+351	347
+142	330
+142	331
+128	34
+142	345
+142	429
+128	50
+128	44
+128	58
+128	56
+351	229
+351	231
+351	228
+351	230
+351	226
+351	225
+351	224
+351	227
+351	237
+351	236
+351	238
+351	232
+351	234
+351	235
+351	233
+351	223
+351	222
+351	221
+351	255
+149	419
+128	19
+114	110
+351	260
+351	258
+351	259
+351	257
+351	256
+351	244
+351	245
+351	246
+351	243
+351	242
+351	239
+351	241
+351	240
+149	421
+114	122
+351	251
+351	253
+351	254
+351	252
+142	370
+142	371
+351	249
+351	248
+351	247
+351	250
+142	388
+142	294
+128	219
+128	220
+128	214
+128	191
+351	114
+351	115
+351	112
+351	113
+351	109
+351	110
+351	111
+351	108
+351	123
+351	121
+351	122
+351	120
+351	118
+351	117
+351	116
+351	119
+351	105
+351	106
+351	103
+351	102
+351	104
+351	107
+149	300
+149	301
+114	225
+351	140
+351	141
+351	139
+351	128
+351	129
+351	127
+351	130
+351	124
+351	125
+351	126
+142	279
+142	280
+149	304
+114	237
+351	138
+351	136
+351	135
+351	137
+114	235
+351	133
+351	132
+351	134
+351	131
+149	100
+149	85
+109	261
+128	258
+128	259
+351	30
+142	459
+118	448
+109	289
+128	236
+151	28
+351	35
+351	34
+351	36
+351	32
+351	33
+351	31
+114	422
+351	39
+351	37
+351	38
+351	54
+351	53
+351	52
+351	58
+351	59
+351	60
+351	57
+351	55
+351	56
+351	44
+351	43
+351	45
+351	41
+351	42
+351	40
+151	11
+351	50
+351	51
+351	49
+151	8
+351	47
+351	48
+351	46
+128	113
+149	78
+109	293
+114	285
+128	140
+128	141
+118	426
+128	121
+109	318
+351	187
+351	189
+351	186
+351	188
+151	98
+351	183
+351	184
+351	182
+351	185
+114	305
+351	193
+351	194
+351	190
+351	191
+351	192
+351	181
+146	64
+351	212
+351	213
+351	211
+351	219
+351	217
+351	218
+351	220
+151	83
+351	215
+351	214
+351	216
+351	202
+351	201
+351	199
+351	200
+351	195
+351	196
+351	197
+351	198
+351	207
+351	210
+351	209
+351	208
+351	205
+351	203
+351	204
+351	206
+128	168
+128	169
+351	81
+351	82
+109	328
+351	80
+109	321
+118	307
+128	143
+149	466
+351	85
+151	76
+351	83
+351	84
+114	269
+351	96
+351	97
+351	95
+351	94
+351	101
+351	100
+351	99
+351	98
+351	88
+351	89
+351	86
+351	87
+351	93
+351	92
+351	90
+351	91
+128	343
+128	344
+109	357
+351	0
+118	290
+109	375
+128	324
+149	455
+351	4
+351	5
+351	2
+351	1
+351	3
+351	6
+151	62
+351	23
+351	21
+351	22
+351	20
+351	19
+114	390
+351	29
+351	28
+351	27
+351	24
+351	25
+351	26
+351	10
+351	12
+351	11
+351	8
+351	7
+351	9
+114	381
+351	17
+351	18
+351	16
+351	14
+351	15
+351	13
+128	386
+128	387
+149	228
+109	398
+351	459
+142	27
+149	232
+149	233
+142	24
+149	253
+351	461
+142	21
+351	460
+128	361
+149	256
+128	380
+146	41
+351	467
+351	466
+151	112
+351	469
+351	468
+151	137
+351	463
+151	132
+133	295
+351	462
+351	465
+351	464
+149	203
+128	274
+128	275
+128	288
+142	40
+149	190
+142	55
+351	62
+149	182
+351	61
+146	221
+351	63
+151	255
+146	218
+146	195
+351	74
+351	75
+351	73
+351	72
+151	229
+151	230
+351	79
+351	78
+151	224
+351	77
+351	76
+351	66
+351	67
+151	248
+123	413
+351	64
+351	65
+351	71
+351	70
+351	68
+351	69
+142	63
+149	43
+128	310
+128	306
+128	319
+149	49
+142	72
+109	431
+164	16
+151	187
+151	188
+151	209
+114	396
+151	201
+133	442
+149	10
+149	13
+128	423
+142	90
+149	7
+142	94
+128	427
+114	433
+351	456
+351	455
+146	22
+351	458
+351	457
+351	453
+151	46
+351	452
+133	418
+151	42
+351	454
+151	302
+151	297
+151	298
+146	327
+128	450
+146	171
+151	262
+151	263
+146	364
+128	392
+146	353
+118	53
+164	186
+109	30
+151	378
+151	379
+151	372
+151	383
+128	408
+109	70
+146	102
+146	241
+151	336
+151	337
+151	332
+146	147
+109	77
+146	125
+151	156
+151	157
+151	178
+109	117
+146	309
+109	257
+151	401
+109	148
+109	165
+146	425
+133	9
+151	444
+151	441
+146	389
+109	57
+164	303
+151	420
+151	417
+109	223
+109	234
+146	276
+109	212
+146	273
+133	204
+164	434
+164	412
+149	410
+146	393
+142	439
+142	437
+142	446
+142	445
+142	394
+142	399
+351	403
+351	402
+351	405
+351	404
+351	411
+351	410
+351	407
+351	406
+351	409
+351	408
+351	434
+351	435
+351	432
+351	433
+351	436
+351	447
+351	446
+351	445
+351	450
+351	451
+351	448
+351	449
+351	439
+351	440
+351	438
+351	437
+351	444
+351	443
+351	442
+351	441
+351	393
+351	392
+351	394
+351	399
+351	401
+351	400
+351	396
+351	395
+351	398
+351	397
+0	VirusProtein
+1	Host
+2	Virus
+3	Gene
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+3
+0
+3
+0
+3
+0
+3
+0
+0
+0
+0
+3
+0
+0
+0
+3
+0
+0
+0
+0
+3
+0
+0
+0
+0
+3
+0
+0
+0
+0
+3
+0
+0
+0
+0
+3
+0
+0
+0
+3
+0
+0
+0
+3
+0
+0
+3
+0
+3
+0
+0
+0
+1
+0
+0
+0
+3
+0
+0
+3
+0
+3
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+1
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+3
+0
+3
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+2
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
