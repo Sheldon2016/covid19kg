@@ -1,0 +1,37 @@
+#ID1,ID2,label,name1,name2,virusID1,virusID2
+982,1023,2,sars-cov-2,bat coronavirus ratg13,2697049,2709072
+982,1026,2,sars-cov-2,sars-cov-like coronaviruses,2697049,NA
+982,1009,2,sars-cov-2,bat sars-like coronaviruses,2697049,NA
+982,985,2,sars-cov-2,sars-related covs,2697049,NA
+982,999,2,sars-cov-2,beta coronavirus,2697049,694002
+982,1002,2,sars-cov-2,bat coronavirus,2697049,1508220
+982,975,2,sars-cov-2,bat-like sars coronavirus,2697049,NA
+982,1032,2,sars-cov-2,mers-cov,2697049,1335626
+982,1091,2,sars-cov-2,sars-cov,2697049,694009
+982,1039,2,sars-cov-2,bat-sl-covzx21,2697049,NA
+982,1035,2,sars-cov-2,bat sars-cov-like,2697049,1508220
+982,1052,2,sars-cov-2,bat-sl-covzx45,2697049,NA
+982,997,2,sars-cov-2,bat sars-cov,2697049,1508220
+982,1076,2,sars-cov-2,bat sarsr-cov,2697049,NA
+982,1096,2,sars-cov-2,bat-sl-covzxc21,2697049,NA
+982,1084,2,sars-cov-2,bat-sl-covzc45,2697049,NA
+982,1087,2,sars-cov-2,sarbeco virus,2697049,2509511
+1091,1035,2,sars-cov,bat sars-cov-like,694009,1508220
+1091,1096,2,sars-cov,bat-sl-covzxc21,694009,NA
+1091,1084,2,sars-cov,bat-sl-covzc45,694009,NA
+1091,999,2,sars-cov,beta coronavirus,694009,694002
+1091,982,2,sars-cov,sars-cov-2,694009,2697049
+1091,997,2,sars-cov,bat sars-cov,694009,1508220
+1091,1032,2,sars-cov,mers-cov,694009,1335626
+1091,1026,2,sars-cov,sars-cov-like coronaviruses,694009,NA
+1035,1052,2,bat sars-cov-like,bat-sl-covzx45,1508220,NA
+1035,1039,2,bat sars-cov-like,bat-sl-covzx21,1508220,NA
+1035,1091,2,bat sars-cov-like,sars-cov,1508220,694009
+1035,1002,2,bat sars-cov-like,bat coronavirus,1508220,1508220
+1037,1032,2,coronaviruses,mers-cov,2664420,1335626
+1026,1091,2,sars-cov-like coronaviruses,sars-cov,NA,694009
+999,1087,2,beta coronavirus,sarbeco virus,694002,2509511
+1009,982,2,bat sars-like coronaviruses,sars-cov-2,NA,2697049
+1032,999,2,mers-cov,beta coronavirus,1335626,694002
+1064,1049,2,sars-cov bj01,bat sarsr-cov wiv1,NA,NA
+1002,982,2,bat coronavirus,sars-cov-2,1508220,2697049

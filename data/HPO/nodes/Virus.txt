@@ -153,3 +153,6 @@
 2169971,Visna-maedi virus|Maedi visna virus|Maedi visna virus MVV|Maedi-Visna virus|Maedi/Visna virus|Visna lentivirus|Visna virus|Visna/maedi virus
 2664420,Coronaviruses
 2697049,SARS-CoV-2|﻿SARS-CoV-2
+2709072,bat coronavirus RaTG13|Bat coronavirus isolate RaTG13
+694002,Beta coronavirus|Betacoronavirus|Coronavirus|Coronavirus group 2|Group 2 species|Coronavirus <Betacoronavirus>
+2509511,sarbeco virus|Sarbecovirus
