@@ -1,3 +1,4 @@
+#DrugBank-ID,Drug_name,Disease_ID,Disease_name
 1,lepirudin,3325,heparin-induced thrombocytopenia
 3,dornase alfa,219700,cystic fibrosis
 3,dornase alfa,586,cystic fibrosis
