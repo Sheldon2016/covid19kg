@@ -1,4 +1,4 @@
--1,Sofosbuvir/Velpatasvir|nelfinavir|monoclonal antibody|SARS-CoV antibody|neutralizing antibody m396|praziquantel|pitavastatin|CR3022|perampanel|lopinavir/ritonavir|B-M27-VME|MERS-CoV-specific human monoclonal antibody m336
+-1,Sofosbuvir|Velpatasvir|nelfinavir|monoclonal antibody|SARS-CoV antibody|neutralizing antibody m396|praziquantel|pitavastatin|CR3022|perampanel|lopinavir|ritonavir|B-M27-VME|MERS-CoV-specific human monoclonal antibody m336
 1,Lepirudin|Hirudin variant-1|Lepirudin recombinant
 2,Cetuximab|Cetuximab|C¨¦tuximab|Cetuximabum|Immunoglobulin G 1 (human-mouse monoclonal C 225 gamma 1 - chain anti-human epidermal growt factor receptor)- disulfide wit human-mouse monoclonal C 225 kappa - chain- dimer
 3,Dornase alfa|Deoxyribonuclease (human clone 18-1 protein moiety)|Dornase alfa- recombinant|Dornase alpha|Recombinant deoxyribonuclease (DNAse)
